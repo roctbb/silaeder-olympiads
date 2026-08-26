@@ -1,20 +1,20 @@
 # Аудит ссылок на материалы олимпиад
 
-Проверено: **2026-08-26T06:31:25+00:00**. Каталог: `data/seed/catalog.json`.
-SHA-256 каталога: `1da5c79fa1658620b16d33c23fc957cd30c3a296207646154a7471047ca0360b`.
+Проверено: **2026-08-26T19:41:26+00:00**. Каталог: `data/seed/catalog.json`.
+SHA-256 каталога: `28fa1d02b5cdd3a96ed7a98753740e21267d1ba32e5e9bac6c80f49f0068f6b5`.
 
 Проверка выполняет реальные GET-запросы с переходом по редиректам. URL проверяются один раз вне зависимости от числа использований; запросы к одному домену идут последовательно. Читается только начало ответа, достаточное для определения файла, пустой страницы, сообщения об ошибке или JavaScript-оболочки.
 
 ## Итог
 
-- Записей материалов: **473**.
-- Уникальных URL: **286**.
-- Олимпиад с материалами: **357** из 357.
-- Работают: **286** URL / **473** записей материалов.
+- Записей материалов: **480**.
+- Уникальных URL: **291**.
+- Олимпиад с материалами: **363** из 363.
+- Работают: **291** URL / **480** записей материалов.
 - Сломаны: **0** URL / **0** записей материалов.
 - Неоднозначны: **0** URL / **0** записей материалов.
-- За счёт дедупликации не отправлено повторных GET: **187**.
-- Время аудита: **107.18 с**.
+- За счёт дедупликации не отправлено повторных GET: **189**.
+- Время аудита: **87.19 с**.
 
 `inconclusive` не означает, что ссылка сломана: сервер мог потребовать JavaScript, CAPTCHA или заблокировать автоматический клиент. Такие URL нельзя считать подтверждёнными без проверки в браузере.
 
@@ -45,6 +45,7 @@ SHA-256 каталога: `1da5c79fa1658620b16d33c23fc957cd30c3a296207646154a747
 | 4 | 4 | https://olymp.tsput.ru/materials/ |
 | 21 | 21 | https://olympiada.spbu.ru/arkhiv.html |
 | 21 | 21 | https://olympiada.spbu.ru/podgotovka.html |
+| 3 | 3 | https://pro.firpo.ru/meropriyatiya/itogi/itogi2026/ |
 | 4 | 4 | https://prodcontest.com/materials/ |
 | 8 | 8 | https://pvg.mk.ru/archive/2024-2025/ |
 | 8 | 8 | https://pvg.mk.ru/archive/archive/ |
@@ -64,8 +65,11 @@ SHA-256 каталога: `1da5c79fa1658620b16d33c23fc957cd30c3a296207646154a747
 | ok | 200 | application/pdf | 1 | http://academy.fsb.ru/upload/iblock/a77/pb6cpyv2bnrln4f8dfaqgsuu0l9r723u.pdf | download_nonempty |
 | ok | 200 | text/html | 1 | http://school.astro.spbu.ru/?q=node/678 | html_nonempty |
 | ok | 200 | text/html | 1 | http://www.pdmi.ras.ru/~olymp/ | html_nonempty |
+| ok | 200 | text/html | 1 | https://abilympics-russia.ru/competencies/Komp2026/?type=5 | html_nonempty |
 | ok | 200 | text/html | 1 | https://ai.edu.gov.ru/materials | html_nonempty |
+| ok | 200 | text/html | 1 | https://artmasters.ru/junior | html_nonempty |
 | ok | 200 | text/html | 6 | https://bibn.unn.ru/preparation.html | html_nonempty |
+| ok | 200 | text/html | 1 | https://chvt.ru/ | html_nonempty |
 | ok | 200 | text/html | 1 | https://cloud.mail.ru/public/8T3Q/9BJxCpvZT | public_file_verified |
 | ok | 200 | text/html | 1 | https://cloud.mail.ru/public/TTr7/4LpPLVKqn | public_file_verified |
 | ok | 200 | text/html | 1 | https://dano.hse.ru/demo | html_nonempty |
@@ -261,6 +265,7 @@ SHA-256 каталога: `1da5c79fa1658620b16d33c23fc957cd30c3a296207646154a747
 | ok | 200 | text/html | 1 | https://opk.pravolimp.ru/pages/6361009f53bb56318d003c08 | html_nonempty |
 | ok | 200 | application/pdf | 1 | https://opk.pravolimp.ru/system/files/6814a74053bb56171e01b8e3/original/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%9E%D0%9F%D0%9A%202024-2025.pdf?1746184000 | download_nonempty |
 | ok | 200 | text/html | 2 | https://pre-univer.csu.ru/olymp/regcom/lastyear/ | html_nonempty |
+| ok | 200 | text/html | 3 | https://pro.firpo.ru/meropriyatiya/itogi/itogi2026/ | html_nonempty |
 | ok | 200 | text/html | 1 | https://pro.voenmeh.ru/oto_tt | html_nonempty |
 | ok | 200 | text/html | 4 | https://prodcontest.com/materials/ | html_nonempty |
 | ok | 200 | text/html | 8 | https://pvg.mk.ru/archive/2024-2025/ | html_nonempty |
@@ -271,6 +276,7 @@ SHA-256 каталога: `1da5c79fa1658620b16d33c23fc957cd30c3a296207646154a747
 | ok | 200 | application/pdf | 1 | https://rgup.ru/img/OLIMPIADY%20RGUP/FEMIDA%209-11%202023/9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F.pdf | download_nonempty |
 | ok | 200 | application/pdf | 1 | https://rosfinolymp.ru/file/16803/zadaniya-i-kriterii-ocenki-finalnogo-etapa-dlya-shkolnikov-pdf | download_nonempty |
 | ok | 200 | text/html | 1 | https://sibiriada.org/olymp.html | html_nonempty |
+| ok | 200 | text/html | 1 | https://t.me/s/kidskillsmoscow?before=1776 | html_nonempty |
 | ok | 200 | application/pdf | 1 | https://tasks.olimpiada.ru/upload/files/tasks/5777/2023/5777-ans-biol-10-final-23-24.pdf | download_nonempty |
 | ok | 200 | application/pdf | 1 | https://tasks.olimpiada.ru/upload/files/tasks/5777/2023/5777-tasks-biol-10-final-23-24.pdf | download_nonempty |
 | ok | 200 | text/html | 1 | https://techno-cup.ru/archive | html_nonempty |

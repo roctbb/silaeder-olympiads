@@ -1,7 +1,7 @@
 {
   "academic_year": "2026/27",
   "generated_from_snapshot": "2026-08-26",
-  "records_count": 357,
+  "records_count": 363,
   "records": [
     {
       "slug": "dano-data-analysis",
@@ -12033,6 +12033,125 @@
           "title": "Проверка регистрации 2026/27",
           "url": "https://olymp.mephi.ru/junior",
           "publisher": "Федеральное государственное автономное образовательное учреждение высшего образования «Национальный исследовательский ядерный университет «МИФИ»",
+          "source_type": "registration",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "professionals-national-juniors",
+      "name": "Всероссийский чемпионат по профессиональному мастерству «Профессионалы» — Юниоры",
+      "family_name": "Всероссийский чемпионат по профессиональному мастерству «Профессионалы»",
+      "profile": "Профессиональные компетенции",
+      "description": "Федеральное чемпионатное движение по востребованным массовым профессиям и компетенциям реального сектора экономики. Школьники участвуют в категории юниоров через отбор в своём регионе.",
+      "organizer": "Министерство просвещения Российской Федерации; федеральный оператор — Институт развития профессионального образования",
+      "website_url": "https://pro.firpo.ru/",
+      "logo_url": null,
+      "geography": "russia",
+      "is_team": false,
+      "academic_year": "2026/27",
+      "cycle_label": "Календарный цикл 2026",
+      "status": "published",
+      "data_status": "partial",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": true,
+      "registration_status": "not_open",
+      "registration_checked_on": "2026-08-26",
+      "registration_url": null,
+      "registration_closes_at": null,
+      "previous_year_reference": null,
+      "eligibility_notes": "Юниоры — школьники от 14 лет. Заявка и внутренний отбор организуются школой или региональным оператором; прямой регистрации сразу на федеральный финал нет.",
+      "notes": "Перечень юниорских компетенций и календарь различаются по регионам и ежегодно обновляются. Карточка показывает подтверждённый календарный цикл 2026, который частично пересекается с началом учебного года 2026/27; это не прогноз цикла 2027.",
+      "grades": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "stages": [
+        {
+          "key": "regional-stage",
+          "name": "Региональный этап",
+          "stage_type": "regional",
+          "position": 1,
+          "starts_on": "2026-01-01",
+          "ends_on": "2026-02-28",
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "location": null,
+          "details": "январь — февраль 2026 Точные даты и компетенции устанавливает региональный оператор; в цикле 2026 основные региональные соревнования проходили зимой.",
+          "source_url": "https://pro.firpo.ru/o-nas/dokumenty/"
+        },
+        {
+          "key": "interregional-stage",
+          "name": "Итоговый межрегиональный этап",
+          "stage_type": "qualifying",
+          "position": 2,
+          "starts_on": "2026-03-30",
+          "ends_on": "2026-08-21",
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "location": null,
+          "details": "В 2026 году межрегиональные соревнования проходили на региональных площадках и предприятиях-партнёрах с конца марта по август.",
+          "source_url": "https://pro.firpo.ru/meropriyatiya/"
+        },
+        {
+          "key": "federal-finals",
+          "name": "Федеральные финалы по блокам компетенций",
+          "stage_type": "final",
+          "position": 3,
+          "starts_on": "2026-05-01",
+          "ends_on": "2026-11-30",
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "location": "Нижний Новгород, Калуга и Санкт-Петербург",
+          "details": "В 2026 году финалы разных блоков проходили в мае, августе и ноябре; участие возможно только после предыдущих этапов.",
+          "source_url": "https://pro.firpo.ru/meropriyatiya/"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Архив результатов, протоколов и компетенций чемпионатов 2026",
+          "material_type": "archive",
+          "year": 2026,
+          "url": "https://pro.firpo.ru/meropriyatiya/itogi/itogi2026/",
+          "is_official": true
+        }
+      ],
+      "benefits": [],
+      "sources": [
+        {
+          "title": "Мероприятия Всероссийского чемпионатного движения",
+          "url": "https://pro.firpo.ru/meropriyatiya/",
+          "publisher": "Институт развития профессионального образования",
+          "source_type": "official_organizer",
+          "source_year": "2026",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Положения, порядки и перечни компетенций цикла 2026",
+          "url": "https://pro.firpo.ru/o-nas/dokumenty/",
+          "publisher": "Институт развития профессионального образования",
+          "source_type": "official_documents",
+          "source_year": "2026",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Проверка регистрации 2026/27",
+          "url": "https://pro.firpo.ru/meropriyatiya/",
+          "publisher": "Министерство просвещения Российской Федерации; федеральный оператор — Институт развития профессионального образования",
           "source_type": "registration",
           "source_year": "2026/27",
           "accessed_on": "2026-08-26"
@@ -31247,6 +31366,236 @@
       ]
     },
     {
+      "slug": "masteryata-family-professional-skills",
+      "name": "Московский детский чемпионат профессионального мастерства «Мастерята» — Семья мастеров",
+      "family_name": "Московский детский чемпионат профессионального мастерства «Мастерята»",
+      "profile": "Профессиональные компетенции",
+      "description": "Практический московский чемпионат, в котором школьник знакомится с профессией и выполняет конкурсное задание вместе с близким родственником.",
+      "organizer": "Департамент образования и науки города Москвы и Московский центр развития профессионального образования",
+      "website_url": "https://kid.mcrpo.ru/",
+      "logo_url": null,
+      "geography": "moscow",
+      "is_team": true,
+      "academic_year": "2026/27",
+      "cycle_label": null,
+      "status": "published",
+      "data_status": "previous_year_estimate",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": true,
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-08-26",
+      "registration_url": null,
+      "registration_closes_at": null,
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "В каталог включена категория «Семья мастеров»: школьник 5–8 класса участвует в команде с одним близким родственником и наставником. Категории 1–4 классов находятся вне диапазона сервиса.",
+      "notes": "В цикле 2025/26 было опубликовано 55 направлений. Состав компетенций меняется ежегодно и выбирается на сайте организатора. Даты 2026/27 ещё не опубликованы.",
+      "grades": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "stages": [
+        {
+          "key": "application-and-distance-task",
+          "name": "Заявка и дистанционное задание",
+          "stage_type": "qualifying",
+          "position": 1,
+          "starts_on": "2026-09-15",
+          "ends_on": "2026-10-20",
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "online",
+          "location": null,
+          "details": "В цикле 2025/26 необходимо было подать заявку и выполнить дистанционное задание до 20 октября 2025 года. Исходная дата приведена из официального календаря 2025/26. Прогноз на 2026/27: дата сдвинута на 1 учебный год по расписанию 2025/26; организатор её ещё не подтвердил.",
+          "source_url": "https://t.me/s/kidskillsmoscow?before=1776"
+        },
+        {
+          "key": "final",
+          "name": "Финальные соревнования",
+          "stage_type": "final",
+          "position": 2,
+          "starts_on": "2026-12-01",
+          "ends_on": "2026-12-31",
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "location": "Площадки московских колледжей",
+          "details": "декабрь 2025 Финалы компетенций цикла 2025/26 проходили в декабре 2025 года по отдельным расписаниям. Исходная дата приведена из официального календаря 2025/26. Прогноз на 2026/27: дата сдвинута на 1 учебный год по расписанию 2025/26; организатор её ещё не подтвердил.",
+          "source_url": "https://t.me/s/kidskillsmoscow?before=1776"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Архив объявлений, заданий и разборов компетенций «Мастерят»",
+          "material_type": "archive",
+          "year": 2026,
+          "url": "https://t.me/s/kidskillsmoscow?before=1776",
+          "is_official": true
+        }
+      ],
+      "benefits": [],
+      "sources": [
+        {
+          "title": "Официальный сайт Московского детского чемпионата «Мастерята»",
+          "url": "https://kid.mcrpo.ru/",
+          "publisher": "МЦРПО",
+          "source_type": "official_organizer",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный канал: сроки заявки, дистанционное задание и финалисты 2025/26",
+          "url": "https://t.me/s/kidskillsmoscow?before=1776",
+          "publisher": "Московский детский чемпионат «Мастерята»",
+          "source_type": "official_social",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Описание категории «Семья мастеров» для 5–8 классов",
+          "url": "https://prodod.moscow/archives/event/moskovskij-detskij-chempionat-masteryata-2",
+          "publisher": "Дополнительное образование Москвы",
+          "source_type": "official_city_education_portal",
+          "source_year": "2024/25",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Проверка регистрации 2026/27",
+          "url": "https://kid.mcrpo.ru/",
+          "publisher": "Департамент образования и науки города Москвы и Московский центр развития профессионального образования",
+          "source_type": "registration",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "moscow-abilympics-schoolchildren",
+      "name": "Московский чемпионат профессионального мастерства «Абилимпикс» — Школьники",
+      "family_name": "Московский чемпионат профессионального мастерства «Абилимпикс»",
+      "profile": "Профессиональные компетенции",
+      "description": "Инклюзивный чемпионат по профессиональному мастерству для людей с инвалидностью и ограниченными возможностями здоровья по десяткам прикладных компетенций.",
+      "organizer": "Департамент труда и социальной защиты населения города Москвы и Национальный центр «Абилимпикс»",
+      "website_url": "https://abilympics.moscow/",
+      "logo_url": null,
+      "geography": "moscow",
+      "is_team": false,
+      "academic_year": "2026/27",
+      "cycle_label": null,
+      "status": "published",
+      "data_status": "previous_year_estimate",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": true,
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-08-26",
+      "registration_url": null,
+      "registration_closes_at": null,
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "Категория «Школьники» предназначена для участников от 14 лет с инвалидностью или ограниченными возможностями здоровья. Медицинские и возрастные условия конкретной компетенции необходимо проверять у организатора.",
+      "notes": "В XII Московском чемпионате 2026 было заявлено 65 компетенций. Регистрация цикла 2027 ещё не опубликована; весенние даты являются прогнозом по циклу 2026.",
+      "grades": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "stages": [
+        {
+          "key": "registration",
+          "name": "Регистрация по компетенциям",
+          "stage_type": "registration",
+          "position": 1,
+          "starts_on": "2027-03-16",
+          "ends_on": "2027-04-20",
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "online",
+          "location": null,
+          "details": "Заявочная кампания Московского чемпионата 2026 проходила весной через цифровую платформу движения. Исходная дата приведена из официального календаря 2025/26. Прогноз на 2026/27: дата сдвинута на 1 учебный год по расписанию 2025/26; организатор её ещё не подтвердил.",
+          "source_url": "https://abilympics.moscow/championship/faq.php"
+        },
+        {
+          "key": "qualifying",
+          "name": "Отборочный тур",
+          "stage_type": "qualifying",
+          "position": 2,
+          "starts_on": "2027-05-12",
+          "ends_on": "2027-05-29",
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "location": "Площадки московских колледжей и организаций-партнёров",
+          "details": "Отборочные соревнования Московского чемпионата 2026 проходили на профильных площадках в мае. Исходная дата приведена из официального календаря 2025/26. Прогноз на 2026/27: дата сдвинута на 1 учебный год по расписанию 2025/26; организатор её ещё не подтвердил.",
+          "source_url": "https://abilympics.moscow/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "position": 3,
+          "starts_on": null,
+          "ends_on": null,
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "location": null,
+          "details": "Точные даты заключительного этапа следующего цикла организатор пока не опубликовал.",
+          "source_url": "https://abilympics.moscow/championship/faq.php"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Банк конкурсных заданий «Абилимпикс» по компетенциям 2026",
+          "material_type": "tasks",
+          "year": 2026,
+          "url": "https://abilympics-russia.ru/competencies/Komp2026/?type=5",
+          "is_official": true
+        }
+      ],
+      "benefits": [],
+      "sources": [
+        {
+          "title": "Вопросы и ответы XII Московского чемпионата «Абилимпикс-2026»",
+          "url": "https://abilympics.moscow/championship/faq.php",
+          "publisher": "Московский чемпионат «Абилимпикс»",
+          "source_type": "official_organizer",
+          "source_year": "2026",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный сайт Московского чемпионата «Абилимпикс»",
+          "url": "https://abilympics.moscow/",
+          "publisher": "Московский чемпионат «Абилимпикс»",
+          "source_type": "official_organizer",
+          "source_year": "2026",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Проверка регистрации 2026/27",
+          "url": "https://abilympics.moscow/",
+          "publisher": "Департамент труда и социальной защиты населения города Москвы и Национальный центр «Абилимпикс»",
+          "source_type": "registration",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
       "slug": "registry-2026-27-037-01",
       "name": "Научно-практическая олимпиада школьников имени Н.А. Умова — физика",
       "family_name": "Научно-практическая олимпиада школьников имени Н.А. Умова",
@@ -31376,6 +31725,117 @@
           "title": "Проверка регистрации 2026/27",
           "url": "https://umov.phys.msu.ru/",
           "publisher": "Федеральное государственное бюджетное образовательное учреждение высшего образования «Московский государственный университет имени М.В. Ломоносова»",
+          "source_type": "registration",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "artmasters-junior",
+      "name": "Национальный открытый чемпионат творческих компетенций ArtMasters — Юниоры",
+      "family_name": "Национальный открытый чемпионат творческих компетенций ArtMasters",
+      "profile": "Искусство",
+      "description": "Открытый чемпионат для юных специалистов творческих индустрий: дизайн, фотография, видео, звук, музыка, продюсирование, сценарное мастерство и анимация.",
+      "organizer": "АНО «АртМастерс»",
+      "website_url": "https://artmasters.ru/junior",
+      "logo_url": null,
+      "geography": "russia",
+      "is_team": false,
+      "academic_year": "2026/27",
+      "cycle_label": null,
+      "status": "published",
+      "data_status": "previous_year_estimate",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": true,
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-08-26",
+      "registration_url": null,
+      "registration_closes_at": null,
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "Возрастная категория «Юниоры» — участники 14–17 лет. На отборе требуется портфолио; требования и список литературы зависят от выбранной компетенции.",
+      "notes": "В 2026 году было 12 юниорских творческих компетенций. Регистрация чемпионата 2027 ещё не опубликована; даты спрогнозированы по циклу 2026.",
+      "grades": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "stages": [
+        {
+          "key": "registration-and-selection",
+          "name": "Регистрация и отборочный этап",
+          "stage_type": "qualifying",
+          "position": 1,
+          "starts_on": "2027-03-04",
+          "ends_on": "2027-05-18",
+          "registration_opens_on": "2027-03-04",
+          "registration_closes_on": "2027-05-05",
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "online",
+          "location": null,
+          "details": "Отбор включает регистрацию, подачу портфолио и онлайн-тестирование. Для отдельных компетенций дедлайн заявки мог отличаться. Исходная дата приведена из официального календаря 2025/26. Прогноз на 2026/27: дата сдвинута на 1 учебный год по расписанию 2025/26; организатор её ещё не подтвердил.",
+          "source_url": "https://artmasters.ru/junior"
+        },
+        {
+          "key": "qualification-and-semifinal",
+          "name": "Практическое задание и полуфинал",
+          "stage_type": "qualifying",
+          "position": 2,
+          "starts_on": "2027-05-19",
+          "ends_on": "2027-06-23",
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "online",
+          "location": null,
+          "details": "Квалификационный этап включает практическое задание и онлайн-собеседование с экспертами. Исходная дата приведена из официального календаря 2025/26. Прогноз на 2026/27: дата сдвинута на 1 учебный год по расписанию 2025/26; организатор её ещё не подтвердил.",
+          "source_url": "https://artmasters.ru/junior"
+        },
+        {
+          "key": "final",
+          "name": "Финальный этап",
+          "stage_type": "final",
+          "position": 3,
+          "starts_on": "2027-07-13",
+          "ends_on": "2027-08-01",
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "location": "Москва",
+          "details": "Финалисты выполняют практические задания и создают творческие проекты; часть финала проходит в межкомпетентностных командах. Исходная дата приведена из официального календаря 2025/26. Прогноз на 2026/27: дата сдвинута на 1 учебный год по расписанию 2025/26; организатор её ещё не подтвердил.",
+          "source_url": "https://artmasters.ru/junior"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Компетенции, требования к портфолио и этапы ArtMasters Junior",
+          "material_type": "course",
+          "year": 2026,
+          "url": "https://artmasters.ru/junior",
+          "is_official": true
+        }
+      ],
+      "benefits": [],
+      "sources": [
+        {
+          "title": "ArtMasters Junior 2026: компетенции, условия и календарь",
+          "url": "https://artmasters.ru/junior",
+          "publisher": "АНО «АртМастерс»",
+          "source_type": "official_organizer",
+          "source_year": "2026",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Проверка регистрации 2026/27",
+          "url": "https://artmasters.ru/junior",
+          "publisher": "АНО «АртМастерс»",
           "source_type": "registration",
           "source_year": "2026/27",
           "accessed_on": "2026-08-26"
@@ -53299,6 +53759,246 @@
           "title": "Проверка регистрации 2026/27",
           "url": "https://dovuz.sfu.ru/abiturientu-sfu/olimpiady/belchonok/2025-2026-uchebnyy-god/",
           "publisher": "Федеральное государственное автономное образовательное учреждение высшего образования «Сибирский федеральный университет» (есть соорганизаторы)",
+          "source_type": "registration",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "high-technology-championship-juniors",
+      "name": "Чемпионат высоких технологий — Юниоры",
+      "family_name": "Чемпионат высоких технологий",
+      "profile": "Высокие технологии",
+      "description": "Соревнования чемпионатного движения по новым перспективным компетенциям высокотехнологичного производства, цифровой экономики и импортозамещения.",
+      "organizer": "Министерство просвещения Российской Федерации; федеральный оператор — Институт развития профессионального образования",
+      "website_url": "https://chvt.ru/",
+      "logo_url": null,
+      "geography": "russia",
+      "is_team": false,
+      "academic_year": "2026/27",
+      "cycle_label": "Календарный цикл 2026",
+      "status": "published",
+      "data_status": "partial",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": true,
+      "registration_status": "not_open",
+      "registration_checked_on": "2026-08-26",
+      "registration_url": null,
+      "registration_closes_at": null,
+      "previous_year_reference": null,
+      "eligibility_notes": "Школьники участвуют в категории юниоров, как правило с 14 лет, после внутреннего, регионального и межрегионального отбора. Состав возрастных категорий зависит от компетенции.",
+      "notes": "Прямой набор на финал отсутствует. Финал цикла 2026 уже сформирован по результатам отборов; календарь следующего цикла пока не опубликован.",
+      "grades": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "stages": [
+        {
+          "key": "selection",
+          "name": "Региональный и межрегиональный отбор",
+          "stage_type": "qualifying",
+          "position": 1,
+          "starts_on": null,
+          "ends_on": null,
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "unknown",
+          "location": null,
+          "details": "Сроки зависят от региона и компетенции; отбор цикла 2026 уже завершён.",
+          "source_url": "https://pro.firpo.ru/o-nas/dokumenty/"
+        },
+        {
+          "key": "final-2026",
+          "name": "Финал Чемпионата высоких технологий",
+          "stage_type": "final",
+          "position": 2,
+          "starts_on": "2026-09-14",
+          "ends_on": "2026-09-18",
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "location": "Великий Новгород",
+          "details": "Подтверждённые даты финала календарного цикла 2026; участвуют прошедшие предыдущие этапы конкурсанты.",
+          "source_url": "https://chvt.ru/"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Компетенции и программа финала Чемпионата высоких технологий — 2026",
+          "material_type": "course",
+          "year": 2026,
+          "url": "https://chvt.ru/",
+          "is_official": true
+        },
+        {
+          "title": "Архив результатов и протоколов чемпионатного движения — 2026",
+          "material_type": "archive",
+          "year": 2026,
+          "url": "https://pro.firpo.ru/meropriyatiya/itogi/itogi2026/",
+          "is_official": true
+        }
+      ],
+      "benefits": [],
+      "sources": [
+        {
+          "title": "Официальный сайт финала Чемпионата высоких технологий 2026",
+          "url": "https://chvt.ru/",
+          "publisher": "Институт развития профессионального образования",
+          "source_type": "official_organizer",
+          "source_year": "2026",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Документы Всероссийского чемпионатного движения",
+          "url": "https://pro.firpo.ru/o-nas/dokumenty/",
+          "publisher": "Институт развития профессионального образования",
+          "source_type": "official_documents",
+          "source_year": "2026",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Проверка регистрации 2026/27",
+          "url": "https://chvt.ru/",
+          "publisher": "Министерство просвещения Российской Федерации; федеральный оператор — Институт развития профессионального образования",
+          "source_type": "registration",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "moscow-professionals",
+      "name": "Чемпионат профессионального мастерства «Московские профессионалы» («Московские мастера»)",
+      "family_name": "Чемпионат профессионального мастерства «Московские профессионалы»",
+      "profile": "Профессиональные компетенции",
+      "description": "Московский региональный этап Всероссийского чемпионатного движения «Профессионалы» по сотням прикладных компетенций. До 2026 года чемпионат был известен школьникам как «Московские мастера».",
+      "organizer": "Департамент образования и науки города Москвы и Московский центр развития профессионального образования",
+      "website_url": "https://prof.mcrpo.ru/",
+      "logo_url": null,
+      "geography": "moscow",
+      "is_team": false,
+      "academic_year": "2026/27",
+      "cycle_label": null,
+      "status": "published",
+      "data_status": "previous_year_estimate",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": true,
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-08-26",
+      "registration_url": null,
+      "registration_closes_at": null,
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "Две школьные категории: участники 11–13 лет и школьники от 14 лет. Заявку подаёт эксперт-наставник или образовательная организация; обычно допускается не более двух представителей организации по компетенции и категории.",
+      "notes": "Компетенции ежегодно меняются, поэтому они объединены в одну карточку и выбираются на сайте организатора. Регистрация цикла 2026/27 ещё не опубликована; даты спрогнозированы по циклу 2025/26.",
+      "grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "stages": [
+        {
+          "key": "registration-and-internal-selection",
+          "name": "Внутренний отбор и подача заявки",
+          "stage_type": "registration",
+          "position": 1,
+          "starts_on": "2026-10-23",
+          "ends_on": "2026-12-04",
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "online",
+          "location": null,
+          "details": "В цикле 2025/26 образовательные организации проводили внутренний отбор и подавали заявки с 23 октября по 4 декабря 2025 года. Исходная дата приведена из официального календаря 2025/26. Прогноз на 2026/27: дата сдвинута на 1 учебный год по расписанию 2025/26; организатор её ещё не подтвердил.",
+          "source_url": "https://www.centrnadonskoy.ru/events/"
+        },
+        {
+          "key": "preparation",
+          "name": "Предчемпионатная подготовка",
+          "stage_type": "stage",
+          "position": 2,
+          "starts_on": "2026-12-05",
+          "ends_on": "2027-01-18",
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "online",
+          "location": null,
+          "details": "Дистанционная подготовка с главными экспертами компетенций в цикле 2025/26. Исходная дата приведена из официального календаря 2025/26. Прогноз на 2026/27: дата сдвинута на 1 учебный год по расписанию 2025/26; организатор её ещё не подтвердил.",
+          "source_url": "https://www.centrnadonskoy.ru/events/"
+        },
+        {
+          "key": "regional-championship",
+          "name": "Квалификационный отбор и финальные соревнования",
+          "stage_type": "regional",
+          "position": 3,
+          "starts_on": "2027-01-19",
+          "ends_on": "2027-02-20",
+          "registration_opens_on": null,
+          "registration_closes_on": null,
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "location": "Площадки московских колледжей",
+          "details": "Соревнования цикла 2025/26 проходили по отдельным графикам компетенций с 19 января по 20 февраля 2026 года. Исходная дата приведена из официального календаря 2025/26. Прогноз на 2026/27: дата сдвинута на 1 учебный год по расписанию 2025/26; организатор её ещё не подтвердил.",
+          "source_url": "https://www.centrnadonskoy.ru/events/"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Архив результатов и документов чемпионатного движения — 2026",
+          "material_type": "archive",
+          "year": 2026,
+          "url": "https://pro.firpo.ru/meropriyatiya/itogi/itogi2026/",
+          "is_official": true
+        }
+      ],
+      "benefits": [],
+      "sources": [
+        {
+          "title": "Официальный портал чемпионата «Московские профессионалы»",
+          "url": "https://prof.mcrpo.ru/",
+          "publisher": "МЦРПО",
+          "source_type": "official_organizer",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Сроки, категории и порядок подачи заявок цикла 2025/26",
+          "url": "https://www.centrnadonskoy.ru/events/",
+          "publisher": "ГБОУ ДО «Центр на Донской» ДОНМ",
+          "source_type": "official_education_organization",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Открытие регистрации на чемпионат под прежним названием «Московские мастера»",
+          "url": "https://shkolamoskva.ru/news/otkrylas-registracziya-na-chempionat-moskovskie-mastera/",
+          "publisher": "Школа.Москва",
+          "source_type": "official_city_education_portal",
+          "source_year": "2024/25",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Проверка регистрации 2026/27",
+          "url": "https://prof.mcrpo.ru/",
+          "publisher": "Департамент образования и науки города Москвы и Московский центр развития профессионального образования",
           "source_type": "registration",
           "source_year": "2026/27",
           "accessed_on": "2026-08-26"

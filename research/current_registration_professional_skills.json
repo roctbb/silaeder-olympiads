@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-08-26",
+  "target_academic_year": "2026/27",
+  "slugs": [
+    {
+      "slug": "moscow-professionals",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://prof.mcrpo.ru/",
+      "evidence": "На официальном портале не опубликована форма регистрации московского этапа сезона 2026/27. Доступное расписание относится к циклу 2025/26, поэтому прошлогодняя форма не используется."
+    },
+    {
+      "slug": "masteryata-family-professional-skills",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://kid.mcrpo.ru/",
+      "evidence": "Регистрация на чемпионат «Мастерята» сезона 2026/27 ещё не опубликована. Доступные объявления описывают завершённый цикл 2025/26."
+    },
+    {
+      "slug": "professionals-national-juniors",
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://pro.firpo.ru/meropriyatiya/",
+      "evidence": "Федеральный календарь цикла 2026 опубликован, но школьники проходят через региональный отбор и образовательную организацию; общей открытой формы прямой регистрации на федеральный этап нет."
+    },
+    {
+      "slug": "high-technology-championship-juniors",
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://chvt.ru/",
+      "evidence": "Финал чемпионата 2026 объявлен, однако участники попадают на него через отборочные мероприятия; публичная форма прямой регистрации на финал не опубликована."
+    },
+    {
+      "slug": "moscow-abilympics-schoolchildren",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://abilympics.moscow/",
+      "evidence": "Регистрация московского чемпионата 2026 завершена, а регистрация следующего цикла, относимого к сезону 2026/27, ещё не опубликована. Завершённая форма не показывается как действующая."
+    },
+    {
+      "slug": "artmasters-junior",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://artmasters.ru/junior",
+      "evidence": "Приём заявок ArtMasters Junior 2026 завершён; регистрация следующего цикла ещё не опубликована, поэтому ссылка на завершённую форму не добавляется."
+    }
+  ]
+}

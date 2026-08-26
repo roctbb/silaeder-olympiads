@@ -35,6 +35,7 @@ UNIVERSITY_BENEFITS_ENRICHMENT = RESEARCH / "university_benefits_2026_enrichment
 EXTRA_COMPETITION_PATHS = (
     RESEARCH / "bmstu_biology_competition.json",
     RESEARCH / "bmstu_gazprom_competitions.json",
+    RESEARCH / "professional_skills_competitions.json",
 )
 ADDITIONAL_UNIVERSITY_BENEFITS_GLOBS = (
     "mosh_benefits_*_2026.json",

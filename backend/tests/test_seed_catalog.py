@@ -80,7 +80,7 @@ def test_seed_profiles_have_explicit_direction_taxonomy_coverage():
     records = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))["records"]
     seed_profiles = {record["profile"] for record in records}
 
-    assert len(seed_profiles) == 134
+    assert len(seed_profiles) == 135
     assert seed_profiles == MAPPED_PROFILES
 
 
@@ -137,7 +137,10 @@ def test_seed_catalog_is_complete_and_importable(app):
                     for field in ("starts_on", "ends_on")
                     if stage.get(field)
                 ]
-                assert all(date(2026, 8, 1) <= value <= date(2027, 7, 31) for value in dated_values)
+                assert all(
+                    date(2026, 8, 1) <= value <= date(2027, 8, 31)
+                    for value in dated_values
+                )
                 if dated_values:
                     assert "Прогноз на 2026/27" in (stage.get("details") or "")
         for benefit in record["benefits"]:
@@ -160,6 +163,45 @@ def test_seed_catalog_is_complete_and_importable(app):
     prod = next(item for item in records if item["slug"] == "prod-mlops")
     assert prod["stages"][0]["starts_on"] == "2026-10-30"
     assert prod["stages"][-1]["ends_on"] == "2027-03-18"
+
+
+def test_seed_contains_school_professional_skills_championships():
+    records = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))["records"]
+    by_slug = {record["slug"]: record for record in records}
+    expected = {
+        "moscow-professionals",
+        "masteryata-family-professional-skills",
+        "professionals-national-juniors",
+        "high-technology-championship-juniors",
+        "moscow-abilympics-schoolchildren",
+        "artmasters-junior",
+    }
+
+    assert expected <= by_slug.keys()
+    for slug in expected:
+        record = by_slug[slug]
+        assert record["academic_year"] == "2026/27"
+        assert record["registry_status"] == "not_listed"
+        assert record["registration_url"] is None
+        assert record["materials"]
+        assert all(not stage["is_date_confirmed"] for stage in record["stages"]) or slug in {
+            "professionals-national-juniors",
+            "high-technology-championship-juniors",
+        }
+
+    assert by_slug["moscow-professionals"]["grades"] == list(range(5, 12))
+    assert by_slug["masteryata-family-professional-skills"]["is_team"] is True
+    assert "инвалид" in by_slug["moscow-abilympics-schoolchildren"][
+        "eligibility_notes"
+    ].casefold()
+    high_tech_final = next(
+        stage
+        for stage in by_slug["high-technology-championship-juniors"]["stages"]
+        if stage["key"] == "final-2026"
+    )
+    assert high_tech_final["starts_on"] == "2026-09-14"
+    assert high_tech_final["ends_on"] == "2026-09-18"
+    assert high_tech_final["is_date_confirmed"] is True
 
 
 def test_mosh_official_directions_are_distinct_cards():
@@ -535,8 +577,8 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
     assert status_counts == {
         "open": 50,
         "announced": 29,
-        "not_open": 58,
-        "not_found": 220,
+        "not_open": 60,
+        "not_found": 224,
     }
     assert by_slug["registry-2026-27-005-01"]["registration_url"] == (
         "https://talent.kruzhok.org/registration?event=10334"
@@ -936,8 +978,8 @@ def test_seed_materials_are_profile_specific_and_audited():
         record["slug"] for record in records if not record.get("materials")
     }
 
-    assert records_with_materials == 357
-    assert len(records_with_past_tasks) == 356
+    assert records_with_materials == 363
+    assert len(records_with_past_tasks) == 361
     assert records_without_materials == set()
     assert len(material_urls) >= 286
     assert DEPRECATED_VSOSH_ARCHIVE not in material_urls

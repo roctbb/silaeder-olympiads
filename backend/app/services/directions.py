@@ -319,6 +319,7 @@ _DIRECTION_PROFILES: Mapping[str, tuple[str, ...]] = {
         "Гуманитарные и социальные науки",
     ),
     "interdisciplinary": (
+        "Профессиональные компетенции",
     ),
 }
 
