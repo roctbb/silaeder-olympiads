@@ -136,7 +136,7 @@ async function addToPlan() {
   try {
     await addOlympiadToPlan(props.slug, {
       status: 'planned',
-      is_name_public: false,
+      is_name_public: true,
       reminders_enabled: true,
       reminder_days_before: [7, 3, 1],
     }, auth.csrfToken)

@@ -209,21 +209,7 @@ def me():
 @login_required
 @csrf_protected
 def update_me():
-    try:
-        payload = _payload()
-        if set(payload) != {"grade"}:
-            raise PayloadError("Можно изменить только поле grade")
-        value = payload["grade"]
-        if value is not None and (
-            isinstance(value, bool) or not isinstance(value, int) or not 5 <= value <= 11
-        ):
-            raise PayloadError("Класс должен быть целым числом от 5 до 11 или null")
-    except PayloadError as exc:
-        return jsonify(error=str(exc)), 400
-    user = current_user()
-    user.grade = value
-    db.session.commit()
-    return jsonify(user=_serialize_user(user))
+    return jsonify(error="Класс синхронизируется из ЛК Силаэдр при входе"), 409
 
 
 @personal_bp.get("/me/plan")

@@ -6,7 +6,14 @@ import ErrorAlert from '../components/ErrorAlert.vue'
 import LoadingState from '../components/LoadingState.vue'
 import OlympiadCalendar from '../components/OlympiadCalendar.vue'
 import OlympiadCard from '../components/OlympiadCard.vue'
-import { getCalendarEvents, getMetadata, getOlympiads } from '../services/api'
+import {
+  addOlympiadToPlan,
+  getCalendarEvents,
+  getMetadata,
+  getMyPlan,
+  getOlympiads,
+} from '../services/api'
+import { useAuth } from '../services/auth'
 import {
   groupCalendarEvents,
   isValidMonthKey,
@@ -20,6 +27,7 @@ const ACADEMIC_YEAR = '2026/27'
 const LEGACY_PROFILE_PREFIX = 'legacy-profile:'
 const route = useRoute()
 const router = useRouter()
+const { state: auth, authenticated, refresh: refreshAuth, clear: clearAuth } = useAuth()
 
 const filters = reactive({
   q: '',
@@ -46,6 +54,9 @@ const calendarEvents = ref([])
 const calendarTotal = ref(0)
 const calendarLoading = ref(false)
 const calendarError = ref('')
+const plannedSlugs = ref(new Set())
+const addingSlug = ref('')
+const planActionError = ref('')
 let requestSequence = 0
 let calendarRequestSequence = 0
 let previousCatalogKey = ''
@@ -195,6 +206,55 @@ async function loadMetadata() {
   }
 }
 
+async function loadPlanMembership() {
+  if (!authenticated.value) {
+    plannedSlugs.value = new Set()
+    return
+  }
+  try {
+    const result = await getMyPlan(ACADEMIC_YEAR)
+    plannedSlugs.value = new Set(
+      (result.items || []).map((item) => item.olympiad?.slug).filter(Boolean),
+    )
+  } catch (caught) {
+    if (caught.status === 401) clearAuth()
+  }
+}
+
+function isInPlan(slug) {
+  return plannedSlugs.value.has(slug)
+}
+
+async function addFromCard(olympiad) {
+  if (!authenticated.value || addingSlug.value || isInPlan(olympiad.slug)) return
+  addingSlug.value = olympiad.slug
+  planActionError.value = ''
+  try {
+    await addOlympiadToPlan(olympiad.slug, {
+      status: 'planned',
+      is_name_public: true,
+      reminders_enabled: true,
+      reminder_days_before: [7, 3, 1],
+    }, auth.csrfToken, ACADEMIC_YEAR)
+    plannedSlugs.value = new Set([...plannedSlugs.value, olympiad.slug])
+    items.value = items.value.map((item) => (
+      item.slug === olympiad.slug
+        ? { ...item, participant_count: Number(item.participant_count || 0) + 1 }
+        : item
+    ))
+  } catch (caught) {
+    if (caught.status === 401) {
+      clearAuth()
+    } else if (caught.status === 409) {
+      plannedSlugs.value = new Set([...plannedSlugs.value, olympiad.slug])
+    } else {
+      planActionError.value = caught.message || 'Не удалось добавить олимпиаду в план.'
+    }
+  } finally {
+    addingSlug.value = ''
+  }
+}
+
 function applyFilters() {
   router.push({ name: 'catalog', query: queryFor(1) })
 }
@@ -267,7 +327,18 @@ watch(
   { immediate: true },
 )
 
-onMounted(loadMetadata)
+watch(
+  () => [auth.initialized, authenticated.value],
+  ([initialized]) => {
+    if (initialized) loadPlanMembership()
+  },
+  { immediate: true },
+)
+
+onMounted(() => {
+  loadMetadata()
+  refreshAuth()
+})
 </script>
 
 <template>
@@ -455,6 +526,9 @@ onMounted(loadMetadata)
     </div>
 
     <template v-if="viewMode === 'cards'">
+      <div v-if="planActionError" class="alert alert-danger" role="alert">
+        {{ planActionError }}
+      </div>
       <LoadingState v-if="loading" />
       <ErrorAlert v-else-if="error" :message="error" @retry="loadCatalog" />
       <div v-else-if="items.length" class="row g-4">
@@ -462,6 +536,10 @@ onMounted(loadMetadata)
           <OlympiadCard
             :olympiad="item"
             :active-university="filters.university"
+            :authenticated="authenticated"
+            :in-plan="isInPlan(item.slug)"
+            :adding-to-plan="addingSlug === item.slug"
+            @add-to-plan="addFromCard(item)"
           />
         </div>
       </div>

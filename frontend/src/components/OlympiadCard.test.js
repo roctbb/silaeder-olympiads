@@ -64,6 +64,32 @@ describe('OlympiadCard', () => {
     expect(wrapper.text()).toContain('12')
   })
 
+  it('показывает авторизованному пользователю быстрый плюс и заменяет его галочкой', async () => {
+    const wrapper = mount(OlympiadCard, {
+      props: { olympiad: olympiad(), authenticated: true },
+      global,
+    })
+
+    const button = wrapper.get('.olympiad-card-plan-action')
+    expect(button.attributes('aria-label')).toBe('Добавить олимпиаду в мой план')
+    expect(button.get('.fa-plus').exists()).toBe(true)
+    await button.trigger('click')
+    expect(wrapper.emitted('add-to-plan')).toHaveLength(1)
+
+    await wrapper.setProps({ inPlan: true })
+    expect(button.attributes('disabled')).toBeDefined()
+    expect(button.get('.fa-check').exists()).toBe(true)
+  })
+
+  it('не показывает управление личным планом без авторизации', () => {
+    const wrapper = mount(OlympiadCard, {
+      props: { olympiad: olympiad(), authenticated: false },
+      global,
+    })
+
+    expect(wrapper.find('.olympiad-card-plan-action').exists()).toBe(false)
+  })
+
   it('показывает текстовые условия участия, когда номера классов неприменимы', () => {
     const wrapper = mount(OlympiadCard, {
       props: {

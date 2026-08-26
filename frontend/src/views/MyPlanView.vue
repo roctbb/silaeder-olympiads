@@ -6,20 +6,16 @@ import LoginPrompt from '../components/LoginPrompt.vue'
 import {
   getMyPlan,
   removeOlympiadFromPlan,
-  updateCurrentUser,
   updateOlympiadPlan,
 } from '../services/api'
 import { useAuth } from '../services/auth'
 import { formatStageDate, pluralize } from '../utils/format'
 
 const ACADEMIC_YEAR = '2026/27'
-const { state: auth, authenticated, refresh: refreshAuth, clear: clearAuth, setUser } = useAuth()
+const { state: auth, authenticated, refresh: refreshAuth, clear: clearAuth } = useAuth()
 const plan = ref({ items: [], upcoming_stages: [] })
 const loading = ref(false)
 const error = ref('')
-const grade = ref('')
-const gradeSaving = ref(false)
-const gradeError = ref('')
 const archivedAction = ref('')
 let requestSequence = 0
 
@@ -52,26 +48,6 @@ async function loadPlan() {
     error.value = caught.message || 'Не удалось загрузить ваш план.'
   } finally {
     if (sequence === requestSequence) loading.value = false
-  }
-}
-
-async function saveGrade() {
-  gradeSaving.value = true
-  gradeError.value = ''
-  try {
-    const result = await updateCurrentUser(
-      { grade: grade.value === '' ? null : Number(grade.value) },
-      auth.csrfToken,
-    )
-    setUser(result.user)
-  } catch (caught) {
-    if (caught.status === 401) {
-      clearAuth()
-    } else {
-      gradeError.value = caught.message || 'Не удалось сохранить класс.'
-    }
-  } finally {
-    gradeSaving.value = false
   }
 }
 
@@ -124,14 +100,6 @@ async function removeArchivedPlan(item) {
 }
 
 watch(
-  () => auth.user?.grade,
-  (value) => {
-    grade.value = value == null ? '' : String(value)
-  },
-  { immediate: true },
-)
-
-watch(
   () => [auth.initialized, authenticated.value],
   ([initialized, signedIn], previous) => {
     if (initialized && signedIn && (!previous || !previous[1])) loadPlan()
@@ -165,39 +133,20 @@ onMounted(refreshAuth)
     <template v-else>
       <section class="card border-0 shadow-sm mb-4" aria-labelledby="profile-settings-title">
         <div class="card-body p-3 p-md-4">
-          <div class="row g-3 align-items-end">
+          <div class="row g-3 align-items-center">
             <div class="col-md">
               <h2 id="profile-settings-title" class="h5 mb-1">{{ auth.user.name }}</h2>
               <p class="small text-body-secondary mb-0">
-                Укажите класс, чтобы позднее получать более точные рекомендации. Это необязательно.
+                Класс синхронизируется из профиля ученика в ЛК Силаэдр при каждом входе.
               </p>
             </div>
-            <div class="col-sm-6 col-md-3">
-              <label for="profile-grade" class="form-label">Класс</label>
-              <select
-                id="profile-grade"
-                v-model="grade"
-                class="form-select form-select-sm"
-                :disabled="gradeSaving"
-              >
-                <option value="">Не указан</option>
-                <option v-for="value in [5, 6, 7, 8, 9, 10, 11]" :key="value" :value="String(value)">
-                  {{ value }} класс
-                </option>
-              </select>
-            </div>
             <div class="col-sm-auto">
-              <button class="btn btn-sm btn-outline-primary w-100" type="button" :disabled="gradeSaving" @click="saveGrade">
-                <i
-                  class="fa-solid me-1"
-                  :class="gradeSaving ? 'fa-spinner fa-spin' : 'fa-check'"
-                  aria-hidden="true"
-                ></i>
-                {{ gradeSaving ? 'Сохраняем…' : 'Сохранить' }}
-              </button>
+              <span class="badge text-bg-primary fs-6">
+                <i class="fa-solid fa-graduation-cap me-1" aria-hidden="true"></i>
+                {{ auth.user.grade ? `${auth.user.grade} класс` : 'Класс не указан в ЛК' }}
+              </span>
             </div>
           </div>
-          <p v-if="gradeError" class="small text-danger mt-2 mb-0" role="alert">{{ gradeError }}</p>
         </div>
       </section>
 

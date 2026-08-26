@@ -82,14 +82,6 @@ export function logoutUser(csrfToken) {
   })
 }
 
-export function updateCurrentUser(payload, csrfToken) {
-  return request('/api/v1/me', {
-    method: 'PATCH',
-    headers: csrfHeaders(csrfToken),
-    body: JSON.stringify(payload),
-  })
-}
-
 export function getMyPlan(academicYear = '2026/27') {
   return request('/api/v1/me/plan?' + new URLSearchParams({ academic_year: academicYear }))
 }

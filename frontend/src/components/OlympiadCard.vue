@@ -14,7 +14,11 @@ const props = defineProps({
   olympiad: { type: Object, required: true },
   activeBenefitType: { type: String, default: '' },
   activeUniversity: { type: String, default: '' },
+  authenticated: { type: Boolean, default: false },
+  inPlan: { type: Boolean, default: false },
+  addingToPlan: { type: Boolean, default: false },
 })
+const emit = defineEmits(['add-to-plan'])
 
 function selectionRank(benefit) {
   const typeMatch = Boolean(props.activeBenefitType)
@@ -82,7 +86,24 @@ function benefitBadgeLabel(benefit) {
 <template>
   <article class="card olympiad-card h-100 border-0 shadow-sm">
     <div class="card-body d-flex flex-column p-4">
-      <div class="d-flex flex-wrap gap-2 mb-3">
+      <button
+        v-if="authenticated"
+        type="button"
+        class="btn olympiad-card-plan-action"
+        :class="inPlan ? 'is-added' : 'btn-outline-primary'"
+        :disabled="inPlan || addingToPlan"
+        :aria-label="inPlan ? 'Олимпиада уже в вашем плане' : 'Добавить олимпиаду в мой план'"
+        :title="inPlan ? 'Уже в плане' : 'Добавить в план'"
+        @click.stop="emit('add-to-plan')"
+      >
+        <i
+          class="fa-solid"
+          :class="addingToPlan ? 'fa-spinner fa-spin' : inPlan ? 'fa-check' : 'fa-plus'"
+          aria-hidden="true"
+        ></i>
+      </button>
+
+      <div class="d-flex flex-wrap gap-2 mb-3" :class="{ 'pe-5': authenticated }">
         <span v-if="olympiad.is_popular" class="badge badge-popular">Популярная</span>
         <span
           v-if="olympiad.registry_status && olympiad.registry_status !== 'not_listed'"

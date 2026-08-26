@@ -3,14 +3,18 @@ import { createMemoryHistory, createRouter } from 'vue-router'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
 const apiMocks = vi.hoisted(() => ({
+  addOlympiadToPlan: vi.fn(),
   getCalendarEvents: vi.fn(),
+  getAuthSession: vi.fn(),
   getMetadata: vi.fn(),
+  getMyPlan: vi.fn(),
   getOlympiads: vi.fn(),
 }))
 
 vi.mock('../services/api', () => apiMocks)
 
 import CatalogView from './CatalogView.vue'
+import { resetAuthForTests } from '../services/auth'
 
 const supportedMetadata = {
   academic_year: '2026/27',
@@ -61,13 +65,56 @@ async function mountCatalog(query = {}) {
 }
 
 beforeEach(() => {
+  resetAuthForTests()
   vi.clearAllMocks()
+  apiMocks.getAuthSession.mockResolvedValue({
+    authenticated: false,
+    user: null,
+    csrf_token: null,
+    login_url: '/api/v1/auth/login',
+  })
   apiMocks.getMetadata.mockResolvedValue(supportedMetadata)
+  apiMocks.getMyPlan.mockResolvedValue({ items: [], upcoming_stages: [] })
+  apiMocks.addOlympiadToPlan.mockResolvedValue({ id: 1 })
   apiMocks.getOlympiads.mockResolvedValue(catalogResponse())
   apiMocks.getCalendarEvents.mockResolvedValue({ events: [], total: 0 })
 })
 
 describe('CatalogView: упрощённые фильтры', () => {
+  it('добавляет олимпиаду в план прямо из карточки после входа', async () => {
+    apiMocks.getAuthSession.mockResolvedValue({
+      authenticated: true,
+      user: { id: 1, name: 'Анна', grade: 8 },
+      csrf_token: 'csrf',
+      login_url: '/api/v1/auth/login',
+    })
+    apiMocks.getOlympiads.mockResolvedValue({
+      items: [{
+        edition_id: 1,
+        slug: 'math',
+        name: 'Математика',
+        participant_count: 3,
+      }],
+      pagination: { page: 1, per_page: 18, pages: 1, total: 1 },
+    })
+
+    const { wrapper } = await mountCatalog()
+    const card = wrapper.getComponent({ name: 'OlympiadCard' })
+    expect(card.props()).toMatchObject({ authenticated: true, inPlan: false })
+
+    card.vm.$emit('add-to-plan')
+    await flushPromises()
+
+    expect(apiMocks.addOlympiadToPlan).toHaveBeenCalledWith(
+      'math',
+      expect.objectContaining({ is_name_public: true }),
+      'csrf',
+      '2026/27',
+    )
+    expect(card.props('inPlan')).toBe(true)
+    expect(card.props('olympiad').participant_count).toBe(4)
+  })
+
   it('показывает доступные сейчас или позже регистрации и фильтрует по льготе в вузе', async () => {
     apiMocks.getOlympiads.mockResolvedValue({
       items: [{ edition_id: 1, slug: 'math', name: 'Математика' }],

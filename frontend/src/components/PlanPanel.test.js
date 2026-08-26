@@ -31,6 +31,24 @@ describe('PlanPanel', () => {
     expect(wrapper.emitted('add')).toHaveLength(1)
   })
 
+  it('для нового плана заранее включает публикацию имени', () => {
+    const wrapper = mount(PlanPanel, {
+      props: {
+        authenticated: true,
+        planning: planning({
+          status: 'planned',
+          is_name_public: true,
+          reminders_enabled: true,
+          reminder_days_before: [7, 1],
+          stage_progress: [],
+        }),
+      },
+    })
+
+    expect(wrapper.get('#plan-public-name').element.checked).toBe(true)
+    expect(wrapper.text()).toContain('По умолчанию включено')
+  })
+
   it('сохраняет статус, opt-in имени и выбранные напоминания', async () => {
     const wrapper = mount(PlanPanel, {
       props: {

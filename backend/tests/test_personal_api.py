@@ -71,7 +71,7 @@ def test_plan_privacy_reminders_grade_and_stage_progress(
     assert plan["academic_year"] == "2026/27"
     assert plan["cycle_label"] == "Календарный цикл 2026"
     assert plan["edition_status"] == "published"
-    assert plan["is_name_public"] is False
+    assert plan["is_name_public"] is True
     assert plan["reminders_enabled"] is True
     assert plan["reminder_days_before"] == [7, 1]
     assert admin_client.put(
@@ -102,7 +102,7 @@ def test_plan_privacy_reminders_grade_and_stage_progress(
     public_before = anonymous.get("/api/v1/olympiads/test-math/planning").get_json()
     assert public_before == {
         "participant_count": 1,
-        "public_participants": [],
+        "public_participants": [{"name": "Иван Иванов"}],
         "plan": None,
     }
 
@@ -127,15 +127,11 @@ def test_plan_privacy_reminders_grade_and_stage_progress(
     assert detail["participant_count"] == 1
     assert detail["public_participants"] == [{"name": "Иван Иванов"}]
 
-    invalid_grade = admin_client.patch(
-        "/api/v1/me", headers=csrf_headers, json={"grade": 12}
-    )
-    assert invalid_grade.status_code == 400
     grade = admin_client.patch(
         "/api/v1/me", headers=csrf_headers, json={"grade": 9}
     )
-    assert grade.status_code == 200
-    assert grade.get_json()["user"]["grade"] == 9
+    assert grade.status_code == 409
+    assert "синхронизируется из ЛК" in grade.get_json()["error"]
 
     progressed = admin_client.put(
         f'/api/v1/olympiads/test-math/stages/{stage["id"]}/progress',

@@ -178,6 +178,26 @@ def _claim(identity: dict, name: str, fallback=None):
     return fallback if value in (None, "") else value
 
 
+_MISSING_CLAIM = object()
+
+
+def _grade_claim(identity: dict, crm_object: dict):
+    value = identity.get("grade", crm_object.get("grade", _MISSING_CLAIM))
+    if value is _MISSING_CLAIM:
+        return _MISSING_CLAIM
+    if isinstance(value, bool):
+        return None
+    if isinstance(value, int):
+        grade = value
+    elif isinstance(value, float) and value.is_integer():
+        grade = int(value)
+    elif isinstance(value, str) and value.strip().isdigit():
+        grade = int(value.strip())
+    else:
+        return None
+    return grade if 5 <= grade <= 11 else None
+
+
 @auth_bp.get("/auth/crm/callback")
 def oidc_callback():
     if not _oidc_is_configured():
@@ -249,6 +269,9 @@ def oidc_callback():
         if fresh_identity.get("object_type")
         else None
     )
+    crm_grade = _grade_claim(fresh_identity, crm_object)
+    if crm_grade is not _MISSING_CLAIM:
+        user.grade = crm_grade
     user.last_login_at = datetime.now(UTC)
     db.session.commit()
 

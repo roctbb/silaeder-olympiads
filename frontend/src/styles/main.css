@@ -493,7 +493,29 @@ textarea,
 }
 
 .olympiad-card .card-body {
+  position: relative;
   padding: 1.15rem !important;
+}
+
+.olympiad-card-plan-action {
+  position: absolute;
+  z-index: 3;
+  top: 1rem;
+  right: 1rem;
+  display: inline-grid;
+  width: 2.35rem;
+  height: 2.35rem;
+  padding: 0;
+  border-radius: 50%;
+  place-items: center;
+}
+
+.olympiad-card-plan-action.is-added,
+.olympiad-card-plan-action.is-added:disabled {
+  color: #fff;
+  background: var(--silaeder-success);
+  border-color: var(--silaeder-success);
+  opacity: 1;
 }
 
 .olympiad-card:hover {

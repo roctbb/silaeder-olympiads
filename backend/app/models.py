@@ -379,7 +379,7 @@ class UserOlympiadPlan(TimestampMixin, db.Model):
     status: Mapped[PlanStatus] = mapped_column(
         enum_type(PlanStatus), default=PlanStatus.PLANNED, nullable=False, index=True
     )
-    is_name_public: Mapped[bool] = mapped_column(default=False, nullable=False)
+    is_name_public: Mapped[bool] = mapped_column(default=True, nullable=False)
     reminders_enabled: Mapped[bool] = mapped_column(default=True, nullable=False)
     reminder_days_before: Mapped[list[int]] = mapped_column(
         db.JSON, default=lambda: [7, 1], nullable=False

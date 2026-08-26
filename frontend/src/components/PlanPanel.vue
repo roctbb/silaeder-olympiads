@@ -14,7 +14,7 @@ const emit = defineEmits(['add', 'remove', 'save-settings', 'retry'])
 
 const settings = reactive({
   status: 'planned',
-  is_name_public: false,
+  is_name_public: true,
   reminders_enabled: true,
   reminder_days_before: [7, 3, 1],
 })
@@ -29,7 +29,7 @@ watch(
   () => props.planning?.plan,
   (plan) => {
     settings.status = plan?.status || 'planned'
-    settings.is_name_public = Boolean(plan?.is_name_public)
+    settings.is_name_public = plan ? Boolean(plan.is_name_public) : true
     settings.reminders_enabled = plan?.reminders_enabled !== false
     settings.reminder_days_before = Array.isArray(plan?.reminder_days_before)
       ? [...plan.reminder_days_before]
@@ -131,7 +131,7 @@ function saveSettings() {
           <label class="form-check-label" for="plan-public-name">
             Показывать моё имя в публичном списке участников
           </label>
-          <div class="form-text">По умолчанию имя скрыто. После включения его видно без авторизации.</div>
+          <div class="form-text">По умолчанию включено. Вы можете скрыть имя в любой момент.</div>
         </div>
 
         <div class="form-check form-switch mb-2">

@@ -92,6 +92,9 @@ describe('MyPlanView', () => {
     await flushPromises()
 
     expect(wrapper.text()).toContain('Анна')
+    expect(wrapper.text()).toContain('8 класс')
+    expect(wrapper.text()).toContain('синхронизируется из профиля ученика в ЛК')
+    expect(wrapper.find('#profile-grade').exists()).toBe(false)
     expect(wrapper.text()).toContain('Отборочный этап')
     expect(wrapper.text()).toContain('Олимпиада по математике')
     expect(wrapper.text()).toContain('Зарегистрирован')

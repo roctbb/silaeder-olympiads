@@ -106,12 +106,14 @@ class FakeOidcClient:
         subject="subject-1",
         userinfo_subject=None,
         name="Иван Иванов",
+        grade=8,
         issuer="https://lk.silaeder.ru",
         logout_url="https://lk.silaeder.ru/oauth/logout?state=test",
     ):
         self.subject = subject
         self.userinfo_subject = userinfo_subject or subject
         self.name = name
+        self.grade = grade
         self.issuer = issuer
         self.logout_url = logout_url
 
@@ -131,7 +133,13 @@ class FakeOidcClient:
             "role": "student",
             "roles": ["student"],
             "object_type": "students",
-            "crm_object": {"id": 42, "type": "students", "name": self.name},
+            "grade": self.grade,
+            "crm_object": {
+                "id": 42,
+                "type": "students",
+                "name": self.name,
+                "grade": self.grade,
+            },
         }
 
     def logout_redirect(self, **kwargs):
@@ -161,8 +169,7 @@ def test_callback_creates_and_synchronizes_user(app, client, monkeypatch):
         assert user.oidc_issuer == "https://lk.silaeder.ru"
         assert user.oidc_subject == "subject-1"
         assert user.name == "Иван Иванов"
-        user.grade = 9
-        db.session.commit()
+        assert user.grade == 8
 
     monkeypatch.setattr(
         auth_module, "_crm_client", lambda: FakeOidcClient(name="Иван Петров")
@@ -172,7 +179,7 @@ def test_callback_creates_and_synchronizes_user(app, client, monkeypatch):
         assert db.session.scalar(select(func.count()).select_from(User)) == 1
         user = db.session.scalar(select(User))
         assert user.name == "Иван Петров"
-        assert user.grade == 9
+        assert user.grade == 8
 
 
 def test_callback_rejects_subject_mismatch(client, monkeypatch):
