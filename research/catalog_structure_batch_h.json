@@ -1,0 +1,803 @@
+{
+  "as_of": "2026-08-26",
+  "target_academic_year": "2026/27",
+  "method": "Second pass over the 56 catalog cards whose grades remained empty after the base catalog and batches D-G. Only primary official organizer pages, organizer APIs, regulations, schedules, and result tables are used. Profile ranges are recorded independently; a range from one profile is never copied to another. Evidence from 2025/26 is marked previous_year_estimate and no dates are introduced by this grades-only batch. Current 2026/27 evidence is marked partial.",
+  "families": [],
+  "slugs": [
+    {
+      "slug": "registry-2026-27-012-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Положение 2025/26, действующее для каждого профиля Толстовской олимпиады, допускает обучающихся по программам основного и среднего общего образования независимо от возраста; в границах сервиса это 5–11 классы. Диапазон подтверждён общим положением, а не перенесён с иного профиля.",
+      "sources": [
+        {
+          "title": "Положение о Всероссийской Толстовской олимпиаде 2025/26",
+          "url": "https://olymp.tsput.ru/files/pologenie-21-11-2025.pdf",
+          "publisher": "Тульский государственный педагогический университет им. Л.Н. Толстого",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-012-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Положение 2025/26, действующее для каждого профиля Толстовской олимпиады, допускает обучающихся по программам основного и среднего общего образования независимо от возраста; в границах сервиса это 5–11 классы. Диапазон подтверждён общим положением, а не перенесён с иного профиля.",
+      "sources": [
+        {
+          "title": "Положение о Всероссийской Толстовской олимпиаде 2025/26",
+          "url": "https://olymp.tsput.ru/files/pologenie-21-11-2025.pdf",
+          "publisher": "Тульский государственный педагогический университет им. Л.Н. Толстого",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-012-03",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Положение 2025/26, действующее для каждого профиля Толстовской олимпиады, допускает обучающихся по программам основного и среднего общего образования независимо от возраста; в границах сервиса это 5–11 классы. Диапазон подтверждён общим положением, а не перенесён с иного профиля.",
+      "sources": [
+        {
+          "title": "Положение о Всероссийской Толстовской олимпиаде 2025/26",
+          "url": "https://olymp.tsput.ru/files/pologenie-21-11-2025.pdf",
+          "publisher": "Тульский государственный педагогический университет им. Л.Н. Толстого",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-012-04",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Положение 2025/26, действующее для каждого профиля Толстовской олимпиады, допускает обучающихся по программам основного и среднего общего образования независимо от возраста; в границах сервиса это 5–11 классы. Диапазон подтверждён общим положением, а не перенесён с иного профиля.",
+      "sources": [
+        {
+          "title": "Положение о Всероссийской Толстовской олимпиаде 2025/26",
+          "url": "https://olymp.tsput.ru/files/pologenie-21-11-2025.pdf",
+          "publisher": "Тульский государственный педагогический университет им. Л.Н. Толстого",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-015-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Официальная профильная страница географии 2025/26 приглашает обучающихся по программам основного и среднего общего образования; в школьном диапазоне сервиса это 5–11 классы.",
+      "sources": [
+        {
+          "title": "Герценовская олимпиада школьников: география",
+          "url": "https://www.herzen.spb.ru/abiturients/olimpiady/olimp-rsosh/geo/",
+          "publisher": "Российский государственный педагогический университет им. А.И. Герцена",
+          "source_type": "official_profile",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-015-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Официальная профильная страница иностранных языков 2025/26 приглашает обучающихся по программам основного и среднего общего образования; в школьном диапазоне сервиса это 5–11 классы.",
+      "sources": [
+        {
+          "title": "Герценовская олимпиада школьников: иностранные языки",
+          "url": "https://www.herzen.spb.ru/abiturients/olimpiady/olimp-rsosh/fl/",
+          "publisher": "Российский государственный педагогический университет им. А.И. Герцена",
+          "source_type": "official_profile",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-034-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [6, 7, 8, 9, 10, 11],
+      "notes": "Официальный профильный график отбора 2025/26 прямо указывает 6–11 классы для «Естественных наук»; диапазон не выведен из иных предметов «Звезды».",
+      "sources": [
+        {
+          "title": "МИО «Звезда»: график отборочного этапа 2025/26",
+          "url": "https://zv.susu.ru/index.php/mnogoprofilnaya-inzhenernaya-olimpiada-zvezda/otborochnyj-etap/324-grafik-provedeniya-otborochnogo-etapa",
+          "publisher": "Оргкомитет Многопрофильной инженерной олимпиады «Звезда»",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-034-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Официальный профильный график отбора 2025/26 прямо указывает 7–11 классы для всех перечисленных направлений «Техники и технологий»; диапазон не перенесён с «Естественных наук».",
+      "sources": [
+        {
+          "title": "МИО «Звезда»: график отборочного этапа 2025/26",
+          "url": "https://zv.susu.ru/index.php/mnogoprofilnaya-inzhenernaya-olimpiada-zvezda/otborochnyj-etap/324-grafik-provedeniya-otborochnogo-etapa",
+          "publisher": "Оргкомитет Многопрофильной инженерной олимпиады «Звезда»",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-047-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [9, 10, 11],
+      "notes": "Официальная публикация допуска к финалу по профилю «Естественные науки» отдельно устанавливает проходные баллы для 9 и для 10–11 классов, подтверждая полный профильный диапазон 9–11.",
+      "sources": [
+        {
+          "title": "«Гранит науки»: допуск к заключительному туру по естественным наукам",
+          "url": "https://ogn.spmi.ru/spisok-uchastnikov-dopuschennykh-do-zaklyuchitelnogo-tura",
+          "publisher": "Санкт-Петербургский горный университет",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-047-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [9, 10, 11],
+      "notes": "Официальная публикация допуска к финалу по информатике отдельно устанавливает проходные баллы для 9 и для 10–11 классов, подтверждая полный профильный диапазон 9–11.",
+      "sources": [
+        {
+          "title": "«Гранит науки»: допуск к заключительному туру по информатике",
+          "url": "https://ogn.spmi.ru/spisok-uchastnikov-dopuschennykh-do-zaklyuchitelnogo-tura-2",
+          "publisher": "Санкт-Петербургский горный университет",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит отдельные группы 5–8, 9–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по биологии",
+          "url": "https://olymp.msu.ru/rus/event/10001/page/4757",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит отдельные группы 8–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по фундаментальной медицине",
+          "url": "https://olymp.msu.ru/rus/event/10029/page/4981",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-03",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит отдельные группы 5–7, 8–9 и 10–11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по географии",
+          "url": "https://olymp.msu.ru/rus/event/10004/page/4781",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-04",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит отдельные группы 5–9, 10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по высоким технологиям",
+          "url": "https://olymp.msu.ru/rus/event/10002/page/4765",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-05",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит отдельные группы 9–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по генетике",
+          "url": "https://olymp.msu.ru/rus/event/10003/page/4773",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-06",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит отдельные группы 5–8, 9–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по геологии",
+          "url": "https://olymp.msu.ru/rus/event/10005/page/4789",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-07",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит отдельные группы 5–7, 8–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по журналистике",
+          "url": "https://olymp.msu.ru/rus/event/10006/page/4797",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-08",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Все три официальные таблицы агрегированного профиля — английский, немецкий и французский языки — содержат группы 5–8, 9–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по английскому языку",
+          "url": "https://olymp.msu.ru/rus/event/10008/page/4813",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "«Ломоносов» 2025/26: результаты по немецкому языку",
+          "url": "https://olymp.msu.ru/rus/event/10009/page/4821",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "«Ломоносов» 2025/26: результаты по французскому языку",
+          "url": "https://olymp.msu.ru/rus/event/10010/page/4829",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-09",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит отдельные группы 7–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по информатике",
+          "url": "https://olymp.msu.ru/rus/event/10011/page/4837",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-10",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 5–6, 7–8, 9–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по истории",
+          "url": "https://olymp.msu.ru/rus/event/10012/page/4845",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-11",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 5–6, 7–8, 9–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по космонавтике",
+          "url": "https://olymp.msu.ru/rus/event/10013/page/4853",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-12",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 5–7, 8–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по литературе",
+          "url": "https://olymp.msu.ru/rus/event/10014/page/4861",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-13",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 5–6, 7–8, 9, 10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по математике",
+          "url": "https://olymp.msu.ru/rus/event/10015/page/4869",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-14",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 5–8, 9–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по международным отношениям и глобалистике",
+          "url": "https://olymp.msu.ru/rus/event/10016/page/4877",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-15",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 7–8, 9–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по механике и математическому моделированию",
+          "url": "https://olymp.msu.ru/rus/event/10017/page/4885",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-16",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 5–8, 9–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по обществознанию",
+          "url": "https://olymp.msu.ru/rus/event/10018/page/4893",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-17",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 5–8, 9–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по основам российской государственности",
+          "url": "https://olymp.msu.ru/rus/event/10019/page/4901",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-18",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 7–8, 9–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по политологии",
+          "url": "https://olymp.msu.ru/rus/event/10020/page/4909",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-19",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 8–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по праву",
+          "url": "https://olymp.msu.ru/rus/event/10021/page/4917",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-20",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 5–8, 9–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по психологии",
+          "url": "https://olymp.msu.ru/rus/event/10023/page/4933",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-21",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 5–7, 8–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по религиоведению",
+          "url": "https://olymp.msu.ru/rus/event/10024/page/4941",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-22",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 5–7, 8–9, 10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по робототехнике",
+          "url": "https://olymp.msu.ru/rus/event/10025/page/4949",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-23",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 5–7, 8–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по русскому языку",
+          "url": "https://olymp.msu.ru/rus/event/10026/page/4957",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-24",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 7–9, 10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по физике",
+          "url": "https://olymp.msu.ru/rus/event/10027/page/4965",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-25",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 7–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по философии",
+          "url": "https://olymp.msu.ru/rus/event/10028/page/4973",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-26",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 5–9, 10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по химии",
+          "url": "https://olymp.msu.ru/rus/event/10030/page/4989",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-27",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Профильная таблица результатов 2025/26 содержит группы 5–8, 9–10 и 11 классов.",
+      "sources": [
+        {
+          "title": "«Ломоносов» 2025/26: результаты по экологии",
+          "url": "https://olymp.msu.ru/rus/event/10031/page/4997",
+          "publisher": "Московский государственный университет имени М.В. Ломоносова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-059-01",
+      "data_status": "partial",
+      "grades": [8, 9, 10, 11],
+      "notes": "Официальный сайт 2026/27 определяет «Будущее Сибири» как одну олимпиаду по физике и химии, а официальный учебный ресурс организатора прямо указывает участие 8–11 классов. Поэтому общий диапазон применим к обоим перечисленным профилям, а не заимствован у иной олимпиады.",
+      "sources": [
+        {
+          "title": "Открытая межвузовская олимпиада «Будущее Сибири» 2026/27",
+          "url": "https://olymp-sibir.nstu.ru/",
+          "publisher": "Новосибирский государственный технический университет",
+          "source_type": "official_profile",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "«Будущее Сибири»: тематическое содержание и классы участия",
+          "url": "https://dispace.edu.nstu.ru/didesk/course/show/10774/1",
+          "publisher": "Новосибирский государственный технический университет",
+          "source_type": "official_course",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-059-02",
+      "data_status": "partial",
+      "grades": [8, 9, 10, 11],
+      "notes": "Официальный сайт 2026/27 определяет «Будущее Сибири» как одну олимпиаду по физике и химии, а официальный учебный ресурс организатора прямо указывает участие 8–11 классов. Поэтому общий диапазон применим к обоим перечисленным профилям, а не заимствован у иной олимпиады.",
+      "sources": [
+        {
+          "title": "Открытая межвузовская олимпиада «Будущее Сибири» 2026/27",
+          "url": "https://olymp-sibir.nstu.ru/",
+          "publisher": "Новосибирский государственный технический университет",
+          "source_type": "official_profile",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "«Будущее Сибири»: тематическое содержание и классы участия",
+          "url": "https://dispace.edu.nstu.ru/didesk/course/show/10774/1",
+          "publisher": "Новосибирский государственный технический университет",
+          "source_type": "official_course",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-060-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Официальный API страницы профиля 2025/26 прямо приглашает 5–11 классы; вложенные разделы также содержат туры для 5–11 классов.",
+      "sources": [
+        {
+          "title": "Открытая олимпиада школьников 2025/26: информатика",
+          "url": "https://olymp.itmo.ru/api/section/inf25/5599",
+          "publisher": "Университет ИТМО",
+          "source_type": "official_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-060-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Официальный API страницы профиля 2025/26 прямо приглашает 5–11 классы; вложенные разделы также содержат туры для 5–9 и 10–11 классов.",
+      "sources": [
+        {
+          "title": "Открытая олимпиада школьников 2025/26: математика",
+          "url": "https://olymp.itmo.ru/api/section/math25/5661",
+          "publisher": "Университет ИТМО",
+          "source_type": "official_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-060-03",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Официальный API профиля 2025/26 прямо приглашает 7–11 классы. Участие 5–6 классов обозначено как внеконкурсное, поэтому они не включены в основной профильный диапазон.",
+      "sources": [
+        {
+          "title": "Открытая олимпиада школьников 2025/26: физика",
+          "url": "https://olymp.itmo.ru/api/project/physics2026",
+          "publisher": "Университет ИТМО",
+          "source_type": "official_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-065-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [8, 9, 10, 11],
+      "notes": "Актуальное положение 2025/26 перечисляет профиль «Инженерное дело» и прямо устанавливает участие обучающихся 8–11 классов.",
+      "sources": [
+        {
+          "title": "Положение об отраслевой олимпиаде школьников «Газпром» 2025/26",
+          "url": "https://olympiad.gazprom.ru/assets/files/regulations/2025-2026/polozhenie_2025-2026.pdf",
+          "publisher": "ПАО «Газпром» и СПбГЭТУ «ЛЭТИ»",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-065-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [8, 9, 10, 11],
+      "notes": "Актуальное положение 2025/26 перечисляет профиль «Информационные и коммуникационные технологии» и прямо устанавливает участие обучающихся 8–11 классов.",
+      "sources": [
+        {
+          "title": "Положение об отраслевой олимпиаде школьников «Газпром» 2025/26",
+          "url": "https://olympiad.gazprom.ru/assets/files/regulations/2025-2026/polozhenie_2025-2026.pdf",
+          "publisher": "ПАО «Газпром» и СПбГЭТУ «ЛЭТИ»",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-065-03",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [8, 9, 10, 11],
+      "notes": "Актуальное положение 2025/26 перечисляет профиль «Физика» и прямо устанавливает участие обучающихся 8–11 классов.",
+      "sources": [
+        {
+          "title": "Положение об отраслевой олимпиаде школьников «Газпром» 2025/26",
+          "url": "https://olympiad.gazprom.ru/assets/files/regulations/2025-2026/polozhenie_2025-2026.pdf",
+          "publisher": "ПАО «Газпром» и СПбГЭТУ «ЛЭТИ»",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    }
+  ]
+}

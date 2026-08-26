@@ -1,0 +1,475 @@
+{
+  "checked_on": "2026-08-25",
+  "selection": {
+    "source": "data/seed/catalog.json",
+    "empty_family_count_at_selection": 71,
+    "rule": "sorted unique family_name, zero-based index % 3 == 2",
+    "selected_family_count": 23,
+    "selected_record_count": 55,
+    "selected_families": [
+      {"index": 2, "family_name": "«Формула единства»/«Третье тысячелетие»"},
+      {"index": 5, "family_name": "Всероссийская академическая олимпиада школьников имени В.И. Вернадского"},
+      {"index": 8, "family_name": "Всероссийская олимпиада школьников «Миссия выполнима Твое призвание - финансист!»"},
+      {"index": 11, "family_name": "Всероссийский конкурс научных работ школьников «Юниор»"},
+      {"index": 14, "family_name": "Инженерная олимпиада школьников"},
+      {"index": 17, "family_name": "Международная музыкальная олимпиада"},
+      {"index": 20, "family_name": "Международная олимпиада школьников «Евразийская лингвистическая олимпиада»"},
+      {"index": 23, "family_name": "Межрегиональная олимпиада по праву «ФЕМИДА»"},
+      {"index": 26, "family_name": "Межрегиональная олимпиада школьников имени В.Е. Татлина"},
+      {"index": 29, "family_name": "Межрегиональная химическая олимпиада школьников имени академика П.Д. Саркисова"},
+      {"index": 32, "family_name": "Многопрофильная инженерная олимпиада «Звезда»"},
+      {"index": 35, "family_name": "Оборонно-техническая олимпиада"},
+      {"index": 38, "family_name": "Олимпиада Курчатов"},
+      {"index": 41, "family_name": "Олимпиада Юношеской математической школы"},
+      {"index": 44, "family_name": "Олимпиада по экономике в рамках международного экономического фестиваля школьников «Сибириада Шаг в мечту»"},
+      {"index": 47, "family_name": "Олимпиада школьников «Шаг в будущее»"},
+      {"index": 50, "family_name": "Олимпиада школьников по программированию «ТехноКубок»"},
+      {"index": 53, "family_name": "Открытая олимпиада школьников"},
+      {"index": 56, "family_name": "Открытая региональная межвузовская олимпиада школьников (ОРМО) с международным участием"},
+      {"index": 59, "family_name": "Отраслевая физико-математическая олимпиада школьников «Росатом»"},
+      {"index": 62, "family_name": "Региональный конкурс школьников Челябинского университетского образовательного округа"},
+      {"index": 65, "family_name": "Северо-Восточная олимпиада школьников"},
+      {"index": 68, "family_name": "Телевизионная гуманитарная олимпиада школьников «Умницы и умники»"}
+    ]
+  },
+  "materials_by_slug": {
+    "registry-2026-27-002-01": [
+      {
+        "title": "Задания, решения и критерии «Формулы единства» по математике 2025/26",
+        "material_type": "solutions",
+        "year": 2026,
+        "url": "https://www.formulo.org/ru/olymp/2025-math-ru/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://www.formulo.org/ru/olymp/2025-math-ru/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 110319,
+          "content_check": "Официальная страница сезона; обнаружено 17 ссылок на файлы условий, решений и критериев."
+        }
+      }
+    ],
+    "registry-2026-27-002-02": [
+      {
+        "title": "Задания, решения и критерии «Формулы единства» по физике 2025/26",
+        "material_type": "solutions",
+        "year": 2026,
+        "url": "https://www.formulo.org/ru/olymp/2025-phys-ru/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://www.formulo.org/ru/olymp/2025-phys-ru/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 108940,
+          "content_check": "Официальная страница сезона; обнаружено 14 ссылок на файлы заданий, решений и критериев."
+        }
+      }
+    ],
+    "registry-2026-27-066-01": [
+      {
+        "title": "Задания прошлых лет олимпиады «Росатом» по информатике",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.mephi.ru/rosatom_it/training",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.mephi.ru/rosatom_it/training",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 22810,
+          "content_check": "Страница НИЯУ МИФИ содержит архив заданий по информатике и 16 прямых файлов за сезоны, включая 2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-066-02": [
+      {
+        "title": "Задания прошлых лет олимпиады «Росатом» по математике",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.mephi.ru/rosatom/about/traning/task_of_previous_years",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.mephi.ru/rosatom/about/traning/task_of_previous_years",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 79292,
+          "content_check": "Многолетний архив НИЯУ МИФИ по математике и физике; обнаружено 282 файла заданий и разборов."
+        }
+      }
+    ],
+    "registry-2026-27-066-03": [
+      {
+        "title": "Задания прошлых лет олимпиады «Росатом» по физике",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.mephi.ru/rosatom/about/traning/task_of_previous_years",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.mephi.ru/rosatom/about/traning/task_of_previous_years",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 79292,
+          "content_check": "Многолетний архив НИЯУ МИФИ по математике и физике; обнаружено 282 файла заданий и разборов."
+        }
+      }
+    ]
+  },
+  "materials_by_family": {
+    "Всероссийская олимпиада школьников «Миссия выполнима Твое призвание - финансист!»": [
+      {
+        "title": "Задания, ответы и критерии олимпиады «Миссия выполнима»",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://www.fa.ru/for-applicants/olympiads/mission/examples/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://www.fa.ru/for-applicants/olympiads/mission/examples/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 167403,
+          "content_check": "Страница Финансового университета содержит 97 PDF заданий, ответов и критериев по профилям и сезонам."
+        }
+      },
+      {
+        "title": "Официальные материалы для подготовки к олимпиаде «Миссия выполнима»",
+        "material_type": "course",
+        "year": null,
+        "url": "https://www.fa.ru/for-applicants/olympiads/mission/materials/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://www.fa.ru/for-applicants/olympiads/mission/materials/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 145699,
+          "content_check": "Содержательная официальная страница подготовки с профильными рекомендациями и файлами."
+        }
+      }
+    ],
+    "Всероссийский конкурс научных работ школьников «Юниор»": [
+      {
+        "title": "Задания заключительного тура конкурса «Юниор» прошлых лет",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.mephi.ru/junior/examples",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.mephi.ru/junior/examples",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 47140,
+          "content_check": "Архив НИЯУ МИФИ за 2010–2026 годы; обнаружено 136 файлов заданий, решений и примеров тезисов."
+        }
+      },
+      {
+        "title": "Материалы для подготовки к конкурсу «Юниор»",
+        "material_type": "course",
+        "year": null,
+        "url": "https://olymp.mephi.ru/junior/training",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.mephi.ru/junior/training",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 19325,
+          "content_check": "Страница подготовки НИЯУ МИФИ содержит примеры заданий, тезисов, статьи и видеолекции."
+        }
+      }
+    ],
+    "Инженерная олимпиада школьников": [
+      {
+        "title": "Задания прошлых лет Инженерной олимпиады школьников",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.mephi.ru/engineering/about/traning/task_of_previous_years",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.mephi.ru/engineering/about/traning/task_of_previous_years",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 33163,
+          "content_check": "Официальный архив НИЯУ МИФИ; 60 файлов отборочного и заключительного туров, включая 2025/26."
+        }
+      }
+    ],
+    "Международная олимпиада школьников «Евразийская лингвистическая олимпиада»": [
+      {
+        "title": "Архив заданий, ключей и разборов Евразийской лингвистической олимпиады",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://elo.linguanet.ru/#archive",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://elo.linguanet.ru/#archive",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 111441,
+          "content_check": "Официальная страница содержит архив прошлых лет, ключи, критерии и разборы; обнаружено 162 файла."
+        }
+      }
+    ],
+    "Межрегиональная олимпиада по праву «ФЕМИДА»": [
+      {
+        "title": "Примерные задания, ответы и материалы для подготовки к «ФЕМИДЕ»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.rgup.ru/#materials",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.rgup.ru/#materials",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 473914,
+          "content_check": "Раздел «Помощь в подготовке» официального сайта содержит литературу, примерные задания с ответами и архив финалов."
+        }
+      }
+    ],
+    "Межрегиональная олимпиада школьников имени В.Е. Татлина": [
+      {
+        "title": "Задания олимпиады имени В.Е. Татлина по графике, композиции и рисунку",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://www.pguas.ru/tatlin",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://www.pguas.ru/tatlin",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 39668,
+          "content_check": "Страница ПГУАС содержит задания отборочного этапа для 8–9 и 10–11 классов по всем трём профилям."
+        }
+      }
+    ],
+    "Межрегиональная химическая олимпиада школьников имени академика П.Д. Саркисова": [
+      {
+        "title": "Работы победителей и призёров олимпиады имени П.Д. Саркисова",
+        "material_type": "solutions",
+        "year": 2024,
+        "url": "https://sarkisov-olimp.muctr.ru/results",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://sarkisov-olimp.muctr.ru/results",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 60727,
+          "content_check": "Официальная страница РХТУ содержит 21 файл работ победителей и призёров 9–11 классов сезона 2023/24."
+        }
+      }
+    ],
+    "Оборонно-техническая олимпиада": [
+      {
+        "title": "Задания и критерии Оборонно-технической олимпиады прошлых лет",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://pro.voenmeh.ru/oto_tt",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pro.voenmeh.ru/oto_tt",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 151346,
+          "content_check": "Профильная страница ВОЕНМЕХа содержит 21 файл заданий, критериев и работ прошлых сезонов."
+        }
+      }
+    ],
+    "Олимпиада Курчатов": [
+      {
+        "title": "Условия и решения олимпиады «Курчатов» 2012/13–2025/26",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olimpiadakurchatov.ru/tasks",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olimpiadakurchatov.ru/tasks",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 419347,
+          "content_check": "Официальный архив по математике и физике за 2012/13–2025/26; обнаружено 166 файлов условий и решений."
+        }
+      }
+    ],
+    "Олимпиада Юношеской математической школы": [
+      {
+        "title": "Архив заданий и решений олимпиады ЮМШ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://yumsh.ru/cms/yumsh-olymp/archive",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://yumsh.ru/cms/yumsh-olymp/archive",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 17457,
+          "content_check": "Официальный архив ЮМШ открывается и содержит ссылки по сезонам на условия и решения туров."
+        }
+      }
+    ],
+    "Олимпиада по экономике в рамках международного экономического фестиваля школьников «Сибириада Шаг в мечту»": [
+      {
+        "title": "Задания с решениями олимпиады «Сибириада. Шаг в мечту» прошлых лет",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://sibiriada.org/olymp.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://sibiriada.org/olymp.html",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 123778,
+          "content_check": "Многолетний официальный архив содержит 195 файлов заданий, решений и критериев, включая 2025/26."
+        }
+      }
+    ],
+    "Олимпиада школьников «Шаг в будущее»": [
+      {
+        "title": "Задания прошлых лет, критерии и авторские решения олимпиады «Шаг в будущее»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.bmstu.ru/ru/variants",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.bmstu.ru/ru/variants",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 425012,
+          "content_check": "Архив МГТУ им. Баумана охватывает все шесть профилей; обнаружен 541 файл заданий, решений и критериев."
+        }
+      }
+    ],
+    "Олимпиада школьников по программированию «ТехноКубок»": [
+      {
+        "title": "Курсы и ресурсы для подготовки к «ТехноКубку»",
+        "material_type": "course",
+        "year": null,
+        "url": "https://techno-cup.ru/training",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://techno-cup.ru/training",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 136970,
+          "content_check": "Официальная страница подготовки содержит учебные курсы и ресурсы; отдельный архив задач опубликован на /archive."
+        }
+      }
+    ],
+    "Открытая региональная межвузовская олимпиада школьников (ОРМО) с международным участием": [
+      {
+        "title": "Олимпиадные задания ОРМО прошлых лет",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://info.abiturient.tsu.ru/ru/content/answers-ORMO",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://info.abiturient.tsu.ru/ru/content/answers-ORMO",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 187465,
+          "content_check": "Действующая страница приёмной комиссии ТГУ содержит 474 файла заданий, решений и критериев по профилям ОРМО."
+        }
+      }
+    ],
+    "Региональный конкурс школьников Челябинского университетского образовательного округа": [
+      {
+        "title": "Задания прошлых лет Регионального конкурса школьников ЧелГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://pre-univer.csu.ru/olymp/regcom/lastyear/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pre-univer.csu.ru/olymp/regcom/lastyear/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 179602,
+          "content_check": "Архив ЧелГУ содержит файлы заданий по иностранному языку и обществознанию за 2022/23–2025/26."
+        }
+      }
+    ]
+  },
+  "unresolved": [
+    {
+      "family_name": "Всероссийская академическая олимпиада школьников имени В.И. Вернадского",
+      "slugs": ["registry-2026-27-004-01", "registry-2026-27-004-02"],
+      "checked_urls": [
+        {"url": "https://vernadsky.online/", "result": "GET read timeout after two attempts, including a 60-second timeout"},
+        {"url": "http://vernadsky.online/", "result": "GET read timeout after 60 seconds"}
+      ],
+      "reason": "Официальная страница заявляет материалы и задания прошлых лет, но на дату проверки не ответила содержимым; ссылка не подтверждена реальным GET."
+    },
+    {
+      "family_name": "Международная музыкальная олимпиада",
+      "slugs": ["registry-2026-27-019-01", "registry-2026-27-019-02", "registry-2026-27-019-03", "registry-2026-27-019-04", "registry-2026-27-019-05", "registry-2026-27-019-06", "registry-2026-27-019-07"],
+      "checked_urls": [
+        {"url": "https://nnovcons.ru/olimpiady-konkursy-festivali/", "result": "HTTP 200; current event pages and regulations, no public tasks or solutions"},
+        {"url": "https://nnovcons.ru/olimpiady-konkursy-festivali/arkhiv/", "result": "HTTP 200, 95822 bytes; archive of event pages, but no task/solution archive"},
+        {"url": "https://nnovcons.ru/olimpiady-konkursy-festivali/arkhiv/mezhdunarodnaya-muzykalnaya-olimpiada-2024/", "result": "HTTP 200, 71228 bytes; regulations, programme and schedules only"}
+      ],
+      "reason": "На официальном сайте подтверждены страницы сезонов, но не найден публичный архив заданий, решений или отдельной подготовки."
+    },
+    {
+      "family_name": "Многопрофильная инженерная олимпиада «Звезда»",
+      "slugs": ["registry-2026-27-034-01", "registry-2026-27-034-02"],
+      "checked_urls": [
+        {"url": "https://zv.susu.ru/index.php/ot-zvezdochek-k-zvezdam/zadaniya-proshlykh-let", "result": "GET connection aborted by server on repeated HTTPS and HTTP attempts"},
+        {"url": "https://zv.susu.ru/index.php/mnogoprofilnaya-inzhenernaya-olimpiada-zvezda/zadaniya-olimpiady", "result": "GET connection aborted by server"}
+      ],
+      "reason": "Поисковый индекс показывает официальный архив, но сервер оборвал все прямые GET-запросы; содержимое не выдано за подтверждённое."
+    },
+    {
+      "family_name": "Открытая олимпиада школьников",
+      "slugs": ["registry-2026-27-060-01", "registry-2026-27-060-02", "registry-2026-27-060-03"],
+      "checked_urls": [
+        {"url": "https://olymp.itmo.ru/p/inf24/archive", "result": "HTTP 200, but only a 36385-byte JavaScript shell with 29 visible characters"},
+        {"url": "https://olymp.itmo.ru/p/math24/archive", "result": "HTTP 200, but only the same JavaScript shell without archive content"},
+        {"url": "https://olymp.itmo.ru/p/physics2024/archive", "result": "HTTP 200, but only the same JavaScript shell without archive content"}
+      ],
+      "reason": "Архивные маршруты существуют, но raw GET не содержит материалов и требует выполнение JavaScript; подтверждение отложено."
+    },
+    {
+      "family_name": "Северо-Восточная олимпиада школьников",
+      "slugs": ["registry-2026-27-072-01"],
+      "checked_urls": [
+        {"url": "https://olympiadsvosh.s-vfu.ru/materials/131", "result": "DNS resolution failure on repeated HTTPS and HTTP GET attempts"}
+      ],
+      "reason": "Найденная индексом общая страница демозаданий не содержит заявленный профиль «Родные языки», а официальный домен не разрешается в DNS."
+    },
+    {
+      "family_name": "Телевизионная гуманитарная олимпиада школьников «Умницы и умники»",
+      "slugs": ["registry-2026-27-075-01"],
+      "checked_urls": [
+        {"url": "https://abiturient.mgimo.ru/olimpiady/umniki", "result": "HTTP 200, but a 13602-byte anti-bot JavaScript loader without page content"},
+        {"url": "https://abiturient.mgimo.ru/upload/ckeditor/files/olimpiadnyye-zadaniya_2022_23.pdf", "result": "HTTP 200 text/html; anti-bot loader instead of the advertised PDF"},
+        {"url": "https://abiturient.mgimo.ru/upload/ckeditor/files/olimpiadnyye-zadaniya_2021_22.pdf", "result": "HTTP 200 text/html; anti-bot loader instead of the advertised PDF"}
+      ],
+      "reason": "Официальные PDF индексируются, но прямой GET возвращает anti-bot HTML вместо файла; материал не считается подтверждённым."
+    }
+  ],
+  "summary": {
+    "resolved_families": 17,
+    "resolved_records": 39,
+    "material_relations": 46,
+    "unique_confirmed_urls": 21,
+    "unresolved_families": 6,
+    "unresolved_records": 16
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "checked_on": "2026-08-26",
+  "policy": "Добавлены только материалы, на которые ведёт официальный сайт организатора и которые подтверждены реальным GET. Для прямых файлов проверены HTTP 200, Content-Type application/pdf, сигнатура %PDF-, размер и извлечённый текст. Ссылки на страницы Cloud Mail не добавлялись как прямые PDF: GET по ним возвращает HTML-оболочку, а не содержимое файла.",
+  "materials_by_slug": {
+    "registry-2026-27-020-05": [
+      {
+        "title": "Архив Innopolis Open по робототехнике: задания и решения",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/robo",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/robo",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 395051,
+          "content_check": "Официальная профильная страница содержит разделы «Архив прошлых сезонов» и «Материалы олимпиады»: задания, решения и работы участников за 2020/21–2025/26. Это архив, а не только курс подготовки; запись исправляет прежний material_type=course."
+        }
+      },
+      {
+        "title": "Навыки и материалы для подготовки к Innopolis Open Robotics",
+        "material_type": "course",
+        "year": 2026,
+        "url": "https://lk-dovuz.innopolis.university/public/files/materials_robo_25.pdf",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://lk-dovuz.innopolis.university/public/files/materials_robo_25.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 1004967,
+          "file_signature_hex": "255044462d312e37",
+          "sha256": "5183a3433638f89818122c4120086b9e698eb3af00a56f178cad3208d881a0ca",
+          "content_check": "PDF, 3 страницы. Перечислены темы и навыки для первого, второго и заключительного этапов, ссылки на курсы, задачи и литературу по алгоритмам, компьютерному зрению, SLAM и робототехнике."
+        }
+      },
+      {
+        "title": "Innopolis Open Robotics 2025/26 — задания первого отборочного этапа",
+        "material_type": "tasks",
+        "year": 2026,
+        "url": "https://lk-dovuz.innopolis.university/public/files/contest-ru.pdf",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://lk-dovuz.innopolis.university/public/files/contest-ru.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 307419,
+          "file_signature_hex": "255044462d312e35",
+          "sha256": "b72fedf0c5198750a0c79b00906268d21d9886ca9e3234894d940c4d4b5449c5",
+          "content_check": "PDF, 17 страниц. Заголовок «Innopolis Open по робототехнике»; содержит семь профильных задач первого отбора с условиями, форматами ввода/вывода, ограничениями и системой оценки."
+        }
+      },
+      {
+        "title": "Innopolis Open Robotics 2025/26 — решения первого отборочного этапа",
+        "material_type": "solutions",
+        "year": 2026,
+        "url": "https://lk-dovuz.innopolis.university/public/files/reshenie_ru.pdf",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://lk-dovuz.innopolis.university/public/files/reshenie_ru.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 278132,
+          "file_signature_hex": "255044462d312e35",
+          "sha256": "a7897be9571512a55295a5128e6c73e30cf4dc0370a6603d3b111aa71386153b",
+          "content_check": "PDF, 7 страниц. Содержит идеи и алгоритмы решений тех же семи задач первого отборочного этапа Innopolis Open по робототехнике."
+        }
+      },
+      {
+        "title": "Innopolis Open Robotics 2025/26 — задачи и решения второго этапа, 7–8 классы",
+        "material_type": "solutions",
+        "year": 2026,
+        "url": "https://lk-dovuz.innopolis.university/public/files/robo_contest_7-8.pdf",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://lk-dovuz.innopolis.university/public/files/robo_contest_7-8.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 2388389,
+          "file_signature_hex": "255044462d312e37",
+          "sha256": "595f61393eb1493043ebd24c3cb42a1948e0a8e9bbc4d3811402356d84f8d058",
+          "content_check": "PDF, 72 страницы. Заголовок «Innopolis Open Robotics 2025-2026. Второй этап. 7-8 класс»; присутствуют условия, тестовые проекты/примеры и раздел решений."
+        }
+      },
+      {
+        "title": "Innopolis Open Robotics 2025/26 — задачи и решения второго этапа, 9–11 классы",
+        "material_type": "solutions",
+        "year": 2026,
+        "url": "https://lk-dovuz.innopolis.university/public/files/robo_contest_9-11.pdf",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://lk-dovuz.innopolis.university/public/files/robo_contest_9-11.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 2346026,
+          "file_signature_hex": "255044462d312e37",
+          "sha256": "ce6dc4569e64ffefbe0431adf61dd3545fd64bb30acdc55224b9eb35ba16d3c2",
+          "content_check": "PDF, 68 страниц. Заголовок «Innopolis Open Robotics 2025-2026. Второй этап. 9-11 класс»; профильные задачи по управлению роботами и отдельные разделы Solution/«Решение»."
+        }
+      },
+      {
+        "title": "Innopolis Open Robotics 2025/26 — задачи и решения заключительного этапа",
+        "material_type": "solutions",
+        "year": 2026,
+        "url": "https://lk-dovuz.innopolis.university/public/files/Final_robo_contest.pdf",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://lk-dovuz.innopolis.university/public/files/Final_robo_contest.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 1915813,
+          "file_signature_hex": "255044462d312e37",
+          "sha256": "1a13302a42dd083ab0b0e53fa838ed8b384c4e86ea51e53c49e07e7eeefc6516",
+          "content_check": "PDF, 62 страницы. Содержит задания и решения финала Innopolis Open 2025/26 для групп 7–8 и 9–11 классов."
+        }
+      }
+    ],
+    "registry-2026-27-025-01": [
+      {
+        "title": "Архив заданий, ответов и материалов олимпиады «ФЕМИДА»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.rgup.ru/#materials",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://olymp.rgup.ru/#materials",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 473914,
+          "content_check": "Раздел «Помощь в подготовке» официального сайта содержит пособие, литературу, демоверсии отборочного и заключительного этапов с ответами и задания/ответы финалов прошлых лет по 9, 10 и 11 классам. Это архив, поэтому запись исправляет прежний material_type=course."
+        }
+      },
+      {
+        "title": "«ФЕМИДА» 2022/23 — задания, ответы и критерии, 9 класс",
+        "material_type": "solutions",
+        "year": 2023,
+        "url": "https://rgup.ru/img/OLIMPIADY%20RGUP/FEMIDA%209-11%202023/9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F.pdf",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://rgup.ru/img/OLIMPIADY%20RGUP/FEMIDA%209-11%202023/9%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 900828,
+          "file_signature_hex": "255044462d312e35",
+          "sha256": "d35798f5896cc744e8a0084cc68e4d9459a1a9c53490e0d31904c82581d70d52",
+          "content_check": "PDF, 14 страниц. Ссылка помечена организатором как архив 2022/23 для 9 класса; внутри находятся задания по праву, ответы и подробные критерии оценивания."
+        }
+      },
+      {
+        "title": "«ФЕМИДА» 2022/23 — задания, ответы и критерии, 10 класс",
+        "material_type": "solutions",
+        "year": 2023,
+        "url": "https://rgup.ru/img/OLIMPIADY%20RGUP/FEMIDA%209-11%202023/10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F.pdf",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://rgup.ru/img/OLIMPIADY%20RGUP/FEMIDA%209-11%202023/10%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 1045885,
+          "file_signature_hex": "255044462d312e35",
+          "sha256": "a5dbba1f0f461ba703cc8aa23185b14f984f9a66ee8e6b8a408872b14705d39e",
+          "content_check": "PDF, 17 страниц. Ссылка помечена организатором как архив 2022/23 для 10 класса; извлечённый текст содержит олимпиадные задания, готовые ответы и критерии начисления баллов."
+        }
+      },
+      {
+        "title": "«ФЕМИДА» 2022/23 — задания, ответы и критерии, 11 класс",
+        "material_type": "solutions",
+        "year": 2023,
+        "url": "https://rgup.ru/img/OLIMPIADY%20RGUP/FEMIDA%209-11%202023/11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81.pdf",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://rgup.ru/img/OLIMPIADY%20RGUP/FEMIDA%209-11%202023/11%20%D0%BA%D0%BB%D0%B0%D1%81%D1%81.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 583864,
+          "file_signature_hex": "255044462d312e35",
+          "sha256": "ab538bc0c9f796836ee7c81bbafd6b2e38e8cf3b4e4a08141ff2eb68fabd49a6",
+          "content_check": "PDF, 19 страниц. Ссылка помечена организатором как архив 2022/23 для 11 класса; документ содержит профильные задания по праву, ответы, обоснования и критерии оценивания."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1060 @@
+{
+  "as_of": "2026-08-26",
+  "target_academic_year": "2026/27",
+  "method": "Only official organizer pages and regulations are used. Current 2026/27 publications are stored directly; 2025/26 dates are source dates and are projected by scripts/build_catalog.py as explicitly approximate, unconfirmed 2026/27 dates.",
+  "families": [
+    {
+      "family_name": "Московская олимпиада школьников",
+      "data_status": "partial",
+      "notes": "Организатор подтверждает двухэтапную структуру МОШ: дистанционный отборочный и очный заключительный этапы. Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "online",
+          "details": "Официальная общая страница указывает дистанционный формат и начало этапов по направлениям с октября; профильная дата 2026/27 ожидается.",
+          "source_url": "https://mos.olimpiada.ru/ob-olimpiade"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "Официальная общая страница указывает очный формат и начало этапов по направлениям с декабря; профильная дата 2026/27 ожидается.",
+          "source_url": "https://mos.olimpiada.ru/ob-olimpiade"
+        }
+      ],
+      "sources": [
+        {
+          "title": "МОШ: об олимпиаде",
+          "url": "https://mos.olimpiada.ru/ob-olimpiade",
+          "publisher": "Городской оргкомитет Московской олимпиады школьников",
+          "source_type": "official",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Всероссийская междисциплинарная олимпиада школьников 8–11 классов «Национальная технологическая олимпиада»",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [8, 9, 10, 11],
+      "notes": "Классы 8–11 подтверждены официальной страницей НТО для школьников и публикацией о наборе профилей 2026/27. Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора.",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "name": "Первый отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-09-15",
+          "ends_on": "2025-11-05",
+          "registration_opens_on": "2025-08-26",
+          "registration_closes_on": "2025-11-04",
+          "date_precision": "range",
+          "format": "online",
+          "details": "Общий диапазон предметных волн и инженерного тура первого этапа в сезоне 2025/26.",
+          "source_url": "https://ntcontest.ru/participants/schedule/"
+        },
+        {
+          "key": "second-qualifying",
+          "name": "Второй отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-11-12",
+          "ends_on": "2025-12-15",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://ntcontest.ru/participants/schedule/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-09",
+          "ends_on": "2026-04-18",
+          "date_precision": "range",
+          "format": "offline",
+          "details": "Общее окно финалов разных профилей и городов в сезоне 2025/26.",
+          "source_url": "https://ntcontest.ru/participants/schedule/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "НТО для школьников 8–11 классов",
+          "url": "https://ntcontest.ru/tracks/nto-school/",
+          "publisher": "Национальная технологическая олимпиада",
+          "source_type": "official",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Выбор профилей НТО 2026/27",
+          "url": "https://ntcontest.ru/2026-2027-track-selection/",
+          "publisher": "Национальная технологическая олимпиада",
+          "source_type": "official_announcement",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Расписание НТО 2025/26",
+          "url": "https://ntcontest.ru/participants/schedule/",
+          "publisher": "Национальная технологическая олимпиада",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Олимпиада школьников «Ломоносов»",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "notes": "Официальный регламент 2025/26 подтверждает дистанционный отборочный и очный заключительный этапы. Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "format": "online",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/reglament-provedeniya-olimpiady-lomonosov-v-2025-2026-uchebnom-godu"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "date_precision": "tba",
+          "format": "offline",
+          "details": "Проводится очно в МГУ и на региональных площадках; профильная дата 2026/27 ожидается.",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/reglament-provedeniya-olimpiady-lomonosov-v-2025-2026-uchebnom-godu"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Регламент олимпиады «Ломоносов» 2025/26",
+          "url": "https://olymp.msu.ru/rus/page/main/29/page/reglament-provedeniya-olimpiady-lomonosov-v-2025-2026-uchebnom-godu",
+          "publisher": "МГУ имени М. В. Ломоносова",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Олимпиада школьников Санкт-Петербургского государственного университета",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "notes": "Двухэтапная структура и общие окна взяты из официального регламента СПбГУ 2025/26. Профильные классы не заполняются без отдельного подтверждения; перенесённые даты 2026/27 маркируются как прогноз.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-10-25",
+          "ends_on": "2025-12-14",
+          "registration_opens_on": "2025-10-25",
+          "registration_closes_on": "2025-12-14",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://olympiada.spbu.ru/images/docs/reglament_2025-2026.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-01-01",
+          "ends_on": "2026-03-09",
+          "date_precision": "range",
+          "format": "offline",
+          "source_url": "https://olympiada.spbu.ru/images/docs/reglament_2025-2026.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Регламент Олимпиады СПбГУ 2025/26",
+          "url": "https://olympiada.spbu.ru/images/docs/reglament_2025-2026.pdf",
+          "publisher": "Санкт-Петербургский государственный университет",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Документы Олимпиады СПбГУ",
+          "url": "https://olympiada.spbu.ru/dokumenty.html",
+          "publisher": "Санкт-Петербургский государственный университет",
+          "source_type": "official_documents",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Олимпиада школьников «Покори Воробьевы горы!»",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Официальные страницы результатов 2025/26 подтверждают участие 5–11 классов по всем восьми профилям и два этапа. Даты 2026/27 спрогнозированы по окнам 2025/26 и не являются объявлением организатора.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-15",
+          "ends_on": "2026-01-19",
+          "registration_opens_on": "2025-12-01",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://pvg.mk.ru/news/page2/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-04-03",
+          "ends_on": "2026-04-05",
+          "date_precision": "range",
+          "format": "offline",
+          "details": "Общее окно финалов; конкретный день зависит от профиля.",
+          "source_url": "https://pvg.mk.ru/media/stage2/stage2shedule.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Отборочный этап ПВГ 2025/26",
+          "url": "https://pvg.mk.ru/stage1info/",
+          "publisher": "МГУ имени М. В. Ломоносова и ИД «Московский комсомолец»",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Заключительный этап ПВГ 2025/26",
+          "url": "https://pvg.mk.ru/stage2info/",
+          "publisher": "МГУ имени М. В. Ломоносова и ИД «Московский комсомолец»",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Новости ПВГ 2025/26",
+          "url": "https://pvg.mk.ru/news/page2/",
+          "publisher": "МГУ имени М. В. Ломоносова и ИД «Московский комсомолец»",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "График заключительного этапа ПВГ 2025/26",
+          "url": "https://pvg.mk.ru/media/stage2/stage2shedule.pdf",
+          "publisher": "МГУ имени М. В. Ломоносова и ИД «Московский комсомолец»",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Олимпиада школьников «Шаг в будущее»",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Регламент 2025/26 допускает школьников младше 8 класса к заданиям старшего класса; в сервисе отражён диапазон 5–11. Комплекты разрабатываются для 8–11 классов. Два окна этапов перенесены только как неподтверждённый прогноз 2026/27.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-09-01",
+          "ends_on": "2026-01-19",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://olymp.bmstu.ru/sites/default/files/olymp2025-26/documents/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_%E2%84%962_%D0%A0%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82_%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F_%D0%9E%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B0%D0%B4%D1%8B_%D1%88%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%C2%AB%D0%A8%D0%B0%D0%B3_%D0%B2_%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B5%C2%BB.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-01-20",
+          "ends_on": "2026-04-15",
+          "date_precision": "range",
+          "format": "hybrid",
+          "details": "Регламент допускает очную форму и/или дистанционные технологии с идентификацией и контролем.",
+          "source_url": "https://olymp.bmstu.ru/sites/default/files/olymp2025-26/documents/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_%E2%84%962_%D0%A0%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82_%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F_%D0%9E%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B0%D0%B4%D1%8B_%D1%88%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%C2%AB%D0%A8%D0%B0%D0%B3_%D0%B2_%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%C2%BB.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Регламент олимпиады «Шаг в будущее» 2025/26",
+          "url": "https://olymp.bmstu.ru/sites/default/files/olymp2025-26/documents/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_%E2%84%962_%D0%A0%D0%B5%D0%B3%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82_%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F_%D0%9E%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B0%D0%B4%D1%8B_%D1%88%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%C2%AB%D0%A8%D0%B0%D0%B3_%D0%B2_%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B5%C2%BB.pdf",
+          "publisher": "МГТУ им. Н. Э. Баумана",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Международная олимпиада Иннополиса",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Официальная страница Innopolis Open указывает 7–11 классы. Расписания профилей ниже относятся к 2025/26 и проецируются на 2026/27 только с явной отметкой прогноза.",
+      "sources": [
+        {
+          "title": "Международная олимпиада Innopolis Open",
+          "url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open",
+          "publisher": "Университет Иннополис",
+          "source_type": "official",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    }
+  ],
+  "slugs": [
+    {
+      "slug": "registry-2026-27-051-04",
+      "data_status": "partial",
+      "grades": [9, 10, 11],
+      "notes": "Предварительное расписание профиля «Математика» опубликовано организатором для 2026/27; даты могут измениться.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-10-11",
+          "ends_on": "2026-11-07",
+          "registration_opens_on": "2026-09-07",
+          "registration_closes_on": "2026-11-06",
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "online",
+          "details": "Общее окно нескольких туров по классам; расписание предварительное.",
+          "source_url": "https://olymp-online.mipt.ru/events/now"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2027-02-14",
+          "ends_on": "2027-02-14",
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "Предварительная дата 2026/27; организатор предупреждает о возможном изменении.",
+          "source_url": "https://olymp-online.mipt.ru/events/now"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Предварительное расписание «Физтех» 2026/27",
+          "url": "https://olymp-online.mipt.ru/events/now",
+          "publisher": "МФТИ",
+          "source_type": "official_schedule",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-051-05",
+      "data_status": "partial",
+      "grades": [9, 10, 11],
+      "notes": "Предварительное расписание профиля «Физика» опубликовано организатором для 2026/27; даты могут измениться.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-10-04",
+          "ends_on": "2026-11-08",
+          "registration_opens_on": "2026-09-07",
+          "registration_closes_on": "2026-11-07",
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "online",
+          "details": "Общее окно нескольких туров по классам; расписание предварительное.",
+          "source_url": "https://olymp-online.mipt.ru/events/now"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2027-02-13",
+          "ends_on": "2027-02-13",
+          "date_precision": "approximate",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "Предварительная дата 2026/27; организатор предупреждает о возможном изменении.",
+          "source_url": "https://olymp-online.mipt.ru/events/now"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Предварительное расписание «Физтех» 2026/27",
+          "url": "https://olymp-online.mipt.ru/events/now",
+          "publisher": "МФТИ",
+          "source_type": "official_schedule",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-020-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "name": "Первый отборочный тур",
+          "stage_type": "qualifying",
+          "starts_on": "2025-11-02",
+          "ends_on": "2025-11-02",
+          "date_precision": "exact",
+          "format": "online",
+          "details": "Пробный тур проводился 1 ноября 2025 года.",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/informatics"
+        },
+        {
+          "key": "qualifying-2",
+          "name": "Второй отборочный тур",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-28",
+          "ends_on": "2025-12-28",
+          "date_precision": "exact",
+          "format": "online",
+          "details": "Пробный тур проводился 27 декабря 2025 года.",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/informatics"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-13",
+          "ends_on": "2026-02-15",
+          "date_precision": "range",
+          "format": "offline",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/informatics"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Innopolis Open по информатике 2025/26",
+          "url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/informatics",
+          "publisher": "Университет Иннополис",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-020-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "name": "Первый отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-13",
+          "ends_on": "2025-12-13",
+          "date_precision": "exact",
+          "format": "online",
+          "details": "Индивидуальный тур.",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/cyberbez"
+        },
+        {
+          "key": "qualifying-2",
+          "name": "Второй отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-01-25",
+          "ends_on": "2026-01-25",
+          "date_precision": "exact",
+          "format": "online",
+          "details": "Командный тур.",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/cyberbez"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-20",
+          "ends_on": "2026-02-23",
+          "date_precision": "range",
+          "format": "offline",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/cyberbez"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Innopolis Open по информационной безопасности 2025/26",
+          "url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/cyberbez",
+          "publisher": "Университет Иннополис",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-020-03",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "name": "Первый отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-11-14",
+          "ends_on": "2025-11-16",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/ai"
+        },
+        {
+          "key": "qualifying-2",
+          "name": "Второй профильный отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-01-21",
+          "ends_on": "2026-01-23",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/ai"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-06",
+          "ends_on": "2026-03-08",
+          "date_precision": "range",
+          "format": "offline",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/ai"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Innopolis Open по искусственному интеллекту 2025/26",
+          "url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/ai",
+          "publisher": "Университет Иннополис",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-020-04",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "name": "Первый тур отборочного этапа",
+          "stage_type": "qualifying",
+          "starts_on": "2025-11-03",
+          "ends_on": "2025-11-09",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/math"
+        },
+        {
+          "key": "qualifying-2",
+          "name": "Второй тур отборочного этапа",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-08",
+          "ends_on": "2025-12-14",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/math"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-27",
+          "ends_on": "2026-03-01",
+          "date_precision": "range",
+          "format": "offline",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/math"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Innopolis Open по математике 2025/26",
+          "url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/math",
+          "publisher": "Университет Иннополис",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-020-05",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "name": "Первый отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-11-24",
+          "ends_on": "2025-11-30",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/robo"
+        },
+        {
+          "key": "qualifying-2",
+          "name": "Второй отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-01-22",
+          "ends_on": "2026-02-16",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/robo"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-12",
+          "ends_on": "2026-03-15",
+          "date_precision": "range",
+          "format": "offline",
+          "details": "В финале предусмотрены командный и/или индивидуальный форматы участия.",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/robo"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Innopolis Open по робототехнике 2025/26",
+          "url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/robo",
+          "publisher": "Университет Иннополис",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-066-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [9, 10, 11],
+      "notes": "Профиль информатики в 2025/26 проводился для 9–11 классов; расписание 2026/27 ещё не опубликовано.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-11-06",
+          "ends_on": "2026-01-18",
+          "date_precision": "range",
+          "format": "online",
+          "details": "Две волны: 6–25 ноября 2025 и 29 декабря 2025 — 18 января 2026.",
+          "source_url": "https://olymp.mephi.ru/rosatom_it"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-01-31",
+          "ends_on": "2026-01-31",
+          "date_precision": "exact",
+          "format": "hybrid",
+          "source_url": "https://olymp.mephi.ru/rosatom_it"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Олимпиада «Росатом» по информатике 2025/26",
+          "url": "https://olymp.mephi.ru/rosatom_it",
+          "publisher": "НИЯУ МИФИ",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-066-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Регламент подтверждает 7–11 классы и два этапа; календарь 2026/27 на официальном сайте находится на стадии утверждения.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "format": "hybrid",
+          "details": "В 2025/26 включал очные, очно-заочные и дистанционные туры; полное окно 2026/27 ожидается.",
+          "source_url": "https://olymp.mephi.ru/rosatom/stages"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-08",
+          "ends_on": "2026-02-08",
+          "date_precision": "exact",
+          "format": "offline",
+          "source_url": "https://olymp.mephi.ru/rosatom/stages/final"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Регламент олимпиады «Росатом»",
+          "url": "https://olymp.mephi.ru/rosatom/about/docs/reg",
+          "publisher": "НИЯУ МИФИ",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Этапы олимпиады «Росатом» 2025/26",
+          "url": "https://olymp.mephi.ru/rosatom/stages",
+          "publisher": "НИЯУ МИФИ",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-066-03",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Регламент подтверждает 7–11 классы и два этапа; календарь 2026/27 на официальном сайте находится на стадии утверждения.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "format": "hybrid",
+          "details": "В 2025/26 включал очные, очно-заочные и дистанционные туры; полное окно 2026/27 ожидается.",
+          "source_url": "https://olymp.mephi.ru/rosatom/stages"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-07",
+          "ends_on": "2026-02-07",
+          "date_precision": "exact",
+          "format": "offline",
+          "source_url": "https://olymp.mephi.ru/rosatom/stages/final"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Регламент олимпиады «Росатом»",
+          "url": "https://olymp.mephi.ru/rosatom/about/docs/reg",
+          "publisher": "НИЯУ МИФИ",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Этапы олимпиады «Росатом» 2025/26",
+          "url": "https://olymp.mephi.ru/rosatom/stages",
+          "publisher": "НИЯУ МИФИ",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-078-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Регламент 2025/26 допускает к информатике 2–11 классы; сервис отображает только целевой диапазон 5–11.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-10-01",
+          "ends_on": "2026-01-13",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://dovuz.sfu.ru/upload/iblock/104/z1bzr61zk7cq3tvvzi35sibssjfijk9b.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-08",
+          "ends_on": "2026-02-08",
+          "date_precision": "exact",
+          "format": "hybrid",
+          "source_url": "https://dovuz.sfu.ru/upload/iblock/104/z1bzr61zk7cq3tvvzi35sibssjfijk9b.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Регламент «Бельчонка» 2025/26",
+          "url": "https://dovuz.sfu.ru/upload/iblock/c53/qnbb794t6d3uvgygzpmyfvljumqbf3et.pdf",
+          "publisher": "Сибирский федеральный университет",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "График «Бельчонка» 2025/26",
+          "url": "https://dovuz.sfu.ru/upload/iblock/104/z1bzr61zk7cq3tvvzi35sibssjfijk9b.pdf",
+          "publisher": "Сибирский федеральный университет",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-078-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Регламент 2025/26 допускает к математике 2–11 классы; сервис отображает только целевой диапазон 5–11.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-10-01",
+          "ends_on": "2026-01-13",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://dovuz.sfu.ru/upload/iblock/104/z1bzr61zk7cq3tvvzi35sibssjfijk9b.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-15",
+          "ends_on": "2026-02-15",
+          "date_precision": "exact",
+          "format": "hybrid",
+          "source_url": "https://dovuz.sfu.ru/upload/iblock/104/z1bzr61zk7cq3tvvzi35sibssjfijk9b.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Регламент «Бельчонка» 2025/26",
+          "url": "https://dovuz.sfu.ru/upload/iblock/c53/qnbb794t6d3uvgygzpmyfvljumqbf3et.pdf",
+          "publisher": "Сибирский федеральный университет",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "График «Бельчонка» 2025/26",
+          "url": "https://dovuz.sfu.ru/upload/iblock/104/z1bzr61zk7cq3tvvzi35sibssjfijk9b.pdf",
+          "publisher": "Сибирский федеральный университет",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-078-03",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-10-01",
+          "ends_on": "2026-01-13",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://dovuz.sfu.ru/upload/iblock/104/z1bzr61zk7cq3tvvzi35sibssjfijk9b.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-15",
+          "ends_on": "2026-02-15",
+          "date_precision": "exact",
+          "format": "hybrid",
+          "source_url": "https://dovuz.sfu.ru/upload/iblock/104/z1bzr61zk7cq3tvvzi35sibssjfijk9b.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Регламент «Бельчонка» 2025/26",
+          "url": "https://dovuz.sfu.ru/upload/iblock/c53/qnbb794t6d3uvgygzpmyfvljumqbf3et.pdf",
+          "publisher": "Сибирский федеральный университет",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "График «Бельчонка» 2025/26",
+          "url": "https://dovuz.sfu.ru/upload/iblock/104/z1bzr61zk7cq3tvvzi35sibssjfijk9b.pdf",
+          "publisher": "Сибирский федеральный университет",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-078-04",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [8, 9, 10, 11],
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-10-01",
+          "ends_on": "2026-01-13",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://dovuz.sfu.ru/upload/iblock/104/z1bzr61zk7cq3tvvzi35sibssjfijk9b.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-08",
+          "ends_on": "2026-02-08",
+          "date_precision": "exact",
+          "format": "hybrid",
+          "source_url": "https://dovuz.sfu.ru/upload/iblock/104/z1bzr61zk7cq3tvvzi35sibssjfijk9b.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Регламент «Бельчонка» 2025/26",
+          "url": "https://dovuz.sfu.ru/upload/iblock/c53/qnbb794t6d3uvgygzpmyfvljumqbf3et.pdf",
+          "publisher": "Сибирский федеральный университет",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "График «Бельчонка» 2025/26",
+          "url": "https://dovuz.sfu.ru/upload/iblock/104/z1bzr61zk7cq3tvvzi35sibssjfijk9b.pdf",
+          "publisher": "Сибирский федеральный университет",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-041-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [6, 7, 8, 9, 10, 11],
+      "notes": "Профиль математики в 2025/26 проводился для 6–11 классов.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-02-02",
+          "ends_on": "2026-02-16",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://olimpiadakurchatov.ru/tpost/h63f8jlsg1-dostupna-registratsiya-na-otborochnii-et"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-14",
+          "ends_on": "2026-03-14",
+          "date_precision": "exact",
+          "format": "offline",
+          "source_url": "https://olimpiadakurchatov.ru/tpost/h63f8jlsg1-dostupna-registratsiya-na-otborochnii-et"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Олимпиада «Курчатов» 2025/26",
+          "url": "https://olimpiadakurchatov.ru/tpost/h63f8jlsg1-dostupna-registratsiya-na-otborochnii-et",
+          "publisher": "Оргкомитет олимпиады «Курчатов»",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Архив заданий «Курчатов»",
+          "url": "https://olimpiadakurchatov.ru/tasks",
+          "publisher": "Оргкомитет олимпиады «Курчатов»",
+          "source_type": "official_archive",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-041-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Профиль физики в 2025/26 проводился для 7–11 классов.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-02-02",
+          "ends_on": "2026-02-16",
+          "date_precision": "range",
+          "format": "online",
+          "source_url": "https://olimpiadakurchatov.ru/tpost/h63f8jlsg1-dostupna-registratsiya-na-otborochnii-et"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-15",
+          "ends_on": "2026-03-15",
+          "date_precision": "exact",
+          "format": "offline",
+          "source_url": "https://olimpiadakurchatov.ru/tpost/h63f8jlsg1-dostupna-registratsiya-na-otborochnii-et"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Олимпиада «Курчатов» 2025/26",
+          "url": "https://olimpiadakurchatov.ru/tpost/h63f8jlsg1-dostupna-registratsiya-na-otborochnii-et",
+          "publisher": "Оргкомитет олимпиады «Курчатов»",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Архив заданий «Курчатов»",
+          "url": "https://olimpiadakurchatov.ru/tasks",
+          "publisher": "Оргкомитет олимпиады «Курчатов»",
+          "source_type": "official_archive",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    }
+  ]
+}

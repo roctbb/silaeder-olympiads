@@ -1,0 +1,258 @@
+{
+  "checked_on": "2026-08-26",
+  "policy": "Stable profile-specific mirrors are used only where the organizer archive is unavailable or unstable. Every entry is marked is_official=false and is independently rechecked by scripts/validate_material_urls.py.",
+  "materials_by_slug": {
+    "registry-2026-27-004-01": [
+      {
+        "title": "Архив заданий и ответов олимпиады имени В. И. Вернадского по истории и обществознанию (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5054/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-004-02": [
+      {
+        "title": "Архив заданий олимпиады имени В. И. Вернадского по экономике (зеркало)",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/6946/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-010-01": [
+      {
+        "title": "Архив заданий и критериев олимпиады «Юридические высоты!» (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5864/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-014-01": [
+      {
+        "title": "Всесибирская олимпиада по биологии: задания и ответы прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/318/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-014-02": [
+      {
+        "title": "Всесибирская олимпиада по информатике: задания и решения прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/316/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-014-03": [
+      {
+        "title": "Всесибирская олимпиада по математике: задания и решения прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/315/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-014-04": [
+      {
+        "title": "Всесибирская олимпиада по физике: задания и решения прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/319/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-014-05": [
+      {
+        "title": "Всесибирская олимпиада по химии: задания и решения прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/317/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-019-01": [
+      {
+        "title": "Музыкальная олимпиада: задания по деревянным духовым инструментам (зеркало предшествующего профиля)",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5911/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-019-02": [
+      {
+        "title": "Музыкальная олимпиада: задания и критерии по инструментам народного оркестра (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5034/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-019-03": [
+      {
+        "title": "Музыкальная олимпиада: задания и критерии по музыкальной педагогике и исполнительству (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5354/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-019-04": [
+      {
+        "title": "Музыкальная олимпиада: задания и критерии по струнным инструментам (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5035/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-019-05": [
+      {
+        "title": "Музыкальная олимпиада: задания и критерии по теории и истории музыки (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5033/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-019-06": [
+      {
+        "title": "Музыкальная олимпиада: задания по фортепиано (зеркало)",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5912/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-019-07": [
+      {
+        "title": "Музыкальная олимпиада: задания и критерии по хоровому дирижированию (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5039/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-031-01": [
+      {
+        "title": "Олимпиада имени П. Д. Саркисова: задания и решения прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/225/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-034-01": [
+      {
+        "title": "Олимпиада «Звезда» по естественным наукам: задания и решения прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5322/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-034-02": [
+      {
+        "title": "Олимпиада «Звезда» по технике и технологиям: задания и решения прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5663/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-042-01": [
+      {
+        "title": "Олимпиада МГИМО: задания, ответы и критерии прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5005/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-060-01": [
+      {
+        "title": "Открытая олимпиада ИТМО по информатике: задания и решения прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/4357/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-060-02": [
+      {
+        "title": "Открытая олимпиада ИТМО по математике: задания и решения прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/121/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-060-03": [
+      {
+        "title": "Открытая олимпиада ИТМО по физике: задания и решения прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5809/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-068-01": [
+      {
+        "title": "Плехановская олимпиада по иностранным языкам: задания, ответы и аудио прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5710/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-068-02": [
+      {
+        "title": "Плехановская олимпиада по русскому языку: задания и ответы прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5013/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-068-04": [
+      {
+        "title": "Плехановская олимпиада по экономике: задания и решения прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5172/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-071-02": [
+      {
+        "title": "Санкт-Петербургская олимпиада по физике: задания и решения прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/241/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-072-01": [
+      {
+        "title": "Северо-Восточная олимпиада по якутскому языку и литературе: задания прошлых лет (зеркало профильного предшественника)",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5024/tasks",
+        "is_official": false
+      }
+    ],
+    "registry-2026-27-075-01": [
+      {
+        "title": "«Умницы и умники»: задания, ответы и критерии прошлых лет (зеркало)",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/206/tasks",
+        "is_official": false
+      }
+    ]
+  }
+}

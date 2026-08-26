@@ -1,0 +1,567 @@
+{
+  "checked_on": "2026-08-26",
+  "target_academic_year": "2026/27",
+  "slugs": [
+    {
+      "slug": "registry-2026-27-003-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://raai.sfedu.ru/Olimpiada/Olimpia.html",
+      "evidence": "GET 200: официальная страница относится к XVIII сезону 2025/26; приём заявок шёл 15.10–07.12.2025, итоги опубликованы в июне 2026 года. Страницы или формы сезона 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-005-01",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-02",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-20",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-03",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-04",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-09",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-10",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-11",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-05",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-12",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-16",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-06",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-13",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-14",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-07",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-18",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-08",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-15",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-19",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-21",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-005-17",
+      "registration_url": "https://talent.kruzhok.org/registration?event=10334",
+      "registration_closes_at": "2026-08-26T08:50:00Z",
+      "registration_status": "open",
+      "source_url": "https://ntcontest.ru/about/news/Kakie-profili-otkroyutsya-dlya-shkolnikov-i-studentov-v-XII-sezone-NTO/",
+      "evidence": "GET 200: официальный анонс XII сезона прямо подтверждает 2026/27 и открытую предварительную регистрацию. Целевая страница GET 200 имеет title «Предварительная регистрация на НТО — 2026/2027», предлагает войти или создать аккаунт после регистрации и задаёт окно до 26.08.2026 08:50 UTC; проверено 26.08.2026 в 02:46 UTC, то есть внутри окна."
+    },
+    {
+      "slug": "registry-2026-27-011-01",
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://www.sechenov.ru/univers/structure/facultie/dovuz/olimpiady/",
+      "evidence": "GET 200: организатор обозначил ссылку как новую страницу 2026/27, однако целевая страница GET 200 содержит только результаты 2025/26 и не содержит сроков или формы заявки. Старый кабинет reg.sechenov.ru отвечает 403 «Account disabled»; подтверждённой рабочей регистрации нет."
+    },
+    {
+      "slug": "registry-2026-27-011-02",
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://www.sechenov.ru/univers/structure/facultie/dovuz/olimpiady/",
+      "evidence": "GET 200: организатор обозначил ссылку как новую страницу 2026/27, однако целевая страница GET 200 содержит только результаты 2025/26 и не содержит сроков или формы заявки. Старый кабинет reg.sechenov.ru отвечает 403 «Account disabled»; подтверждённой рабочей регистрации нет."
+    },
+    {
+      "slug": "registry-2026-27-013-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.mephi.ru/junior",
+      "evidence": "GET 200: опубликован только сезон 2025/26 с завершённым приёмом 01.12.2025–02.02.2026. Страницы или формы 2026/27 нет; общий кабинет org.mephi.ru отвечает 451 и не подтверждает заявку текущего сезона."
+    },
+    {
+      "slug": "registry-2026-27-013-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.mephi.ru/junior",
+      "evidence": "GET 200: опубликован только сезон 2025/26 с завершённым приёмом 01.12.2025–02.02.2026. Страницы или формы 2026/27 нет; общий кабинет org.mephi.ru отвечает 451 и не подтверждает заявку текущего сезона."
+    },
+    {
+      "slug": "registry-2026-27-016-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.mephi.ru/engineering/about",
+      "evidence": "GET 200: график и документы относятся только к сезону 2025/26, включая финал 01.02.2026. Страницы или формы 2026/27 нет; универсальный кабинет org.mephi.ru отвечает 451."
+    },
+    {
+      "slug": "registry-2026-27-019-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://nnovcons.ru/olimpiady-konkursy-festivali/",
+      "evidence": "GET 200: официальный список содержит семь профилей Международной музыкальной олимпиады с уже завершёнными датами 26.02–29.03.2026 и старые бланки olimp_2026. Событий, страницы или формы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-019-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://nnovcons.ru/olimpiady-konkursy-festivali/",
+      "evidence": "GET 200: официальный список содержит семь профилей Международной музыкальной олимпиады с уже завершёнными датами 26.02–29.03.2026 и старые бланки olimp_2026. Событий, страницы или формы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-019-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://nnovcons.ru/olimpiady-konkursy-festivali/",
+      "evidence": "GET 200: официальный список содержит семь профилей Международной музыкальной олимпиады с уже завершёнными датами 26.02–29.03.2026 и старые бланки olimp_2026. Событий, страницы или формы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-019-04",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://nnovcons.ru/olimpiady-konkursy-festivali/",
+      "evidence": "GET 200: официальный список содержит семь профилей Международной музыкальной олимпиады с уже завершёнными датами 26.02–29.03.2026 и старые бланки olimp_2026. Событий, страницы или формы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-019-05",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://nnovcons.ru/olimpiady-konkursy-festivali/",
+      "evidence": "GET 200: официальный список содержит семь профилей Международной музыкальной олимпиады с уже завершёнными датами 26.02–29.03.2026 и старые бланки olimp_2026. Событий, страницы или формы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-019-06",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://nnovcons.ru/olimpiady-konkursy-festivali/",
+      "evidence": "GET 200: официальный список содержит семь профилей Международной музыкальной олимпиады с уже завершёнными датами 26.02–29.03.2026 и старые бланки olimp_2026. Событий, страницы или формы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-019-07",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://nnovcons.ru/olimpiady-konkursy-festivali/",
+      "evidence": "GET 200: официальный список содержит семь профилей Международной музыкальной олимпиады с уже завершёнными датами 26.02–29.03.2026 и старые бланки olimp_2026. Событий, страницы или формы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-023-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://mospolytech.ru/postupayushchim/olimpiady/olimpiada-iskusstvo-grafiki/",
+      "evidence": "GET 200: указаны приём заявок 01.11.2025–15.02.2026 и результаты 2025/26. Специальная страница регистрации не даёт доступа к веб-форме; страницы или формы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-023-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://mospolytech.ru/postupayushchim/olimpiady/olimpiada-iskusstvo-grafiki/",
+      "evidence": "GET 200: указаны приём заявок 01.11.2025–15.02.2026 и результаты 2025/26. Специальная страница регистрации не даёт доступа к веб-форме; страницы или формы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-023-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://mospolytech.ru/postupayushchim/olimpiady/olimpiada-iskusstvo-grafiki/",
+      "evidence": "GET 200: указаны приём заявок 01.11.2025–15.02.2026 и результаты 2025/26. Специальная страница регистрации не даёт доступа к веб-форме; страницы или формы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-027-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://bibn.unn.ru/",
+      "evidence": "GET 200: главная содержит только цикл 2025/26 и объявление электронной регистрации от 08.10.2025. Упоминаний 2026/27 нет; /reg/ — общая форма аккаунта без года, предмета и признаков заявки нового сезона."
+    },
+    {
+      "slug": "registry-2026-27-027-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://bibn.unn.ru/",
+      "evidence": "GET 200: главная содержит только цикл 2025/26 и объявление электронной регистрации от 08.10.2025. Упоминаний 2026/27 нет; /reg/ — общая форма аккаунта без года, предмета и признаков заявки нового сезона."
+    },
+    {
+      "slug": "registry-2026-27-027-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://bibn.unn.ru/",
+      "evidence": "GET 200: главная содержит только цикл 2025/26 и объявление электронной регистрации от 08.10.2025. Упоминаний 2026/27 нет; /reg/ — общая форма аккаунта без года, предмета и признаков заявки нового сезона."
+    },
+    {
+      "slug": "registry-2026-27-027-04",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://bibn.unn.ru/",
+      "evidence": "GET 200: главная содержит только цикл 2025/26 и объявление электронной регистрации от 08.10.2025. Упоминаний 2026/27 нет; /reg/ — общая форма аккаунта без года, предмета и признаков заявки нового сезона."
+    },
+    {
+      "slug": "registry-2026-27-027-05",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://bibn.unn.ru/",
+      "evidence": "GET 200: главная содержит только цикл 2025/26 и объявление электронной регистрации от 08.10.2025. Упоминаний 2026/27 нет; /reg/ — общая форма аккаунта без года, предмета и признаков заявки нового сезона."
+    },
+    {
+      "slug": "registry-2026-27-027-06",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://bibn.unn.ru/",
+      "evidence": "GET 200: главная содержит только цикл 2025/26 и объявление электронной регистрации от 08.10.2025. Упоминаний 2026/27 нет; /reg/ — общая форма аккаунта без года, предмета и признаков заявки нового сезона."
+    },
+    {
+      "slug": "registry-2026-27-030-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule",
+      "evidence": "GET 200 JSON: открытое расписание содержит только отборочные туры ноября–декабря 2025 года и финалы января–февраля 2026 года. Нового цикла 2026/27 нет; v-olymp.ru отдаёт лишь SPA-оболочку без дат и предметной HTML-формы."
+    },
+    {
+      "slug": "registry-2026-27-030-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule",
+      "evidence": "GET 200 JSON: открытое расписание содержит только отборочные туры ноября–декабря 2025 года и финалы января–февраля 2026 года. Нового цикла 2026/27 нет; v-olymp.ru отдаёт лишь SPA-оболочку без дат и предметной HTML-формы."
+    },
+    {
+      "slug": "registry-2026-27-030-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule",
+      "evidence": "GET 200 JSON: открытое расписание содержит только отборочные туры ноября–декабря 2025 года и финалы января–февраля 2026 года. Нового цикла 2026/27 нет; v-olymp.ru отдаёт лишь SPA-оболочку без дат и предметной HTML-формы."
+    },
+    {
+      "slug": "registry-2026-27-030-04",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule",
+      "evidence": "GET 200 JSON: открытое расписание содержит только отборочные туры ноября–декабря 2025 года и финалы января–февраля 2026 года. Нового цикла 2026/27 нет; v-olymp.ru отдаёт лишь SPA-оболочку без дат и предметной HTML-формы."
+    },
+    {
+      "slug": "registry-2026-27-030-05",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule",
+      "evidence": "GET 200 JSON: открытое расписание содержит только отборочные туры ноября–декабря 2025 года и финалы января–февраля 2026 года. Нового цикла 2026/27 нет; v-olymp.ru отдаёт лишь SPA-оболочку без дат и предметной HTML-формы."
+    },
+    {
+      "slug": "registry-2026-27-033-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.psu.ru/",
+      "evidence": "GET 200: опубликованный график относится к завершённым турам января–марта 2026 года и не содержит сезона 2026/27. Встроенная официальная ссылка ege.psu.ru/olymp/registration отвечает HTTP 404, а общий вход не является заявкой."
+    },
+    {
+      "slug": "registry-2026-27-033-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.psu.ru/",
+      "evidence": "GET 200: опубликованный график относится к завершённым турам января–марта 2026 года и не содержит сезона 2026/27. Встроенная официальная ссылка ege.psu.ru/olymp/registration отвечает HTTP 404, а общий вход не является заявкой."
+    },
+    {
+      "slug": "registry-2026-27-033-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.psu.ru/",
+      "evidence": "GET 200: опубликованный график относится к завершённым турам января–марта 2026 года и не содержит сезона 2026/27. Встроенная официальная ссылка ege.psu.ru/olymp/registration отвечает HTTP 404, а общий вход не является заявкой."
+    },
+    {
+      "slug": "registry-2026-27-038-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://pro.voenmeh.ru/oto",
+      "evidence": "GET 200: страница прямо ссылается на перечень 2025/26 и указывает завершённые этапы 21.11.2025–26.02.2026 и 23.03–05.04.2026. HTML-формы относятся к консультациям или партнёрству; страницы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-042-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.mgimo.ru/",
+      "evidence": "GET 200 возвращает anti-bot/noindex-загрузчик без текста сезона и без формы. На официальном домене отдельная проверяемая страница или форма 2026/27 не найдена; прошлогоднюю и общую страницу не использовали."
+    },
+    {
+      "slug": "registry-2026-27-047-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://ogn.spmi.ru/",
+      "evidence": "GET 200: новости и раздел дат относятся к завершённому циклу с событиями до 23.05.2026, упоминаний 2026/27 нет. Официальная ссылка регистрации на olimpiada.spmi.ru/login/signup.php отвечает HTTP 404 «Sorry, you may not use this page»."
+    },
+    {
+      "slug": "registry-2026-27-047-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://ogn.spmi.ru/",
+      "evidence": "GET 200: новости и раздел дат относятся к завершённому циклу с событиями до 23.05.2026, упоминаний 2026/27 нет. Официальная ссылка регистрации на olimpiada.spmi.ru/login/signup.php отвечает HTTP 404 «Sorry, you may not use this page»."
+    },
+    {
+      "slug": "registry-2026-27-050-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://pvg.mk.ru/",
+      "evidence": "GET 200: последние новости и материалы относятся к завершённому циклу 2025/26, включая итоги 28.04.2026 и дипломы 12.05.2026. Сезона 2026/27 нет; /register/ перенаправляется на страницу «Нет такой страницы»."
+    },
+    {
+      "slug": "registry-2026-27-050-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://pvg.mk.ru/",
+      "evidence": "GET 200: последние новости и материалы относятся к завершённому циклу 2025/26, включая итоги 28.04.2026 и дипломы 12.05.2026. Сезона 2026/27 нет; /register/ перенаправляется на страницу «Нет такой страницы»."
+    },
+    {
+      "slug": "registry-2026-27-050-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://pvg.mk.ru/",
+      "evidence": "GET 200: последние новости и материалы относятся к завершённому циклу 2025/26, включая итоги 28.04.2026 и дипломы 12.05.2026. Сезона 2026/27 нет; /register/ перенаправляется на страницу «Нет такой страницы»."
+    },
+    {
+      "slug": "registry-2026-27-050-04",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://pvg.mk.ru/",
+      "evidence": "GET 200: последние новости и материалы относятся к завершённому циклу 2025/26, включая итоги 28.04.2026 и дипломы 12.05.2026. Сезона 2026/27 нет; /register/ перенаправляется на страницу «Нет такой страницы»."
+    },
+    {
+      "slug": "registry-2026-27-050-05",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://pvg.mk.ru/",
+      "evidence": "GET 200: последние новости и материалы относятся к завершённому циклу 2025/26, включая итоги 28.04.2026 и дипломы 12.05.2026. Сезона 2026/27 нет; /register/ перенаправляется на страницу «Нет такой страницы»."
+    },
+    {
+      "slug": "registry-2026-27-050-06",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://pvg.mk.ru/",
+      "evidence": "GET 200: последние новости и материалы относятся к завершённому циклу 2025/26, включая итоги 28.04.2026 и дипломы 12.05.2026. Сезона 2026/27 нет; /register/ перенаправляется на страницу «Нет такой страницы»."
+    },
+    {
+      "slug": "registry-2026-27-050-07",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://pvg.mk.ru/",
+      "evidence": "GET 200: последние новости и материалы относятся к завершённому циклу 2025/26, включая итоги 28.04.2026 и дипломы 12.05.2026. Сезона 2026/27 нет; /register/ перенаправляется на страницу «Нет такой страницы»."
+    },
+    {
+      "slug": "registry-2026-27-050-08",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://pvg.mk.ru/",
+      "evidence": "GET 200: последние новости и материалы относятся к завершённому циклу 2025/26, включая итоги 28.04.2026 и дипломы 12.05.2026. Сезона 2026/27 нет; /register/ перенаправляется на страницу «Нет такой страницы»."
+    },
+    {
+      "slug": "registry-2026-27-054-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://techno-cup.ru/",
+      "evidence": "GET 200: официальный сайт прямо сообщает «Регистрация на Олимпиаду 2025-2026 года закрыта», а кнопки участия ведут на конкурс technocup-25. Отдельной страницы или формы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-055-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.ranepa.ru/olymp/",
+      "evidence": "GET 200: страница прямо сообщает, что регистрация сезона 2025/26 закрыта, и показывает завершённые этапы 23.10–17.11.2025 и январь–февраль 2026. Страница старой регистрации не содержит формы и сообщает «Ваш экзамен завершен»; 2026/27 отсутствует."
+    },
+    {
+      "slug": "registry-2026-27-055-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.ranepa.ru/olymp/",
+      "evidence": "GET 200: страница прямо сообщает, что регистрация сезона 2025/26 закрыта, и показывает завершённые этапы 23.10–17.11.2025 и январь–февраль 2026. Страница старой регистрации не содержит формы и сообщает «Ваш экзамен завершен»; 2026/27 отсутствует."
+    },
+    {
+      "slug": "registry-2026-27-055-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.ranepa.ru/olymp/",
+      "evidence": "GET 200: страница прямо сообщает, что регистрация сезона 2025/26 закрыта, и показывает завершённые этапы 23.10–17.11.2025 и январь–февраль 2026. Страница старой регистрации не содержит формы и сообщает «Ваш экзамен завершен»; 2026/27 отсутствует."
+    },
+    {
+      "slug": "registry-2026-27-055-04",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.ranepa.ru/olymp/",
+      "evidence": "GET 200: страница прямо сообщает, что регистрация сезона 2025/26 закрыта, и показывает завершённые этапы 23.10–17.11.2025 и январь–февраль 2026. Страница старой регистрации не содержит формы и сообщает «Ваш экзамен завершен»; 2026/27 отсутствует."
+    },
+    {
+      "slug": "registry-2026-27-055-05",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.ranepa.ru/olymp/",
+      "evidence": "GET 200: страница прямо сообщает, что регистрация сезона 2025/26 закрыта, и показывает завершённые этапы 23.10–17.11.2025 и январь–февраль 2026. Страница старой регистрации не содержит формы и сообщает «Ваш экзамен завершен»; 2026/27 отсутствует."
+    },
+    {
+      "slug": "registry-2026-27-055-06",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.ranepa.ru/olymp/",
+      "evidence": "GET 200: страница прямо сообщает, что регистрация сезона 2025/26 закрыта, и показывает завершённые этапы 23.10–17.11.2025 и январь–февраль 2026. Страница старой регистрации не содержит формы и сообщает «Ваш экзамен завершен»; 2026/27 отсутствует."
+    },
+    {
+      "slug": "registry-2026-27-055-07",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.ranepa.ru/olymp/",
+      "evidence": "GET 200: страница прямо сообщает, что регистрация сезона 2025/26 закрыта, и показывает завершённые этапы 23.10–17.11.2025 и январь–февраль 2026. Страница старой регистрации не содержит формы и сообщает «Ваш экзамен завершен»; 2026/27 отсутствует."
+    },
+    {
+      "slug": "registry-2026-27-061-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://inf-open.ru/",
+      "evidence": "GET 200: title и вся навигация относятся к олимпиаде 2026 и путям /2025-26/; опубликован завершённый финал 05–07.03.2026. Старые формы ведут через вход к заявкам прошлого цикла; страницы или формы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-064-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://oho.misis.ru/registratsiya/",
+      "evidence": "GET 200: страница дословно сообщает «Регистрация на участие в олимпиаде окончена» и показывает новости ОХО-2026 за 2025/26. Активной формы и отдельной страницы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-067-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://rsmu.ru/academics/for-school-students/pirogov-olimpiada/sroki-registracii-i-provedenija-olimpiady",
+      "evidence": "GET 200: официальная таблица содержит только окна регистрации 31.10–24.11.2025 и с 13.02.2026 для завершённого цикла. Личный кабинет является общим входом и не подтверждает заявку 2026/27; новой страницы или формы нет."
+    },
+    {
+      "slug": "registry-2026-27-070-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "http://school.astro.spbu.ru/",
+      "evidence": "GET 200: текущий опубликованный блок — XXXIII олимпиада 2025/26 с турами 16.12.2025–15.03.2026 и награждением 16.05.2026. Ссылка «Регистрация» создаёт аккаунт сайта для комментариев, а не заявку; страницы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-073-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.rghpu.ru/",
+      "evidence": "GET 200 после редиректа со старого домена: сайт описывает XVII олимпиаду 2025/26, показывает завершённые даты марта 2026 и новость «Регистрация ... закрыта». /cab — вход администратора, не заявка; сезона 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-076-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://turgor.ru/",
+      "evidence": "GET 200: опубликованы только сроки 47-го Турнира городов в 2025/26 и завершённый устный тур 29.03.2026. my.turgor.ru/sign-up — общая регистрация аккаунта, не заявка на тур; страницы или формы 2026/27 нет."
+    }
+  ]
+}
+

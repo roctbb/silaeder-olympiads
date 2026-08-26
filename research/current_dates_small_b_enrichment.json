@@ -1,0 +1,222 @@
+{
+  "target_academic_year": "2026/27",
+  "slugs": [
+    {
+      "slug": "registry-2026-27-009-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-01",
+          "ends_on": "2026-12-31",
+          "registration_opens_on": "2026-09-01",
+          "registration_closes_on": "2026-11-30",
+          "date_precision": "month",
+          "is_date_confirmed": true,
+          "source_url": "https://www.fa.ru/for-applicants/olympiads/mission/",
+          "source_title": "Олимпиада «Миссия выполнима» — сроки 2026/27",
+          "details": "Организатор указывает проведение отборочного этапа в начале декабря 2026 года; точные дни пока не опубликованы. Регистрация запланирована на сентябрь—ноябрь 2026 года."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-01",
+          "ends_on": "2027-02-28",
+          "date_precision": "month",
+          "is_date_confirmed": true,
+          "source_url": "https://www.fa.ru/for-applicants/olympiads/mission/",
+          "source_title": "Олимпиада «Миссия выполнима» — сроки 2026/27",
+          "details": "Организатор указывает январь—февраль 2027 года; точное расписание по профилям пока не опубликовано."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-009-02",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-01",
+          "ends_on": "2026-12-31",
+          "registration_opens_on": "2026-09-01",
+          "registration_closes_on": "2026-11-30",
+          "date_precision": "month",
+          "is_date_confirmed": true,
+          "source_url": "https://www.fa.ru/for-applicants/olympiads/mission/",
+          "source_title": "Олимпиада «Миссия выполнима» — сроки 2026/27",
+          "details": "Организатор указывает проведение отборочного этапа в начале декабря 2026 года; точные дни пока не опубликованы. Регистрация запланирована на сентябрь—ноябрь 2026 года."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-01",
+          "ends_on": "2027-02-28",
+          "date_precision": "month",
+          "is_date_confirmed": true,
+          "source_url": "https://www.fa.ru/for-applicants/olympiads/mission/",
+          "source_title": "Олимпиада «Миссия выполнима» — сроки 2026/27",
+          "details": "Организатор указывает январь—февраль 2027 года; точное расписание по профилям пока не опубликовано."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-009-03",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-01",
+          "ends_on": "2026-12-31",
+          "registration_opens_on": "2026-09-01",
+          "registration_closes_on": "2026-11-30",
+          "date_precision": "month",
+          "is_date_confirmed": true,
+          "source_url": "https://www.fa.ru/for-applicants/olympiads/mission/",
+          "source_title": "Олимпиада «Миссия выполнима» — сроки 2026/27",
+          "details": "Организатор указывает проведение отборочного этапа в начале декабря 2026 года; точные дни пока не опубликованы. Регистрация запланирована на сентябрь—ноябрь 2026 года."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-01",
+          "ends_on": "2027-02-28",
+          "date_precision": "month",
+          "is_date_confirmed": true,
+          "source_url": "https://www.fa.ru/for-applicants/olympiads/mission/",
+          "source_title": "Олимпиада «Миссия выполнима» — сроки 2026/27",
+          "details": "Организатор указывает январь—февраль 2027 года; точное расписание по профилям пока не опубликовано."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-009-04",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-01",
+          "ends_on": "2026-12-31",
+          "registration_opens_on": "2026-09-01",
+          "registration_closes_on": "2026-11-30",
+          "date_precision": "month",
+          "is_date_confirmed": true,
+          "source_url": "https://www.fa.ru/for-applicants/olympiads/mission/",
+          "source_title": "Олимпиада «Миссия выполнима» — сроки 2026/27",
+          "details": "Организатор указывает проведение отборочного этапа в начале декабря 2026 года; точные дни пока не опубликованы. Регистрация запланирована на сентябрь—ноябрь 2026 года."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-01",
+          "ends_on": "2027-02-28",
+          "date_precision": "month",
+          "is_date_confirmed": true,
+          "source_url": "https://www.fa.ru/for-applicants/olympiads/mission/",
+          "source_title": "Олимпиада «Миссия выполнима» — сроки 2026/27",
+          "details": "Организатор указывает январь—февраль 2027 года; точное расписание по профилям пока не опубликовано."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-009-05",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-01",
+          "ends_on": "2026-12-31",
+          "registration_opens_on": "2026-09-01",
+          "registration_closes_on": "2026-11-30",
+          "date_precision": "month",
+          "is_date_confirmed": true,
+          "source_url": "https://www.fa.ru/for-applicants/olympiads/mission/",
+          "source_title": "Олимпиада «Миссия выполнима» — сроки 2026/27",
+          "details": "Организатор указывает проведение отборочного этапа в начале декабря 2026 года; точные дни пока не опубликованы. Регистрация запланирована на сентябрь—ноябрь 2026 года."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-01",
+          "ends_on": "2027-02-28",
+          "date_precision": "month",
+          "is_date_confirmed": true,
+          "source_url": "https://www.fa.ru/for-applicants/olympiads/mission/",
+          "source_title": "Олимпиада «Миссия выполнима» — сроки 2026/27",
+          "details": "Организатор указывает январь—февраль 2027 года; точное расписание по профилям пока не опубликовано."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-034-01",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-034-02",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-071-02",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-075-01",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-014-02",
+      "stages": []
+    },
+    {
+      "slug": "mkoshp-programming",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-037-01",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-047-01",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-047-02",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-051-06",
+      "stages": [
+        {
+          "key": "qualifying",
+          "ends_on": "2026-12-30",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "source_url": "https://start.mipt.ru/view/5387394",
+          "source_title": "«Старт в науку» 2026/27 — отборочный этап",
+          "details": "До 30 декабря 2026 года включительно необходимо подать научную работу и пройти основное тестирование. Дата открытия отборочного этапа организатором не указана."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-066-02",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-066-03",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-068-01",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-068-02",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-068-03",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-068-04",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-072-01",
+      "stages": []
+    },
+    {
+      "slug": "moebius-mathematics",
+      "stages": []
+    }
+  ]
+}

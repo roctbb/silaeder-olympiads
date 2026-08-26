@@ -1,0 +1,3567 @@
+{
+  "checked_on": "2026-08-25",
+  "materials_by_slug": {
+    "dano-data-analysis": [
+      {
+        "title": "Задания и разборы DANO прошлых лет",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://dano.hse.ru/library/past_tasks",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://dano.hse.ru/library/past_tasks",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 70116,
+          "content_check": "Открыта страница «Задания прошлых лет»: видны варианты, разборы, критерии и базы данных за 2021/22–2025/26."
+        }
+      },
+      {
+        "title": "Тренировочные задачи DANO с ответами и наборами данных",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://dano.hse.ru/library/task",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://dano.hse.ru/library/task",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 176342,
+          "content_check": "Открыта страница «Задачи для тренировки»: содержатся тематические задачи, данные и ответы."
+        }
+      },
+      {
+        "title": "Демонстрационные варианты всех этапов DANO",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://dano.hse.ru/demo",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://dano.hse.ru/demo",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 53598,
+          "content_check": "Открыта страница демонстрационных вариантов: доступны PDF условий/решений и наборы данных для всех этапов."
+        }
+      }
+    ],
+    "prod-mlops": [
+      {
+        "title": "Материалы PROD 2025/26 и прошлых лет: варианты, репозитории, кейсы и критерии",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://prodcontest.com/materials/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://prodcontest.com/materials/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 667128,
+          "content_check": "Открыта страница «Примеры заданий»: варианты первого тура, профильные кейсы/репозитории, индивидуальные и командные финалы за прошлые сезоны."
+        }
+      }
+    ],
+    "prod-backend": [
+      {
+        "title": "Материалы PROD 2025/26 и прошлых лет: варианты, репозитории, кейсы и критерии",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://prodcontest.com/materials/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://prodcontest.com/materials/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 667128,
+          "content_check": "Открыта страница «Примеры заданий»: варианты первого тура, профильные кейсы/репозитории, индивидуальные и командные финалы за прошлые сезоны."
+        }
+      }
+    ],
+    "prod-mobile": [
+      {
+        "title": "Материалы PROD 2025/26 и прошлых лет: варианты, репозитории, кейсы и критерии",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://prodcontest.com/materials/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://prodcontest.com/materials/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 667128,
+          "content_check": "Открыта страница «Примеры заданий»: варианты первого тура, профильные кейсы/репозитории, индивидуальные и командные финалы за прошлые сезоны."
+        }
+      }
+    ],
+    "prod-frontend": [
+      {
+        "title": "Материалы PROD 2025/26 и прошлых лет: варианты, репозитории, кейсы и критерии",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://prodcontest.com/materials/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://prodcontest.com/materials/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 667128,
+          "content_check": "Открыта страница «Примеры заданий»: варианты первого тура, профильные кейсы/репозитории, индивидуальные и командные финалы за прошлые сезоны."
+        }
+      }
+    ],
+    "vkoshp-programming": [
+      {
+        "title": "Архив ВКОШП 2025/26: задачи, результаты, разбор, архив жюри и посылки",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://neerc.ifmo.ru/school/archive/2025-2026.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://neerc.ifmo.ru/school/archive/2025-2026.html",
+          "content_type": "text/html",
+          "content_bytes": 47320,
+          "content_check": "Открыт официальный архив сезона 2025/26; видны разделы ВКОШП с задачами, разборами, архивами жюри и посылками."
+        }
+      },
+      {
+        "title": "Многолетний официальный архив ВКОШП: задачи, разборы и решения жюри",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://neerc.ifmo.ru/school/russia-team/archive.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://neerc.ifmo.ru/school/russia-team/archive.html",
+          "content_type": "text/html",
+          "content_bytes": 286599,
+          "content_check": "Открыт многолетний официальный архив ВКОШП; для сезонов доступны условия, разборы, тесты и решения жюри."
+        }
+      }
+    ],
+    "vysshaya-proba-biology": [
+      {
+        "title": "Задания прошлых лет — биология",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-biology",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-biology",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 131930,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (биология) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 35 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — биология",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-biology",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-biology",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 156209,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (биология) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 99 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-oriental-studies": [
+      {
+        "title": "Задания прошлых лет — востоковедение",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-vostok",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-vostok",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 152808,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (востоковедение) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 114 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — востоковедение",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-vostok",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-vostok",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 186415,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (востоковедение) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 148 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-oriental-languages": [
+      {
+        "title": "Задания прошлых лет — восточные языки",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-lang-orient",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-lang-orient",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 164564,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (восточные языки) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 141 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — восточные языки",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-lang-orient",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-lang-orient",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 240170,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (восточные языки) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 357 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-design": [
+      {
+        "title": "Задания прошлых лет — дизайн",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-design",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-design",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 140866,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (дизайн) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 73 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — дизайн",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-design",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-design",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 178736,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (дизайн) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 162 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-journalism": [
+      {
+        "title": "Задания прошлых лет — журналистика",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-journ",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-journ",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 135285,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (журналистика) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 47 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — журналистика",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-journ",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-journ",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 195465,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (журналистика) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 183 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-engineering-sciences": [
+      {
+        "title": "Задания прошлых лет — инженерные науки",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-electronics",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-electronics",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 144034,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (инженерные науки) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 85 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — инженерные науки",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-electronics",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-electronics",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 202761,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (инженерные науки) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 178 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-foreign-languages": [
+      {
+        "title": "Задания прошлых лет — иностранные языки",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-lang",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-lang",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 226136,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (иностранные языки) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 297 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — иностранные языки",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-lang",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-lang",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 336978,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (иностранные языки) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 699 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-informatics": [
+      {
+        "title": "Задания прошлых лет — информатика",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-it",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-it",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 140101,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (информатика) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 51 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — информатика",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-it",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-it",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 197599,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (информатика) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 200 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-history": [
+      {
+        "title": "Задания прошлых лет — история",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-history",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-history",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 154358,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (история) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 132 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — история",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-history",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-history",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 202073,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (история) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 209 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-art-history": [
+      {
+        "title": "Задания прошлых лет — история искусств",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-arthist",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-arthist",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 119845,
+          "content_check": "Открыта профильная страница архива «Задания и решения (история искусств) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 8 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — история искусств",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-arthist",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-arthist",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 129351,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (история искусств) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 18 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-culture": [
+      {
+        "title": "Задания прошлых лет — культурология",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-culture",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-culture",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 130903,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (культурология) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 31 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — культурология",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-culture",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-culture",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 151709,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (культурология) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 72 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-math": [
+      {
+        "title": "Задания прошлых лет — математика",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-math",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-math",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 157367,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (математика) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 135 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — математика",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-math",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-math",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 236086,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (математика) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 298 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-international-relations": [
+      {
+        "title": "Задания прошлых лет — международные отношения",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-inter",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-inter",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 127305,
+          "content_check": "Открыта профильная страница архива «Задания и решения (международные отношения) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 21 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — международные отношения",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-inter",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-inter",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 139515,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (международные отношения) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 54 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-social-science": [
+      {
+        "title": "Задания прошлых лет — обществознание",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-soc",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-soc",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 152551,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (обществознание) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 88 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — обществознание",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-soc",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-soc",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 195420,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (обществознание) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 174 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-business-basics": [
+      {
+        "title": "Задания прошлых лет — основы бизнеса",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-business",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-business",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 133605,
+          "content_check": "Открыта профильная страница архива «Задания и решения (основы бизнеса) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 46 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — основы бизнеса",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-business",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-business",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 156557,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (основы бизнеса) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 96 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-law": [
+      {
+        "title": "Задания прошлых лет — право",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-law",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-law",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 145184,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (право) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 99 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — право",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-law",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-law",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 173667,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (право) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 131 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-industrial-programming": [
+      {
+        "title": "Задания прошлых лет — промышленное программирование",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-devcode",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-devcode",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 120433,
+          "content_check": "Открыта профильная страница архива «Задания и решения (промышленное программирование) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 12 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — промышленное программирование",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-devcode",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-devcode",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 124909,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (промышленное программирование) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 8 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-psychology": [
+      {
+        "title": "Задания прошлых лет — психология",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-psy",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-psy",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 160957,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (психология) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 170 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — психология",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-psy",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-psy",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 169241,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (психология) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 117 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-russian-language": [
+      {
+        "title": "Задания прошлых лет — русский язык",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-rus",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-rus",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 149191,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (русский язык) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 90 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — русский язык",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-rus",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-rus",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 239604,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (русский язык) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 289 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-sociology": [
+      {
+        "title": "Задания прошлых лет — социология",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-sociology",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-sociology",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 137109,
+          "content_check": "Открыта профильная страница архива «Задания и критерии (социология) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 59 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — социология",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-sociology",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-sociology",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 155230,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (социология) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 93 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-philology": [
+      {
+        "title": "Задания прошлых лет — филология",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-literature",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-literature",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 147370,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (филология) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 95 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — филология",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-literature",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-literature",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 210947,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (филология) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 229 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-philosophy": [
+      {
+        "title": "Задания прошлых лет — философия",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-phil",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-phil",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 137702,
+          "content_check": "Открыта профильная страница архива «Задания и критерии (философия) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 63 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — философия",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-phil",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-phil",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 150713,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (философия) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 90 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-financial-literacy": [
+      {
+        "title": "Задания прошлых лет — финансовая грамотность",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-finance",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-finance",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 135310,
+          "content_check": "Открыта профильная страница архива «Задания и решения (финансовая грамотность) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 43 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — финансовая грамотность",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-finance",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-finance",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 163763,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (финансовая грамотность) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 113 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-chemistry": [
+      {
+        "title": "Задания прошлых лет — химия",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-chemistry",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-chemistry",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 133274,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (химия) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 48 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — химия",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-chemistry",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-chemistry",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 154836,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (химия) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 96 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "vysshaya-proba-economics": [
+      {
+        "title": "Задания прошлых лет — экономика",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/tasks-eco",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/tasks-eco",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 151136,
+          "content_check": "Открыта профильная страница архива «Олимпиадные задания (экономика) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 103 ссылок на файлы заданий/решений/критериев."
+        }
+      },
+      {
+        "title": "Материалы для подготовки — экономика",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olymp.hse.ru/mmo/materials-eco",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.hse.ru/mmo/materials-eco",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 196620,
+          "content_check": "Открыта профильная страница «Материалы для подготовки (экономика) – Олимпиада школьников «Высшая проба» – Национальный исследовательский университет «Высшая школа экономики»»; на странице найдено 187 ссылок на демоверсии, рекомендации, вебинары или учебные файлы."
+        }
+      }
+    ],
+    "mkoshp-programming": [
+      {
+        "title": "Материалы и результаты МКОШП-2025",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://mkoshp.ru/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mkoshp.ru/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 63237,
+          "content_check": "Открыта официальная страница МКОШП-2025; доступны ссылки «Условия задач», «Разбор задач» и материалы отборочного тура."
+        }
+      },
+      {
+        "title": "Многолетний архив МКОШП",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://olympiads.ru/team/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiads.ru/team/",
+          "content_type": "text/html",
+          "content_bytes": 14234,
+          "content_check": "Открыт официальный многолетний архив МКОШП за 2003–2021 годы; страницы сезонов содержат условия, тесты, решения жюри и разборы."
+        }
+      }
+    ],
+    "mosh-2026-27-arab": [
+      {
+        "title": "Архив заданий МОШ: Арабский язык",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/arab",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/arab",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 10403,
+          "content_check": "Открыт профильный архив МОШ «Задания - Арабский язык»; найдено 10 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-01": [
+      {
+        "title": "Архив заданий МОШ: Астрономия",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/astr",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/astr",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 61328,
+          "content_check": "Открыт профильный архив МОШ «Задания - Астрономия»; найдено 381 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "mosh-2026-27-biol": [
+      {
+        "title": "Архив заданий МОШ: Биология",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/biol",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/biol",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 48143,
+          "content_check": "Открыт профильный архив МОШ «Задания - Биология»; найдено 246 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "mosh-2026-27-bioecon": [
+      {
+        "title": "Архив заданий МОШ: Биоэкономика",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/bioecon",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/bioecon",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 9399,
+          "content_check": "Открыт профильный архив МОШ «Задания - Биоэкономика»; найдено 4 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-02": [
+      {
+        "title": "Архив заданий МОШ: Вероятность и статистика",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/pt",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/pt",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 25123,
+          "content_check": "Открыт профильный архив МОШ «Задания - Вероятность и статистика»; найдено 86 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-03": [
+      {
+        "title": "Архив заданий МОШ: Генетика",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/gen",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/gen",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 22946,
+          "content_check": "Открыт профильный архив МОШ «Задания - Генетика»; найдено 101 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-04": [
+      {
+        "title": "Архив заданий МОШ: География",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/geog",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/geog",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 52607,
+          "content_check": "Открыт профильный архив МОШ «Задания - География»; найдено 342 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-05": [
+      {
+        "title": "Архив заданий МОШ: Изобразительное искусство",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/izo",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/izo",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 32124,
+          "content_check": "Открыт профильный архив МОШ «Задания - Изобразительное искусство»; найдено 152 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-06": [
+      {
+        "title": "Архив заданий МОШ: Информатика (10–11 классы)",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/iikt-10-11",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/iikt-10-11",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 27333,
+          "content_check": "Открыт профильный архив МОШ «Задания - Информатика (10-11 классы)»; найдено 76 прямых файлов заданий, решений или критериев."
+        }
+      },
+      {
+        "title": "Архив заданий МОШ: Информатика (6–9 классы)",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/iikt-6-9",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/iikt-6-9",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 30383,
+          "content_check": "Открыт профильный архив МОШ «Задания - Информатика (6-9 классы)»; найдено 121 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "mosh-2026-27-ib": [
+      {
+        "title": "Архив заданий МОШ: Информационная безопасность",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/ib",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/ib",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 11068,
+          "content_check": "Открыт профильный архив МОШ «Задания - Информационная безопасность»; найдено 14 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-07": [
+      {
+        "title": "Архив заданий МОШ: История",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/hist",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/hist",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 73200,
+          "content_check": "Открыт профильный архив МОШ «Задания - История»; найдено 460 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-08": [
+      {
+        "title": "Архив заданий МОШ: История искусств",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/amxk",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/amxk",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 18993,
+          "content_check": "Открыт профильный архив МОШ «Задания - История искусств»; найдено 41 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "mosh-2026-27-obzh": [
+      {
+        "title": "Архив заданий МОШ: Комплексная безопасность",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/obzh",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/obzh",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 19011,
+          "content_check": "Открыт профильный архив МОШ «Задания - Комплексная безопасность»; найдено 44 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-09": [
+      {
+        "title": "Архив заданий МОШ: Лингвистика",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/ling",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/ling",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 23452,
+          "content_check": "Открыт профильный архив МОШ «Задания - Лингвистика (Традиционная олимпиада по лингвистике)»; найдено 48 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-10": [
+      {
+        "title": "Архив заданий МОШ: Математический праздник",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/math-6-7",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/math-6-7",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 27561,
+          "content_check": "Открыт профильный архив МОШ «Задания - Математический праздник»; найдено 93 прямых файлов заданий, решений или критериев."
+        }
+      },
+      {
+        "title": "Архив заданий МОШ: Московская математическая олимпиада",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/math",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/math",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 46908,
+          "content_check": "Открыт профильный архив МОШ «Задания - Московская математическая олимпиада»; найдено 183 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-11": [
+      {
+        "title": "Архив заданий МОШ: Обществознание",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/soci",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/soci",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 41361,
+          "content_check": "Открыт профильный архив МОШ «Задания - Обществознание»; найдено 233 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-12": [
+      {
+        "title": "Архив заданий МОШ: Право",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/law",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/law",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 39866,
+          "content_check": "Открыт профильный архив МОШ «Задания - Право»; найдено 236 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-13": [
+      {
+        "title": "Архив Московской предпрофессиональной олимпиады — Инженерия",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/predprof-engprak",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/predprof-engprak",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 39195,
+          "content_check": "Открыт содержательный официальный архив «Задания - Предпрофессиональная олимпиада: Инженерия»: на странице есть задания и решения 2025/26 и прошлых сезонов; найдено 183 файловых ссылок."
+        }
+      },
+      {
+        "title": "Архив Московской предпрофессиональной олимпиады — Информационные технологии",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/predprof-infprak",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/predprof-infprak",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 38974,
+          "content_check": "Открыт содержательный официальный архив «Задания - Предпрофессиональная олимпиада: Информационные технологии»: на странице есть задания и решения 2025/26 и прошлых сезонов; найдено 176 файловых ссылок."
+        }
+      },
+      {
+        "title": "Архив Московской предпрофессиональной олимпиады — Исследования",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/predprof-ressec",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/predprof-ressec",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 86538,
+          "content_check": "Открыт содержательный официальный архив «Задания - Предпрофессиональная олимпиада: Исследовательский сектор»: на странице есть задания и решения 2025/26 и прошлых сезонов; найдено 496 файловых ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-035-14": [
+      {
+        "title": "Архив заданий МОШ: Робототехника (5–8 классы)",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/robo-5-8",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/robo-5-8",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 37093,
+          "content_check": "Открыт профильный архив МОШ «Задания - Робототехника (5-8 классы)»; найдено 202 прямых файлов заданий, решений или критериев."
+        }
+      },
+      {
+        "title": "Архив заданий МОШ: Робототехника (9–11 классы)",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/robo-9-11",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/robo-9-11",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 39745,
+          "content_check": "Открыт профильный архив МОШ «Задания - Робототехника (9-11 классы)»; найдено 220 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "mosh-2026-27-trud-kd": [
+      {
+        "title": "Архив заданий МОШ: Труд (технология): Культура дома, дизайн и технологии",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/trud-kd",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/trud-kd",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 12829,
+          "content_check": "Открыт профильный архив МОШ «Задания - Труд (технология): Культура дома, дизайн и технологии»; найдено 22 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "mosh-2026-27-trud-tt": [
+      {
+        "title": "Архив заданий МОШ: Труд (технология): Техника, технологии и техническое творчество",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/trud-tt",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/trud-tt",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 12109,
+          "content_check": "Открыт профильный архив МОШ «Задания - Труд (технология): Техника, технологии и техническое творчество»; найдено 14 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-15": [
+      {
+        "title": "Архив заданий МОШ: Физика",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/phys",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/phys",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 77405,
+          "content_check": "Открыт профильный архив МОШ «Задания - Физика»; найдено 528 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "mosh-2026-27-phil": [
+      {
+        "title": "Архив заданий МОШ: Филология",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/phil",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/phil",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 58077,
+          "content_check": "Открыт профильный архив МОШ «Задания - Филология»; найдено 376 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-16": [
+      {
+        "title": "Архив заданий МОШ: Финансовая грамотность",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/fingram",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/fingram",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 29440,
+          "content_check": "Открыт профильный архив МОШ «Задания - Финансовая грамотность»; найдено 153 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-17": [
+      {
+        "title": "Архив заданий МОШ: Химия",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/chem",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/chem",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 53789,
+          "content_check": "Открыт профильный архив МОШ «Задания - Химия»; найдено 331 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-18": [
+      {
+        "title": "Архив заданий МОШ: Экология",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/ecol",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/ecol",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 25560,
+          "content_check": "Открыт профильный архив МОШ «Задания - Экология»; найдено 109 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "registry-2026-27-035-19": [
+      {
+        "title": "Архив заданий МОШ: Экономика",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mos.olimpiada.ru/tasks/econ",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mos.olimpiada.ru/tasks/econ",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 57919,
+          "content_check": "Открыт профильный архив МОШ «Задания - Экономика»; найдено 377 прямых файлов заданий, решений или критериев."
+        }
+      }
+    ],
+    "maxwell-physics": [
+      {
+        "title": "Официальный архив заданий регионального и заключительного этапов с 2016 года",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://maxwell.mipt.ru/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://maxwell.mipt.ru/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 207334,
+          "content_check": "Открыт официальный сайт МФТИ; видна таблица «Задания прошлых лет» с теоретическими и экспериментальными турами 2016–2026."
+        }
+      },
+      {
+        "title": "Московский архив заданий 2025/26",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://vos.olimpiada.ru/archive/table/tasks/years/2025_2026/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://vos.olimpiada.ru/archive/table/tasks/years/2025_2026/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 290059,
+          "content_check": "Открыт московский архив задач 2025/26; найдено 1368 прямых файлов заданий/решений по предметам."
+        }
+      }
+    ],
+    "lomonosov-tournament-astronomy-earth-sciences": [
+      {
+        "title": "Архив заданий, критериев и решений Турнира",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 66173,
+          "content_check": "Открыта официальная страница «Архив Задания» Турнира Ломоносова; найдено 18 файлов заданий, критериев и решений по восьми предметам."
+        }
+      }
+    ],
+    "lomonosov-tournament-biology": [
+      {
+        "title": "Архив заданий, критериев и решений Турнира",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 66173,
+          "content_check": "Открыта официальная страница «Архив Задания» Турнира Ломоносова; найдено 18 файлов заданий, критериев и решений по восьми предметам."
+        }
+      }
+    ],
+    "lomonosov-tournament-history": [
+      {
+        "title": "Архив заданий, критериев и решений Турнира",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 66173,
+          "content_check": "Открыта официальная страница «Архив Задания» Турнира Ломоносова; найдено 18 файлов заданий, критериев и решений по восьми предметам."
+        }
+      }
+    ],
+    "lomonosov-tournament-linguistics": [
+      {
+        "title": "Архив заданий, критериев и решений Турнира",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 66173,
+          "content_check": "Открыта официальная страница «Архив Задания» Турнира Ломоносова; найдено 18 файлов заданий, критериев и решений по восьми предметам."
+        }
+      }
+    ],
+    "lomonosov-tournament-literature": [
+      {
+        "title": "Архив заданий, критериев и решений Турнира",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 66173,
+          "content_check": "Открыта официальная страница «Архив Задания» Турнира Ломоносова; найдено 18 файлов заданий, критериев и решений по восьми предметам."
+        }
+      }
+    ],
+    "lomonosov-tournament-mathematics": [
+      {
+        "title": "Архив заданий, критериев и решений Турнира",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 66173,
+          "content_check": "Открыта официальная страница «Архив Задания» Турнира Ломоносова; найдено 18 файлов заданий, критериев и решений по восьми предметам."
+        }
+      }
+    ],
+    "lomonosov-tournament-physics": [
+      {
+        "title": "Архив заданий, критериев и решений Турнира",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 66173,
+          "content_check": "Открыта официальная страница «Архив Задания» Турнира Ломоносова; найдено 18 файлов заданий, критериев и решений по восьми предметам."
+        }
+      }
+    ],
+    "lomonosov-tournament-chemistry": [
+      {
+        "title": "Архив заданий, критериев и решений Турнира",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/archives/%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 66173,
+          "content_check": "Открыта официальная страница «Архив Задания» Турнира Ломоносова; найдено 18 файлов заданий, критериев и решений по восьми предметам."
+        }
+      }
+    ],
+    "moebius-mathematics": [
+      {
+        "title": "Архив заданий, результатов и материалов прошлых Турниров Мёбиуса",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://moebiustour.ru/archive",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://moebiustour.ru/archive",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 49020,
+          "content_check": "Открыт архив 17 прошедших Турниров Мёбиуса; ссылки ведут на содержательные страницы турниров с материалами и результатами."
+        }
+      }
+    ],
+    "registry-2026-27-048-01": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-04": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-05": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-03": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-06": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-07": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-08": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-09": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-10": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-11": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-12": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-13": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-14": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-15": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-16": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-17": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-18": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-19": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-20": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-21": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-22": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-23": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-24": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-25": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-02": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-26": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-048-27": [
+      {
+        "title": "Задания прошлых лет олимпиады «Ломоносов» по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.msu.ru/rus/page/main/29/page/zadaniya-olimpiady-proshlyh-let",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 105095,
+          "content_check": "Открыта страница «Задания прошлых лет - Олимпиада «Ломоносов»»: сезоны 2010/11–2024/25, 27 актуальных профилей и 342 прямых файлов заданий."
+        }
+      }
+    ],
+    "registry-2026-27-005-01": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-02": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-20": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-03": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-04": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-09": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-10": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-11": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-05": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-12": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-16": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-06": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-13": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-14": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-07": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-18": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-08": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-15": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-19": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-21": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-005-17": [
+      {
+        "title": "Сборники заданий НТО прошлых сезонов с комментариями и решениями",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ntcontest.ru/books/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ntcontest.ru/books/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 95397,
+          "content_check": "Открыта страница «Сборники»: сборники 2025/26 и прошлых сезонов по профилям НТО, задачи с комментариями и решениями; 188 ссылок."
+        }
+      }
+    ],
+    "registry-2026-27-056-01": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-02": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-03": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-04": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-05": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-06": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-07": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-08": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-09": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-10": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-11": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-12": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-13": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-14": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-15": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-16": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-17": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-18": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-19": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-20": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-056-21": [
+      {
+        "title": "Официальный архив материалов и работ олимпиады школьников СПбГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/arkhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/arkhiv.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 35346,
+          "content_check": "Открыт официальный архив СПбГУ: 126 ZIP-архивов материалов/работ по профилям за 2021/22–2024/25; контрольный math.zip скачан как application/zip, 1 740 691 байт."
+        }
+      },
+      {
+        "title": "Профильные лекции-консультации для подготовки к олимпиаде СПбГУ",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://olympiada.spbu.ru/podgotovka.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olympiada.spbu.ru/podgotovka.html",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 87345,
+          "content_check": "Открыта страница подготовки СПбГУ: 391 ссылок, включая профильные лекции-консультации сезонов 2022/23–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-050-01": [
+      {
+        "title": "Многолетний архив олимпиадных заданий «Покори Воробьёвы горы!»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://pvg.mk.ru/archive/archive/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/archive/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 12363,
+          "content_check": "Открыт многолетний архив ПВГ с переходами по сезонам и файловыми материалами; 43 ссылок."
+        }
+      },
+      {
+        "title": "Задания, ответы и работы дипломантов «Покори Воробьёвы горы!» 2024/25",
+        "material_type": "solutions",
+        "year": 2025,
+        "url": "https://pvg.mk.ru/archive/2024-2025/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/2024-2025/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 24263,
+          "content_check": "Открыт архив ПВГ 2024/25: задания и ответы отборочного/заключительного этапов, работы дипломантов по восьми профилям; 91 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-050-02": [
+      {
+        "title": "Многолетний архив олимпиадных заданий «Покори Воробьёвы горы!»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://pvg.mk.ru/archive/archive/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/archive/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 12363,
+          "content_check": "Открыт многолетний архив ПВГ с переходами по сезонам и файловыми материалами; 43 ссылок."
+        }
+      },
+      {
+        "title": "Задания, ответы и работы дипломантов «Покори Воробьёвы горы!» 2024/25",
+        "material_type": "solutions",
+        "year": 2025,
+        "url": "https://pvg.mk.ru/archive/2024-2025/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/2024-2025/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 24263,
+          "content_check": "Открыт архив ПВГ 2024/25: задания и ответы отборочного/заключительного этапов, работы дипломантов по восьми профилям; 91 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-050-03": [
+      {
+        "title": "Многолетний архив олимпиадных заданий «Покори Воробьёвы горы!»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://pvg.mk.ru/archive/archive/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/archive/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 12363,
+          "content_check": "Открыт многолетний архив ПВГ с переходами по сезонам и файловыми материалами; 43 ссылок."
+        }
+      },
+      {
+        "title": "Задания, ответы и работы дипломантов «Покори Воробьёвы горы!» 2024/25",
+        "material_type": "solutions",
+        "year": 2025,
+        "url": "https://pvg.mk.ru/archive/2024-2025/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/2024-2025/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 24263,
+          "content_check": "Открыт архив ПВГ 2024/25: задания и ответы отборочного/заключительного этапов, работы дипломантов по восьми профилям; 91 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-050-04": [
+      {
+        "title": "Многолетний архив олимпиадных заданий «Покори Воробьёвы горы!»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://pvg.mk.ru/archive/archive/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/archive/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 12363,
+          "content_check": "Открыт многолетний архив ПВГ с переходами по сезонам и файловыми материалами; 43 ссылок."
+        }
+      },
+      {
+        "title": "Задания, ответы и работы дипломантов «Покори Воробьёвы горы!» 2024/25",
+        "material_type": "solutions",
+        "year": 2025,
+        "url": "https://pvg.mk.ru/archive/2024-2025/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/2024-2025/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 24263,
+          "content_check": "Открыт архив ПВГ 2024/25: задания и ответы отборочного/заключительного этапов, работы дипломантов по восьми профилям; 91 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-050-05": [
+      {
+        "title": "Многолетний архив олимпиадных заданий «Покори Воробьёвы горы!»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://pvg.mk.ru/archive/archive/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/archive/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 12363,
+          "content_check": "Открыт многолетний архив ПВГ с переходами по сезонам и файловыми материалами; 43 ссылок."
+        }
+      },
+      {
+        "title": "Задания, ответы и работы дипломантов «Покори Воробьёвы горы!» 2024/25",
+        "material_type": "solutions",
+        "year": 2025,
+        "url": "https://pvg.mk.ru/archive/2024-2025/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/2024-2025/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 24263,
+          "content_check": "Открыт архив ПВГ 2024/25: задания и ответы отборочного/заключительного этапов, работы дипломантов по восьми профилям; 91 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-050-06": [
+      {
+        "title": "Многолетний архив олимпиадных заданий «Покори Воробьёвы горы!»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://pvg.mk.ru/archive/archive/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/archive/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 12363,
+          "content_check": "Открыт многолетний архив ПВГ с переходами по сезонам и файловыми материалами; 43 ссылок."
+        }
+      },
+      {
+        "title": "Задания, ответы и работы дипломантов «Покори Воробьёвы горы!» 2024/25",
+        "material_type": "solutions",
+        "year": 2025,
+        "url": "https://pvg.mk.ru/archive/2024-2025/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/2024-2025/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 24263,
+          "content_check": "Открыт архив ПВГ 2024/25: задания и ответы отборочного/заключительного этапов, работы дипломантов по восьми профилям; 91 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-050-07": [
+      {
+        "title": "Многолетний архив олимпиадных заданий «Покори Воробьёвы горы!»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://pvg.mk.ru/archive/archive/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/archive/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 12363,
+          "content_check": "Открыт многолетний архив ПВГ с переходами по сезонам и файловыми материалами; 43 ссылок."
+        }
+      },
+      {
+        "title": "Задания, ответы и работы дипломантов «Покори Воробьёвы горы!» 2024/25",
+        "material_type": "solutions",
+        "year": 2025,
+        "url": "https://pvg.mk.ru/archive/2024-2025/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/2024-2025/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 24263,
+          "content_check": "Открыт архив ПВГ 2024/25: задания и ответы отборочного/заключительного этапов, работы дипломантов по восьми профилям; 91 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-050-08": [
+      {
+        "title": "Многолетний архив олимпиадных заданий «Покори Воробьёвы горы!»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://pvg.mk.ru/archive/archive/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/archive/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 12363,
+          "content_check": "Открыт многолетний архив ПВГ с переходами по сезонам и файловыми материалами; 43 ссылок."
+        }
+      },
+      {
+        "title": "Задания, ответы и работы дипломантов «Покори Воробьёвы горы!» 2024/25",
+        "material_type": "solutions",
+        "year": 2025,
+        "url": "https://pvg.mk.ru/archive/2024-2025/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://pvg.mk.ru/archive/2024-2025/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 24263,
+          "content_check": "Открыт архив ПВГ 2024/25: задания и ответы отборочного/заключительного этапов, работы дипломантов по восьми профилям; 91 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-051-01": [
+      {
+        "title": "Примеры заданий, решений и критериев олимпиады «Физтех» прошлых лет",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.mipt.ru/olympiad/samples",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.mipt.ru/olympiad/samples",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 57030,
+          "content_check": "Открыта новая официальная страница МФТИ «Примеры заданий - Олимпиада \"Физтех\" - заключительный этап»: условия, решения, критерии и разборы опубликованных профилей за 2007–2022 годы; 136 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-051-02": [
+      {
+        "title": "Примеры заданий, решений и критериев олимпиады «Физтех» прошлых лет",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.mipt.ru/olympiad/samples",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.mipt.ru/olympiad/samples",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 57030,
+          "content_check": "Открыта новая официальная страница МФТИ «Примеры заданий - Олимпиада \"Физтех\" - заключительный этап»: условия, решения, критерии и разборы опубликованных профилей за 2007–2022 годы; 136 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-051-03": [
+      {
+        "title": "Примеры заданий, решений и критериев олимпиады «Физтех» прошлых лет",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.mipt.ru/olympiad/samples",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.mipt.ru/olympiad/samples",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 57030,
+          "content_check": "Открыта новая официальная страница МФТИ «Примеры заданий - Олимпиада \"Физтех\" - заключительный этап»: условия, решения, критерии и разборы опубликованных профилей за 2007–2022 годы; 136 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-051-04": [
+      {
+        "title": "Примеры заданий, решений и критериев олимпиады «Физтех» прошлых лет",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.mipt.ru/olympiad/samples",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.mipt.ru/olympiad/samples",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 57030,
+          "content_check": "Открыта новая официальная страница МФТИ «Примеры заданий - Олимпиада \"Физтех\" - заключительный этап»: условия, решения, критерии и разборы опубликованных профилей за 2007–2022 годы; 136 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-051-06": [
+      {
+        "title": "Примеры заданий, решений и критериев олимпиады «Физтех» прошлых лет",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.mipt.ru/olympiad/samples",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.mipt.ru/olympiad/samples",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 57030,
+          "content_check": "Открыта новая официальная страница МФТИ «Примеры заданий - Олимпиада \"Физтех\" - заключительный этап»: условия, решения, критерии и разборы опубликованных профилей за 2007–2022 годы; 136 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-051-05": [
+      {
+        "title": "Примеры заданий, решений и критериев олимпиады «Физтех» прошлых лет",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.mipt.ru/olympiad/samples",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.mipt.ru/olympiad/samples",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 57030,
+          "content_check": "Открыта новая официальная страница МФТИ «Примеры заданий - Олимпиада \"Физтех\" - заключительный этап»: условия, решения, критерии и разборы опубликованных профилей за 2007–2022 годы; 136 файлов."
+        }
+      }
+    ],
+    "registry-2026-27-051-07": [
+      {
+        "title": "Примеры заданий, решений и критериев олимпиады «Физтех» прошлых лет",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olymp.mipt.ru/olympiad/samples",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.mipt.ru/olympiad/samples",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 57030,
+          "content_check": "Открыта новая официальная страница МФТИ «Примеры заданий - Олимпиада \"Физтех\" - заключительный этап»: условия, решения, критерии и разборы опубликованных профилей за 2007–2022 годы; 136 файлов."
+        }
+      }
+    ]
+
+  }
+}

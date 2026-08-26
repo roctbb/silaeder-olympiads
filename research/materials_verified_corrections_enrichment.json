@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-08-26",
+  "remove_urls": [
+    "https://rpa-mu.wixsite.com/my-site",
+    "https://sarkisov-olimp.muctr.ru/results"
+  ],
+  "materials_by_slug": {
+    "registry-2026-27-057-01": [
+      {
+        "title": "Задания и критерии прошлых лет олимпиады «В мир права»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olimp-lk.rpa-mu.ru/?p=1326",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://olimp-lk.rpa-mu.ru/?p=1326",
+          "content_type": "text/html; charset=utf-8",
+          "content_check": "Официальный архив ВГУЮ содержит задания, ответы и критерии отборочного и заключительного этапов по праву за 2019/20–2024/25 учебные годы."
+        }
+      }
+    ]
+  }
+}

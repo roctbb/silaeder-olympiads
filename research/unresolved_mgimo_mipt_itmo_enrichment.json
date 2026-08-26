@@ -1,0 +1,218 @@
+{
+  "as_of": "2026-08-26",
+  "target_academic_year": "2026/27",
+  "method": "Only primary organizer and co-organizer sources were used. No 2026/27 organizer schedules were found for these five cards as of the access date. Eligibility and stage structure therefore come from the latest available official organizer publications; all 2025/26 dates are source dates intended to be projected by scripts/build_catalog.py as explicitly approximate, unconfirmed 2026/27 dates.",
+  "families": [],
+  "slugs": [
+    {
+      "slug": "registry-2026-27-042-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "latest available official organizer eligibility statement and 2025/26 results",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Официальная справочная публикация организатора прямо устанавливает участие школьников 7–11 классов. Ведомость отборочного этапа последнего завершённого сезона 2025/26 дополнительно подтверждает фактическое участие 8, 9, 10 и 11 классов. Отдельный анонс 2026/27 ещё не опубликован, поэтому диапазон помечен как оценка по последним доступным официальным сведениям.",
+      "sources": [
+        {
+          "title": "Как организовано проведение Олимпиады МГИМО",
+          "url": "https://olymp.mgimo.ru/upload/ckeditor/files/sbornik16-19_2.pdf",
+          "publisher": "МГИМО МИД России",
+          "source_type": "official_organizer_reference",
+          "source_year": "latest available official reference",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Ведомость результатов отборочного этапа Олимпиады МГИМО 2025/26",
+          "url": "https://olymp.mgimo.ru/upload/ckeditor/files/vedomost_rezultatov_otborochnogo_etapa_0.pdf",
+          "publisher": "МГИМО МИД России",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-051-03",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Официальная страница вуза-соорганизатора ОмГТУ подтверждает 7–11 классы, два дистанционных отборочных этапа и очный финал. Организатор 1С также подтверждает диапазон 7–11, второй тур и финал. График 2026/27 ещё не опубликован; даты ниже относятся к опубликованному графику 2025/26 и должны отображаться только как прогноз следующего сезона.",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "name": "Первый отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-09-20",
+          "ends_on": "2025-11-12",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://olimp.omgtu.ru/olimp/olimpiada-fiztex-kod-budushhego-iii-uroven-rsosh/"
+        },
+        {
+          "key": "second-qualifying",
+          "name": "Второй отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-11-15",
+          "ends_on": "2026-01-20",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://olimp.omgtu.ru/olimp/olimpiada-fiztex-kod-budushhego-iii-uroven-rsosh/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-24",
+          "ends_on": "2026-02-27",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "Опубликованное плановое окно финала 2025/26 на площадках вузов-соорганизаторов.",
+          "source_url": "https://olimp.omgtu.ru/olimp/olimpiada-fiztex-kod-budushhego-iii-uroven-rsosh/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Олимпиада «Физтех.Код будущего» — III уровень РСОШ",
+          "url": "https://olimp.omgtu.ru/olimp/olimpiada-fiztex-kod-budushhego-iii-uroven-rsosh/",
+          "publisher": "Омский государственный технический университет — соорганизатор олимпиады",
+          "source_type": "official_coorganizer_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "МФТИ вместе с партнёрами подвёл итоги олимпиады «Физтех. Код будущего»",
+          "url": "https://uc1.1c.ru/article/mfti-vmeste-s-partnyorami-podvyol-itogi-olimpiady-fizteh-kod-buduschego/",
+          "publisher": "Фирма «1С» — соорганизатор олимпиады",
+          "source_type": "official_results_announcement",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-060-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "notes": "Официальный API ИТМО подтверждает отборочный этап с отдельными турами для 5–9 и 10–11 классов и очный заключительный этап. Для компактного календаря туры объединены в общее окно отборочного этапа; даты 2026/27 ещё не опубликованы.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-03",
+          "ends_on": "2026-02-10",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "online",
+          "details": "В 2025/26 для 5–9 классов: туры 3–9 декабря и 4–10 февраля; для 10–11 классов: независимые учитываемые туры 18 января и 8 февраля.",
+          "source_url": "https://olymp.itmo.ru/api/section/inf25/5610"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-15",
+          "ends_on": "2026-03-15",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://olymp.itmo.ru/api/section/inf25/5610"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Календарный план Открытой олимпиады школьников по информатике 2025/26",
+          "url": "https://olymp.itmo.ru/api/section/inf25/5610",
+          "publisher": "Университет ИТМО",
+          "source_type": "official_api_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-060-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "notes": "Официальный API ИТМО подтверждает отборочный этап с разными турами для 5–9 и 10–11 классов и очный заключительный этап. Для компактного календаря туры объединены в общее окно отборочного этапа; даты 2026/27 ещё не опубликованы.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-03",
+          "ends_on": "2026-02-10",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "online",
+          "details": "В 2025/26 для 5–9 классов: туры 3–9 декабря и 4–10 февраля; для 10–11 классов: один тур 17–19 января.",
+          "source_url": "https://olymp.itmo.ru/api/section/math25/5684"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-14",
+          "ends_on": "2026-03-14",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://olymp.itmo.ru/api/section/math25/5684"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Календарный план Открытой олимпиады школьников по математике 2025/26",
+          "url": "https://olymp.itmo.ru/api/section/math25/5684",
+          "publisher": "Университет ИТМО",
+          "source_type": "official_api_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-060-03",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "notes": "Официальный API ИТМО подтверждает двухэтапную структуру: дистанционный отборочный этап из двух туров и очный заключительный этап. Даты 2026/27 ещё не опубликованы.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-03",
+          "ends_on": "2026-02-15",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "online",
+          "details": "В 2025/26 первый тур проходил 3–15 декабря, второй — 4–15 февраля.",
+          "source_url": "https://olymp.itmo.ru/api/section/physics2026/5723"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-22",
+          "ends_on": "2026-03-22",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "В 2025/26 очный этап проходил в Санкт-Петербурге для 7–11 классов и в Самаре для 9–11 классов.",
+          "source_url": "https://olymp.itmo.ru/api/section/physics2026/5723"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Календарный план Открытой олимпиады школьников по физике 2025/26",
+          "url": "https://olymp.itmo.ru/api/section/physics2026/5723",
+          "publisher": "Университет ИТМО",
+          "source_type": "official_api_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    }
+  ]
+}

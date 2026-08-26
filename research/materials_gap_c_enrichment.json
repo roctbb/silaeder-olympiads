@@ -1,0 +1,134 @@
+{
+  "checked_on": "2026-08-26",
+  "policy": "В каталог включены только страницы организаторов с фактическими заданиями/разборами либо публичные файловые подборки, на которые организатор ссылается из своего архива. Для файловых хранилищ проверен не только HTML-просмотр, но и реальная загрузка PDF с проверкой сигнатуры и извлечённого текста.",
+  "materials_by_slug": {
+    "registry-2026-27-039-01": [
+      {
+        "title": "Литература, лекции и методические материалы для подготовки к ОПК",
+        "material_type": "course",
+        "year": 2026,
+        "url": "https://opk.pravolimp.ru/articles/69a59b7e53bb56162303c58b",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://opk.pravolimp.ru/articles/69a59b7e53bb56162303c58b",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 39841,
+          "content_check": "Официальная страница ПСТГУ действительно является разделом подготовки: содержит литературу по турам 2025/26, лекции и ссылки на задания. Это не самостоятельный архив задач, поэтому существующий URL оставлен с типом course и получил точное название."
+        }
+      },
+      {
+        "title": "Архив заданий ОПК за 2020/21–2025/26",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://opk.pravolimp.ru/pages/6361009f53bb56318d003c08",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://opk.pravolimp.ru/pages/6361009f53bb56318d003c08",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 32922,
+          "content_check": "Публичная официальная страница «Архив заданий» перечисляет отдельные подборки ОПК для сезонов 2020/21, 2021/22, 2022/23, 2023/24, 2024/25 и 2025/26. В отличие от пункта меню /contest_files, эта страница открывается без авторизации."
+        }
+      },
+      {
+        "title": "Задания ОПК 2025/26 с ответами: школьный, муниципальный, региональный и финальный туры",
+        "material_type": "tasks",
+        "year": 2026,
+        "url": "https://disk.yandex.ru/d/mo0W3HNQAh3X3A",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://disk.yandex.ru/d/mo0W3HNQAh3X3A",
+          "content_type": "text/html",
+          "content_bytes": 14079,
+          "api_url": "https://cloud-api.yandex.net/v1/disk/public/resources?public_key=https%3A%2F%2Fdisk.yandex.ru%2Fd%2Fmo0W3HNQAh3X3A&limit=100",
+          "api_http_status": 200,
+          "api_content_type": "application/json; charset=utf-8",
+          "api_content_bytes": 37174,
+          "content_check": "Ссылка опубликована официальным архивом ПСТГУ. Публичный API Яндекс Диска вернул папку «2025-2026 Задания ОПК» с четырьмя PDF: школьный, муниципальный, региональный и финальный туры для 4–11 классов, каждый с ответами. Выполнена реальная загрузка финального PDF: HTTP 200, application/pdf, 8 249 212 байт, 29 страниц; текст подтверждает XVIII олимпиаду ОПК, финал 2025/26 и наличие заданий для 4–11 классов."
+        }
+      },
+      {
+        "title": "Задания, ключи и критерии ОПК 2024/25",
+        "material_type": "tasks",
+        "year": 2025,
+        "url": "https://opk.pravolimp.ru/system/files/6814a74053bb56171e01b8e3/original/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%9E%D0%9F%D0%9A%202024-2025.pdf?1746184000",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://opk.pravolimp.ru/system/files/6814a74053bb56171e01b8e3/original/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%9E%D0%9F%D0%9A%202024-2025.pdf?1746184000",
+          "content_type": "application/pdf",
+          "content_bytes": 24984330,
+          "content_check": "Прямой PDF организатора реально загружен и распознан как PDF 1.7 на 160 страниц. Извлечённый текст содержит варианты школьного, муниципального, регионального и финального туров, разделы «КЛЮЧИ», ответы и критерии оценивания для разных классов."
+        }
+      }
+    ],
+    "registry-2026-27-054-01": [
+      {
+        "title": "Курсы и ресурсы для подготовки к «ТехноКубку»",
+        "material_type": "course",
+        "year": null,
+        "url": "https://techno-cup.ru/training",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://techno-cup.ru/training",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 136970,
+          "content_check": "Страница /training не является архивом задач: она ведёт на ознакомительный раунд и подборку курсов VK Education, Stepik, e-maxx, ИТМО, informatics.msk.ru и Algorithmica, а за задачами прошлых лет отдельно отправляет на /archive. Поэтому существующий URL корректно оставлен с типом course, но его прежнее вводящее в заблуждение название исправлено."
+        }
+      },
+      {
+        "title": "Архив заданий и разборов «ТехноКубка» за 2015/16–2025/26",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://techno-cup.ru/archive",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://techno-cup.ru/archive",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 531418,
+          "content_check": "Официальная страница «Материалы прошлых лет и результаты» открывается публично. В ней по сезонам 2015/16–2025/26 перечислены условия и разборы отборочных раундов и финалов, а также работы победителей; актуальные PDF 2025/26 дополнительно проверены реальной загрузкой."
+        }
+      },
+      {
+        "title": "Условия задач финала «ТехноКубка» 2025/26",
+        "material_type": "tasks",
+        "year": 2026,
+        "url": "https://cloud.mail.ru/public/8T3Q/9BJxCpvZT",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://cloud.mail.ru/public/8T3Q/9BJxCpvZT",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 799990,
+          "content_check": "Ссылка опубликована официальным архивом «ТехноКубка». Из публичного хранилища реально скачан PDF: HTTP 200, 368 161 байт, PDF 1.5, 9 страниц. Извлечённый текст начинается с «Технокубок 2025-2026, финал», содержит дату 14 марта 2026 года и условия задач A–D."
+        }
+      },
+      {
+        "title": "Разбор задач финала «ТехноКубка» 2025/26",
+        "material_type": "solutions",
+        "year": 2026,
+        "url": "https://cloud.mail.ru/public/TTr7/4LpPLVKqn",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://cloud.mail.ru/public/TTr7/4LpPLVKqn",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 800099,
+          "content_check": "Ссылка опубликована официальным архивом «ТехноКубка». Из публичного хранилища реально скачан PDF: HTTP 200, 299 857 байт, PDF 1.5, 10 страниц. Извлечённый текст содержит разборы финальных задач A–D сезона 2025/26, алгоритмы и оценки сложности."
+        }
+      }
+    ]
+  }
+}

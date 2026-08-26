@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-08-26",
+  "records": [
+    {
+      "slug": "shag-v-budushchee-biology",
+      "name": "Олимпиада школьников «Шаг в будущее» — Биология",
+      "family_name": "Олимпиада школьников «Шаг в будущее»",
+      "profile": "Биология",
+      "description": "Отдельный профиль Бауманской олимпиады школьников «Шаг в будущее», который проводится с 2020 года. Организатор публикует собственные этапы, задания, критерии и материалы для подготовки.",
+      "organizer": "МГТУ им. Н. Э. Баумана",
+      "website_url": "https://olymp.bmstu.ru/ru/biology-olymp",
+      "geography": "russia",
+      "is_team": false,
+      "academic_year": "2026/27",
+      "data_status": "previous_year_estimate",
+      "is_in_registry": false,
+      "registry_level": null,
+      "registry_status": "not_listed",
+      "is_popular": false,
+      "registration_status": "announced",
+      "registration_checked_on": "2026-08-26",
+      "registration_url": null,
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "Общая страница организатора разрешает участие с 5 класса; опубликованные варианты и продолжительность туров по биологии приведены для 8–11 классов.",
+      "notes": "Официальный портал МГТУ перечисляет биологию как самостоятельный седьмой профиль, однако отдельной строки этого профиля нет в утверждённом перечне 2025/26 и проекте перечня 2026/27. Поэтому карточка честно помечена как неперечневая. Расписание 2026/27 ещё не опубликовано; даты этапов являются ориентиром по 2025/26.",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "start_date": "2025-10-03",
+          "end_date": "2025-12-01",
+          "date_precision": "range",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "details": "В 2025/26 прошли три волны: 3–6 октября, 31 октября–3 ноября и 28 ноября–1 декабря.",
+          "source_url": "https://olymp.bmstu.ru/ru/biology-olymp"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "start_date": "2026-02-01",
+          "end_date": "2026-02-01",
+          "date_precision": "exact",
+          "date_status": "official_2025_26",
+          "format": "offline",
+          "location": "МГТУ им. Н. Э. Баумана и региональные площадки",
+          "details": "Заключительный этап 2025/26 был назначен на 1 февраля 2026 года.",
+          "source_url": "https://olymp.bmstu.ru/ru/biology-olymp"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задания, критерии, решения и подготовка по биологии",
+          "material_type": "archive",
+          "year": null,
+          "url": "https://olymp.bmstu.ru/ru/biology-olymp",
+          "is_official": true
+        }
+      ],
+      "benefits": [
+        {
+          "benefit_type": "other",
+          "has_bvi": false,
+          "has_hundred_points": false,
+          "title": "Дополнительные баллы в МГТУ: приём-2026",
+          "description": "Не прогноз на приём-2027. Официальная страница профиля указывает 10 дополнительных баллов победителю I степени и 8 баллов призёру II степени при поступлении в МГТУ им. Н. Э. Баумана; применимость следует сверять с актуальными правилами конкретной приёмной кампании.",
+          "diploma_requirement": "Победитель I степени или призёр II степени",
+          "ege_subject": null,
+          "ege_min_score": null,
+          "admission_year": 2026,
+          "source_url": "https://olymp.bmstu.ru/ru/biology-olymp",
+          "university": {
+            "slug": "mgtu-imeni-n-e-baumana",
+            "name": "Московский государственный технический университет имени Н. Э. Баумана",
+            "short_name": "МГТУ им. Н. Э. Баумана",
+            "website_url": "https://bmstu.ru"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "title": "Официальная страница профиля «Биология»",
+          "url": "https://olymp.bmstu.ru/ru/biology-olymp",
+          "publisher": "МГТУ им. Н. Э. Баумана",
+          "source_type": "official_profile",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный список семи профилей олимпиады",
+          "url": "https://olymp.bmstu.ru/ru/profiles",
+          "publisher": "МГТУ им. Н. Э. Баумана",
+          "source_type": "official_profile_list",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Календарь олимпиады 2026/27: расписание ожидается",
+          "url": "https://olymp.bmstu.ru/ru/calendar",
+          "publisher": "МГТУ им. Н. Э. Баумана",
+          "source_type": "official_schedule",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    }
+  ]
+}

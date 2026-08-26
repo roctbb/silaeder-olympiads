@@ -1,0 +1,257 @@
+{
+  "checked_on": "2026-08-25",
+  "materials_by_slug": {
+    "vosh-2026-27-01": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Английский язык",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/anglyaz",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-02": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Астрономия",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/astronom",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-03": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Биология",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/biolog",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-04": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: География",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/geograf",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-05": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Информатика — программирование",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/informatic",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-06": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Информатика — искусственный интеллект",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/informatic",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-07": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Информатика — робототехника",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/informatic",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-08": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Информатика — информационная безопасность",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/informatic",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-09": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Искусство (МХК)",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/iskusstvo",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-10": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Испанский язык",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/ispansk",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-11": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: История",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/history",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-12": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Итальянский язык",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/italy",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-13": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Китайский язык",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/china",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-14": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Литература",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/literatura",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-15": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Математика",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/matematika",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-16": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Немецкий язык",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/nemeckiy",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-17": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: ОБЗР",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/osnovybezopasn",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-18": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Обществознание",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/obshestvo",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-19": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Право",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/pravo",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-20": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Русский язык",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/russkiy",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-21": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Культура дома, дизайн и технологии",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/tehnologiya",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-22": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Техника, технологии и техническое творчество",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/tehnologiya",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-23": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Физика",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/physics",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-24": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Физическая культура",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/fizkultura",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-25": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Французский язык",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/french",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-26": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Химия",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/chemistry",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-27": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Экология",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/ecology",
+        "is_official": true
+      }
+    ],
+    "vosh-2026-27-28": [
+      {
+        "title": "Задания и решения ВсОШ 2021/22–2025/26: Экономика",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://vserosolimp.edsoo.ru/economy",
+        "is_official": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,1984 @@
+{
+  "schema_version": 1,
+  "family_name": "Московская олимпиада школьников",
+  "target_catalog_year": "2026/27",
+  "admission_year": 2026,
+  "as_of": "2026-08-26",
+  "method": "Проверены только официальные страницы и документы приёмной кампании 2026 года пяти вузов. Связи создавались только по прямой строке «Московская олимпиада школьников» и профилю; уровень олимпиады из перечня не использовался как основание льготы.",
+  "record_note": "Все права — исторический ориентир по приёму-2026. Это не прогноз правил приёма-2027; для результата сезона 2026/27 правила выбранного вуза нужно перепроверить.",
+  "invariants": {
+    "one_benefit_per_slug_university": true,
+    "mixed_bvi_and_hundred_points_encoded_as": "other",
+    "no_registry_level_inference": true,
+    "unresolved_is_not_proof_of_no_benefit": true
+  },
+  "universities": {
+    "mipt": {
+      "slug": "mfti",
+      "name": "Московский физико-технический институт (МФТИ)",
+      "short_name": "МФТИ",
+      "website_url": "https://mipt.ru/"
+    },
+    "mephi": {
+      "slug": "niyau-mifi",
+      "name": "Национальный исследовательский ядерный университет «МИФИ»",
+      "short_name": "НИЯУ МИФИ",
+      "website_url": "https://mephi.ru/"
+    },
+    "bmstu": {
+      "slug": "mgtu-imeni-n-e-baumana",
+      "name": "Московский государственный технический университет им. Н. Э. Баумана",
+      "short_name": "МГТУ им. Н. Э. Баумана",
+      "website_url": "https://bmstu.ru/"
+    },
+    "itmo": {
+      "slug": "universitet-itmo",
+      "name": "Национальный исследовательский университет ИТМО",
+      "short_name": "ИТМО",
+      "website_url": "https://itmo.ru/"
+    },
+    "spbu": {
+      "slug": "spbgu",
+      "name": "Санкт-Петербургский государственный университет",
+      "short_name": "СПбГУ",
+      "website_url": "https://spbu.ru/"
+    }
+  },
+  "sources": [
+    {
+      "university_ref": "mipt",
+      "document_kind": "official_admissions_page_and_matrix",
+      "title": "Порядок предоставления особых прав победителям и призёрам олимпиад школьников в МФТИ в 2026 году",
+      "url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+      "http_status_checked": 200
+    },
+    {
+      "university_ref": "mephi",
+      "document_kind": "official_admissions_page",
+      "title": "Особые права победителей и призёров олимпиад при поступлении в НИЯУ МИФИ в 2026 году",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners",
+      "http_status_checked": 200
+    },
+    {
+      "university_ref": "mephi",
+      "document_kind": "official_pdf_matrix",
+      "title": "Особые права и преимущество победителей и призёров олимпиад школьников при поступлении в НИЯУ МИФИ в 2026 году",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+      "http_status_checked": 200
+    },
+    {
+      "university_ref": "bmstu",
+      "document_kind": "official_rules_appendix_5",
+      "title": "Порядок предоставления особых прав при поступлении в МГТУ им. Н. Э. Баумана в 2026 году",
+      "url": "https://api.mirror.bmstu.ru/file/122219/download",
+      "http_status_checked": 200
+    },
+    {
+      "university_ref": "bmstu",
+      "document_kind": "official_rules_appendix_5_1",
+      "title": "Соответствие олимпиад и НПС для БВИ в МГТУ им. Н. Э. Баумана в 2026 году",
+      "url": "https://api.mirror.bmstu.ru/file/124777/download",
+      "http_status_checked": 200
+    },
+    {
+      "university_ref": "bmstu",
+      "document_kind": "official_rules_appendix_5_3",
+      "title": "Олимпиады, предоставляющие 100 баллов в МГТУ им. Н. Э. Баумана в 2026 году",
+      "url": "https://api.mirror.bmstu.ru/file/122150/download",
+      "http_status_checked": 200
+    },
+    {
+      "university_ref": "itmo",
+      "document_kind": "official_pdf_matrix",
+      "title": "Дипломы РСОШ, дающие БВИ в Университете ИТМО в 2026 году",
+      "url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf",
+      "http_status_checked": 200
+    },
+    {
+      "university_ref": "spbu",
+      "document_kind": "official_pdf_matrix",
+      "title": "Перечень олимпиад и порядок предоставления особых прав при приёме в СПбГУ в 2026 году",
+      "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf",
+      "http_status_checked": 200
+    }
+  ],
+  "summary": {
+    "checked_slug_count": 32,
+    "checked_university_count": 5,
+    "confirmed_slug_count": 17,
+    "confirmed_benefit_count": 40,
+    "benefit_type_counts": {
+      "other": 20,
+      "bvi": 16,
+      "hundred_points": 4
+    }
+  },
+  "entries": [
+    {
+      "slug": "mosh-2026-27-arab",
+      "profile": "Арабский язык",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Арабский язык» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Арабский язык» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Арабский язык» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Арабский язык» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-01",
+      "profile": "Астрономия",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победитель или призёр МОШ по астрономии мог получить 100 баллов по физике при результате ЕГЭ/ВИ МФТИ по физике не ниже 75. Победителю дополнительно предоставлялось БВИ на «Радиотехнику и компьютерные технологии» и все конкурсные группы ЛФИ, ФАКТ, ПИШ ФАЛТ, ФЭФМ, КНТ и ФБВТ при физике не ниже 80.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, БВИ — только победителю",
+          "ege_subjects": [
+            "Физика"
+          ],
+          "ege_min_score": "75 для 100 баллов; 80 для БВИ",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 37 «Московская олимпиада школьников», профиль «астрономия»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на указанные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка МОШ «астрономия» предоставляет БВИ только на все направления, кроме 31.05.01, 38.03.01, 38.03.02, 38.03.05, 38.05.01 и 41.03.05. Право не распространяется автоматически на остальные направления НИЯУ МИФИ.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 10 или 11 классе",
+          "ege_subjects": [
+            "Физика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": [
+            "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"
+          ],
+          "source_locator": "Строка 37 «Московская олимпиада школьников», профиль «астрономия»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. По профилю МОШ «астрономия» приложение 5.3 предоставляет победителям и призёрам 100 баллов по указанному предмету; приложение 5.1 предоставляет БВИ только на тех НПС и только той степени диплома, где в соответствующей строке стоит «Предоставляется». Это не универсальное БВИ на весь вуз; для точного НПС нужно сверить обе колонки «Для победителей» и «Для призёров».",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе; конкретная степень для БВИ зависит от НПС",
+          "ege_subjects": [
+            "Физика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122150/download",
+            "https://api.mirror.bmstu.ru/file/122219/download"
+          ],
+          "source_locator": "Приложение 5.1 (перечень 2025/26), строки профиля «астрономия» по НПС; приложение 5.3, строка 37"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Астрономия» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-biol",
+      "profile": "Биология",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Биология» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Биология» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Биология» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Биология» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-bioecon",
+      "profile": "Биоэкономика",
+      "catalog_grades": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Биоэкономика» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Биоэкономика» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Биоэкономика» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Биоэкономика» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-02",
+      "profile": "Вероятность и статистика",
+      "catalog_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на указанные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка МОШ «вероятность и статистика» предоставляет БВИ только на все направления, кроме 41.03.05. Право не распространяется автоматически на остальные направления НИЯУ МИФИ.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 10 или 11 классе",
+          "ege_subjects": [
+            "Математика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": [
+            "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"
+          ],
+          "source_locator": "Строка 37 «Московская олимпиада школьников», профиль «вероятность и статистика»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. По профилю МОШ «вероятность и статистика» приложение 5.3 предоставляет победителям и призёрам 100 баллов по указанному предмету; приложение 5.1 предоставляет БВИ только на тех НПС и только той степени диплома, где в соответствующей строке стоит «Предоставляется». Это не универсальное БВИ на весь вуз; для точного НПС нужно сверить обе колонки «Для победителей» и «Для призёров».",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе; конкретная степень для БВИ зависит от НПС",
+          "ege_subjects": [
+            "Математика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122150/download",
+            "https://api.mirror.bmstu.ru/file/122219/download"
+          ],
+          "source_locator": "Приложение 5.1 (перечень 2025/26), строки профиля «вероятность и статистика» по НПС; приложение 5.3, строка 37"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Вероятность и статистика» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Вероятность и статистика» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-03",
+      "profile": "Генетика",
+      "catalog_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победитель или призёр МОШ по генетике мог получить 100 баллов по биологии при результате ЕГЭ/ВИ МФТИ по биологии не ниже 75. Победителю дополнительно предоставлялось БВИ на все конкурсные группы ФБМФ и ВШБИ при биологии не ниже 80.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, БВИ — только победителю",
+          "ege_subjects": [
+            "Биология"
+          ],
+          "ege_min_score": "75 для 100 баллов; 80 для БВИ",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 37, профиль «генетика»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. По профилю МОШ «генетика» приложение 5.3 предоставляет победителям и призёрам 100 баллов по биологии; приложение 5.1 предоставляет БВИ только на тех НПС и только той степени диплома, где в строке профиля стоит «Предоставляется». Это не универсальное БВИ на весь вуз; для точного НПС нужно сверить обе колонки «Для победителей» и «Для призёров».",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе; конкретная степень для БВИ зависит от НПС",
+          "ege_subjects": [
+            "Биология"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122150/download",
+            "https://api.mirror.bmstu.ru/file/122219/download"
+          ],
+          "source_locator": "Приложение 5.1 (перечень 2025/26), строка профиля «генетика» по НПС; приложение 5.3, строка 37"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "mephi",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Генетика» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Генетика» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-04",
+      "profile": "География",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «География» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «География» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «География» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «География» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-05",
+      "profile": "Изобразительное искусство",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "itmo",
+          "benefit_type": "bvi",
+          "title": "Университет ИТМО: БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победителю или призёру МОШ по изобразительному искусству предоставлялось БВИ на программу 54.03.01 «Дизайн». В строке документа поле подтверждающего общеобразовательного предмета не заполнено; порог не придуман.",
+          "diploma_requirement": "Победитель или призёр; диплом за 10 или 11 класс",
+          "ege_subjects": [],
+          "ege_min_score": null,
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf",
+          "source_locator": "Таблица БВИ-2026, строка «Московская олимпиада школьников — изобразительное искусство»"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Изобразительное искусство» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Изобразительное искусство» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Изобразительное искусство» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-iikt-10-11",
+      "profile": "Информатика (10–11 классы)",
+      "catalog_grades": [
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победитель или призёр МОШ по информатике мог получить 100 баллов по информатике и ИКТ при ЕГЭ/ВИ не ниже 75. Победителю давалось БВИ на «Компьютерные технологии и вычислительную технику», «Геокосмические науки и технологии», все группы ПИШ ФАЛТ, ФБМФ/ВШБИ, ФБВТ и ВШПИ при информатике не ниже 80.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, БВИ — только победителю",
+          "ege_subjects": [
+            "Информатика и ИКТ"
+          ],
+          "ege_min_score": "75 для 100 баллов; 80 для БВИ",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 37, профиль «информатика»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на указанные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка МОШ «информатика» предоставляет БВИ только на 01.03.02, 03.03.02, 03.05.02, 09.03.01, 09.03.03, 09.03.04, 10.03.01, 10.05.04, 10.05.05, 11.03.04, 12.03.01, 12.03.04, 14.05.04, 15.03.06, 18.03.01, 27.03.03, 38.03.01, 38.03.02, 38.03.05 и 38.05.01. Право не распространяется автоматически на остальные направления НИЯУ МИФИ.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 10 или 11 классе",
+          "ege_subjects": [
+            "Информатика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": [
+            "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"
+          ],
+          "source_locator": "Строка 37 «Московская олимпиада школьников», профиль «информатика»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. По профилю МОШ «информатика» приложение 5.3 предоставляет победителям и призёрам 100 баллов по указанному предмету; приложение 5.1 предоставляет БВИ только на тех НПС и только той степени диплома, где в соответствующей строке стоит «Предоставляется». Это не универсальное БВИ на весь вуз; для точного НПС нужно сверить обе колонки «Для победителей» и «Для призёров».",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе; конкретная степень для БВИ зависит от НПС",
+          "ege_subjects": [
+            "Информатика",
+            "Математика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122150/download",
+            "https://api.mirror.bmstu.ru/file/122219/download"
+          ],
+          "source_locator": "Приложение 5.1 (перечень 2025/26), строки профиля «информатика» по НПС; приложение 5.3, строка 37"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "itmo",
+          "benefit_type": "bvi",
+          "title": "Университет ИТМО: БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победителю или призёру МОШ по информатике предоставлялось БВИ на программу 01.03.02 «Прикладная математика и информатика» при подтверждении результатом ЕГЭ по информатике не ниже 75.",
+          "diploma_requirement": "Победитель или призёр; диплом за 10 или 11 класс",
+          "ege_subjects": [
+            "Информатика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf",
+          "source_locator": "Таблица БВИ-2026, строка «Московская олимпиада школьников — информатика»"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-iikt-6-9",
+      "profile": "Информатика (6–9 классы)",
+      "catalog_grades": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "age_track_not_safely_mapped",
+          "reason": "Официальный документ вуза не разделяет профиль МОШ на каталоговые возрастные карточки так, чтобы безопасно подтвердить право именно для «Информатика (6–9 классы)»; льгота старшей карточки не перенесена.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "age_track_not_safely_mapped",
+          "reason": "Официальный документ вуза не разделяет профиль МОШ на каталоговые возрастные карточки так, чтобы безопасно подтвердить право именно для «Информатика (6–9 классы)»; льгота старшей карточки не перенесена.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "age_track_not_safely_mapped",
+          "reason": "Официальный документ вуза не разделяет профиль МОШ на каталоговые возрастные карточки так, чтобы безопасно подтвердить право именно для «Информатика (6–9 классы)»; льгота старшей карточки не перенесена.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "age_track_not_safely_mapped",
+          "reason": "Официальный документ вуза не разделяет профиль МОШ на каталоговые возрастные карточки так, чтобы безопасно подтвердить право именно для «Информатика (6–9 классы)»; льгота старшей карточки не перенесена.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-ib",
+      "profile": "Информационная безопасность",
+      "catalog_grades": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Информационная безопасность» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Информационная безопасность» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Информационная безопасность» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Информационная безопасность» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-07",
+      "profile": "История",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на указанные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка МОШ «история» предоставляет БВИ только на 38.03.01, 38.03.02, 38.03.05, 38.05.01 и 41.03.05. Право не распространяется автоматически на остальные направления НИЯУ МИФИ.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 10 или 11 классе",
+          "ege_subjects": [
+            "История"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": [
+            "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"
+          ],
+          "source_locator": "Строка 37 «Московская олимпиада школьников», профиль «история»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. По профилю МОШ «история» приложение 5.3 предоставляет победителям и призёрам 100 баллов по истории; приложение 5.1 предоставляет БВИ только на тех НПС и только той степени диплома, где в строке профиля стоит «Предоставляется». Это не универсальное БВИ на весь вуз; для точного НПС нужно сверить обе колонки «Для победителей» и «Для призёров».",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе; конкретная степень для БВИ зависит от НПС",
+          "ege_subjects": [
+            "История"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122150/download",
+            "https://api.mirror.bmstu.ru/file/122219/download"
+          ],
+          "source_locator": "Приложение 5.1 (перечень 2025/26), строка профиля «история» по НПС; приложение 5.3, строка 37"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «История» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «История» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-08",
+      "profile": "История искусств",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «История искусств» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «История искусств» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «История искусств» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «История искусств» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-obzh",
+      "profile": "Комплексная безопасность",
+      "catalog_grades": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Комплексная безопасность» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Комплексная безопасность» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Комплексная безопасность» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Комплексная безопасность» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-09",
+      "profile": "Лингвистика",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "hundred_points",
+          "title": "НИЯУ МИФИ: 100 баллов по русскому языку, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка МОШ «лингвистика» предоставляет 100 баллов по русскому языку на всех направлениях НИЯУ МИФИ.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 8–11 классе",
+          "ege_subjects": [
+            "Русский язык"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": [
+            "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"
+          ],
+          "source_locator": "Строка 37, профиль «лингвистика»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "hundred_points",
+          "title": "МГТУ им. Н. Э. Баумана: 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. Приложение 5.3, строка 37, предоставляет победителю и призёру МОШ по профилю «лингвистика» 100 баллов по указанному предмету. В проверенных строках приложения 5.1 за 2025/26 отдельное БВИ по этому профилю не подтверждено, поэтому БВИ не заявляется.",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе",
+          "ege_subjects": [
+            "Английский язык"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/122150/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122219/download",
+            "https://api.mirror.bmstu.ru/file/124777/download"
+          ],
+          "source_locator": "Приложение 5.3, строка 37, профиль «лингвистика»"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Лингвистика» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Лингвистика» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-math-6-7",
+      "profile": "Математический праздник",
+      "catalog_grades": [
+        6,
+        7
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "age_track_not_safely_mapped",
+          "reason": "Официальный документ вуза не разделяет профиль МОШ на каталоговые возрастные карточки так, чтобы безопасно подтвердить право именно для «Математический праздник»; льгота старшей карточки не перенесена.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "age_track_not_safely_mapped",
+          "reason": "Официальный документ вуза не разделяет профиль МОШ на каталоговые возрастные карточки так, чтобы безопасно подтвердить право именно для «Математический праздник»; льгота старшей карточки не перенесена.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "age_track_not_safely_mapped",
+          "reason": "Официальный документ вуза не разделяет профиль МОШ на каталоговые возрастные карточки так, чтобы безопасно подтвердить право именно для «Математический праздник»; льгота старшей карточки не перенесена.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "age_track_not_safely_mapped",
+          "reason": "Официальный документ вуза не разделяет профиль МОШ на каталоговые возрастные карточки так, чтобы безопасно подтвердить право именно для «Математический праздник»; льгота старшей карточки не перенесена.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-math",
+      "profile": "Московская математическая олимпиада",
+      "catalog_grades": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победитель или призёр МОШ по математике мог получить 100 баллов по математике при ЕГЭ/ВИ не ниже 75. Победителю давалось БВИ на все группы ФРКТ, ЛФИ, ФАКТ, ПИШ ФАЛТ, ФЭФМ, ФБМФ/ВШБИ, КНТ, ФБВТ, ВШПИ и ВШМ при математике не ниже 80, а на все группы ФПМИ — не ниже 85.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, БВИ — только победителю",
+          "ege_subjects": [
+            "Математика"
+          ],
+          "ege_min_score": "75 для 100 баллов; 80 или 85 для БВИ по конкурсной группе",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 37, профиль «математика»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на указанные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка МОШ «математика» предоставляет БВИ только на все направления, кроме 41.03.05. Право не распространяется автоматически на остальные направления НИЯУ МИФИ.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 10 или 11 классе",
+          "ege_subjects": [
+            "Математика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": [
+            "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"
+          ],
+          "source_locator": "Строка 37 «Московская олимпиада школьников», профиль «математика»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. По профилю МОШ «математика» приложение 5.3 предоставляет победителям и призёрам 100 баллов по указанному предмету; приложение 5.1 предоставляет БВИ только на тех НПС и только той степени диплома, где в соответствующей строке стоит «Предоставляется». Это не универсальное БВИ на весь вуз; для точного НПС нужно сверить обе колонки «Для победителей» и «Для призёров».",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе; конкретная степень для БВИ зависит от НПС",
+          "ege_subjects": [
+            "Математика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122150/download",
+            "https://api.mirror.bmstu.ru/file/122219/download"
+          ],
+          "source_locator": "Приложение 5.1 (перечень 2025/26), строки профиля «математика» по НПС; приложение 5.3, строка 37"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "itmo",
+          "benefit_type": "bvi",
+          "title": "Университет ИТМО: БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победителю или призёру МОШ по математике предоставлялось БВИ на программу 01.03.02 «Прикладная математика и информатика» при подтверждении результатом ЕГЭ по математике не ниже 75.",
+          "diploma_requirement": "Победитель или призёр; диплом за 10 или 11 класс",
+          "ege_subjects": [
+            "Математика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf",
+          "source_locator": "Таблица БВИ-2026, строка «Московская олимпиада школьников — математика»"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-11",
+      "profile": "Обществознание",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на указанные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка МОШ «обществознание» предоставляет БВИ только на 38.03.01, 38.03.02, 38.03.05, 38.05.01 и 41.03.05. Право не распространяется автоматически на остальные направления НИЯУ МИФИ.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 10 или 11 классе",
+          "ege_subjects": [
+            "Обществознание"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": [
+            "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"
+          ],
+          "source_locator": "Строка 37 «Московская олимпиада школьников», профиль «обществознание»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. По профилю МОШ «обществознание» приложение 5.3 предоставляет победителям и призёрам 100 баллов по указанному предмету; приложение 5.1 предоставляет БВИ только на тех НПС и только той степени диплома, где в соответствующей строке стоит «Предоставляется». Это не универсальное БВИ на весь вуз; для точного НПС нужно сверить обе колонки «Для победителей» и «Для призёров».",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе; конкретная степень для БВИ зависит от НПС",
+          "ege_subjects": [
+            "Обществознание"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122150/download",
+            "https://api.mirror.bmstu.ru/file/122219/download"
+          ],
+          "source_locator": "Приложение 5.1 (перечень 2025/26), строки профиля «обществознание» по НПС; приложение 5.3, строка 37"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Обществознание» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Обществознание» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-12",
+      "profile": "Право",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. По профилю МОШ «право» приложение 5.3 предоставляет победителям и призёрам 100 баллов по указанному предмету; приложение 5.1 предоставляет БВИ только на тех НПС и только той степени диплома, где в соответствующей строке стоит «Предоставляется». Это не универсальное БВИ на весь вуз; для точного НПС нужно сверить обе колонки «Для победителей» и «Для призёров».",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе; конкретная степень для БВИ зависит от НПС",
+          "ege_subjects": [
+            "Обществознание"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122150/download",
+            "https://api.mirror.bmstu.ru/file/122219/download"
+          ],
+          "source_locator": "Приложение 5.1 (перечень 2025/26), строки профиля «право» по НПС; приложение 5.3, строка 37"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Право» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Право» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Право» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-predprof-engprak",
+      "profile": "Предпрофессиональная олимпиада: Инженерия",
+      "catalog_grades": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "umbrella_profile_ambiguous",
+          "reason": "В документе есть единая строка МОШ «предпрофессиональная», но нет безопасного соответствия трём отдельным карточкам каталога «Инженерия», «Информационные технологии» и «Исследования»; право не распределено между ними.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "umbrella_profile_ambiguous",
+          "reason": "В документе есть единая строка МОШ «предпрофессиональная», но нет безопасного соответствия трём отдельным карточкам каталога «Инженерия», «Информационные технологии» и «Исследования»; право не распределено между ними.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "umbrella_profile_ambiguous",
+          "reason": "В документе есть единая строка МОШ «предпрофессиональная», но нет безопасного соответствия трём отдельным карточкам каталога «Инженерия», «Информационные технологии» и «Исследования»; право не распределено между ними.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Предпрофессиональная олимпиада: Инженерия» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-predprof-infprak",
+      "profile": "Предпрофессиональная олимпиада: Информационные технологии",
+      "catalog_grades": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "umbrella_profile_ambiguous",
+          "reason": "В документе есть единая строка МОШ «предпрофессиональная», но нет безопасного соответствия трём отдельным карточкам каталога «Инженерия», «Информационные технологии» и «Исследования»; право не распределено между ними.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "umbrella_profile_ambiguous",
+          "reason": "В документе есть единая строка МОШ «предпрофессиональная», но нет безопасного соответствия трём отдельным карточкам каталога «Инженерия», «Информационные технологии» и «Исследования»; право не распределено между ними.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "umbrella_profile_ambiguous",
+          "reason": "В документе есть единая строка МОШ «предпрофессиональная», но нет безопасного соответствия трём отдельным карточкам каталога «Инженерия», «Информационные технологии» и «Исследования»; право не распределено между ними.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Предпрофессиональная олимпиада: Информационные технологии» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-predprof-sciprak",
+      "profile": "Предпрофессиональная олимпиада: Исследования",
+      "catalog_grades": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "umbrella_profile_ambiguous",
+          "reason": "В документе есть единая строка МОШ «предпрофессиональная», но нет безопасного соответствия трём отдельным карточкам каталога «Инженерия», «Информационные технологии» и «Исследования»; право не распределено между ними.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "umbrella_profile_ambiguous",
+          "reason": "В документе есть единая строка МОШ «предпрофессиональная», но нет безопасного соответствия трём отдельным карточкам каталога «Инженерия», «Информационные технологии» и «Исследования»; право не распределено между ними.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "umbrella_profile_ambiguous",
+          "reason": "В документе есть единая строка МОШ «предпрофессиональная», но нет безопасного соответствия трём отдельным карточкам каталога «Инженерия», «Информационные технологии» и «Исследования»; право не распределено между ними.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Предпрофессиональная олимпиада: Исследования» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-robo-5-8",
+      "profile": "Робототехника (5–8 классы)",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "age_track_not_safely_mapped",
+          "reason": "Официальный документ вуза не разделяет профиль МОШ на каталоговые возрастные карточки так, чтобы безопасно подтвердить право именно для «Робототехника (5–8 классы)»; льгота старшей карточки не перенесена.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "age_track_not_safely_mapped",
+          "reason": "Официальный документ вуза не разделяет профиль МОШ на каталоговые возрастные карточки так, чтобы безопасно подтвердить право именно для «Робототехника (5–8 классы)»; льгота старшей карточки не перенесена.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "age_track_not_safely_mapped",
+          "reason": "Официальный документ вуза не разделяет профиль МОШ на каталоговые возрастные карточки так, чтобы безопасно подтвердить право именно для «Робототехника (5–8 классы)»; льгота старшей карточки не перенесена.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "age_track_not_safely_mapped",
+          "reason": "Официальный документ вуза не разделяет профиль МОШ на каталоговые возрастные карточки так, чтобы безопасно подтвердить право именно для «Робототехника (5–8 классы)»; льгота старшей карточки не перенесена.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-robo-9-11",
+      "profile": "Робототехника (9–11 классы)",
+      "catalog_grades": [
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "bvi",
+          "title": "МФТИ: адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победителю МОШ по робототехнике предоставлялось БВИ на все конкурсные группы ФАКТ при ЕГЭ/ВИ МФТИ по физике не ниже 85 либо на все группы ПИШ ФАЛТ при физике не ниже 80. Универсального БВИ на весь МФТИ строка не даёт.",
+          "diploma_requirement": "Победитель; результат за 11 класс, полученный не ранее 2022 года",
+          "ege_subjects": [
+            "Физика"
+          ],
+          "ege_min_score": "85 для ФАКТ; 80 для ПИШ ФАЛТ",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 37, профиль «робототехника»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на указанные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка МОШ «робототехника» предоставляет БВИ только на 01.03.02, 03.03.02, 03.05.02, 09.03.01, 09.03.03, 09.03.04, 10.03.01, 10.05.04, 10.05.05, 11.03.04, 12.03.01, 12.03.04, 14.05.04, 15.03.06, 18.03.01, 27.03.03, 38.03.01, 38.03.02, 38.03.05 и 38.05.01. Право не распространяется автоматически на остальные направления НИЯУ МИФИ.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 10 или 11 классе",
+          "ege_subjects": [
+            "Информатика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": [
+            "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"
+          ],
+          "source_locator": "Строка 37 «Московская олимпиада школьников», профиль «робототехника»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. По профилю МОШ «робототехника» приложение 5.3 предоставляет победителям и призёрам 100 баллов по указанному предмету; приложение 5.1 предоставляет БВИ только на тех НПС и только той степени диплома, где в соответствующей строке стоит «Предоставляется». Это не универсальное БВИ на весь вуз; для точного НПС нужно сверить обе колонки «Для победителей» и «Для призёров».",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе; конкретная степень для БВИ зависит от НПС",
+          "ege_subjects": [
+            "Физика",
+            "Информатика",
+            "Математика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122150/download",
+            "https://api.mirror.bmstu.ru/file/122219/download"
+          ],
+          "source_locator": "Приложение 5.1 (перечень 2025/26), строки профиля «робототехника» по НПС; приложение 5.3, строка 37"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Робототехника (9–11 классы)» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-trud-kd",
+      "profile": "Труд (технология): Культура дома, дизайн и технологии",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Труд (технология): Культура дома, дизайн и технологии» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Труд (технология): Культура дома, дизайн и технологии» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Труд (технология): Культура дома, дизайн и технологии» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Труд (технология): Культура дома, дизайн и технологии» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-trud-tt",
+      "profile": "Труд (технология): Техника, технологии и техническое творчество",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Труд (технология): Техника, технологии и техническое творчество» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Труд (технология): Техника, технологии и техническое творчество» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Труд (технология): Техника, технологии и техническое творчество» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Труд (технология): Техника, технологии и техническое творчество» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-15",
+      "profile": "Физика",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победитель или призёр МОШ по физике мог получить 100 баллов по физике при ЕГЭ/ВИ не ниже 75. Победителю предоставлялось БВИ на все группы ФРКТ, ЛФИ, ФАКТ, ПИШ ФАЛТ, ФЭФМ, ФБМФ/ВШБИ, КНТ и ФБВТ при физике не ниже 80.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, БВИ — только победителю",
+          "ege_subjects": [
+            "Физика"
+          ],
+          "ege_min_score": "75 для 100 баллов; 80 для БВИ",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 37, профиль «физика»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на указанные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка МОШ «физика» предоставляет БВИ только на все направления, кроме 31.05.01, 38.03.01, 38.03.02, 38.03.05, 38.05.01 и 41.03.05. Право не распространяется автоматически на остальные направления НИЯУ МИФИ.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 10 или 11 классе",
+          "ege_subjects": [
+            "Физика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": [
+            "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"
+          ],
+          "source_locator": "Строка 37 «Московская олимпиада школьников», профиль «физика»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. По профилю МОШ «физика» приложение 5.3 предоставляет победителям и призёрам 100 баллов по указанному предмету; приложение 5.1 предоставляет БВИ только на тех НПС и только той степени диплома, где в соответствующей строке стоит «Предоставляется». Это не универсальное БВИ на весь вуз; для точного НПС нужно сверить обе колонки «Для победителей» и «Для призёров».",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе; конкретная степень для БВИ зависит от НПС",
+          "ege_subjects": [
+            "Физика"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122150/download",
+            "https://api.mirror.bmstu.ru/file/122219/download"
+          ],
+          "source_locator": "Приложение 5.1 (перечень 2025/26), строки профиля «физика» по НПС; приложение 5.3, строка 37"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Физика» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-phil",
+      "profile": "Филология",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "hundred_points",
+          "title": "НИЯУ МИФИ: 100 баллов по русскому языку, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка МОШ «филология» предоставляет 100 баллов по русскому языку на всех направлениях НИЯУ МИФИ.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 8–11 классе",
+          "ege_subjects": [
+            "Русский язык"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": [
+            "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"
+          ],
+          "source_locator": "Строка 37, профиль «филология»"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Филология» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "bmstu",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Филология» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://api.mirror.bmstu.ru/file/122219/download"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Филология» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-16",
+      "profile": "Финансовая грамотность",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "bvi",
+          "title": "МФТИ: адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победителю МОШ по финансовой грамотности предоставлялось БВИ на все конкурсные группы ФБВТ при результате ЕГЭ/ВИ МФТИ по обществознанию не ниже 80. Универсального БВИ на весь МФТИ строка не даёт.",
+          "diploma_requirement": "Победитель; результат за 11 класс, полученный не ранее 2022 года",
+          "ege_subjects": [
+            "Обществознание"
+          ],
+          "ege_min_score": 80,
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 37, профиль «финансовая грамотность»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "other",
+          "title": "НИЯУ МИФИ: БВИ и 100 баллов по разным колонкам, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка МОШ «финансовая грамотность» одновременно указывает БВИ на 38.03.01, 38.03.05, 38.05.01 и 41.03.05 и 100 баллов на 41.03.05; профильный предмет в строке — обществознание. Поэтому право сохранено единым типом other, а не как универсальное БВИ.",
+          "diploma_requirement": "Для БВИ — победитель или призёр с результатом в 10–11 классе; для 100 баллов — результат в 8–11 классе",
+          "ege_subjects": [
+            "Обществознание"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": [
+            "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"
+          ],
+          "source_locator": "Строка 37, профиль «финансовая грамотность»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "hundred_points",
+          "title": "МГТУ им. Н. Э. Баумана: 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. Приложение 5.3, строка 37, предоставляет победителю и призёру МОШ по профилю «финансовая грамотность» 100 баллов по указанному предмету. В проверенных строках приложения 5.1 за 2025/26 отдельное БВИ по этому профилю не подтверждено, поэтому БВИ не заявляется.",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе",
+          "ege_subjects": [
+            "Обществознание"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/122150/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122219/download",
+            "https://api.mirror.bmstu.ru/file/124777/download"
+          ],
+          "source_locator": "Приложение 5.3, строка 37, профиль «финансовая грамотность»"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Финансовая грамотность» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-17",
+      "profile": "Химия",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победитель или призёр МОШ по химии мог получить 100 баллов по химии при ЕГЭ/ВИ не ниже 75. Победителю давалось БВИ на все группы ФЭФМ при математике не ниже 80, на все группы ФБМФ/ВШБИ и КНТ при химии не ниже 80.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, БВИ — только победителю",
+          "ege_subjects": [
+            "Химия",
+            "Математика"
+          ],
+          "ege_min_score": "75 для 100 баллов; 80 для БВИ по указанному предмету",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 37, профиль «химия»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на указанные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка МОШ «химия» предоставляет БВИ только на 12.03.04, 18.03.01, 22.03.01 и 31.05.01. Право не распространяется автоматически на остальные направления НИЯУ МИФИ.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 10 или 11 классе",
+          "ege_subjects": [
+            "Химия"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": [
+            "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"
+          ],
+          "source_locator": "Строка 37 «Московская олимпиада школьников», профиль «химия»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. По профилю МОШ «химия» приложение 5.3 предоставляет победителям и призёрам 100 баллов по указанному предмету; приложение 5.1 предоставляет БВИ только на тех НПС и только той степени диплома, где в соответствующей строке стоит «Предоставляется». Это не универсальное БВИ на весь вуз; для точного НПС нужно сверить обе колонки «Для победителей» и «Для призёров».",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе; конкретная степень для БВИ зависит от НПС",
+          "ege_subjects": [
+            "Химия"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122150/download",
+            "https://api.mirror.bmstu.ru/file/122219/download"
+          ],
+          "source_locator": "Приложение 5.1 (перечень 2025/26), строки профиля «химия» по НПС; приложение 5.3, строка 37"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Химия» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-18",
+      "profile": "Экология",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. По профилю МОШ «экология» приложение 5.3 предоставляет победителям и призёрам 100 баллов по указанному предмету; приложение 5.1 предоставляет БВИ только на тех НПС и только той степени диплома, где в соответствующей строке стоит «Предоставляется». Это не универсальное БВИ на весь вуз; для точного НПС нужно сверить обе колонки «Для победителей» и «Для призёров».",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе; конкретная степень для БВИ зависит от НПС",
+          "ege_subjects": [
+            "Биология",
+            "Химия"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122150/download",
+            "https://api.mirror.bmstu.ru/file/122219/download"
+          ],
+          "source_locator": "Приложение 5.1 (перечень 2025/26), строки профиля «экология» по НПС; приложение 5.3, строка 37"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "mipt",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Экология» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/"
+        },
+        {
+          "university_ref": "mephi",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Экология» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf"
+        },
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Экология» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-19",
+      "profile": "Экономика",
+      "catalog_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "bvi",
+          "title": "МФТИ: адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победителю МОШ по экономике предоставлялось БВИ на все конкурсные группы ФБВТ при результате ЕГЭ/ВИ МФТИ по обществознанию не ниже 80. Универсального БВИ на весь МФТИ строка не даёт.",
+          "diploma_requirement": "Победитель; результат за 11 класс, полученный не ранее 2022 года",
+          "ege_subjects": [
+            "Обществознание"
+          ],
+          "ege_min_score": 80,
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 37, профиль «экономика»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на указанные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка МОШ «экономика» предоставляет БВИ только на 38.03.01, 38.03.05, 38.05.01 и 41.03.05. Право не распространяется автоматически на остальные направления НИЯУ МИФИ.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 10 или 11 классе",
+          "ege_subjects": [
+            "Обществознание"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": [
+            "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"
+          ],
+          "source_locator": "Строка 37 «Московская олимпиада школьников», профиль «экономика»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. По профилю МОШ «экономика» приложение 5.3 предоставляет победителям и призёрам 100 баллов по указанному предмету; приложение 5.1 предоставляет БВИ только на тех НПС и только той степени диплома, где в соответствующей строке стоит «Предоставляется». Это не универсальное БВИ на весь вуз; для точного НПС нужно сверить обе колонки «Для победителей» и «Для призёров».",
+          "diploma_requirement": "Победитель или призёр, получивший результат в 10 или 11 классе; конкретная степень для БВИ зависит от НПС",
+          "ege_subjects": [
+            "Обществознание"
+          ],
+          "ege_min_score": 75,
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "additional_source_urls": [
+            "https://api.mirror.bmstu.ru/file/122150/download",
+            "https://api.mirror.bmstu.ru/file/122219/download"
+          ],
+          "source_locator": "Приложение 5.1 (перечень 2025/26), строки профиля «экономика» по НПС; приложение 5.3, строка 37"
+        }
+      ],
+      "unresolved": [
+        {
+          "university_ref": "itmo",
+          "status": "not_explicitly_confirmed",
+          "reason": "В проверенном официальном документе приёма-2026 не найдена однозначная строка, позволяющая связать «Экономика» с конкретным правом без вывода из уровня перечня.",
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf"
+        },
+        {
+          "university_ref": "spbu",
+          "status": "generic_matrix_only",
+          "reason": "В официальной матрице СПбГУ приёма-2026 нет строки с названием «Московская олимпиада школьников»; документ задаёт права по профилю и уровню. По условию исследования уровень перечня не использовался для вывода, поэтому связь не назначена.",
+          "source_url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf"
+        }
+      ]
+    }
+  ]
+}

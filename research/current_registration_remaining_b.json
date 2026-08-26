@@ -1,0 +1,664 @@
+{
+  "checked_on": "2026-08-26",
+  "target_academic_year": "2026/27",
+  "slugs": [
+    {
+      "slug": "registry-2026-27-001-01",
+      "registration_url": "http://olimp-test.ru/olimpiada2026-2027/registration",
+      "registration_status": "announced",
+      "source_url": "https://fin-olimp.ru/",
+      "evidence": "Официальный сайт цикла 2026/27 назначает регистрацию на 01.09–30.11.2026 и прямо указывает платформу olimp-test.ru. Точная страница /olimpiada2026-2027/registration отвечает HTTP 200, но 26.08.2026 показывает «Регистрация закончилась» и не принимает заявку; поэтому ссылка отмечена announced, а не open."
+    },
+    {
+      "slug": "registry-2026-27-012-01",
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://olymp.tsput.ru/news/18356/",
+      "evidence": "Официальная новость от 11.08.2026 подтверждает профиль в проекте Перечня 2026/27. Однако страница регистрации всё ещё описывает и закрывает цикл 2025/26; отдельная форма или окно подачи заявок 2026/27 не опубликованы."
+    },
+    {
+      "slug": "registry-2026-27-012-02",
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://olymp.tsput.ru/news/18356/",
+      "evidence": "Официальная новость от 11.08.2026 подтверждает профиль в проекте Перечня 2026/27. Однако страница регистрации всё ещё описывает и закрывает цикл 2025/26; отдельная форма или окно подачи заявок 2026/27 не опубликованы."
+    },
+    {
+      "slug": "registry-2026-27-012-03",
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://olymp.tsput.ru/news/18356/",
+      "evidence": "Официальная новость от 11.08.2026 подтверждает профиль в проекте Перечня 2026/27. Однако страница регистрации всё ещё описывает и закрывает цикл 2025/26; отдельная форма или окно подачи заявок 2026/27 не опубликованы."
+    },
+    {
+      "slug": "registry-2026-27-012-04",
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://olymp.tsput.ru/news/18356/",
+      "evidence": "Официальная новость от 11.08.2026 подтверждает профиль в проекте Перечня 2026/27. Однако страница регистрации всё ещё описывает и закрывает цикл 2025/26; отдельная форма или окно подачи заявок 2026/27 не опубликованы."
+    },
+    {
+      "slug": "registry-2026-27-010-01",
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://usla.ru/document/?nav-more-notice=page-all",
+      "evidence": "В официальном реестре документов опубликован актуальный приказ № 155 от 04.05.2026 о проведении олимпиады в 2026/27 учебном году. На публичной странице олимпиады и среди её форм остаётся только прошлый цикл; точная форма 2026/27 ещё не опубликована."
+    },
+    {
+      "slug": "registry-2026-27-014-02",
+      "registration_url": "https://vsesib.nsu.ru/",
+      "registration_status": "announced",
+      "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
+      "evidence": "Актуальная страница этапов 2026/27 назначает начало регистрации на 28.09.2026 и прямо требует зарегистрироваться в этом личном кабинете; кабинет отвечает HTTP 200. До начала окна ссылка отмечена announced."
+    },
+    {
+      "slug": "registry-2026-27-017-01",
+      "registration_url": "https://distolymp.spbu.ru/phys/olymp/registration/user/",
+      "registration_status": "open",
+      "source_url": "https://distolymp.spbu.ru/phys/olymp/",
+      "evidence": "Официальная олимпиадная система прямо сообщает «Начата регистрация на олимпиаду 2026/2027 учебного года». Точная форма участника отвечает HTTP 200, содержит обязательные поля, CAPTCHA и отправку анкеты; это действующая заявка нового цикла."
+    },
+    {
+      "slug": "registry-2026-27-020-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open",
+      "evidence": "Официальная семейная страница отвечает HTTP 200, но все пять профилей и встроенные формы относятся к циклу 2025/26 и уже прошедшим финалам. Маркера, расписания или предметной заявки 2026/27 на первичном сайте не найдено."
+    },
+    {
+      "slug": "registry-2026-27-020-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open",
+      "evidence": "Официальная семейная страница отвечает HTTP 200, но все пять профилей и встроенные формы относятся к циклу 2025/26 и уже прошедшим финалам. Маркера, расписания или предметной заявки 2026/27 на первичном сайте не найдено."
+    },
+    {
+      "slug": "registry-2026-27-020-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open",
+      "evidence": "Официальная семейная страница отвечает HTTP 200, но все пять профилей и встроенные формы относятся к циклу 2025/26 и уже прошедшим финалам. Маркера, расписания или предметной заявки 2026/27 на первичном сайте не найдено."
+    },
+    {
+      "slug": "registry-2026-27-020-04",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open",
+      "evidence": "Официальная семейная страница отвечает HTTP 200, но все пять профилей и встроенные формы относятся к циклу 2025/26 и уже прошедшим финалам. Маркера, расписания или предметной заявки 2026/27 на первичном сайте не найдено."
+    },
+    {
+      "slug": "registry-2026-27-020-05",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open",
+      "evidence": "Официальная семейная страница отвечает HTTP 200, но все пять профилей и встроенные формы относятся к циклу 2025/26 и уже прошедшим финалам. Маркера, расписания или предметной заявки 2026/27 на первичном сайте не найдено."
+    },
+    {
+      "slug": "registry-2026-27-025-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.rgup.ru/",
+      "evidence": "Официальный сайт отвечает HTTP 200 и по-прежнему показывает цикл 2025/26: регистрация 01.10–13.11.2025 и финал 01.02.2026. Кабинет прошлого сезона не считается заявкой 2026/27; нового объявления или формы нет."
+    },
+    {
+      "slug": "registry-2026-27-028-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.pguas.ru/tatlin/52-science/nauchnye-meropriyatiya/olimpiada-tatlina",
+      "evidence": "Первичная страница ПГУАС отвечает HTTP 200, но содержит документы и результаты прежних циклов (включая приказ 2024 года и результаты 2025 года). Информация и форма участия 2026/27 не опубликованы."
+    },
+    {
+      "slug": "registry-2026-27-028-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.pguas.ru/tatlin/52-science/nauchnye-meropriyatiya/olimpiada-tatlina",
+      "evidence": "Первичная страница ПГУАС отвечает HTTP 200, но содержит документы и результаты прежних циклов (включая приказ 2024 года и результаты 2025 года). Информация и форма участия 2026/27 не опубликованы."
+    },
+    {
+      "slug": "registry-2026-27-028-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.pguas.ru/tatlin/52-science/nauchnye-meropriyatiya/olimpiada-tatlina",
+      "evidence": "Первичная страница ПГУАС отвечает HTTP 200, но содержит документы и результаты прежних циклов (включая приказ 2024 года и результаты 2025 года). Информация и форма участия 2026/27 не опубликованы."
+    },
+    {
+      "slug": "registry-2026-27-031-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sarkisov-olimp.muctr.ru/",
+      "evidence": "Опубликованная организаторами страница отвечает HTTP 200, но указывает регистрацию с 01.12.2024 и этапы 2024/25. Ссылка на общий кабинет РХТУ не имеет привязки к сезону 2026/27 и исключена."
+    },
+    {
+      "slug": "registry-2026-27-034-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.susu.ru/ru/news/2025/10/27/mnogoprofilnaya-inzhenernaya-olimpiada-zvezda-priglashaet-shkolnikov-k-uchastiyu",
+      "evidence": "Официальная публикация ЮУрГУ запускает только сезон 2025/26 с отбором в октябре–ноябре 2025. Последние новости профильного сайта также озаглавлены 2025/26; отдельного объявления или формы 2026/27 не найдено."
+    },
+    {
+      "slug": "registry-2026-27-034-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.susu.ru/ru/news/2025/10/27/mnogoprofilnaya-inzhenernaya-olimpiada-zvezda-priglashaet-shkolnikov-k-uchastiyu",
+      "evidence": "Официальная публикация ЮУрГУ запускает только сезон 2025/26 с отбором в октябре–ноябре 2025. Последние новости профильного сайта также озаглавлены 2025/26; отдельного объявления или формы 2026/27 не найдено."
+    },
+    {
+      "slug": "registry-2026-27-040-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olympiads.mccme.ru/ommo/",
+      "evidence": "Первичный сайт называет текущую опубликованную олимпиаду «ОММО-2026» и содержит завершённые сроки 2025/26. Конкретной страницы или формы регистрации 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-040-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://xn--80aeffgfbql5dyaw0k.xn--p1ai/union-olymp",
+      "evidence": "Официальная профильная страница отвечает HTTP 200 и описывает «ОМО по физике 2026» с уже завершённым циклом. Регистрация или объявление для 2026/27 на первичном сайте не опубликованы."
+    },
+    {
+      "slug": "registry-2026-27-058-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://yumsh.ru/cms/",
+      "evidence": "Официальный сайт отвечает HTTP 200, а навигация и последние олимпиадные объявления относятся к 2025/26 и январю 2026 года. Страницы регистрации текущего 2026/27 цикла не найдено."
+    },
+    {
+      "slug": "registry-2026-27-048-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-04",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-05",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-06",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-07",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-08",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-09",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-10",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-11",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-12",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-13",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-14",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-15",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-16",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-17",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-18",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-19",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-20",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-21",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-22",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-23",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-24",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-25",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-26",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-048-27",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.msu.ru/",
+      "evidence": "Официальный портал МГУ отвечает HTTP 200 и показывает регистрацию октября–декабря 2025 и финалы февраля–марта 2026. /rus/register/ является общей регистрацией аккаунта старого портала; предметной заявки или объявления 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-051-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://bio-olymp.mipt.ru/",
+      "evidence": "Официальный профильный сайт по биологии содержит только этапы и новости 2025/26. Ссылка «Регистрация» создаёт общий аккаунт, но текущая олимпиадная заявка 2026/27 на сайте не объявлена; общая форма исключена."
+    },
+    {
+      "slug": "registry-2026-27-051-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.mipt-rse.ru/",
+      "evidence": "Официальный сайт «Физтех.Инженер» отвечает HTTP 200, но последняя точная форма — регистрация на финал 21.03.2026 с дедлайном 16.03.2026. Страница или заявка нового сезона 2026/27 не найдена."
+    },
+    {
+      "slug": "registry-2026-27-051-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://uc1.1c.ru/lp/olimpiada-nashe-buduschee/",
+      "evidence": "Официальная страница «Физтех.Код будущего» содержит сезонно не размеченную форму, а последняя новость сообщает итоги уже завершившегося цикла. На форме и странице нет маркера 2026/27 или текущих сроков, поэтому общая анкета не признана новой регистрацией."
+    },
+    {
+      "slug": "registry-2026-27-051-04",
+      "registration_url": "https://olymp-online.mipt.ru/pre-reg/",
+      "registration_status": "announced",
+      "source_url": "https://olymp-online.mipt.ru/event/449",
+      "evidence": "Точная карточка «Отборочный этап 2026/27» публикует текущие туры и начало регистрации 07.09.2026 для математики и физики. Связанная форма /pre-reg/ отвечает HTTP 200 и пока сообщает «Регистрация в данный момент закрыта», поэтому статус announced."
+    },
+    {
+      "slug": "registry-2026-27-051-05",
+      "registration_url": "https://olymp-online.mipt.ru/pre-reg/",
+      "registration_status": "announced",
+      "source_url": "https://olymp-online.mipt.ru/event/449",
+      "evidence": "Точная карточка «Отборочный этап 2026/27» публикует текущие туры и начало регистрации 07.09.2026 для математики и физики. Связанная форма /pre-reg/ отвечает HTTP 200 и пока сообщает «Регистрация в данный момент закрыта», поэтому статус announced."
+    },
+    {
+      "slug": "registry-2026-27-051-07",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://chem-olymp.mipt.ru/",
+      "evidence": "Официальный профильный сайт по химии показывает отбор 12.01–15.02.2026 и финал 05.04.2026. /pre-reg создаёт общий аккаунт, но отдельная олимпиадная заявка или объявление 2026/27 отсутствуют."
+    },
+    {
+      "slug": "registry-2026-27-056-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-04",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-05",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-06",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-07",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-08",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-09",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-10",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-11",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-12",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-13",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-14",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-15",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-16",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-17",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-18",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-19",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-20",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-056-21",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://sch-olymp.spbu.ru/",
+      "evidence": "Новый официальный сайт Олимпиады СПбГУ отвечает HTTP 200, но все 21 предметная кнопка и календарь относятся к циклу 25.10.2025–03.04.2026. Сайт отдельно предупреждает, что кабинеты прошлых лет недействительны; страницы или формы 2026/27 ещё нет."
+    },
+    {
+      "slug": "registry-2026-27-057-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://rpa-mu.wixsite.com/my-site",
+      "evidence": "Официальная страница организатора отвечает HTTP 200 и прямо описывает 2025/26: регистрация 15.10–30.11.2025 и финал 01.03.2026. Прошлосезонный кабинет olimp-lk.rpa-mu.ru исключён; страницы 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-062-01",
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://olymp.misis.ru/",
+      "evidence": "Официальный сайт отвечает HTTP 200, сообщает, что олимпиада 2025/26 завершена, а информация о следующем учебном году появится осенью 2026. Точная заявка 2026/27 ещё не опубликована."
+    },
+    {
+      "slug": "registry-2026-27-065-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olympiad.gazprom.ru/",
+      "evidence": "Официальное приложение отвечает HTTP 200, но его публичный комплект документов и перечневые сведения заканчиваются 2025/26. Отдельной страницы, сроков или формы подачи заявки 2026/27 для этих профилей не найдено; общий вход не использован."
+    },
+    {
+      "slug": "registry-2026-27-065-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olympiad.gazprom.ru/",
+      "evidence": "Официальное приложение отвечает HTTP 200, но его публичный комплект документов и перечневые сведения заканчиваются 2025/26. Отдельной страницы, сроков или формы подачи заявки 2026/27 для этих профилей не найдено; общий вход не использован."
+    },
+    {
+      "slug": "registry-2026-27-065-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olympiad.gazprom.ru/",
+      "evidence": "Официальное приложение отвечает HTTP 200, но его публичный комплект документов и перечневые сведения заканчиваются 2025/26. Отдельной страницы, сроков или формы подачи заявки 2026/27 для этих профилей не найдено; общий вход не использован."
+    },
+    {
+      "slug": "registry-2026-27-068-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.rea.ru/pk/entrant/posh",
+      "evidence": "Официальная страница РЭУ отвечает HTTP 200, но опубликованные документы, новости и результаты относятся к 2025/26. Конкретного объявления или формы регистрации Плехановской олимпиады 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-068-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.rea.ru/pk/entrant/posh",
+      "evidence": "Официальная страница РЭУ отвечает HTTP 200, но опубликованные документы, новости и результаты относятся к 2025/26. Конкретного объявления или формы регистрации Плехановской олимпиады 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-068-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.rea.ru/pk/entrant/posh",
+      "evidence": "Официальная страница РЭУ отвечает HTTP 200, но опубликованные документы, новости и результаты относятся к 2025/26. Конкретного объявления или формы регистрации Плехановской олимпиады 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-068-04",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.rea.ru/pk/entrant/posh",
+      "evidence": "Официальная страница РЭУ отвечает HTTP 200, но опубликованные документы, новости и результаты относятся к 2025/26. Конкретного объявления или формы регистрации Плехановской олимпиады 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-071-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://www.pdmi.ras.ru/~olymp/current.html",
+      "evidence": "Первичная страница оргкомитета отвечает HTTP 200 и озаглавлена «Олимпиада 2025-26 года — текущая информация». Регистрация или отдельная страница Санкт-Петербургской олимпиады по математике 2026/27 не опубликованы."
+    },
+    {
+      "slug": "registry-2026-27-071-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.academtalant.ru/region",
+      "evidence": "Официальный портал Центра олимпиад Санкт-Петербурга отвечает HTTP 200, но не публикует регистрацию Санкт-Петербургской олимпиады по физике 2026/27; профильный сайт оргкомитета содержит лишь завершённые объявления 2025/26. Точной формы нового цикла нет."
+    },
+    {
+      "slug": "registry-2026-27-071-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olymp.academtalant.ru/chemspb",
+      "evidence": "Официальная профильная страница отвечает HTTP 200 и содержит только итоги, награждение и туры 2025/26. Регистрация на награждение и практический тур прошлого сезона исключены; заявки 2026/27 нет."
+    },
+    {
+      "slug": "registry-2026-27-074-01",
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://olymphysics.nsu.ru/",
+      "evidence": "Официальный сайт отвечает HTTP 200 и публикует регламент 2026/27: регистрация отборочного этапа начнётся 01.11.2026. Доступная сейчас /login/signup.php — лишь общая форма аккаунта Moodle, а олимпиадная заявка ещё не открыта."
+    },
+    {
+      "slug": "registry-2026-27-078-01",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://dovuz.sfu.ru/abiturientu-sfu/olimpiady/belchonok/2025-2026-uchebnyy-god/",
+      "evidence": "Старый официальный адрес автоматически перенаправляет на эту точную страницу «2025/2026 учебный год» (HTTP 200). Раздела, объявления или формы регистрации «Бельчонка» 2026/27 на первичном сайте пока нет."
+    },
+    {
+      "slug": "registry-2026-27-078-02",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://dovuz.sfu.ru/abiturientu-sfu/olimpiady/belchonok/2025-2026-uchebnyy-god/",
+      "evidence": "Старый официальный адрес автоматически перенаправляет на эту точную страницу «2025/2026 учебный год» (HTTP 200). Раздела, объявления или формы регистрации «Бельчонка» 2026/27 на первичном сайте пока нет."
+    },
+    {
+      "slug": "registry-2026-27-078-03",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://dovuz.sfu.ru/abiturientu-sfu/olimpiady/belchonok/2025-2026-uchebnyy-god/",
+      "evidence": "Старый официальный адрес автоматически перенаправляет на эту точную страницу «2025/2026 учебный год» (HTTP 200). Раздела, объявления или формы регистрации «Бельчонка» 2026/27 на первичном сайте пока нет."
+    },
+    {
+      "slug": "registry-2026-27-078-04",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://dovuz.sfu.ru/abiturientu-sfu/olimpiady/belchonok/2025-2026-uchebnyy-god/",
+      "evidence": "Старый официальный адрес автоматически перенаправляет на эту точную страницу «2025/2026 учебный год» (HTTP 200). Раздела, объявления или формы регистрации «Бельчонка» 2026/27 на первичном сайте пока нет."
+    }
+  ]
+}

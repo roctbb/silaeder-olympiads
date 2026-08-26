@@ -1,0 +1,580 @@
+{
+  "schema_version": "1.0",
+  "target_catalog_year": "2026/27",
+  "admission_year": 2026,
+  "as_of": "2026-08-26",
+  "scope": "14 exact catalog slugs with registry level I, grade 11 eligibility, and no concrete university benefit before this review",
+  "method": "Only explicit name-and-profile matches in official university admission-2026 rules or matrices were accepted. Registry level alone was never used to infer a benefit.",
+  "record_note": "Не прогноз на приём-2027. Все права ниже описывают только приёмную кампанию 2026 года; перед подачей заявления правила следующего года нужно проверить заново.",
+  "invariants": [
+    "exact slug coverage is 14/14",
+    "every accepted benefit has admission_year=2026",
+    "no more than one UX benefit exists for a slug+university pair",
+    "heterogeneous rights within one university are represented as benefit_type=other",
+    "a registry level without an explicit olympiad-name match never creates a benefit"
+  ],
+  "universities": {
+    "mipt": {
+      "slug": "mfti",
+      "name": "Московский физико-технический институт (МФТИ)",
+      "short_name": "МФТИ",
+      "website_url": "https://mipt.ru/"
+    },
+    "msu": {
+      "slug": "mgu-imeni-m-v-lomonosova",
+      "name": "МГУ имени М. В. Ломоносова",
+      "short_name": "МГУ",
+      "website_url": "https://www.msu.ru/"
+    },
+    "mephi": {
+      "slug": "niyau-mifi",
+      "name": "Национальный исследовательский ядерный университет «МИФИ»",
+      "short_name": "НИЯУ МИФИ",
+      "website_url": "https://mephi.ru/"
+    },
+    "spbguptd": {
+      "slug": "spbguptd",
+      "name": "Санкт-Петербургский государственный университет промышленных технологий и дизайна",
+      "short_name": "СПбГУПТД",
+      "website_url": "https://sutd.ru/"
+    },
+    "spbau": {
+      "slug": "alferovskiy-universitet",
+      "name": "Санкт-Петербургский национальный исследовательский Академический университет имени Ж. И. Алфёрова РАН",
+      "short_name": "Алфёровский университет",
+      "website_url": "https://spbau.ru/"
+    },
+    "pgniu": {
+      "slug": "pgniu",
+      "name": "Пермский государственный национальный исследовательский университет",
+      "short_name": "ПГНИУ",
+      "website_url": "https://www.psu.ru/"
+    }
+  },
+  "sources": [
+    {
+      "source_ref": "mipt_2026",
+      "university_ref": "mipt",
+      "document_kind": "official_admissions_page_and_matrix",
+      "title": "Порядок предоставления особых прав победителям и призёрам олимпиад школьников в МФТИ в 2026 году",
+      "url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+      "http_status_checked": 200,
+      "content_type_checked": "text/html"
+    },
+    {
+      "source_ref": "msu_2026",
+      "university_ref": "msu",
+      "document_kind": "official_admission_matrix_pdf",
+      "title": "Особые права победителей и призёров олимпиад школьников при поступлении в МГУ в 2026 году",
+      "url": "https://cpk.msu.ru/files/2026/olymp_benefits.pdf",
+      "http_status_checked": 200,
+      "content_type_checked": "application/pdf"
+    },
+    {
+      "source_ref": "mephi_2026_page",
+      "university_ref": "mephi",
+      "document_kind": "official_admissions_page",
+      "title": "Особые права победителей и призёров олимпиад при поступлении в НИЯУ МИФИ в 2026 году",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners",
+      "http_status_checked": 200,
+      "content_type_checked": "text/html"
+    },
+    {
+      "source_ref": "mephi_2026_matrix",
+      "university_ref": "mephi",
+      "document_kind": "official_admission_matrix_pdf",
+      "title": "Особые права и особое преимущество победителей и призёров олимпиад школьников при поступлении в НИЯУ МИФИ в 2026 году",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+      "http_status_checked": 200,
+      "content_type_checked": "application/pdf"
+    },
+    {
+      "source_ref": "spbguptd_2026",
+      "university_ref": "spbguptd",
+      "document_kind": "official_admission_matrix_pdf",
+      "title": "Соответствие направлений СПбГУПТД профилям олимпиад и порядок предоставления особых прав в 2026 году",
+      "url": "https://prouniver.ru/uploads/docs/2026/olimp2.pdf",
+      "http_status_checked": 200,
+      "content_type_checked": "application/pdf"
+    },
+    {
+      "source_ref": "spbau_2026_page",
+      "university_ref": "spbau",
+      "document_kind": "official_admissions_page",
+      "title": "Олимпиады: особые права при приёме в Алфёровский университет в 2026 году",
+      "url": "https://spbau.ru/campaign/bachelor/olympics",
+      "http_status_checked": 200,
+      "content_type_checked": "text/html"
+    },
+    {
+      "source_ref": "spbau_2026_matrix",
+      "university_ref": "spbau",
+      "document_kind": "official_admission_matrix_pdf",
+      "title": "Олимпиады школьников 2025/26, учитываемые как особое право при поступлении в Алфёровский университет",
+      "url": "https://spbau.ru/images/documents/campaign/bachelor/olympics/olimpiadyi_kotoryie_uchityivaet_kak_osoboe_pravo.pdf",
+      "http_status_checked": 200,
+      "content_type_checked": "application/pdf"
+    },
+    {
+      "source_ref": "pgniu_2026_rules",
+      "university_ref": "pgniu",
+      "document_kind": "official_admission_rules_pdf",
+      "title": "Правила приёма в ПГНИУ в 2026 году",
+      "url": "https://olymp.psu.ru/assets/user-doc/informatics/pravila-priema_bkl-2026.pdf",
+      "http_status_checked": 200,
+      "content_type_checked": "application/pdf"
+    },
+    {
+      "source_ref": "spbu_2026_reviewed_no_exact_names",
+      "document_kind": "official_admission_matrix_pdf_reviewed_not_used",
+      "title": "Матрица особых прав СПбГУ для приёма-2026",
+      "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf",
+      "http_status_checked": 200,
+      "content_type_checked": "application/pdf",
+      "review_result": "No target olympiad full names were found. The matrix assigns rights by profile and registry level, so it was not used under the no-level-inference rule."
+    },
+    {
+      "source_ref": "kfu_2026_reviewed_generic",
+      "document_kind": "official_organizer_admissions_page_reviewed_not_used",
+      "title": "Межрегиональные предметные олимпиады КФУ — страница для абитуриентов",
+      "url": "https://admissions.kpfu.ru/dlya-inostrannyx-grazhdan/olimpiady/mezhregionalnye-predmetnye-olimpiady/",
+      "http_status_checked": 200,
+      "content_type_checked": "text/html",
+      "review_result": "The page mentions BVI, 100 points or additional points only as possibilities and does not map a concrete right to each exact profile; no KFU benefit was inferred from it."
+    }
+  ],
+  "summary": {
+    "checked_slug_count": 14,
+    "confirmed_slug_count": 14,
+    "reviewed_no_match_slug_count": 0,
+    "confirmed_benefit_count": 26,
+    "checked_source_count": 10,
+    "benefit_type_counts": {
+      "bvi": 14,
+      "hundred_points": 4,
+      "other": 8
+    }
+  },
+  "entries": [
+    {
+      "slug": "registry-2026-27-032-02",
+      "profile": "Дизайн",
+      "catalog_grades": [5, 6, 7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "spbguptd",
+          "benefit_type": "bvi",
+          "title": "СПбГУПТД: БВИ на профильные программы, приём-2026",
+          "description": "Не прогноз на приём-2027. Матрица СПбГУПТД прямо называет Межрегиональные предметные олимпиады КФУ и профиль «Дизайн»: победитель или призёр получает БВИ на тех программах СПбГУПТД, где эта строка приведена. Это не БВИ на все направления университета.",
+          "diploma_requirement": "Победитель или призёр; результат получен в 8–11 классе в одном из сезонов 2022/23–2025/26",
+          "source_url": "https://prouniver.ru/uploads/docs/2026/olimp2.pdf",
+          "source_locator": "Строки с полным названием Межрегиональных предметных олимпиад КФУ и профилем «Дизайн»; колонка права — «Без вступительных испытаний»"
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "slug": "registry-2026-27-032-08",
+      "profile": "Химия",
+      "catalog_grades": [5, 6, 7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победитель или призёр МПО КФУ по химии получает 100 баллов по химии при ЕГЭ/ВИ не ниже 75. Победителю также доступно БВИ на все конкурсные группы ФЭФМ при математике не ниже 80 и ФБМФ/ВШБИ при химии не ниже 80.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, адресное БВИ — победителю",
+          "ege_subjects": ["Химия", "Математика"],
+          "ege_min_score": "75 для 100 баллов; 80 для БВИ",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 34, профиль «химия»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на указанные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. В матрице НИЯУ МИФИ строка Межрегиональных предметных олимпиад КФУ по химии даёт БВИ на 12.03.04, 18.03.01, 22.03.01 и 31.05.01. Право не распространяется автоматически на другие направления.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 10 или 11 классе",
+          "ege_subjects": ["Химия"],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": ["https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"],
+          "source_locator": "Строка 34, профиль «химия», колонка «Поступление БВИ»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "spbau",
+          "benefit_type": "bvi",
+          "title": "Алфёровский университет: БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Межрегиональные предметные олимпиады КФУ по химии включены в утверждённый Алфёровским университетом перечень для БВИ; право действует для соответствующей профилю образовательной программы.",
+          "diploma_requirement": "Победитель или призёр; результат получен в 10 или 11 классе",
+          "ege_subjects": ["Химия"],
+          "ege_min_score": 75,
+          "source_url": "https://spbau.ru/campaign/bachelor/olympics",
+          "additional_source_urls": ["https://spbau.ru/images/documents/campaign/bachelor/olympics/olimpiadyi_kotoryie_uchityivaet_kak_osoboe_pravo.pdf"],
+          "source_locator": "Приложение 5 к правилам приёма, строка 10; условия БВИ на официальной странице «Олимпиады»"
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "slug": "registry-2026-27-033-01",
+      "profile": "География",
+      "catalog_grades": [5, 6, 7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "msu",
+          "benefit_type": "hundred_points",
+          "title": "МГУ: 100 баллов по географии, приём-2026",
+          "description": "Не прогноз на приём-2027. В матрице Экономического факультета МГУ Многопредметная олимпиада «Юные таланты» прямо указана в строке профиля «География»: победителю или призёру засчитывается максимальный балл ЕГЭ по географии.",
+          "diploma_requirement": "Победитель или призёр; результат за 11 класс",
+          "ege_subjects": ["География"],
+          "ege_min_score": 75,
+          "source_url": "https://cpk.msu.ru/files/2026/olymp_benefits.pdf",
+          "source_locator": "Раздел «Экономический факультет», строка профиля «География» с точным названием «Многопредметная олимпиада „Юные таланты“»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "pgniu",
+          "benefit_type": "other",
+          "title": "ПГНИУ: 10/5/2 балла за «Юные таланты», приём-2026",
+          "description": "Не прогноз на приём-2027. При поступлении в ПГНИУ победителю Многопредметной олимпиады «Юные таланты» начисляется 10 баллов индивидуальных достижений, призёру — 5, участнику заключительного этапа — 2; правило действует на все направления и специальности ПГНИУ.",
+          "diploma_requirement": "Победитель, призёр или участник заключительного этапа",
+          "source_url": "https://olymp.psu.ru/assets/user-doc/informatics/pravila-priema_bkl-2026.pdf",
+          "source_locator": "Раздел III «Учёт индивидуальных достижений», пункт 34(1)"
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "slug": "registry-2026-27-033-03",
+      "profile": "Химия",
+      "catalog_grades": [6, 7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победитель или призёр «Юных талантов» по химии получает 100 баллов по химии при ЕГЭ/ВИ не ниже 75. Победителю также доступно БВИ на все конкурсные группы ФЭФМ при математике не ниже 80 и ФБМФ/ВШБИ при химии не ниже 80.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, адресное БВИ — победителю",
+          "ege_subjects": ["Химия", "Математика"],
+          "ege_min_score": "75 для 100 баллов; 80 для БВИ",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 35, профиль «химия»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на указанные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. В матрице НИЯУ МИФИ строка «Юные таланты» по химии даёт БВИ на 12.03.04, 18.03.01, 22.03.01 и 31.05.01. Право не распространяется автоматически на другие направления.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 10 или 11 классе",
+          "ege_subjects": ["Химия"],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": ["https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"],
+          "source_locator": "Строка 35, профиль «химия», колонка «Поступление БВИ»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "spbau",
+          "benefit_type": "bvi",
+          "title": "Алфёровский университет: БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. «Юные таланты» по химии включены в утверждённый Алфёровским университетом перечень для БВИ; право действует для соответствующей профилю образовательной программы.",
+          "diploma_requirement": "Победитель или призёр; результат получен в 10 или 11 классе",
+          "ege_subjects": ["Химия"],
+          "ege_min_score": 75,
+          "source_url": "https://spbau.ru/campaign/bachelor/olympics",
+          "additional_source_urls": ["https://spbau.ru/images/documents/campaign/bachelor/olympics/olimpiadyi_kotoryie_uchityivaet_kak_osoboe_pravo.pdf"],
+          "source_locator": "Приложение 5 к правилам приёма, строка 11; условия БВИ на официальной странице «Олимпиады»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "pgniu",
+          "benefit_type": "other",
+          "title": "ПГНИУ: 10/5/2 балла за «Юные таланты», приём-2026",
+          "description": "Не прогноз на приём-2027. При поступлении в ПГНИУ победителю Многопредметной олимпиады «Юные таланты» начисляется 10 баллов индивидуальных достижений, призёру — 5, участнику заключительного этапа — 2; правило действует на все направления и специальности ПГНИУ.",
+          "diploma_requirement": "Победитель, призёр или участник заключительного этапа",
+          "source_url": "https://olymp.psu.ru/assets/user-doc/informatics/pravila-priema_bkl-2026.pdf",
+          "source_locator": "Раздел III «Учёт индивидуальных достижений», пункт 34(1)"
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "slug": "registry-2026-27-034-02",
+      "profile": "Техника и технологии",
+      "catalog_grades": [7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "bvi",
+          "title": "МФТИ: адресное БВИ в ПИШ ФАЛТ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победителю олимпиады «Звезда» по профилю «Техника и технологии» предоставляется БВИ на все конкурсные группы ПИШ ФАЛТ при ЕГЭ/ВИ по физике не ниже 80. Призёрам и другим физтех-школам эта строка права не назначает.",
+          "diploma_requirement": "Победитель; результат за 11 класс, полученный не ранее 2022 года",
+          "ege_subjects": ["Физика"],
+          "ege_min_score": 80,
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 36, профиль «техника и технологии», колонка ПИШ ФАЛТ"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на указанные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Строка олимпиады «Звезда» по профилю «Техника и технологии» предоставляет БВИ на все направления НИЯУ МИФИ, кроме 31.05.01, 38.03.01, 38.03.02, 38.03.05, 38.05.01 и 41.03.05.",
+          "diploma_requirement": "Победитель или призёр; результат олимпиады получен в 10 или 11 классе",
+          "ege_subjects": ["Физика"],
+          "ege_min_score": 75,
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "additional_source_urls": ["https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners"],
+          "source_locator": "Строка 36, профиль «техника и технологии», колонка «Поступление БВИ»"
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "slug": "registry-2026-27-036-01",
+      "profile": "Геология",
+      "catalog_grades": [5, 6, 7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "msu",
+          "benefit_type": "bvi",
+          "title": "МГУ: БВИ на геологический факультет, приём-2026",
+          "description": "Не прогноз на приём-2027. Геологический факультет МГУ прямо включает Московскую открытую олимпиаду школьников по геологии в строку профиля «Геология»: победитель или призёр поступает БВИ на направление «Геология».",
+          "diploma_requirement": "Победитель или призёр; результат за 11 класс",
+          "ege_subjects": ["Математика", "Физика", "География"],
+          "ege_min_score": "75 по одному из трёх предметов по выбору поступающего",
+          "source_url": "https://cpk.msu.ru/files/2026/olymp_benefits.pdf",
+          "source_locator": "Раздел «Геологический факультет», направление «Геология», строка профиля «Геология»"
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "slug": "registry-2026-27-043-01",
+      "profile": "Академический рисунок, живопись, композиция, история искусства и культуры",
+      "catalog_grades": [5, 6, 7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "spbguptd",
+          "benefit_type": "bvi",
+          "title": "СПбГУПТД: БВИ на профильные программы, приём-2026",
+          "description": "Не прогноз на приём-2027. Матрица СПбГУПТД прямо связывает академический комплекс олимпиады «Культура и искусство» с БВИ на перечисленные в документе профильные программы. Это не универсальное БВИ на весь вуз.",
+          "diploma_requirement": "Победитель или призёр; результат получен в 8–11 классе в одном из сезонов 2022/23–2025/26",
+          "source_url": "https://prouniver.ru/uploads/docs/2026/olimp2.pdf",
+          "source_locator": "Строки «Олимпиада по комплексу предметов „Культура и искусство“» с профилем «академический рисунок, живопись, композиция, история искусства и культуры»"
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "slug": "registry-2026-27-043-02",
+      "profile": "Технический рисунок и декоративная композиция",
+      "catalog_grades": [5, 6, 7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "spbguptd",
+          "benefit_type": "bvi",
+          "title": "СПбГУПТД: БВИ на профильные программы, приём-2026",
+          "description": "Не прогноз на приём-2027. Матрица СПбГУПТД прямо связывает технический комплекс олимпиады «Культура и искусство» с БВИ на перечисленные в документе профильные программы. Это не универсальное БВИ на весь вуз.",
+          "diploma_requirement": "Победитель или призёр; результат получен в 8–11 классе в одном из сезонов 2022/23–2025/26",
+          "source_url": "https://prouniver.ru/uploads/docs/2026/olimp2.pdf",
+          "source_locator": "Строки «Олимпиада по комплексу предметов „Культура и искусство“» с профилем «Технический рисунок и декоративная композиция»"
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "slug": "registry-2026-27-046-03",
+      "profile": "Литература",
+      "catalog_grades": [5, 6, 7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "hundred_points",
+          "title": "МФТИ: 100 баллов по русскому языку, приём-2026",
+          "description": "Не прогноз на приём-2027. Победителю или призёру Олимпиады РГГУ по литературе МФТИ засчитывает 100 баллов по русскому языку при ЕГЭ/ВИ по русскому языку не ниже 75.",
+          "diploma_requirement": "Победитель или призёр; результат за 11 класс, полученный не ранее 2022 года",
+          "ege_subjects": ["Русский язык"],
+          "ege_min_score": 75,
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 48, профиль «литература»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "msu",
+          "benefit_type": "hundred_points",
+          "title": "МГУ: 100 баллов по литературе, приём-2026",
+          "description": "Не прогноз на приём-2027. В матрице Высшей школы телевидения МГУ Олимпиада РГГУ для школьников прямо указана в строке профиля «Литература»: победителю или призёру засчитывается максимальный балл ЕГЭ по литературе.",
+          "diploma_requirement": "Победитель или призёр; результат за 11 класс",
+          "ege_subjects": ["Литература"],
+          "ege_min_score": 75,
+          "source_url": "https://cpk.msu.ru/files/2026/olymp_benefits.pdf",
+          "source_locator": "Раздел «Высшая школа телевидения», строка профиля «Литература»"
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "slug": "registry-2026-27-070-01",
+      "profile": "Астрономия",
+      "catalog_grades": [5, 6, 7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победитель или призёр Санкт-Петербургской астрономической олимпиады получает 100 баллов по физике при ЕГЭ/ВИ по физике не ниже 75. Победителю также доступно БВИ на указанные группы ФРКТ, ФАКТ, ПИШ ФАЛТ, ФЭФМ и КНТ при физике не ниже 80.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, адресное БВИ — победителю",
+          "ege_subjects": ["Физика"],
+          "ege_min_score": "75 для 100 баллов; 80 для БВИ",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 74, профиль «астрономия»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "spbau",
+          "benefit_type": "bvi",
+          "title": "Алфёровский университет: БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Санкт-Петербургская астрономическая олимпиада включена в утверждённый Алфёровским университетом перечень для БВИ по соответствующей профилю образовательной программе.",
+          "diploma_requirement": "Победитель или призёр; результат получен в 10 или 11 классе",
+          "ege_subjects": ["Физика"],
+          "ege_min_score": 75,
+          "source_url": "https://spbau.ru/campaign/bachelor/olympics",
+          "additional_source_urls": ["https://spbau.ru/images/documents/campaign/bachelor/olympics/olimpiadyi_kotoryie_uchityivaet_kak_osoboe_pravo.pdf"],
+          "source_locator": "Приложение 5 к правилам приёма, строка 24; условия БВИ на официальной странице «Олимпиады»"
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "slug": "registry-2026-27-071-01",
+      "profile": "Математика",
+      "catalog_grades": [6, 7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победитель или призёр Санкт-Петербургской олимпиады школьников по математике получает 100 баллов по математике при ЕГЭ/ВИ не ниже 75. Победителю также доступно БВИ на перечисленные конкурсные группы физтех-школ при математике не ниже 80, а для ФПМИ — не ниже 85.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, адресное БВИ — победителю",
+          "ege_subjects": ["Математика"],
+          "ege_min_score": "75 для 100 баллов; 80 или 85 для БВИ в зависимости от физтех-школы",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 75, профиль «математика»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "spbau",
+          "benefit_type": "bvi",
+          "title": "Алфёровский университет: БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Санкт-Петербургская олимпиада школьников по математике включена в утверждённый Алфёровским университетом перечень для БВИ по соответствующей профилю образовательной программе.",
+          "diploma_requirement": "Победитель или призёр; результат получен в 10 или 11 классе",
+          "ege_subjects": ["Математика"],
+          "ege_min_score": 75,
+          "source_url": "https://spbau.ru/campaign/bachelor/olympics",
+          "additional_source_urls": ["https://spbau.ru/images/documents/campaign/bachelor/olympics/olimpiadyi_kotoryie_uchityivaet_kak_osoboe_pravo.pdf"],
+          "source_locator": "Приложение 5 к правилам приёма, строка 23, профиль «математика»; условия БВИ на официальной странице «Олимпиады»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "msu",
+          "benefit_type": "other",
+          "title": "МГУ: БВИ победителю и 100 баллов призёру на мехмате, приём-2026",
+          "description": "Не прогноз на приём-2027. На программе «Фундаментальные математика и механика» мехмата МГУ победителю Санкт-Петербургской олимпиады школьников по математике предоставляется БВИ, а призёру — максимальный балл дополнительного испытания и ЕГЭ по математике. На других программах МГУ сочетание прав может отличаться.",
+          "diploma_requirement": "Победитель или призёр; результат за 11 класс",
+          "ege_subjects": ["Математика"],
+          "ege_min_score": 75,
+          "source_url": "https://cpk.msu.ru/files/2026/olymp_benefits.pdf",
+          "source_locator": "Раздел «Механико-математический факультет», программа «Фундаментальные математика и механика», строка с точным названием Санкт-Петербургской олимпиады школьников"
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "slug": "registry-2026-27-071-03",
+      "profile": "Химия",
+      "catalog_grades": [7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Победитель или призёр Санкт-Петербургской олимпиады школьников по химии получает 100 баллов по химии при ЕГЭ/ВИ не ниже 75. Победителю также доступно БВИ на ФЭФМ при математике не ниже 80 и на ФБМФ/ВШБИ и ФБВТ при химии не ниже 80.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, адресное БВИ — победителю",
+          "ege_subjects": ["Химия", "Математика"],
+          "ege_min_score": "75 для 100 баллов; 80 для БВИ",
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 75, профиль «химия»"
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "spbau",
+          "benefit_type": "bvi",
+          "title": "Алфёровский университет: БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Санкт-Петербургская олимпиада школьников по химии включена в утверждённый Алфёровским университетом перечень для БВИ по соответствующей профилю образовательной программе.",
+          "diploma_requirement": "Победитель или призёр; результат получен в 10 или 11 классе",
+          "ege_subjects": ["Химия"],
+          "ege_min_score": 75,
+          "source_url": "https://spbau.ru/campaign/bachelor/olympics",
+          "additional_source_urls": ["https://spbau.ru/images/documents/campaign/bachelor/olympics/olimpiadyi_kotoryie_uchityivaet_kak_osoboe_pravo.pdf"],
+          "source_locator": "Приложение 5 к правилам приёма, строка 23, профиль «химия»; условия БВИ на официальной странице «Олимпиады»"
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "slug": "registry-2026-27-073-01",
+      "profile": "Рисунок, живопись, скульптура, дизайн",
+      "catalog_grades": [6, 7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "spbguptd",
+          "benefit_type": "bvi",
+          "title": "СПбГУПТД: БВИ на профильные программы, приём-2026",
+          "description": "Не прогноз на приём-2027. Матрица СПбГУПТД прямо называет Строгановскую олимпиаду и профиль «рисунок, живопись, скульптура, дизайн»: победитель или призёр получает БВИ на тех программах СПбГУПТД, где эта строка приведена. Это не БВИ на все направления университета.",
+          "diploma_requirement": "Победитель или призёр; результат получен в 8–11 классе в одном из сезонов 2022/23–2025/26",
+          "source_url": "https://prouniver.ru/uploads/docs/2026/olimp2.pdf",
+          "source_locator": "Строки «Строгановская олимпиада», профиль «рисунок, живопись, скульптура, дизайн», колонка права — «Без вступительных испытаний»"
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "slug": "lomonosov-tournament-physics",
+      "profile": "Физика",
+      "catalog_grades": [6, 7, 8, 9, 10, 11],
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "hundred_points",
+          "title": "МФТИ: 100 баллов по физике, приём-2026",
+          "description": "Не прогноз на приём-2027. Победителю или призёру Турнира имени М. В. Ломоносова по физике МФТИ засчитывает 100 баллов по физике при ЕГЭ/ВИ по физике не ниже 75. В этой строке адресное БВИ не указано.",
+          "diploma_requirement": "Победитель или призёр; результат за 11 класс, полученный не ранее 2022 года",
+          "ege_subjects": ["Физика"],
+          "ege_min_score": 75,
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_locator": "Приложение 1, строка 82, профиль «физика»"
+        }
+      ],
+      "unresolved": []
+    }
+  ]
+}

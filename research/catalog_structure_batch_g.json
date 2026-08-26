@@ -1,0 +1,369 @@
+{
+  "as_of": "2026-08-26",
+  "target_academic_year": "2026/27",
+  "method": "Only primary official organizer sources were used. Dates exposed by the official v-olymp API for December 2025 through February 2026 are stored unchanged as previous_year_estimate with previous_year_reference 2025/26. Older official sources are used only to confirm stable grade ranges and stage names; no 2024/25 or older dates are projected, and no unpublished 2026/27 dates are invented.",
+  "families": [],
+  "slugs": [
+    {
+      "slug": "registry-2026-27-030-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [9, 10, 11],
+      "notes": "Официальный портал приглашает на профиль иностранного языка учащихся 9–11 классов; школьники младше 9 класса могут выполнять вариант 9 класса. Портал подтверждает два этапа: дистанционный отборочный и очный заключительный. Unix timestamps официального API относятся к сезону 2025/26 и сохранены без сдвига; builder выполняет маркированную проекцию на 2026/27.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-01",
+          "ends_on": "2026-01-12",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-01-18",
+          "ends_on": "2026-01-18",
+          "registration_opens_on": "2026-01-13",
+          "registration_closes_on": "2026-01-18",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Официальный API: список профилей и условия участия",
+          "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/list",
+          "publisher": "Официальный портал олимпиад ведомственных образовательных организаций",
+          "source_type": "official_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный API: сведения об этапах профиля «Иностранный язык»",
+          "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/info/foreign_language",
+          "publisher": "Официальный портал олимпиад ведомственных образовательных организаций",
+          "source_type": "official_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный API: расписание олимпиад",
+          "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule",
+          "publisher": "Официальный портал олимпиад ведомственных образовательных организаций",
+          "source_type": "official_schedule_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-030-02",
+      "data_status": "partial",
+      "grades": [9, 10, 11],
+      "notes": "Актуальное положение, разработанное с учетом Порядка Минобрнауки от 16 января 2026 года, прямо включает профиль «Биология», подтверждает два этапа, дистанционный отбор и очный финал. Положение допускает школьников младше 9 класса по варианту 9 класса. Профильного расписания в официальном API пока нет, поэтому даты оставлены TBA.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://back.v-olymp.ru/wp-content/uploads/2.-%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_%D0%91%D0%9E%D0%9E.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://back.v-olymp.ru/wp-content/uploads/2.-%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_%D0%91%D0%9E%D0%9E.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Положение о Межрегиональной олимпиаде школьников на базе ведомственных образовательных организаций",
+          "url": "https://back.v-olymp.ru/wp-content/uploads/2.-%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_%D0%91%D0%9E%D0%9E.pdf",
+          "publisher": "Академия ФСБ России",
+          "source_type": "official_regulation",
+          "source_year": "2026",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-030-03",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [9, 10, 11],
+      "notes": "Официальная карточка профиля подтверждает 9–11 классы и допускает более младших школьников по варианту 9 класса. Официальный информационный API подтверждает отборочный и очный заключительный этапы. Даты API относятся к сезону 2025/26 и сохранены без сдвига.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-08",
+          "ends_on": "2026-01-18",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-01",
+          "ends_on": "2026-02-01",
+          "registration_opens_on": "2026-01-19",
+          "registration_closes_on": "2026-02-01",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Официальный API: карточка профиля «Обществознание»",
+          "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/details?slug=social_studies",
+          "publisher": "Официальный портал олимпиад ведомственных образовательных организаций",
+          "source_type": "official_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный API: сведения об этапах профиля «Обществознание»",
+          "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/info/social_studies",
+          "publisher": "Официальный портал олимпиад ведомственных образовательных организаций",
+          "source_type": "official_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный API: расписание олимпиад",
+          "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule",
+          "publisher": "Официальный портал олимпиад ведомственных образовательных организаций",
+          "source_type": "official_schedule_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-030-04",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [9, 10, 11],
+      "notes": "Официальная карточка профиля подтверждает 9–11 классы, дистанционный отбор и очный финал; более младшие школьники могут выполнять вариант 9 класса. Даты официального API относятся к сезону 2025/26 и сохранены без сдвига.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-15",
+          "ends_on": "2026-02-09",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-15",
+          "ends_on": "2026-02-15",
+          "registration_opens_on": "2026-02-10",
+          "registration_closes_on": "2026-02-15",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Официальный API: карточка профиля «Русский язык»",
+          "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/details?slug=russian_language",
+          "publisher": "Официальный портал олимпиад ведомственных образовательных организаций",
+          "source_type": "official_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный API: сведения об этапах профиля «Русский язык»",
+          "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/info/russian_language",
+          "publisher": "Официальный портал олимпиад ведомственных образовательных организаций",
+          "source_type": "official_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный API: расписание олимпиад",
+          "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule",
+          "publisher": "Официальный портал олимпиад ведомственных образовательных организаций",
+          "source_type": "official_schedule_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-030-05",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [9, 10, 11],
+      "notes": "Официальная карточка профиля подтверждает, что задания рассчитаны на 9–11 классы, а учащиеся 7–8 классов допускаются по вариантам 9 класса. Официальный информационный API подтверждает дистанционный отбор и очный финал. Даты сохранены в исходном сезоне 2025/26.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-01",
+          "ends_on": "2026-01-25",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-01",
+          "ends_on": "2026-02-01",
+          "registration_opens_on": "2026-01-28",
+          "registration_closes_on": "2026-02-01",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Официальный API: карточка профиля «Физика»",
+          "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/details?slug=physics",
+          "publisher": "Официальный портал олимпиад ведомственных образовательных организаций",
+          "source_type": "official_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный API: сведения об этапах профиля «Физика»",
+          "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/info/physics",
+          "publisher": "Официальный портал олимпиад ведомственных образовательных организаций",
+          "source_type": "official_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный API: расписание олимпиад",
+          "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule",
+          "publisher": "Официальный портал олимпиад ведомственных образовательных организаций",
+          "source_type": "official_schedule_api",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-071-02",
+      "data_status": "partial",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Официальный каталог Центра олимпиад Санкт-Петербурга подтверждает профиль и ведет на сайт оргкомитета. Доступный по GET официальный архивный регламент организатора подтверждает 7–11 классы и два этапа: отборочный и заключительный; заключительный этап включает теоретическую и экспериментальную части в старших классах. Регламент создан в 2012 году, а профильный домен оргкомитета сейчас не резолвится, поэтому старые месяцы и форматы не перенесены и календарь оставлен TBA.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "unknown",
+          "source_url": "http://baseold.anichkov.ru/files/olimp/shedule-physics-city-12-13.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "unknown",
+          "details": "Официальный архивный регламент описывает теоретический и экспериментальный туры заключительного этапа для 9–11 классов и устную двухчастную схему для 7–8 классов; актуальные форматы сезона не подтверждены.",
+          "source_url": "http://baseold.anichkov.ru/files/olimp/shedule-physics-city-12-13.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Олимпиады для школьников Санкт-Петербурга — официальный каталог",
+          "url": "https://olymp.academtalant.ru/region",
+          "publisher": "ГБНОУ «Академия талантов» Санкт-Петербурга",
+          "source_type": "official_catalog",
+          "source_year": "2026",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Регламент Городской открытой олимпиады школьников по физике",
+          "url": "http://baseold.anichkov.ru/files/olimp/shedule-physics-city-12-13.pdf",
+          "publisher": "Санкт-Петербургский городской Дворец творчества юных / оргкомитет олимпиады",
+          "source_type": "official_regulation_archive",
+          "source_year": "2012/13",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-031-01",
+      "data_status": "partial",
+      "grades": [9, 10, 11],
+      "notes": "Официальная страница РХТУ подтверждает 9–11 классы и отборочный этап, а официальная страница результатов — переход победителей и призеров отбора в заключительный этап. На сайте опубликованы только материалы сезонов 2024/25 и 2023/24; их даты и форматы не используются для прогноза, этапы оставлены TBA.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "unknown",
+          "source_url": "https://sarkisov-olimp.muctr.ru/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "unknown",
+          "source_url": "https://sarkisov-olimp.muctr.ru/results/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Межрегиональная химическая олимпиада школьников имени академика П.Д. Саркисова",
+          "url": "https://sarkisov-olimp.muctr.ru/",
+          "publisher": "РХТУ им. Д.И. Менделеева",
+          "source_type": "official",
+          "source_year": "2024/25",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Олимпиада имени П.Д. Саркисова — результаты и заключительный этап",
+          "url": "https://sarkisov-olimp.muctr.ru/results/",
+          "publisher": "РХТУ им. Д.И. Менделеева",
+          "source_type": "official_results",
+          "source_year": "2023/24",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    }
+  ]
+}

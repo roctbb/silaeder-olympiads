@@ -1,0 +1,27 @@
+{
+  "checked_on": "2026-08-26",
+  "target_academic_year": "2026/27",
+  "slugs": [
+    {
+      "slug": "gazprom-mathematics",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olympiad.gazprom.ru/",
+      "evidence": "На официальном портале не опубликована регистрация на математический профиль сезона 2026/27. Последние доступные новости и материалы относятся к завершённому сезону 2025/26, поэтому ссылка на форму не подставляется из прошлого года."
+    },
+    {
+      "slug": "gazprom-chemistry",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olympiad.gazprom.ru/",
+      "evidence": "На официальном портале не опубликована регистрация на химический профиль сезона 2026/27. Последние доступные новости и материалы относятся к завершённому сезону 2025/26, поэтому ссылка на форму не подставляется из прошлого года."
+    },
+    {
+      "slug": "gazprom-economics",
+      "registration_url": null,
+      "registration_status": "not_found",
+      "source_url": "https://olympiad.gazprom.ru/",
+      "evidence": "На официальном портале не опубликована регистрация на экономический профиль сезона 2026/27. Последние доступные новости и материалы относятся к завершённому сезону 2025/26, поэтому ссылка на форму не подставляется из прошлого года."
+    }
+  ]
+}

@@ -1,0 +1,1465 @@
+{
+  "as_of": "2026-08-26",
+  "target_academic_year": "2026/27",
+  "method": "Deterministic batch D: sorted unresolved family names with index % 3 == 0. Only official organizer pages and regulations were used. Organizer-published 2026/27 data is stored directly; dates from 2025/26 are marked previous_year_estimate and retain their source-season dates for later projection by the catalog builder. Profile-specific schedules are attached by slug so a family-level value cannot erase real profile differences.",
+  "families": [
+    {
+      "family_name": "XIX Южно-Российская межрегиональная олимпиада школьников «Архитектура и искусство» по комплексу предметов (рисунок, живопись, композиция, черчение)",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [6, 7, 8, 9, 10, 11],
+      "notes": "Официальная страница XVIII сезона подтверждает 6–11 классы и три последовательных этапа. Даты XIX сезона на 26.08.2026 не опубликованы, поэтому этапы оставлены TBA.",
+      "stages": [
+        {
+          "key": "municipal-qualifying",
+          "name": "Муниципальный отборочный этап",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "hybrid",
+          "details": "В предыдущем сезоне организатор допускал очную и заочную формы.",
+          "source_url": "https://raai.sfedu.ru/Olimpiada/Olimpia.html"
+        },
+        {
+          "key": "regional-qualifying",
+          "name": "Региональный отборочный этап",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://raai.sfedu.ru/Olimpiada/Olimpia.html"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный межрегиональный этап",
+          "stage_type": "final",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://raai.sfedu.ru/Olimpiada/Olimpia.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Олимпиада «Архитектура и искусство»: XVIII сезон",
+          "url": "https://raai.sfedu.ru/Olimpiada/Olimpia.html",
+          "publisher": "Академия архитектуры и искусств Южного федерального университета",
+          "source_type": "official_archive",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Всероссийская олимпиада по агрогенетике «Иннагрика»",
+      "data_status": "partial",
+      "grades": [9, 10, 11],
+      "notes": "Регламент 2026 года прямо задаёт 9–11 классы, подтверждённое окно регистрации и предельные календарные окна трёх этапов. Окна не являются длительностью соревнований: точные дни туров организатор должен опубликовать отдельно, поэтому даты самих этапов оставлены TBA.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "registration_opens_on": "2026-09-01",
+          "registration_closes_on": "2026-10-31",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "online",
+          "details": "Регламентное окно отборочного этапа — 1–31 октября 2026 года; точный день или фактический период тура должен быть опубликован в календаре организатора. Регистрация проходит 1 сентября — 31 октября 2026 года.",
+          "source_url": "https://innagrika.ru/wp-content/uploads/2026/06/3_reglament_olimpiady_innagrika.pdf"
+        },
+        {
+          "key": "semifinal",
+          "name": "Полуфинальный этап",
+          "stage_type": "semifinal",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "Регламентное окно полуфинала — 1 ноября — 31 декабря 2026 года; точные дни и площадки организатор публикует отдельно.",
+          "source_url": "https://innagrika.ru/wp-content/uploads/2026/06/3_reglament_olimpiady_innagrika.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Финальный этап",
+          "stage_type": "final",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "Регламентное окно финала — 1 декабря 2026 года — 28 февраля 2027 года; финал проводится единовременно, а точный день и площадки организатор публикует отдельно.",
+          "source_url": "https://innagrika.ru/wp-content/uploads/2026/06/3_reglament_olimpiady_innagrika.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Регламент Всероссийской олимпиады по агрогенетике «Иннагрика»",
+          "url": "https://innagrika.ru/wp-content/uploads/2026/06/3_reglament_olimpiady_innagrika.pdf",
+          "publisher": "АНО «Иннагрика»",
+          "source_type": "official_regulation",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Всероссийская олимпиада школьников «Юридические высоты!»",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [9, 10, 11],
+      "notes": "Официальная страница сезона 2025/26 подтверждает 9–11 классы, отборочный и заключительный этапы. Даты сохранены в исходном сезоне для проекции builder-ом.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-01-25",
+          "ends_on": "2026-01-25",
+          "registration_opens_on": "2025-09-01",
+          "registration_closes_on": "2026-01-12",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://usla.ru/entrance/olimp-yuridich-vysoty/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-28",
+          "ends_on": "2026-02-28",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://usla.ru/entrance/olimp-yuridich-vysoty/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Всероссийская олимпиада школьников «Юридические высоты!»: сезон 2025/26",
+          "url": "https://usla.ru/entrance/olimp-yuridich-vysoty/",
+          "publisher": "Уральский государственный юридический университет имени В. Ф. Яковлева",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Всесибирская открытая олимпиада школьников",
+      "data_status": "partial",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Организатор уже опубликовал профильный график 2026/27. Даты финалов помечены им как предварительные, поэтому они не считаются подтверждёнными. Профильные этапы находятся в slug-записях.",
+      "sources": [
+        {
+          "title": "Всесибирская открытая олимпиада школьников: этапы 2026/27",
+          "url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
+          "publisher": "СУНЦ НГУ",
+          "source_type": "official_schedule",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Интернет-олимпиада школьников по физике",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Официальный архив подтверждает две дистанционные отборочные попытки и заключительный тур для 7–11 классов.",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "name": "Дистанционный тур 1",
+          "stage_type": "qualifying",
+          "starts_on": "2025-11-23",
+          "ends_on": "2025-11-29",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://distolymp2.spbu.ru/olymp/index_tours.html"
+        },
+        {
+          "key": "qualifying-2",
+          "name": "Дистанционный тур 2",
+          "stage_type": "qualifying",
+          "starts_on": "2026-01-18",
+          "ends_on": "2026-01-24",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://distolymp2.spbu.ru/olymp/index_tours.html"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный тур",
+          "stage_type": "final",
+          "starts_on": "2026-03-14",
+          "ends_on": "2026-03-14",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "details": "Проводится в дисплейных классах организаторов.",
+          "source_url": "https://distolymp2.spbu.ru/olymp/index_tours.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Интернет-олимпиада школьников по физике: график туров",
+          "url": "https://distolymp2.spbu.ru/olymp/index_tours.html",
+          "publisher": "Оргкомитет Интернет-олимпиады школьников по физике",
+          "source_type": "official_archive",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Международная олимпиада по финансовой безопасности",
+      "data_status": "partial",
+      "grades": [8, 9, 10],
+      "notes": "Официальная страница 2026 года подтверждает классы и многошаговую структуру, но соревнование ведётся по календарному году. Даты 2026 года не перенесены в учебный сезон 2026/27 без официального основания.",
+      "stages": [
+        {
+          "key": "invitation",
+          "name": "Пригласительный этап",
+          "stage_type": "invitation",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://rosfinolymp.ru/for-participants"
+        },
+        {
+          "key": "qualifying-1",
+          "name": "Первый отборочный тур",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://rosfinolymp.ru/for-participants"
+        },
+        {
+          "key": "qualifying-2",
+          "name": "Второй отборочный тур",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://rosfinolymp.ru/for-participants"
+        },
+        {
+          "key": "qualification",
+          "name": "Квалификационный этап",
+          "stage_type": "qualification",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "hybrid",
+          "source_url": "https://rosfinolymp.ru/for-participants"
+        },
+        {
+          "key": "final",
+          "name": "Финальный этап",
+          "stage_type": "final",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://rosfinolymp.ru/for-participants"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Международная олимпиада по финансовой безопасности: участникам",
+          "url": "https://rosfinolymp.ru/for-participants",
+          "publisher": "Международный учебно-методический центр финансового мониторинга",
+          "source_type": "official",
+          "source_year": "2026",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Международная олимпиада школьников Уральского федерального университета «Изумруд»",
+      "data_status": "partial",
+      "notes": "Общий график 2026/27 уже опубликован организатором. Классы различаются по профилям и заданы в slug-записях.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-09-01",
+          "ends_on": "2027-01-19",
+          "registration_opens_on": "2026-09-01",
+          "registration_closes_on": "2027-01-19",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://dovuz.urfu.ru/olymps/izumrud"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2027-01-30",
+          "ends_on": "2027-02-02",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://dovuz.urfu.ru/olymps/izumrud"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Олимпиада «Изумруд»: график и профили 2026/27",
+          "url": "https://dovuz.urfu.ru/olymps/izumrud",
+          "publisher": "Уральский федеральный университет",
+          "source_type": "official_schedule",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Межрегиональная олимпиада школьников «Будущие исследователи - будущее науки»",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Регламент организатора подтверждает 7–11 классы и двухэтапную схему. Использованы только общие официальные окна сезона 2025/26; локальные площадки могли назначать дни внутри них.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-09-01",
+          "ends_on": "2026-01-31",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "hybrid",
+          "source_url": "https://bibn.unn.ru/reglament.html"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-01",
+          "ends_on": "2026-03-31",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://bibn.unn.ru/reglament.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "БИБН: регламент олимпиады",
+          "url": "https://bibn.unn.ru/reglament.html",
+          "publisher": "Национальный исследовательский Нижегородский государственный университет им. Н. И. Лобачевского",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Научно-практическая олимпиада школьников имени Н.А. Умова",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Официальные положение и страница подтверждают 7–11 классы, пригласительный, отборочный и заключительный этапы. У отборочного этапа на странице есть внутреннее противоречие: заголовок заканчивает окно 31 января, но второй поток теоретического тура указан 1–2 февраля; поэтому даты этапа не превращены в синтетический диапазон.",
+      "stages": [
+        {
+          "key": "invitation",
+          "name": "Пригласительный этап",
+          "stage_type": "invitation",
+          "starts_on": "2025-09-15",
+          "ends_on": "2026-01-15",
+          "registration_opens_on": "2025-09-15",
+          "registration_closes_on": "2025-12-20",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://umov.phys.msu.ru/"
+        },
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "hybrid",
+          "details": "Официальная страница: общее окно 10.12.2025–31.01.2026; теоретические потоки 24–25.01 и 01–02.02.2026. Даты намеренно оставлены в описании из-за противоречия на источнике.",
+          "source_url": "https://umov.phys.msu.ru/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-01",
+          "ends_on": "2026-04-12",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "hybrid",
+          "details": "Финал включает практический и теоретический туры; теоретический тур был назначен на 04.04.2026.",
+          "source_url": "https://umov.phys.msu.ru/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Олимпиада имени Н. А. Умова «Робофест — 2026»",
+          "url": "https://umov.phys.msu.ru/",
+          "publisher": "Физический факультет МГУ имени М. В. Ломоносова",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Положение об олимпиаде «Робофест — 2026»",
+          "url": "https://distant.pro/pluginfile.php/4905/course/section/161/%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%D0%A0%D0%A42026%20%281%29.pdf",
+          "publisher": "Физический факультет МГУ имени М. В. Ломоносова",
+          "source_type": "official_documents",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Олимпиада Юношеской математической школы",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Официальная страница подтверждает участие 4–11 классов; каталог ограничен заявленным диапазоном 5–11. Два отборочных тура и возрастные даты финала сохранены раздельно.",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "name": "Первый отборочный тур",
+          "stage_type": "qualifying",
+          "starts_on": "2025-09-14",
+          "ends_on": "2025-09-14",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://yumsh.ru/cms/"
+        },
+        {
+          "key": "qualifying-2",
+          "name": "Второй отборочный тур",
+          "stage_type": "qualifying",
+          "starts_on": "2025-10-04",
+          "ends_on": "2025-10-04",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://yumsh.ru/cms/"
+        },
+        {
+          "key": "final-7-11",
+          "name": "Заключительный тур (7–11 классы)",
+          "stage_type": "final",
+          "starts_on": "2025-12-14",
+          "ends_on": "2025-12-14",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "details": "Дата относится к участникам 7–11 классов.",
+          "source_url": "https://yumsh.ru/cms/"
+        },
+        {
+          "key": "final-5-6",
+          "name": "Заключительный тур (5–6 классы)",
+          "stage_type": "final",
+          "starts_on": "2026-01-18",
+          "ends_on": "2026-01-18",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "details": "Официальная дата для групп 4–6 классов; в каталог попадают 5–6 классы.",
+          "source_url": "https://yumsh.ru/cms/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Олимпиада ЮМШ: сезон 2025/26",
+          "url": "https://yumsh.ru/cms/",
+          "publisher": "Юношеская математическая школа",
+          "source_type": "official_archive",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Олимпиада по экономике в рамках международного экономического фестиваля школьников «Сибириада Шаг в мечту»",
+      "data_status": "partial",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Организатор опубликовал структуру 2026/27 и только крайние сроки туров, без дат начала. Чтобы не изобретать диапазоны, сроки сохранены в описании этапов и даты оставлены TBA.",
+      "stages": [
+        {
+          "key": "qualifying-internet",
+          "name": "Первый (интернет-) тур отборочного этапа",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "online",
+          "details": "По календарю организатора должен завершиться не позднее 31.12.2026.",
+          "source_url": "https://www.sibiriada.org/about.html"
+        },
+        {
+          "key": "qualifying-offline",
+          "name": "Второй очный тур отборочного этапа",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "По календарю организатора должен завершиться не позднее 31.01.2027.",
+          "source_url": "https://www.sibiriada.org/about.html"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "Проводится в Бердске; по календарю организатора должен завершиться не позднее 31.03.2027.",
+          "source_url": "https://www.sibiriada.org/about.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "«Сибириада. Шаг в мечту»: об олимпиаде и календарь",
+          "url": "https://www.sibiriada.org/about.html",
+          "publisher": "Оргкомитет фестиваля «Сибириада. Шаг в мечту»",
+          "source_type": "official_schedule",
+          "source_year": "2026/27",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "«Сибириада. Шаг в мечту»: сезон 2025/26",
+          "url": "https://www.sibiriada.org/sibiriada_2025_2026/",
+          "publisher": "Оргкомитет фестиваля «Сибириада. Шаг в мечту»",
+          "source_type": "official_archive",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Олимпиада школьников «Надежда энергетики»",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Для профиля физика официальный график подтверждает 7–11 классы, две альтернативные даты очного отборочного тура и один финал.",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "name": "Очный отборочный тур — первая дата",
+          "stage_type": "qualifying",
+          "starts_on": "2025-11-15",
+          "ends_on": "2025-11-15",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://www.energy-hope.ru/actual/grafik.html"
+        },
+        {
+          "key": "qualifying-2",
+          "name": "Очный отборочный тур — вторая дата",
+          "stage_type": "qualifying",
+          "starts_on": "2025-11-30",
+          "ends_on": "2025-11-30",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://www.energy-hope.ru/actual/grafik.html"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный тур",
+          "stage_type": "final",
+          "starts_on": "2026-03-01",
+          "ends_on": "2026-03-01",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://www.energy-hope.ru/actual/grafik.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "«Надежда энергетики»: график 2025/26",
+          "url": "https://www.energy-hope.ru/actual/grafik.html",
+          "publisher": "Оргкомитет олимпиады «Надежда энергетики»",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Олимпиада школьников Санкт-Петербургского государственного университета",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Регламент допускает обучающихся по программам основного и среднего общего образования и предусматривает выполнение заданий за свой или более старший класс. В seed этапы уже заполнены; запись добавляет только подтверждённые классы.",
+      "sources": [
+        {
+          "title": "Регламент Олимпиады школьников СПбГУ 2025/26",
+          "url": "https://olympiada.spbu.ru/images/docs/reglament_2025-2026.pdf",
+          "publisher": "Санкт-Петербургский государственный университет",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Олимпиада школьников федерального государственного бюджетного образовательного учреждения высшего образования «Всероссийский государственный университет юстиции (РПА Минюста России)» «В мир права»",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "organizer": "Всероссийский государственный университет юстиции (РПА Минюста России)",
+      "website_url": "https://rpa-mu.wixsite.com/my-site",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Официальная страница и регламент подтверждают 7–11 классы и два дистанционных этапа с прокторингом на финале.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-07",
+          "ends_on": "2025-12-07",
+          "registration_opens_on": "2025-10-15",
+          "registration_closes_on": "2025-11-30",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://olimp-lk.rpa-mu.ru/files/d/25-26/reglament.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-01",
+          "ends_on": "2026-03-01",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "online",
+          "details": "Дистанционный формат с прокторингом.",
+          "source_url": "https://olimp-lk.rpa-mu.ru/files/d/25-26/reglament.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Официальная страница олимпиады «В мир права» 2025/26",
+          "url": "https://rpa-mu.wixsite.com/my-site",
+          "publisher": "Всероссийский государственный университет юстиции",
+          "source_type": "official_website",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Регламент олимпиады «В мир права» 2025/26",
+          "url": "https://olimp-lk.rpa-mu.ru/files/d/25-26/reglament.pdf",
+          "publisher": "Всероссийский государственный университет юстиции",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Открытая олимпиада школьников по программированию",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Официальный сайт подтверждает дистанционный отбор и заключительный этап. Классы 7–11 подтверждены опубликованным организатором списком приглашённых; младшие классы не добавлялись без подтверждения.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-01",
+          "ends_on": "2026-01-14",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://inf-open.ru/2025-26/schedule"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-05",
+          "ends_on": "2026-03-07",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "hybrid",
+          "details": "Основные соревновательные дни — 6–7 марта; официальный график включает организационный день 5 марта.",
+          "source_url": "https://inf-open.ru/2025-26/schedule"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Открытая олимпиада по программированию: график 2025/26",
+          "url": "https://inf-open.ru/2025-26/schedule",
+          "publisher": "Оргкомитет Открытой олимпиады школьников по программированию",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Список приглашённых на заключительный этап 2025/26",
+          "url": "https://inf-open.ru/2025-26/invites/",
+          "publisher": "Оргкомитет Открытой олимпиады школьников по программированию",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Открытая химическая олимпиада",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [9, 10, 11],
+      "notes": "Официальная страница подтверждает 9–11 классы и два этапа. Для отбора организатор опубликовал только дату окончания, поэтому начало не выдумывалось.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "ends_on": "2026-01-20",
+          "date_precision": "approximate",
+          "is_date_confirmed": true,
+          "format": "online",
+          "details": "Официально подтверждена дата окончания этапа; дата начала на использованной странице не опубликована.",
+          "source_url": "https://oho.misis.ru/news/okonchanie-otborochnogo-etapa-olimpiady/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-08",
+          "ends_on": "2026-02-08",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://oho.misis.ru/news/zaklyuchitelnyj-etap-olimpiady-3/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Открытая химическая олимпиада: об олимпиаде",
+          "url": "https://oho.misis.ru/ob-olimpiade/",
+          "publisher": "НИТУ МИСИС",
+          "source_type": "official",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Окончание отборочного этапа",
+          "url": "https://oho.misis.ru/news/okonchanie-otborochnogo-etapa-olimpiady/",
+          "publisher": "НИТУ МИСИС",
+          "source_type": "official_announcement",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Заключительный этап Открытой химической олимпиады",
+          "url": "https://oho.misis.ru/news/zaklyuchitelnyj-etap-olimpiady-3/",
+          "publisher": "НИТУ МИСИС",
+          "source_type": "official_announcement",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Плехановская олимпиада школьников",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [8, 9, 10, 11],
+      "notes": "Официальные инструкции и результаты подтверждают 8–11 классы и дистанционный отбор. Общая дата финала для всех четырёх профилей на доступной странице не дана, поэтому финал оставлен TBA.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Заочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-11-17",
+          "ends_on": "2026-01-26",
+          "registration_opens_on": "2025-10-01",
+          "registration_closes_on": "2026-01-19",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://www.rea.ru/pk/entrant/posh/instruktsiya-k-zaochnomu-turu"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://www.rea.ru/pk/entrant/posh/rezultatyi-zaochnogo-etapa"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Плехановская олимпиада: инструкция к заочному туру",
+          "url": "https://www.rea.ru/pk/entrant/posh/instruktsiya-k-zaochnomu-turu",
+          "publisher": "Российский экономический университет имени Г. В. Плеханова",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Плехановская олимпиада: результаты заочного этапа",
+          "url": "https://www.rea.ru/pk/entrant/posh/rezultatyi-zaochnogo-etapa",
+          "publisher": "Российский экономический университет имени Г. В. Плеханова",
+          "source_type": "official_results",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "family_name": "Твой путь в настоящую науку",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [8, 9, 10, 11],
+      "notes": "Официальная страница подтверждает 8–11 классы, две формы отборочного этапа и заключительный этап. На странице уже размещены документы 2026/27, но календарный блок всё ещё относится к 2025/26, поэтому его даты честно помечены как previous_year_estimate.",
+      "stages": [
+        {
+          "key": "qualifying-offline",
+          "name": "Очный отборочный тур",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-07",
+          "ends_on": "2025-12-07",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://olymphysics.nsu.ru/"
+        },
+        {
+          "key": "qualifying-online",
+          "name": "Интернет-тур отборочного этапа",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-08",
+          "ends_on": "2025-12-21",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://olymphysics.nsu.ru/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-22",
+          "ends_on": "2026-03-22",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "details": "Проводился на площадке НГУ и региональных площадках.",
+          "source_url": "https://olymphysics.nsu.ru/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Олимпиада «Твой путь в настоящую науку»",
+          "url": "https://olymphysics.nsu.ru/",
+          "publisher": "Новосибирский государственный университет",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    }
+  ],
+  "slugs": [
+    {
+      "slug": "registry-2026-27-011-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Биология: официальный регламент подтверждает 5–11 классы и два этапа. Точные даты не добавлены, поскольку открывающаяся GET-ссылка — регламент, а страница расписания отвечает автоматическому клиенту 403.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://www.sechenov.ru/upload/iblock/777/q301kq642aiduvns6zdndlh52mi7wtmo/Reglament-VSOSH-biologiya-2025_2026-.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://www.sechenov.ru/upload/iblock/777/q301kq642aiduvns6zdndlh52mi7wtmo/Reglament-VSOSH-biologiya-2025_2026-.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Регламент Всероссийской Сеченовской олимпиады по биологии 2025/26",
+          "url": "https://www.sechenov.ru/upload/iblock/777/q301kq642aiduvns6zdndlh52mi7wtmo/Reglament-VSOSH-biologiya-2025_2026-.pdf",
+          "publisher": "Сеченовский Университет",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-011-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [8, 9, 10, 11],
+      "notes": "Химия: официальный регламент подтверждает 8–11 классы и два этапа. Точные даты не добавлены по той же причине, что и для биологии.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://www.sechenov.ru/upload/iblock/92c/u2pc53n3clh51dr4oowywr9w5jf39u4d/Reglament-VSOSH-khimiya-2025_2026-.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://www.sechenov.ru/upload/iblock/92c/u2pc53n3clh51dr4oowywr9w5jf39u4d/Reglament-VSOSH-khimiya-2025_2026-.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Регламент Всероссийской Сеченовской олимпиады по химии 2025/26",
+          "url": "https://www.sechenov.ru/upload/iblock/92c/u2pc53n3clh51dr4oowywr9w5jf39u4d/Reglament-VSOSH-khimiya-2025_2026-.pdf",
+          "publisher": "Сеченовский Университет",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-01",
+      "data_status": "partial",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-10-25",
+          "ends_on": "2026-10-25",
+          "registration_opens_on": "2026-09-28",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2027-03-07",
+          "ends_on": "2027-03-07",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "Организатор помечает дату как предварительную.",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-02",
+      "data_status": "partial",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "date_precision": "tba",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "На 26.08.2026 дата и регистрация обозначены организатором звёздочкой и ещё не опубликованы.",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2027-02-21",
+          "ends_on": "2027-02-21",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "Организатор помечает дату как предварительную.",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-03",
+      "data_status": "partial",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-10-18",
+          "ends_on": "2026-10-18",
+          "registration_opens_on": "2026-09-28",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2027-02-14",
+          "ends_on": "2027-02-14",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "Организатор помечает дату как предварительную.",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-04",
+      "data_status": "partial",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-11-15",
+          "ends_on": "2026-11-15",
+          "registration_opens_on": "2026-10-26",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2027-03-14",
+          "ends_on": "2027-03-14",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "Организатор помечает дату как предварительную.",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-05",
+      "data_status": "partial",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-11-22",
+          "ends_on": "2026-11-22",
+          "registration_opens_on": "2026-10-26",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2027-02-28",
+          "ends_on": "2027-02-28",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "details": "Организатор помечает дату как предварительную.",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-024-01",
+      "data_status": "partial",
+      "grades": [8, 9, 10, 11]
+    },
+    {
+      "slug": "registry-2026-27-024-02",
+      "data_status": "partial",
+      "grades": [10, 11]
+    },
+    {
+      "slug": "registry-2026-27-024-03",
+      "data_status": "partial",
+      "grades": [8, 9, 10, 11]
+    },
+    {
+      "slug": "registry-2026-27-024-04",
+      "data_status": "partial",
+      "grades": [8, 9, 10, 11]
+    },
+    {
+      "slug": "registry-2026-27-024-05",
+      "data_status": "partial",
+      "grades": [8, 9, 10, 11]
+    },
+    {
+      "slug": "registry-2026-27-024-06",
+      "data_status": "partial",
+      "grades": [8, 9, 10, 11]
+    },
+    {
+      "slug": "registry-2026-27-033-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-01-30",
+          "ends_on": "2026-02-02",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://olymp.psu.ru/disciplines/geography/home.html"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-20",
+          "ends_on": "2026-03-21",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://olymp.psu.ru/disciplines/geography/home.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "«Юные таланты»: география",
+          "url": "https://olymp.psu.ru/disciplines/geography/home.html",
+          "publisher": "Пермский государственный национальный исследовательский университет",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-033-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-01-21",
+          "ends_on": "2026-01-21",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://olymp.psu.ru/disciplines/geology/home.html"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-13",
+          "ends_on": "2026-03-15",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://olymp.psu.ru/disciplines/geology/home.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "«Юные таланты»: геология",
+          "url": "https://olymp.psu.ru/disciplines/geology/home.html",
+          "publisher": "Пермский государственный национальный исследовательский университет",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-033-03",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [6, 7, 8, 9, 10, 11],
+      "stages": [
+        {
+          "key": "qualifying-online",
+          "name": "Интернет-тур отборочного этапа",
+          "stage_type": "qualifying",
+          "starts_on": "2025-12-03",
+          "ends_on": "2025-12-15",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://olymp.psu.ru/disciplines/chem/home.html"
+        },
+        {
+          "key": "qualifying-second",
+          "name": "Второй отборочный тур",
+          "stage_type": "qualifying",
+          "starts_on": "2026-01-31",
+          "ends_on": "2026-01-31",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://olymp.psu.ru/disciplines/chem/home.html"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-04-08",
+          "ends_on": "2026-04-09",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://olymp.psu.ru/disciplines/chem/home.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "«Юные таланты»: химия",
+          "url": "https://olymp.psu.ru/disciplines/chem/home.html",
+          "publisher": "Пермский государственный национальный исследовательский университет",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-040-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [9, 10, 11],
+      "notes": "Основная параллель — 11 класс; официальный регламент приветствует 10 класс, а список площадок допускает 9–10 классы.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Заочный тур",
+          "stage_type": "qualifying",
+          "starts_on": "2026-01-11",
+          "ends_on": "2026-01-25",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://olympiads.mccme.ru/ommo/"
+        },
+        {
+          "key": "final",
+          "name": "Очный тур",
+          "stage_type": "final",
+          "starts_on": "2026-02-01",
+          "ends_on": "2026-02-01",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://olympiads.mccme.ru/ommo/"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ОММО по математике — 2026",
+          "url": "https://olympiads.mccme.ru/ommo/",
+          "publisher": "Центральный оргкомитет ОММО по математике",
+          "source_type": "official_archive",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Регламент ОММО по математике 2025/26",
+          "url": "https://olympiads.mccme.ru/ommo/26/ommo2026-regl.html",
+          "publisher": "Центральный оргкомитет ОММО по математике",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-040-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [9, 10, 11],
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный тур",
+          "stage_type": "qualifying",
+          "starts_on": "2026-01-31",
+          "ends_on": "2026-02-14",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "format": "online",
+          "source_url": "https://xn--80aeffgfbql5dyaw0k.xn--p1ai/union-olymp"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный тур",
+          "stage_type": "final",
+          "starts_on": "2026-03-22",
+          "ends_on": "2026-03-22",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://xn--80aeffgfbql5dyaw0k.xn--p1ai/union-olymp"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Объединённая межвузовская олимпиада по физике — 2026",
+          "url": "https://xn--80aeffgfbql5dyaw0k.xn--p1ai/union-olymp",
+          "publisher": "Оргкомитет ОММО по физике",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-071-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [6, 7, 8, 9, 10, 11],
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Районный тур",
+          "stage_type": "qualifying",
+          "starts_on": "2025-11-15",
+          "ends_on": "2025-11-15",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://www.pdmi.ras.ru/~olymp/current.html"
+        },
+        {
+          "key": "final-6-8",
+          "name": "Городской тур (6–8 классы)",
+          "stage_type": "final",
+          "starts_on": "2026-02-08",
+          "ends_on": "2026-02-08",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://www.pdmi.ras.ru/~olymp/current.html"
+        },
+        {
+          "key": "final-9-11",
+          "name": "Городской тур (9–11 классы)",
+          "stage_type": "final",
+          "starts_on": "2026-03-01",
+          "ends_on": "2026-03-01",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://www.pdmi.ras.ru/~olymp/current.html"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Санкт-Петербургская олимпиада по математике 2025/26",
+          "url": "https://www.pdmi.ras.ru/~olymp/current.html",
+          "publisher": "Жюри Санкт-Петербургской олимпиады по математике / ПОМИ РАН",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-071-03",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Страница организатора публикует проходной балл объединённой группы 7–8 классов; практический тур отдельно перечислен только для 8–11 классов, поэтому это различие сохранено в описании.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-11-18",
+          "ends_on": "2025-11-18",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://olymp.academtalant.ru/chemspb"
+        },
+        {
+          "key": "final-theory",
+          "name": "Теоретический тур заключительного этапа",
+          "stage_type": "final",
+          "starts_on": "2026-02-21",
+          "ends_on": "2026-02-21",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://olymp.academtalant.ru/chemspb"
+        },
+        {
+          "key": "final-practice-10-11",
+          "name": "Практический тур финала (10–11 классы)",
+          "stage_type": "final",
+          "starts_on": "2026-04-17",
+          "ends_on": "2026-04-17",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "source_url": "https://olymp.academtalant.ru/chemspb"
+        },
+        {
+          "key": "final-practice-8-9",
+          "name": "Практический тур финала (8–9 классы)",
+          "stage_type": "final",
+          "starts_on": "2026-04-18",
+          "ends_on": "2026-04-18",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "format": "offline",
+          "details": "Официальное объявление практического тура перечисляет 8–9 классы; 7 класс в нём отдельно не указан.",
+          "source_url": "https://olymp.academtalant.ru/chemspb"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Санкт-Петербургская олимпиада школьников по химии 2025/26",
+          "url": "https://olymp.academtalant.ru/chemspb",
+          "publisher": "Академия талантов Санкт-Петербурга / оргкомитет олимпиады",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    }
+  ]
+}

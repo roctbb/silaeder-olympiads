@@ -1,0 +1,313 @@
+{
+  "checked_on": "2026-08-25",
+  "materials_by_family": {
+    "«Финатлон для старшеклассников» - Всероссийская олимпиада по финансовой грамотности, устойчивому развитию и защите прав потребителей финансовых услуг": [
+      {
+        "title": "Учебно-методические материалы, задания финалов и работы дипломантов",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://fin-olimp.ru/o-proekte/materials/",
+        "is_official": true
+      }
+    ],
+    "Всероссийская Толстовская олимпиада": [
+      {
+        "title": "Материалы Толстовской олимпиады по всем профилям",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.tsput.ru/materials/",
+        "is_official": true
+      }
+    ],
+    "Всероссийская олимпиада по искусственному интеллекту (с возможностью участия иностранных обучающихся)": [
+      {
+        "title": "Архив заданий, решений, разборов и вебинаров олимпиады по ИИ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://ai.edu.gov.ru/materials",
+        "is_official": true
+      }
+    ],
+    "Кутафинская олимпиада школьников по праву": [
+      {
+        "title": "Работы победителей и призёров Кутафинской олимпиады",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://msal.ru/content/abiturientam/olimpiady-i-konkursy/kutafinskaya-olimpiada-shkolnikov-po-pravu/raboty-pobediteley/",
+        "is_official": true
+      }
+    ],
+    "Международная олимпиада по финансовой безопасности": [
+      {
+        "title": "Задания и критерии оценки финального этапа для школьников",
+        "material_type": "tasks",
+        "year": 2025,
+        "url": "https://rosfinolymp.ru/file/16803/zadaniya-i-kriterii-ocenki-finalnogo-etapa-dlya-shkolnikov-pdf",
+        "is_official": true
+      }
+    ],
+    "Международная олимпиада школьников Уральского федерального университета «Изумруд»": [
+      {
+        "title": "Задания, решения и методические материалы олимпиады «Изумруд»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://dovuz.urfu.ru/olymps/izumrud/tasks",
+        "is_official": true
+      }
+    ],
+    "Межрегиональная олимпиада школьников «Будущие исследователи - будущее науки»": [
+      {
+        "title": "Архив заданий и материалов для подготовки БИБН",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://bibn.unn.ru/preparation.html",
+        "is_official": true
+      }
+    ],
+    "Научно-практическая олимпиада школьников имени Н.А. Умова": [
+      {
+        "title": "Архив заданий, разборов и работ дипломантов олимпиады имени Н.А. Умова",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://umov.phys.msu.ru/#archive",
+        "is_official": true
+      }
+    ],
+    "Олимпиада РГГУ для школьников": [
+      {
+        "title": "Задания, ответы, критерии, методические рекомендации и архив Олимпиады РГГУ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://www.rsuh.ru/education/cdo/olimpiada-rggu-dlya-shkolnikov.php",
+        "is_official": true
+      }
+    ],
+    "Олимпиада по химии и химической технологии «Потомки Менделеева»": [
+      {
+        "title": "Задания и решения олимпиады «Потомки Менделеева» по годам и классам",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://malun.kpfu.ru/mendeleev",
+        "is_official": true
+      }
+    ],
+    "Олимпиада школьников «Надежда энергетики»": [
+      {
+        "title": "Архив заданий олимпиады «Надежда энергетики»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://www.energy-hope.ru/olymp/tasks.html",
+        "is_official": true
+      }
+    ],
+    "Открытая межвузовская олимпиада школьников «Будущее Сибири»": [
+      {
+        "title": "Задания прошлых лет по физике и химии",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp-sibir.nstu.ru/",
+        "is_official": true
+      }
+    ],
+    "Открытая олимпиада школьников по программированию «Когнитивные технологии»": [
+      {
+        "title": "Материалы прошлых лет: задания, решения и методические пособия",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.misis.ru/",
+        "is_official": true
+      }
+    ],
+    "Твой путь в настоящую науку": [
+      {
+        "title": "Условия, решения и критерии олимпиад прошлых лет",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymphysics.nsu.ru/",
+        "is_official": true
+      }
+    ],
+    "Университетская олимпиада школьников «Бельчонок»": [
+      {
+        "title": "Архив заданий, решений и критериев олимпиады «Бельчонок»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://dovuz.sfu.ru/abiturientu-sfu/olimpiady/belchonok/arkhiv/",
+        "is_official": true
+      }
+    ]
+  },
+  "materials_by_slug": {
+    "registry-2026-27-015-01": [
+      {
+        "title": "Герценовская олимпиада по географии: задания и материалы прошлых лет",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://www.herzen.spb.ru/abiturients/olimpiady/olimp-rsosh/geo/",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-015-02": [
+      {
+        "title": "Герценовская олимпиада по иностранному языку: задания и материалы прошлых лет",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://www.herzen.spb.ru/abiturients/olimpiady/olimp-rsosh/fl/",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-015-03": [
+      {
+        "title": "Герценовская олимпиада по педагогике: задания и материалы прошлых лет",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://www.herzen.spb.ru/abiturients/olimpiady/olimp-rsosh/pedagogy/index.php",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-030-01": [
+      {
+        "title": "Материалы прошлых лет по иностранному языку",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://v-olymp.ru/prev-materials?slug=foreign_language",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-030-03": [
+      {
+        "title": "Материалы прошлых лет по обществознанию",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://v-olymp.ru/prev-materials?slug=social_studies",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-030-04": [
+      {
+        "title": "Материалы прошлых лет по русскому языку",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://v-olymp.ru/prev-materials?slug=russian_language",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-030-05": [
+      {
+        "title": "Материалы прошлых лет по физике",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://v-olymp.ru/prev-materials?slug=physics",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-033-01": [
+      {
+        "title": "«Юные таланты»: задания прошлых лет по географии",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.psu.ru/disciplines/geography/%D0%BE%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B0%D0%B4%D1%8B-%D0%BF%D1%80%D0%BE%D1%88%D0%BB%D1%8B%D1%85-%D0%BB%D0%B5%D1%82/",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-033-02": [
+      {
+        "title": "«Юные таланты»: задания и решения прошлых лет по геологии",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.psu.ru/disciplines/geology/home.html",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-033-03": [
+      {
+        "title": "«Юные таланты»: задания и критерии прошлых лет по химии",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.psu.ru/disciplines/chem/zadania.html",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-040-01": [
+      {
+        "title": "Объединённая межвузовская математическая олимпиада: задания и решения",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olympiads.mccme.ru/ommo/26/",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-040-02": [
+      {
+        "title": "Объединённая межвузовская олимпиада по физике: задания прошлых лет с ответами и решениями",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://xn--80aeffgfbql5dyaw0k.xn--p1ai/union-olymp",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-053-01": [
+      {
+        "title": "Задания заключительного этапа индивидуальной олимпиады по информатике и программированию",
+        "material_type": "tasks",
+        "year": 2024,
+        "url": "https://nerc.itmo.ru/school/io/archive/20240324/problems-20240324-ioip.pdf",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-065-01": [
+      {
+        "title": "Олимпиада «Газпром»: задания и решения по инженерному делу",
+        "material_type": "solutions",
+        "year": 2026,
+        "url": "https://olympiad.gazprom.ru/assets/files/training/solving-tasks-2026/engineering.zip",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-065-02": [
+      {
+        "title": "Олимпиада «Газпром»: задания и решения по информационным и коммуникационным технологиям",
+        "material_type": "solutions",
+        "year": 2026,
+        "url": "https://olympiad.gazprom.ru/assets/files/training/solving-tasks-2026/computer-science.zip",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-065-03": [
+      {
+        "title": "Олимпиада «Газпром»: задания и решения по физике",
+        "material_type": "solutions",
+        "year": 2026,
+        "url": "https://olympiad.gazprom.ru/assets/files/training/solving-tasks-2026/physics.zip",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-068-03": [
+      {
+        "title": "Плехановская олимпиада по финансовой грамотности: архив заданий и материалы для подготовки",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://fingram.rea.ru/olimpiada",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-071-01": [
+      {
+        "title": "Петербургская олимпиада школьников по математике: задачи и результаты прошедших олимпиад",
+        "material_type": "archive",
+        "year": null,
+        "url": "http://www.pdmi.ras.ru/~olymp/",
+        "is_official": true
+      }
+    ],
+    "registry-2026-27-071-03": [
+      {
+        "title": "Санкт-Петербургская олимпиада школьников по химии: архив заданий, решений и сборников",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.academtalant.ru/chemspb",
+        "is_official": true
+      }
+    ]
+  }
+}

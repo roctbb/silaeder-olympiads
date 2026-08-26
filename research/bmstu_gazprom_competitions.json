@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-08-26",
+  "records": [
+    {
+      "slug": "gazprom-mathematics",
+      "name": "Отраслевая олимпиада школьников «Газпром» — Математика",
+      "family_name": "Отраслевая олимпиада школьников «Газпром»",
+      "profile": "Математика",
+      "description": "Отдельный профиль отраслевой олимпиады школьников «Газпром». Официальный портал публикует профильные задания и решения, а МГТУ им. Н. Э. Баумана — календарь туров сезона 2025/26.",
+      "organizer": "Публичное акционерное общество «Газпром» (есть соорганизаторы)",
+      "website_url": "https://olympiad.gazprom.ru/",
+      "geography": "russia",
+      "is_team": false,
+      "academic_year": "2026/27",
+      "data_status": "previous_year_estimate",
+      "is_in_registry": false,
+      "registry_level": null,
+      "registry_status": "not_listed",
+      "is_popular": false,
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-08-26",
+      "registration_url": null,
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "Положение сезона 2025/26 допускает к участию школьников 8–11 классов.",
+      "notes": "Официальная страница МГТУ перечисляет математику как самостоятельный профиль, но отдельной строки этого профиля нет в проекте перечня олимпиад на 2026/27. Расписание 2026/27 ещё не опубликовано; даты этапов являются ориентиром по сезону 2025/26.",
+      "grades": [8, 9, 10, 11],
+      "stages": [
+        {
+          "key": "preparatory",
+          "name": "Подготовительный тур",
+          "stage_type": "stage",
+          "start_date": "2025-10-10",
+          "end_date": "2025-10-31",
+          "date_precision": "range",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "details": "Общий подготовительный тур сезона 2025/26 проходил с 10 по 31 октября 2025 года.",
+          "source_url": "https://olymp.bmstu.ru/ru/gazprom"
+        },
+        {
+          "key": "qualifying",
+          "name": "Отборочный тур",
+          "stage_type": "qualifying",
+          "start_date": "2025-11-01",
+          "end_date": "2026-01-15",
+          "date_precision": "range",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "details": "Общий отборочный тур сезона 2025/26 проходил с 1 ноября 2025 года по 15 января 2026 года.",
+          "source_url": "https://olymp.bmstu.ru/ru/gazprom"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный тур",
+          "stage_type": "final",
+          "start_date": "2026-02-22",
+          "end_date": "2026-02-22",
+          "date_precision": "exact",
+          "date_status": "official_2025_26",
+          "format": "hybrid",
+          "location": "Площадки соорганизаторов или дистанционно",
+          "details": "Финал по математике в сезоне 2025/26 был назначен на 22 февраля 2026 года. Положение допускает очную или дистанционную форму заключительного этапа.",
+          "source_url": "https://olymp.bmstu.ru/ru/gazprom"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задания и решения 2025/26 по математике",
+          "material_type": "solutions",
+          "year": 2026,
+          "url": "https://olympiad.gazprom.ru/assets/files/training/solving-tasks-2026/mathematics.zip",
+          "is_official": true
+        }
+      ],
+      "benefits": [],
+      "sources": [
+        {
+          "title": "Расписание отраслевой олимпиады школьников «Газпром» 2025/26",
+          "url": "https://olymp.bmstu.ru/ru/gazprom",
+          "publisher": "МГТУ им. Н. Э. Баумана",
+          "source_type": "official_coorganizer",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Положение об отраслевой олимпиаде школьников «Газпром» 2025/26",
+          "url": "https://olympiad.gazprom.ru/assets/files/regulations/2025-2026/polozhenie_2025-2026.pdf?update=2025-10-09",
+          "publisher": "ПАО «Газпром»",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный архив заданий и решений по математике 2025/26",
+          "url": "https://olympiad.gazprom.ru/assets/files/training/solving-tasks-2026/mathematics.zip",
+          "publisher": "ПАО «Газпром»",
+          "source_type": "official_materials",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "gazprom-chemistry",
+      "name": "Отраслевая олимпиада школьников «Газпром» — Химия",
+      "family_name": "Отраслевая олимпиада школьников «Газпром»",
+      "profile": "Химия",
+      "description": "Отдельный профиль отраслевой олимпиады школьников «Газпром». Официальный портал публикует профильные задания и решения, а МГТУ им. Н. Э. Баумана — календарь туров сезона 2025/26.",
+      "organizer": "Публичное акционерное общество «Газпром» (есть соорганизаторы)",
+      "website_url": "https://olympiad.gazprom.ru/",
+      "geography": "russia",
+      "is_team": false,
+      "academic_year": "2026/27",
+      "data_status": "previous_year_estimate",
+      "is_in_registry": false,
+      "registry_level": null,
+      "registry_status": "not_listed",
+      "is_popular": false,
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-08-26",
+      "registration_url": null,
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "Положение сезона 2025/26 допускает к участию школьников 8–11 классов.",
+      "notes": "Официальная страница МГТУ перечисляет химию как самостоятельный профиль, но отдельной строки этого профиля нет в проекте перечня олимпиад на 2026/27. Расписание 2026/27 ещё не опубликовано; даты этапов являются ориентиром по сезону 2025/26.",
+      "grades": [8, 9, 10, 11],
+      "stages": [
+        {
+          "key": "preparatory",
+          "name": "Подготовительный тур",
+          "stage_type": "stage",
+          "start_date": "2025-10-10",
+          "end_date": "2025-10-31",
+          "date_precision": "range",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "details": "Общий подготовительный тур сезона 2025/26 проходил с 10 по 31 октября 2025 года.",
+          "source_url": "https://olymp.bmstu.ru/ru/gazprom"
+        },
+        {
+          "key": "qualifying",
+          "name": "Отборочный тур",
+          "stage_type": "qualifying",
+          "start_date": "2025-11-01",
+          "end_date": "2026-01-15",
+          "date_precision": "range",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "details": "Общий отборочный тур сезона 2025/26 проходил с 1 ноября 2025 года по 15 января 2026 года.",
+          "source_url": "https://olymp.bmstu.ru/ru/gazprom"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный тур",
+          "stage_type": "final",
+          "start_date": "2026-02-07",
+          "end_date": "2026-02-07",
+          "date_precision": "exact",
+          "date_status": "official_2025_26",
+          "format": "hybrid",
+          "location": "Площадки соорганизаторов или дистанционно",
+          "details": "Финал по химии в сезоне 2025/26 был назначен на 7 февраля 2026 года. Положение допускает очную или дистанционную форму заключительного этапа.",
+          "source_url": "https://olymp.bmstu.ru/ru/gazprom"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задания и решения 2025/26 по химии",
+          "material_type": "solutions",
+          "year": 2026,
+          "url": "https://olympiad.gazprom.ru/assets/files/training/solving-tasks-2026/chemistry.zip",
+          "is_official": true
+        }
+      ],
+      "benefits": [],
+      "sources": [
+        {
+          "title": "Расписание отраслевой олимпиады школьников «Газпром» 2025/26",
+          "url": "https://olymp.bmstu.ru/ru/gazprom",
+          "publisher": "МГТУ им. Н. Э. Баумана",
+          "source_type": "official_coorganizer",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Положение об отраслевой олимпиаде школьников «Газпром» 2025/26",
+          "url": "https://olympiad.gazprom.ru/assets/files/regulations/2025-2026/polozhenie_2025-2026.pdf?update=2025-10-09",
+          "publisher": "ПАО «Газпром»",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный архив заданий и решений по химии 2025/26",
+          "url": "https://olympiad.gazprom.ru/assets/files/training/solving-tasks-2026/chemistry.zip",
+          "publisher": "ПАО «Газпром»",
+          "source_type": "official_materials",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "gazprom-economics",
+      "name": "Отраслевая олимпиада школьников «Газпром» — Экономика",
+      "family_name": "Отраслевая олимпиада школьников «Газпром»",
+      "profile": "Экономика",
+      "description": "Отдельный профиль отраслевой олимпиады школьников «Газпром». Официальный портал публикует профильные задания и решения, а МГТУ им. Н. Э. Баумана — календарь туров сезона 2025/26.",
+      "organizer": "Публичное акционерное общество «Газпром» (есть соорганизаторы)",
+      "website_url": "https://olympiad.gazprom.ru/",
+      "geography": "russia",
+      "is_team": false,
+      "academic_year": "2026/27",
+      "data_status": "previous_year_estimate",
+      "is_in_registry": false,
+      "registry_level": null,
+      "registry_status": "not_listed",
+      "is_popular": false,
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-08-26",
+      "registration_url": null,
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "Положение сезона 2025/26 допускает к участию школьников 8–11 классов.",
+      "notes": "Официальная страница МГТУ перечисляет экономику как самостоятельный профиль, но отдельной строки этого профиля нет в проекте перечня олимпиад на 2026/27. Расписание 2026/27 ещё не опубликовано; даты этапов являются ориентиром по сезону 2025/26.",
+      "grades": [8, 9, 10, 11],
+      "stages": [
+        {
+          "key": "preparatory",
+          "name": "Подготовительный тур",
+          "stage_type": "stage",
+          "start_date": "2025-10-10",
+          "end_date": "2025-10-31",
+          "date_precision": "range",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "details": "Общий подготовительный тур сезона 2025/26 проходил с 10 по 31 октября 2025 года.",
+          "source_url": "https://olymp.bmstu.ru/ru/gazprom"
+        },
+        {
+          "key": "qualifying",
+          "name": "Отборочный тур",
+          "stage_type": "qualifying",
+          "start_date": "2025-11-01",
+          "end_date": "2026-01-15",
+          "date_precision": "range",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "details": "Общий отборочный тур сезона 2025/26 проходил с 1 ноября 2025 года по 15 января 2026 года.",
+          "source_url": "https://olymp.bmstu.ru/ru/gazprom"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный тур",
+          "stage_type": "final",
+          "start_date": "2026-01-31",
+          "end_date": "2026-01-31",
+          "date_precision": "exact",
+          "date_status": "official_2025_26",
+          "format": "hybrid",
+          "location": "Площадки соорганизаторов или дистанционно",
+          "details": "Финал по экономике в сезоне 2025/26 был назначен на 31 января 2026 года. Положение допускает очную или дистанционную форму заключительного этапа.",
+          "source_url": "https://olymp.bmstu.ru/ru/gazprom"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задания и решения 2025/26 по экономике",
+          "material_type": "solutions",
+          "year": 2026,
+          "url": "https://olympiad.gazprom.ru/assets/files/training/solving-tasks-2026/economics.zip",
+          "is_official": true
+        }
+      ],
+      "benefits": [],
+      "sources": [
+        {
+          "title": "Расписание отраслевой олимпиады школьников «Газпром» 2025/26",
+          "url": "https://olymp.bmstu.ru/ru/gazprom",
+          "publisher": "МГТУ им. Н. Э. Баумана",
+          "source_type": "official_coorganizer",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Положение об отраслевой олимпиаде школьников «Газпром» 2025/26",
+          "url": "https://olympiad.gazprom.ru/assets/files/regulations/2025-2026/polozhenie_2025-2026.pdf?update=2025-10-09",
+          "publisher": "ПАО «Газпром»",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Официальный архив заданий и решений по экономике 2025/26",
+          "url": "https://olympiad.gazprom.ru/assets/files/training/solving-tasks-2026/economics.zip",
+          "publisher": "ПАО «Газпром»",
+          "source_type": "official_materials",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    }
+  ]
+}

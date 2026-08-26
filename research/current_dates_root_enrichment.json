@@ -1,0 +1,20 @@
+{
+  "target_academic_year": "2026/27",
+  "slugs": [
+    {
+      "slug": "vysshaya-proba-industrial-programming",
+      "stages": [
+        {
+          "key": "registration-registratsiya",
+          "starts_on": "2026-08-20",
+          "ends_on": "2026-09-21",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://olymp.hse.ru/mmo/timetable/",
+          "source_title": "Календарь «Высшей пробы» 2026/27",
+          "details": "Регистрация завершается 21 сентября 2026 года в 14:00 по московскому времени."
+        }
+      ]
+    }
+  ]
+}

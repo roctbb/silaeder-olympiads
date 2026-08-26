@@ -1,0 +1,353 @@
+{
+  "target_academic_year": "2026/27",
+  "slugs": [
+    {
+      "slug": "vosh-2026-27-01",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-02",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-03",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-04",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-08",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-06",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-09",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-10",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-11",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-12",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-13",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-21",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-14",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-15",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-16",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-18",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-17",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-19",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-05",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-07",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-20",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-22",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-23",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-24",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-25",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-26",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-27",
+      "stages": []
+    },
+    {
+      "slug": "vosh-2026-27-28",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-arab",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-01",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-biol",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-bioecon",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-02",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-03",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-04",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-05",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-iikt-10-11",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-iikt-6-9",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-ib",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-07",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-08",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-obzh",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-09",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-math-6-7",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-math",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-11",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-12",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-predprof-engprak",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-predprof-infprak",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-predprof-sciprak",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-robo-5-8",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-robo-9-11",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-trud-kd",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-trud-tt",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-15",
+      "stages": []
+    },
+    {
+      "slug": "mosh-2026-27-phil",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-16",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-17",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-18",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-035-19",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-01",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-04",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-05",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-03",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-06",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-07",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-08",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-09",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-10",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-11",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-12",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-13",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-14",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-15",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-16",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-17",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-18",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-19",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-20",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-21",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-22",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-23",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-24",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-25",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-02",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-26",
+      "stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-27",
+      "stages": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "checked_on": "2026-08-26",
+  "target_academic_year": "2026/27",
+  "slugs": [
+    {
+      "slug": "shag-v-budushchee-biology",
+      "registration_url": "https://lk-olymp.bmstu.ru/",
+      "registration_status": "announced",
+      "source_url": "https://olymp.bmstu.ru/ru/calendar",
+      "evidence": "Официальный календарь отвечает HTTP 200, уже озаглавлен 2026–2027 и отдельно перечисляет профиль «Биология». Он сообщает, что расписание скоро появится, и ведёт в личный кабинет. Без авторизации нельзя подтвердить активную заявку на профиль, поэтому ссылка отмечена announced, а не open."
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "academic_year": "2026/27",
+  "as_of": "2026-08-25",
+  "family_name": "Московская олимпиада школьников",
+  "status": "announcement_pending",
+  "official_site": "https://mos.olimpiada.ru/",
+  "official_tasks_archive": "https://mos.olimpiada.ru/tasks",
+  "current_site_observation": "На страницах направлений указано «Уточняются классы проведения олимпиады», событий 2026/27 в графике нет.",
+  "last_annual_order": {
+    "academic_year": "2025/26",
+    "number": "Пр-1166",
+    "signed_on": "2025-12-05",
+    "amended_by": "Пр-3 от 2026-01-13",
+    "url": "https://mos.olimpiada.ru/files/m_files/4684/pr-donm-1166-ot-5-12-2025.pdf"
+  },
+  "federal_registry_note": "В проекте перечня 2026/27 МОШ представлена 19 профилями. Уровни draft_level_2026_27 не утверждены.",
+  "counts": {
+    "site_leaf_entities": 32,
+    "federal_registry_profiles": 19
+  },
+  "profiles": [
+    {
+      "profile_index": 1,
+      "display_profile": "Арабский язык",
+      "site_code": "arab",
+      "grades_estimate_2026_27": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/arab",
+      "materials_url": "https://mos.olimpiada.ru/tasks/arab",
+      "registry_profile": null,
+      "approved_level_2025_26": null,
+      "draft_level_2026_27": null,
+      "registry_status_2026_27": "not_listed",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 2,
+      "display_profile": "Астрономия",
+      "site_code": "astr",
+      "grades_estimate_2026_27": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/astr",
+      "materials_url": "https://mos.olimpiada.ru/tasks/astr",
+      "registry_profile": "астрономия",
+      "approved_level_2025_26": 2,
+      "draft_level_2026_27": 1,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 3,
+      "display_profile": "Биология",
+      "site_code": "biol",
+      "grades_estimate_2026_27": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/biol",
+      "materials_url": "https://mos.olimpiada.ru/tasks/biol",
+      "registry_profile": null,
+      "approved_level_2025_26": null,
+      "draft_level_2026_27": null,
+      "registry_status_2026_27": "not_listed",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 4,
+      "display_profile": "Биоэкономика",
+      "site_code": "bioecon",
+      "grades_estimate_2026_27": [
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "official_news_2026_pilot",
+      "website_url": "https://mos.olimpiada.ru/olymp/bioecon",
+      "materials_url": "https://mos.olimpiada.ru/tasks/bioecon",
+      "registry_profile": null,
+      "approved_level_2025_26": null,
+      "draft_level_2026_27": null,
+      "registry_status_2026_27": "not_listed",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 5,
+      "display_profile": "Вероятность и статистика",
+      "site_code": "pt",
+      "grades_estimate_2026_27": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/pt",
+      "materials_url": "https://mos.olimpiada.ru/tasks/pt",
+      "registry_profile": "вероятность и статистика",
+      "approved_level_2025_26": 2,
+      "draft_level_2026_27": 2,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 6,
+      "display_profile": "Генетика",
+      "site_code": "gen",
+      "grades_estimate_2026_27": [
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/gen",
+      "materials_url": "https://mos.olimpiada.ru/tasks/gen",
+      "registry_profile": "генетика",
+      "approved_level_2025_26": 2,
+      "draft_level_2026_27": 2,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 7,
+      "display_profile": "География",
+      "site_code": "geog",
+      "grades_estimate_2026_27": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/geog",
+      "materials_url": "https://mos.olimpiada.ru/tasks/geog",
+      "registry_profile": "география",
+      "approved_level_2025_26": 1,
+      "draft_level_2026_27": 1,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 8,
+      "display_profile": "Изобразительное искусство",
+      "site_code": "izo",
+      "grades_estimate_2026_27": [
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/izo",
+      "materials_url": "https://mos.olimpiada.ru/tasks/izo",
+      "registry_profile": "изобразительное искусство",
+      "approved_level_2025_26": 2,
+      "draft_level_2026_27": 1,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 9,
+      "display_profile": "Информатика (10–11 классы)",
+      "site_code": "iikt-10-11",
+      "grades_estimate_2026_27": [
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/iikt-10-11",
+      "materials_url": "https://mos.olimpiada.ru/tasks/iikt-10-11",
+      "registry_profile": "информатика",
+      "approved_level_2025_26": 1,
+      "draft_level_2026_27": 1,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 10,
+      "display_profile": "Информатика (6–9 классы)",
+      "site_code": "iikt-6-9",
+      "grades_estimate_2026_27": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/iikt-6-9",
+      "materials_url": "https://mos.olimpiada.ru/tasks/iikt-6-9",
+      "registry_profile": "информатика",
+      "approved_level_2025_26": 1,
+      "draft_level_2026_27": 1,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 11,
+      "display_profile": "Информационная безопасность",
+      "site_code": "ib",
+      "grades_estimate_2026_27": [
+        7,
+        8
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/ib",
+      "materials_url": "https://mos.olimpiada.ru/tasks/ib",
+      "registry_profile": null,
+      "approved_level_2025_26": null,
+      "draft_level_2026_27": null,
+      "registry_status_2026_27": "not_listed",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 12,
+      "display_profile": "История",
+      "site_code": "hist",
+      "grades_estimate_2026_27": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/hist",
+      "materials_url": "https://mos.olimpiada.ru/tasks/hist",
+      "registry_profile": "история",
+      "approved_level_2025_26": 2,
+      "draft_level_2026_27": 2,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 13,
+      "display_profile": "История искусств",
+      "site_code": "amxk",
+      "grades_estimate_2026_27": [
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/amxk",
+      "materials_url": "https://mos.olimpiada.ru/tasks/amxk",
+      "registry_profile": "история искусств",
+      "approved_level_2025_26": 1,
+      "draft_level_2026_27": 1,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 14,
+      "display_profile": "Комплексная безопасность",
+      "site_code": "obzh",
+      "grades_estimate_2026_27": [
+        7,
+        8
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/obzh",
+      "materials_url": "https://mos.olimpiada.ru/tasks/obzh",
+      "registry_profile": null,
+      "approved_level_2025_26": null,
+      "draft_level_2026_27": null,
+      "registry_status_2026_27": "not_listed",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 15,
+      "display_profile": "Лингвистика",
+      "site_code": "ling",
+      "grades_estimate_2026_27": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/ling",
+      "materials_url": "https://mos.olimpiada.ru/tasks/ling",
+      "registry_profile": "лингвистика",
+      "approved_level_2025_26": 1,
+      "draft_level_2026_27": 1,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 16,
+      "display_profile": "Математический праздник",
+      "site_code": "math-6-7",
+      "grades_estimate_2026_27": [
+        6,
+        7
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/math-6-7",
+      "materials_url": "https://mos.olimpiada.ru/tasks/math-6-7",
+      "registry_profile": "математика",
+      "approved_level_2025_26": 1,
+      "draft_level_2026_27": 1,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 17,
+      "display_profile": "Московская математическая олимпиада",
+      "site_code": "math",
+      "grades_estimate_2026_27": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/math",
+      "materials_url": "https://mos.olimpiada.ru/tasks/math",
+      "registry_profile": "математика",
+      "approved_level_2025_26": 1,
+      "draft_level_2026_27": 1,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 18,
+      "display_profile": "Обществознание",
+      "site_code": "soci",
+      "grades_estimate_2026_27": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/soci",
+      "materials_url": "https://mos.olimpiada.ru/tasks/soci",
+      "registry_profile": "обществознание",
+      "approved_level_2025_26": 2,
+      "draft_level_2026_27": 2,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 19,
+      "display_profile": "Право",
+      "site_code": "law",
+      "grades_estimate_2026_27": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/law",
+      "materials_url": "https://mos.olimpiada.ru/tasks/law",
+      "registry_profile": "право",
+      "approved_level_2025_26": 3,
+      "draft_level_2026_27": 3,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 20,
+      "display_profile": "Предпрофессиональная олимпиада: Инженерия",
+      "site_code": "predprof-engprak",
+      "grades_estimate_2026_27": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/predprof-engprak",
+      "materials_url": "https://mos.olimpiada.ru/tasks/predprof-engprak",
+      "registry_profile": "предпрофессиональная олимпиада",
+      "approved_level_2025_26": 3,
+      "draft_level_2026_27": 3,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 21,
+      "display_profile": "Предпрофессиональная олимпиада: Информационные технологии",
+      "site_code": "predprof-infprak",
+      "grades_estimate_2026_27": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/predprof-infprak",
+      "materials_url": "https://mos.olimpiada.ru/tasks/predprof-infprak",
+      "registry_profile": "предпрофессиональная олимпиада",
+      "approved_level_2025_26": 3,
+      "draft_level_2026_27": 3,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 22,
+      "display_profile": "Предпрофессиональная олимпиада: Исследования",
+      "site_code": "predprof-sciprak",
+      "grades_estimate_2026_27": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/predprof-sciprak",
+      "materials_url": "https://mos.olimpiada.ru/tasks/predprof-sciprak",
+      "registry_profile": "предпрофессиональная олимпиада",
+      "approved_level_2025_26": 3,
+      "draft_level_2026_27": 3,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 23,
+      "display_profile": "Робототехника (5–8 классы)",
+      "site_code": "robo-5-8",
+      "grades_estimate_2026_27": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/robo-5-8",
+      "materials_url": "https://mos.olimpiada.ru/tasks/robo-5-8",
+      "registry_profile": "робототехника",
+      "approved_level_2025_26": 2,
+      "draft_level_2026_27": 2,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 24,
+      "display_profile": "Робототехника (9–11 классы)",
+      "site_code": "robo-9-11",
+      "grades_estimate_2026_27": [
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/robo-9-11",
+      "materials_url": "https://mos.olimpiada.ru/tasks/robo-9-11",
+      "registry_profile": "робототехника",
+      "approved_level_2025_26": 2,
+      "draft_level_2026_27": 2,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 25,
+      "display_profile": "Труд (технология): Культура дома, дизайн и технологии",
+      "site_code": "trud-kd",
+      "grades_estimate_2026_27": [
+        7,
+        8
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/trud-kd",
+      "materials_url": "https://mos.olimpiada.ru/tasks/trud-kd",
+      "registry_profile": null,
+      "approved_level_2025_26": null,
+      "draft_level_2026_27": null,
+      "registry_status_2026_27": "not_listed",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 26,
+      "display_profile": "Труд (технология): Техника, технологии и техническое творчество",
+      "site_code": "trud-tt",
+      "grades_estimate_2026_27": [
+        7,
+        8
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/trud-tt",
+      "materials_url": "https://mos.olimpiada.ru/tasks/trud-tt",
+      "registry_profile": null,
+      "approved_level_2025_26": null,
+      "draft_level_2026_27": null,
+      "registry_status_2026_27": "not_listed",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 27,
+      "display_profile": "Физика",
+      "site_code": "phys",
+      "grades_estimate_2026_27": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/phys",
+      "materials_url": "https://mos.olimpiada.ru/tasks/phys",
+      "registry_profile": "физика",
+      "approved_level_2025_26": 1,
+      "draft_level_2026_27": 1,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 28,
+      "display_profile": "Филология",
+      "site_code": "phil",
+      "grades_estimate_2026_27": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/phil",
+      "materials_url": "https://mos.olimpiada.ru/tasks/phil",
+      "registry_profile": null,
+      "approved_level_2025_26": null,
+      "draft_level_2026_27": null,
+      "registry_status_2026_27": "not_listed",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 29,
+      "display_profile": "Финансовая грамотность",
+      "site_code": "fingram",
+      "grades_estimate_2026_27": [
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/fingram",
+      "materials_url": "https://mos.olimpiada.ru/tasks/fingram",
+      "registry_profile": "финансовая грамотность",
+      "approved_level_2025_26": 3,
+      "draft_level_2026_27": 3,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 30,
+      "display_profile": "Химия",
+      "site_code": "chem",
+      "grades_estimate_2026_27": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/chem",
+      "materials_url": "https://mos.olimpiada.ru/tasks/chem",
+      "registry_profile": "химия",
+      "approved_level_2025_26": 1,
+      "draft_level_2026_27": 1,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 31,
+      "display_profile": "Экология",
+      "site_code": "ecol",
+      "grades_estimate_2026_27": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/ecol",
+      "materials_url": "https://mos.olimpiada.ru/tasks/ecol",
+      "registry_profile": "экология",
+      "approved_level_2025_26": 2,
+      "draft_level_2026_27": 3,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 32,
+      "display_profile": "Экономика",
+      "site_code": "econ",
+      "grades_estimate_2026_27": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "grades_status": "previous_year_estimate",
+      "grades_basis": "2025/26 final-stage schedule, order of Moscow Department of Education and Science No. Pr-1166 as amended by No. Pr-3",
+      "website_url": "https://mos.olimpiada.ru/olymp/econ",
+      "materials_url": "https://mos.olimpiada.ru/tasks/econ",
+      "registry_profile": "экономика",
+      "approved_level_2025_26": 2,
+      "draft_level_2026_27": 3,
+      "registry_status_2026_27": "draft",
+      "dates_2026_27": [],
+      "dates_status": "not_published_as_of_2026_08_25"
+    }
+  ]
+}
+

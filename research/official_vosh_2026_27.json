@@ -1,0 +1,1223 @@
+{
+  "academic_year": "2026/27",
+  "as_of": "2026-08-25",
+  "family_name": "Всероссийская олимпиада школьников",
+  "status": "partially_published",
+  "registry_status": "not_listed",
+  "scope_note": "ВсОШ регулируется отдельно и не является олимпиадой из ежегодного перечня Минобрнауки.",
+  "counts": {
+    "subject_commissions": 24,
+    "profile_entities": 28
+  },
+  "stage_rules": [
+    {
+      "name": "Школьный этап",
+      "grades": "5–11; русский язык и математика также 4 класс",
+      "source_url": "https://vserosolimp.edsoo.ru/school_way"
+    },
+    {
+      "name": "Муниципальный этап",
+      "grades": "7–11",
+      "source_url": "https://vserosolimp.edsoo.ru/municipal_way"
+    },
+    {
+      "name": "Региональный этап",
+      "grades": "9–11",
+      "source_url": "https://vserosolimp.edsoo.ru/region_way"
+    },
+    {
+      "name": "Заключительный этап",
+      "grades": "9–11",
+      "source_url": "https://vserosolimp.edsoo.ru/zakluchit_way"
+    }
+  ],
+  "calendar_status": "Точные даты 2026/27 на дату среза не опубликованы на центральном портале.",
+  "benefit_policy": {
+    "summary": "Победители и призеры заключительного этапа имеют право на прием без вступительных испытаний на соответствующие профилю направления в течение четырех лет; соответствие программ профилю определяет вуз.",
+    "source_url": "https://publication.pravo.gov.ru/document/0001201212300007",
+    "university_mapping_status": "pending_2027_admission_rules"
+  },
+  "materials_archive_url": "https://vos.olimpiada.ru/tasks",
+  "normative_documents_url": "https://vserosolimp.edsoo.ru/normativka",
+  "profiles": [
+    {
+      "profile_index": 1,
+      "profile": "Английский язык",
+      "subject_commission": "Английский язык",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/TAjqnPsp2FFdLt2/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 2,
+      "profile": "Астрономия",
+      "subject_commission": "Астрономия",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/qDn8KF4GQA46zsa/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 3,
+      "profile": "Биология",
+      "subject_commission": "Биология",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/6fKtr8sNzpkL3mm/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 4,
+      "profile": "География",
+      "subject_commission": "География",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/JCeNRLiPpMeeMJL/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 5,
+      "profile": "Программирование",
+      "subject_commission": "Информатика",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/ywgpTXZJfX4RWE2/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 6,
+      "profile": "Искусственный интеллект",
+      "subject_commission": "Информатика",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/ywgpTXZJfX4RWE2/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 7,
+      "profile": "Робототехника",
+      "subject_commission": "Информатика",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/ywgpTXZJfX4RWE2/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 8,
+      "profile": "Информационная безопасность",
+      "subject_commission": "Информатика",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/ywgpTXZJfX4RWE2/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 9,
+      "profile": "Искусство (мировая художественная культура)",
+      "subject_commission": "Искусство (МХК)",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/Mdt8k635qCok4Ad/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 10,
+      "profile": "Испанский язык",
+      "subject_commission": "Испанский язык",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/K8HLidSLaoCnzYZ/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 11,
+      "profile": "История",
+      "subject_commission": "История",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/r23zYxqD5pdkMMa/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 12,
+      "profile": "Итальянский язык",
+      "subject_commission": "Итальянский язык",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/X4XwrkzPfRarcCZ/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 13,
+      "profile": "Китайский язык",
+      "subject_commission": "Китайский язык",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/GxFB9RjFx38eofi/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 14,
+      "profile": "Литература",
+      "subject_commission": "Литература",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/sfy9ytLranPBq3d/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 15,
+      "profile": "Математика",
+      "subject_commission": "Математика",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/XbXMjL8dp7tmXbw/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 16,
+      "profile": "Немецкий язык",
+      "subject_commission": "Немецкий язык",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/eDEgpePPoT3PqAb/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 17,
+      "profile": "Основы безопасности и защиты Родины (ОБЗР)",
+      "subject_commission": "ОБЗР",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/XHQ7f9T5wp5pks4/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 18,
+      "profile": "Обществознание",
+      "subject_commission": "Обществознание",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/sQBydKoiwScyg96/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 19,
+      "profile": "Право",
+      "subject_commission": "Право",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/YL2b7HQ5XttqWwE/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 20,
+      "profile": "Русский язык",
+      "subject_commission": "Русский язык",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/qzTbcXSrFK4bFp4/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 21,
+      "profile": "Культура дома, дизайн и технологии",
+      "subject_commission": "Труд (технология)",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/8wmeSPpHbXMPZHd/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 22,
+      "profile": "Техника, технологии и техническое творчество",
+      "subject_commission": "Труд (технология)",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/8wmeSPpHbXMPZHd/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 23,
+      "profile": "Физика",
+      "subject_commission": "Физика",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/rPRCxj9eCMsCPbT/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 24,
+      "profile": "Физическая культура",
+      "subject_commission": "Физическая культура",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/2JRP59nHTM2fJzo/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 25,
+      "profile": "Французский язык",
+      "subject_commission": "Французский язык",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/Tm63xLfEnR2bY5m/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 26,
+      "profile": "Химия",
+      "subject_commission": "Химия",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/k5xnzeY8q4miMH9/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 27,
+      "profile": "Экология",
+      "subject_commission": "Экология",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/oJF7sGDsMXBRpe7/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    },
+    {
+      "profile_index": 28,
+      "profile": "Экономика",
+      "subject_commission": "Экономика",
+      "service_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "school_stage_grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "municipal_stage_grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "regional_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "final_stage_grades": [
+        9,
+        10,
+        11
+      ],
+      "methodical_recommendations_url": "https://vso.edsoo.ru/public.php/dav/files/4EdXcb9HddRMFwQ/?accept=zip",
+      "dates_status": "not_published_as_of_2026_08_25"
+    }
+  ]
+}
+

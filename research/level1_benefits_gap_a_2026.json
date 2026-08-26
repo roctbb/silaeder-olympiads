@@ -1,0 +1,794 @@
+{
+  "schema_version": 1,
+  "target_catalog_year": "2026/27",
+  "admission_year": 2026,
+  "as_of": "2026-08-26",
+  "scope": "Приём-2026: официально подтверждённые права для ровно 14 карточек уровня I с результатом за 11 класс из задания gap A.",
+  "method": "Проверялись только официальные правила, матрицы и страницы вузов приёмной кампании 2026 года. Связь создавалась только при наличии точной строки с названием олимпиады и профилем; уровень из федерального перечня не использовался как основание права.",
+  "record_note": "Все записи — исторический ориентир по приёму-2026. Не прогноз на приём-2027: после публикации правил выбранного вуза для приёма-2027 условия нужно проверить заново.",
+  "invariants": {
+    "one_benefit_per_slug_university": true,
+    "mixed_rights_encoded_as": "other",
+    "no_registry_level_inference": true,
+    "all_descriptions_contain_2027_caveat": true
+  },
+  "universities": {
+    "hse": {
+      "slug": "niu-vshe",
+      "name": "Национальный исследовательский университет «Высшая школа экономики»",
+      "short_name": "НИУ ВШЭ",
+      "website_url": "https://www.hse.ru/"
+    },
+    "msu": {
+      "slug": "mgu-imeni-m-v-lomonosova",
+      "name": "Московский государственный университет имени М. В. Ломоносова",
+      "short_name": "МГУ",
+      "website_url": "https://www.msu.ru/"
+    },
+    "mipt": {
+      "slug": "mfti",
+      "name": "Московский физико-технический институт",
+      "short_name": "МФТИ",
+      "website_url": "https://mipt.ru/"
+    },
+    "mephi": {
+      "slug": "niyau-mifi",
+      "name": "Национальный исследовательский ядерный университет «МИФИ»",
+      "short_name": "НИЯУ МИФИ",
+      "website_url": "https://mephi.ru/"
+    },
+    "bmstu": {
+      "slug": "mgtu-imeni-n-e-baumana",
+      "name": "Московский государственный технический университет имени Н. Э. Баумана",
+      "short_name": "МГТУ им. Н. Э. Баумана",
+      "website_url": "https://bmstu.ru/"
+    },
+    "itmo": {
+      "slug": "universitet-itmo",
+      "name": "Национальный исследовательский университет ИТМО",
+      "short_name": "ИТМО",
+      "website_url": "https://itmo.ru/"
+    },
+    "spbu": {
+      "slug": "spbgu",
+      "name": "Санкт-Петербургский государственный университет",
+      "short_name": "СПбГУ",
+      "website_url": "https://spbu.ru/"
+    },
+    "sfedu": {
+      "slug": "yuzhnyy-federalnyy-universitet",
+      "name": "Южный федеральный университет",
+      "short_name": "ЮФУ",
+      "website_url": "https://sfedu.ru/"
+    },
+    "msal": {
+      "slug": "mgyua-imeni-o-e-kutafina",
+      "name": "Московский государственный юридический университет имени О. Е. Кутафина",
+      "short_name": "МГЮА",
+      "website_url": "https://msal.ru/"
+    },
+    "mospolytech": {
+      "slug": "moskovskiy-politekhnicheskiy-universitet",
+      "name": "Московский политехнический университет",
+      "short_name": "Московский Политех",
+      "website_url": "https://mospolytech.ru/"
+    },
+    "tiu": {
+      "slug": "tyumenskiy-industrialnyy-universitet",
+      "name": "Тюменский индустриальный университет",
+      "short_name": "ТИУ",
+      "website_url": "https://www.tyuiu.ru/"
+    },
+    "pguas": {
+      "slug": "penzenskiy-gosudarstvennyy-universitet-arkhitektury-i-stroitelstva",
+      "name": "Пензенский государственный университет архитектуры и строительства",
+      "short_name": "ПГУАС",
+      "website_url": "https://www.pguas.ru/"
+    }
+  },
+  "sources": [
+    {
+      "source_ref": "hse_history_2026",
+      "university_ref": "hse",
+      "document_kind": "official_program_matrix",
+      "title": "НИУ ВШЭ: особые права на программе «История», приём-2026",
+      "url": "https://ba.hse.ru/mirror/pubs/share/1131719595",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "hse_economics_2026",
+      "university_ref": "hse",
+      "document_kind": "official_program_matrix",
+      "title": "НИУ ВШЭ: особые права на программе «Экономика», приём-2026",
+      "url": "https://ba.hse.ru/mirror/pubs/share/1131719805",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "hse_informatics_2026",
+      "university_ref": "hse",
+      "document_kind": "official_program_matrix",
+      "title": "НИУ ВШЭ: матрица льгот совместного бакалавриата ВШЭ и ЦПМ, приём-2026",
+      "url": "https://ba.hse.ru/mirror/pubs/share/1120646358",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "hse_chemistry_2026",
+      "university_ref": "hse",
+      "document_kind": "official_program_matrix",
+      "title": "НИУ ВШЭ: особые права на программе «Химия», приём-2026",
+      "url": "https://ba.hse.ru/mirror/pubs/share/1170753533",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "hse_physics_2026",
+      "university_ref": "hse",
+      "document_kind": "official_program_matrix",
+      "title": "НИУ ВШЭ: особые права на программе «Физика», приём-2026",
+      "url": "https://ba.hse.ru/mirror/pubs/share/1120646407",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "msu_matrix_2026",
+      "university_ref": "msu",
+      "document_kind": "official_university_matrix",
+      "title": "МГУ: особые права победителей и призёров олимпиад, приём-2026",
+      "url": "https://cpk.msu.ru/files/2026/olymp_benefits.pdf",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "mipt_matrix_2026",
+      "university_ref": "mipt",
+      "document_kind": "official_admissions_page_and_matrix",
+      "title": "МФТИ: засчитываемые олимпиады, приём-2026",
+      "url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "mephi_page_2026",
+      "university_ref": "mephi",
+      "document_kind": "official_admissions_page",
+      "title": "НИЯУ МИФИ: победителям и призёрам олимпиад, приём-2026",
+      "url": "https://admission.mephi.ru/admission/baccalaureate-and-specialty/specials/winners",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "mephi_matrix_2026",
+      "university_ref": "mephi",
+      "document_kind": "official_university_matrix",
+      "title": "НИЯУ МИФИ: матрица особых прав, приём-2026",
+      "url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "bmstu_rules_2026",
+      "university_ref": "bmstu",
+      "document_kind": "official_rules_appendix",
+      "title": "МГТУ им. Н. Э. Баумана: порядок предоставления особых прав, приём-2026",
+      "url": "https://api.mirror.bmstu.ru/file/122219/download",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "bmstu_bvi_2026",
+      "university_ref": "bmstu",
+      "document_kind": "official_bvi_matrix",
+      "title": "МГТУ им. Н. Э. Баумана: соответствие олимпиад и НПС для БВИ, приём-2026",
+      "url": "https://api.mirror.bmstu.ru/file/124777/download",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "bmstu_100_2026",
+      "university_ref": "bmstu",
+      "document_kind": "official_hundred_points_matrix",
+      "title": "МГТУ им. Н. Э. Баумана: олимпиады, дающие 100 баллов, приём-2026",
+      "url": "https://api.mirror.bmstu.ru/file/122150/download",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "itmo_bvi_2026",
+      "university_ref": "itmo",
+      "document_kind": "official_bvi_matrix",
+      "title": "ИТМО: дипломы РСОШ, дающие БВИ, приём-2026",
+      "url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf",
+      "resolved_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi.pdf",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "spbu_matrix_2026",
+      "university_ref": "spbu",
+      "document_kind": "official_university_matrix",
+      "title": "СПбГУ: порядок предоставления особых прав, приём-2026",
+      "url": "https://abiturient.spbu.ru/medialibrary/ru/2026/bac/bac_spec_olymp_2_2026.pdf",
+      "http_status_checked": 200,
+      "review_note": "Матрица задаёт права по профилю и уровню, но не содержит точных названий исследуемых олимпиад; из уровня связь не выводилась."
+    },
+    {
+      "source_ref": "sfedu_admissions_2026",
+      "university_ref": "sfedu",
+      "document_kind": "official_admissions_page",
+      "title": "ЮФУ: правила и формы приёма-2026, включая формы ЮРМОШ",
+      "url": "https://sfedu.ru/www/stat_pages22.show?p=ABT%2FN8202%2FP",
+      "http_status_checked": 200,
+      "retrieval_note": "GET 200; у домена некорректная цепочка TLS, проверка выполнялась с отключённой верификацией сертификата."
+    },
+    {
+      "source_ref": "sfedu_bvi_form_2026",
+      "university_ref": "sfedu",
+      "document_kind": "official_application_form",
+      "title": "ЮФУ: заявление БВИ победителя ЮРМОШ, приём-2026",
+      "url": "https://sfedu.ru/00_main_2010/abitur/abit_2026/bvi_Urmosh.docx",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "sfedu_300_form_2026",
+      "university_ref": "sfedu",
+      "document_kind": "official_application_form",
+      "title": "ЮФУ: заявление на 300 баллов победителя ЮРМОШ, приём-2026",
+      "url": "https://sfedu.ru/00_main_2010/abitur/abit_2026/300_Urmosh.docx",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "sfedu_200_form_2026",
+      "university_ref": "sfedu",
+      "document_kind": "official_application_form",
+      "title": "ЮФУ: заявление на 200 баллов призёра II степени ЮРМОШ, приём-2026",
+      "url": "https://sfedu.ru/00_main_2010/abitur/abit_2026/200_Urmosh.docx",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "sfedu_100_form_2026",
+      "university_ref": "sfedu",
+      "document_kind": "official_application_form",
+      "title": "ЮФУ: заявление на 100 баллов призёра III степени ЮРМОШ, приём-2026",
+      "url": "https://sfedu.ru/00_main_2010/abitur/abit_2026/100_Urmosh.docx",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "msal_matrix_2026",
+      "university_ref": "msal",
+      "document_kind": "official_rules_appendix",
+      "title": "МГЮА: правила и матрица особых прав, приём-2026",
+      "url": "https://msal.ru/upload/iblock/375/dv1dqy6ckb5jhf34ev5zkz7fs7bxh5a3.pdf",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "mospolytech_graphic_art_2026",
+      "university_ref": "mospolytech",
+      "document_kind": "official_olympiad_and_admissions_page",
+      "title": "Московский Политех: олимпиада «Искусство графики» и права при поступлении-2026",
+      "url": "https://mospolytech.ru/postupayushchim/olimpiady/olimpiada-iskusstvo-grafiki/",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "mospolytech_rules_2026",
+      "university_ref": "mospolytech",
+      "document_kind": "official_admission_rules",
+      "title": "Московский Политех: правила приёма-2026",
+      "url": "https://mospolytech.ru/upload/medialibrary/98e/lix6gx2roqrkxtlaxh55m9q6m0lehrjk/PravilaPriema1405.pdf",
+      "http_status_checked": 200
+    },
+    {
+      "source_ref": "tiu_rules_2026",
+      "university_ref": "tiu",
+      "document_kind": "official_admission_rules_with_bvi_and_hundred_points_matrices",
+      "title": "ТИУ: правила приёма-2026, приложения 6 и 7",
+      "url": "https://www.tyuiu.ru/media/pdf/a3b8b814-667c-453c-832b-0d7d046a7487.pdf",
+      "http_status_checked": 200,
+      "document_signed_on": "2026-01-20"
+    },
+    {
+      "source_ref": "pguas_tatlin_page",
+      "university_ref": "pguas",
+      "document_kind": "official_organizer_page",
+      "title": "ПГУАС: официальная страница олимпиады имени В. Е. Татлина",
+      "url": "https://www.pguas.ru/tatlin",
+      "http_status_checked": 200,
+      "review_note": "Страница подтверждает олимпиаду, но не содержит точной матрицы прав приёма-2026; конкретное право найдено в официальных правилах ТИУ."
+    }
+  ],
+  "entries": [
+    {
+      "slug": "registry-2026-27-003-01",
+      "profile": "Рисунок, живопись, композиция, черчение",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "sfedu",
+          "benefit_type": "other",
+          "title": "ЮФУ: БВИ или зачёт 300/200/100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. На официальной странице приёма-2026 опубликованы отдельные заявления: БВИ и 300 баллов для победителя, 200 баллов для призёра II степени и 100 баллов для призёра III степени Южно-Российской олимпиады. Право применяется только к соответствующим творческим направлениям ЮФУ.",
+          "diploma_requirement": "Результат ЮРМОШ; конкретное право зависит от статуса победителя либо диплома призёра II/III степени",
+          "program_scope": ["УГСН 07.00.00", "УГСН 54.00.00", "44.03.05 — профильные художественные программы"],
+          "source_url": "https://sfedu.ru/www/stat_pages22.show?p=ABT%2FN8202%2FP",
+          "source_refs": ["sfedu_admissions_2026", "sfedu_bvi_form_2026", "sfedu_300_form_2026", "sfedu_200_form_2026", "sfedu_100_form_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "tiu",
+          "benefit_type": "other",
+          "title": "ТИУ: БВИ и 100 баллов/особое преимущество, приём-2026",
+          "description": "Не прогноз на приём-2027. В приложениях 6 и 7 правил ТИУ точная строка XVIII Южно-Российской олимпиады по профилю «рисунок, живопись, композиция, черчение» включена и в перечень БВИ, и в перечень 100 баллов/особого преимущества для УГСН 07.03.00.",
+          "diploma_requirement": "Победитель или призёр; результат за 8–11 класс",
+          "program_scope": ["УГСН 07.03.00"],
+          "source_url": "https://www.tyuiu.ru/media/pdf/a3b8b814-667c-453c-832b-0d7d046a7487.pdf",
+          "source_refs": ["tiu_rules_2026"]
+        }
+      ],
+      "unresolved": null
+    },
+    {
+      "slug": "registry-2026-27-004-01",
+      "profile": "Гуманитарные и социальные науки",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "hse",
+          "benefit_type": "hundred_points",
+          "title": "НИУ ВШЭ: 100 баллов по истории, приём-2026",
+          "description": "Не прогноз на приём-2027. На программе «История» победитель олимпиады имени В. И. Вернадского по профилю «гуманитарные и социальные науки» получал 100 баллов по истории.",
+          "diploma_requirement": "Победитель за 11 класс; подтверждающий результат по истории не ниже 75",
+          "program_scope": ["История"],
+          "source_url": "https://ba.hse.ru/mirror/pubs/share/1131719595",
+          "source_refs": ["hse_history_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "msu",
+          "benefit_type": "hundred_points",
+          "title": "МГУ: максимум ДВИ по обществознанию, приём-2026",
+          "description": "Не прогноз на приём-2027. В матрице Высшей школы современных социальных наук МГУ победителям и призёрам профиля «гуманитарные и социальные науки» указан максимальный балл дополнительного вступительного испытания по обществознанию.",
+          "diploma_requirement": "Победитель или призёр за 11 класс; подтверждающий предмет — обществознание, не ниже 75",
+          "program_scope": ["Высшая школа современных социальных наук"],
+          "source_url": "https://cpk.msu.ru/files/2026/olymp_benefits.pdf",
+          "source_refs": ["msu_matrix_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на социально-экономические направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Точная строка олимпиады имени В. И. Вернадского по профилю «гуманитарные и социальные науки» даёт БВИ на 38.03.01, 38.03.02, 38.03.05, 38.05.01 и 41.03.05.",
+          "diploma_requirement": "Победитель или призёр, результат за 10 или 11 класс; подтверждение по истории либо обществознанию не ниже 75",
+          "program_scope": ["38.03.01", "38.03.02", "38.03.05", "38.05.01", "41.03.05"],
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "source_refs": ["mephi_matrix_2026", "mephi_page_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. Профиль «гуманитарные и социальные науки» присутствует в точных матрицах БВИ и 100 баллов; БВИ зависит от выбранной НПС и отметок в колонках для победителя и призёра.",
+          "diploma_requirement": "Победитель или призёр, результат за 10 или 11 класс; подтверждающий балл не ниже 75",
+          "program_scope": ["Только НПС, отмеченные в приложении 5.1"],
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "source_refs": ["bmstu_rules_2026", "bmstu_bvi_2026", "bmstu_100_2026"]
+        }
+      ],
+      "unresolved": null
+    },
+    {
+      "slug": "registry-2026-27-004-02",
+      "profile": "Экономика",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "hse",
+          "benefit_type": "hundred_points",
+          "title": "НИУ ВШЭ: 100 баллов по математике или обществознанию, приём-2026",
+          "description": "Не прогноз на приём-2027. На программе «Экономика» победитель олимпиады имени В. И. Вернадского по экономике получал 100 баллов по указанному в матрице вступительному предмету — математике или обществознанию.",
+          "diploma_requirement": "Победитель за 11 класс; подтверждающий результат по соответствующему предмету не ниже 75",
+          "program_scope": ["Экономика"],
+          "source_url": "https://ba.hse.ru/mirror/pubs/share/1131719805",
+          "source_refs": ["hse_economics_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "msu",
+          "benefit_type": "other",
+          "title": "МГУ: программные БВИ и максимальные баллы, приём-2026",
+          "description": "Не прогноз на приём-2027. В матрице МГУ точная строка олимпиады имени В. И. Вернадского по экономике даёт неодинаковые права по программам: в отдельных конкурсах БВИ, в других — максимальный балл ДВИ или ЕГЭ.",
+          "diploma_requirement": "Победитель или призёр за 11 класс; подтверждающий предмет и вид права зависят от программы",
+          "program_scope": ["Только программы с точной строкой олимпиады в матрице МГУ"],
+          "source_url": "https://cpk.msu.ru/files/2026/olymp_benefits.pdf",
+          "source_refs": ["msu_matrix_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. Профиль «экономика» олимпиады имени В. И. Вернадского есть и в матрице БВИ, и в матрице 100 баллов по обществознанию; БВИ предоставляется только на отмеченных НПС.",
+          "diploma_requirement": "Победитель или призёр, результат за 10 или 11 класс; подтверждение не ниже 75",
+          "program_scope": ["Только НПС, отмеченные в приложении 5.1"],
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "source_refs": ["bmstu_rules_2026", "bmstu_bvi_2026", "bmstu_100_2026"]
+        }
+      ],
+      "unresolved": null
+    },
+    {
+      "slug": "registry-2026-27-014-02",
+      "profile": "Информатика",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "hse",
+          "benefit_type": "other",
+          "title": "НИУ ВШЭ: БВИ и 100 баллов по информатике, приём-2026",
+          "description": "Не прогноз на приём-2027. На совместном бакалавриате НИУ ВШЭ и ЦПМ победитель Всесибирской олимпиады по информатике получал БВИ, а победитель или призёр — 100 баллов по информатике.",
+          "diploma_requirement": "Диплом за 11 класс; подтверждающий результат по информатике не ниже 75",
+          "program_scope": ["Совместный бакалавриат НИУ ВШЭ и ЦПМ"],
+          "source_url": "https://ba.hse.ru/mirror/pubs/share/1120646358",
+          "source_refs": ["hse_informatics_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "msu",
+          "benefit_type": "hundred_points",
+          "title": "МГУ: максимальный балл ЕГЭ по информатике, приём-2026",
+          "description": "Не прогноз на приём-2027. В матрице Экономического факультета МГУ победители и призёры Всесибирской олимпиады по информатике получают максимальный балл ЕГЭ по информатике.",
+          "diploma_requirement": "Победитель или призёр за 11 класс; подтверждение по информатике не ниже 75",
+          "program_scope": ["Экономический факультет"],
+          "source_url": "https://cpk.msu.ru/files/2026/olymp_benefits.pdf",
+          "source_refs": ["msu_matrix_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Всесибирская олимпиада по информатике даёт 100 баллов по информатике при подтверждении от 75; победителям доступно БВИ на перечисленные конкурсные группы при пороге 80, а для ФПМИ по математике — 85.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, БВИ — победителю",
+          "program_scope": ["Только конкурсные группы, перечисленные в строке МФТИ"],
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_refs": ["mipt_matrix_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на перечисленные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Точная строка Всесибирской олимпиады по информатике даёт БВИ на перечисленный в матрице набор технических, естественно-научных и части социально-экономических направлений.",
+          "diploma_requirement": "Победитель или призёр, результат за 10 или 11 класс; подтверждение по информатике не ниже 75",
+          "program_scope": ["Направления из строки 14 матрицы НИЯУ МИФИ"],
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "source_refs": ["mephi_matrix_2026", "mephi_page_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. Всесибирская олимпиада по информатике есть в обеих точных матрицах: 100 баллов по информатике или математике и БВИ на НПС с отметкой «Предоставляется».",
+          "diploma_requirement": "Победитель или призёр, результат за 10 или 11 класс; подтверждение не ниже 75; БВИ зависит от НПС",
+          "program_scope": ["Только НПС, отмеченные в приложении 5.1"],
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "source_refs": ["bmstu_rules_2026", "bmstu_bvi_2026", "bmstu_100_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "itmo",
+          "benefit_type": "bvi",
+          "title": "ИТМО: БВИ на прикладную математику и информатику, приём-2026",
+          "description": "Не прогноз на приём-2027. Точная строка Всесибирской олимпиады по информатике в приложении ИТМО даёт победителям и призёрам БВИ, в частности на 01.03.02 «Прикладная математика и информатика».",
+          "diploma_requirement": "Победитель или призёр; диплом за 10 или 11 класс; подтверждение по информатике не ниже 75",
+          "program_scope": ["01.03.02 Прикладная математика и информатика и другие программы соответствующего блока матрицы"],
+          "source_url": "https://abit.itmo.ru/file_storage/file/pages/82/rsosh_bvi_2025.pdf",
+          "source_refs": ["itmo_bvi_2026"]
+        }
+      ],
+      "unresolved": null
+    },
+    {
+      "slug": "registry-2026-27-014-05",
+      "profile": "Химия",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "hse",
+          "benefit_type": "other",
+          "title": "НИУ ВШЭ: БВИ и 100 баллов по химии, приём-2026",
+          "description": "Не прогноз на приём-2027. На программе «Химия» победитель Всесибирской олимпиады за 11 класс получал БВИ; победители и призёры за 11 класс — 100 баллов по химии.",
+          "diploma_requirement": "БВИ — победителю за 11 класс; 100 баллов — победителю или призёру за 11 класс; подтверждение по химии не ниже 75",
+          "program_scope": ["Химия"],
+          "source_url": "https://ba.hse.ru/mirror/pubs/share/1170753533",
+          "source_refs": ["hse_chemistry_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Всесибирская олимпиада по химии даёт 100 баллов по химии при подтверждении от 75; победителям — БВИ на конкурсные группы ФЭФМ, ФБМФ/ВШБИ и ФБВТ при пороге 80 по указанному предмету.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, БВИ — победителю",
+          "program_scope": ["ФЭФМ", "ФБМФ/ВШБИ", "ФБВТ — только группы из строки матрицы"],
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_refs": ["mipt_matrix_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на химические и смежные направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Точная строка Всесибирской олимпиады по химии даёт БВИ на 12.03.04, 18.03.01, 22.03.01 и 31.05.01.",
+          "diploma_requirement": "Победитель или призёр, результат за 10 или 11 класс; подтверждение по химии не ниже 75",
+          "program_scope": ["12.03.04", "18.03.01", "22.03.01", "31.05.01"],
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "source_refs": ["mephi_matrix_2026", "mephi_page_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов по химии, приём-2026",
+          "description": "Не прогноз на приём-2027. Всесибирская олимпиада по химии присутствует и в матрице БВИ, и в матрице 100 баллов; БВИ ограничено отмеченными НПС.",
+          "diploma_requirement": "Победитель или призёр, результат за 10 или 11 класс; подтверждение по химии не ниже 75",
+          "program_scope": ["Только НПС, отмеченные в приложении 5.1"],
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "source_refs": ["bmstu_rules_2026", "bmstu_bvi_2026", "bmstu_100_2026"]
+        }
+      ],
+      "unresolved": null
+    },
+    {
+      "slug": "registry-2026-27-016-01",
+      "profile": "Физика",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "hse",
+          "benefit_type": "other",
+          "title": "НИУ ВШЭ: БВИ и 100 баллов по физике, приём-2026",
+          "description": "Не прогноз на приём-2027. На программе «Физика» победитель Инженерной олимпиады за 11 класс получал БВИ, а победители и призёры за 10–11 класс — 100 баллов по физике.",
+          "diploma_requirement": "БВИ — победителю за 11 класс; 100 баллов — победителю или призёру за 10–11 класс; подтверждение по физике не ниже 80",
+          "program_scope": ["Физика"],
+          "source_url": "https://ba.hse.ru/mirror/pubs/share/1120646407",
+          "source_refs": ["hse_physics_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "msu",
+          "benefit_type": "other",
+          "title": "МГУ: БВИ победителю и максимальные баллы призёру, приём-2026",
+          "description": "Не прогноз на приём-2027. На факультете космических исследований МГУ победитель Инженерной олимпиады по физике получает БВИ; призёр — максимальный балл ДВИ по математике и максимальный балл ЕГЭ по физике.",
+          "diploma_requirement": "Результат за 11 класс; подтверждение по физике не ниже 75; право зависит от степени диплома",
+          "program_scope": ["Факультет космических исследований"],
+          "source_url": "https://cpk.msu.ru/files/2026/olymp_benefits.pdf",
+          "source_refs": ["msu_matrix_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mipt",
+          "benefit_type": "other",
+          "title": "МФТИ: 100 баллов и адресное БВИ, приём-2026",
+          "description": "Не прогноз на приём-2027. Инженерная олимпиада по физике даёт 100 баллов по физике при подтверждении от 75; победителям — БВИ на перечисленные конкурсные группы при пороге 80.",
+          "diploma_requirement": "Результат за 11 класс, полученный не ранее 2022 года; 100 баллов — победителю или призёру, БВИ — победителю",
+          "program_scope": ["Только конкурсные группы, перечисленные в строке МФТИ"],
+          "source_url": "https://pk.mipt.ru/bachelor/2026_olympiads/",
+          "source_refs": ["mipt_matrix_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на большинство технических направлений, приём-2026",
+          "description": "Не прогноз на приём-2027. Инженерная олимпиада школьников по физике даёт БВИ на все направления НИЯУ МИФИ, кроме 31.05.01, 38.03.01, 38.03.02, 38.03.05, 38.05.01 и 41.03.05.",
+          "diploma_requirement": "Победитель или призёр, результат за 10 или 11 класс; подтверждение по физике не ниже 75",
+          "program_scope": ["Все направления, кроме шести исключений из строки матрицы"],
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "source_refs": ["mephi_matrix_2026", "mephi_page_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов по физике, приём-2026",
+          "description": "Не прогноз на приём-2027. Инженерная олимпиада школьников по физике присутствует в обеих матрицах: 100 баллов по физике и БВИ на НПС с отметкой «Предоставляется».",
+          "diploma_requirement": "Победитель или призёр, результат за 10 или 11 класс; подтверждение по физике не ниже 75; БВИ зависит от НПС",
+          "program_scope": ["Только НПС, отмеченные в приложении 5.1"],
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "source_refs": ["bmstu_rules_2026", "bmstu_bvi_2026", "bmstu_100_2026"]
+        }
+      ],
+      "unresolved": null
+    },
+    {
+      "slug": "registry-2026-27-018-01",
+      "profile": "Право",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "msu",
+          "benefit_type": "other",
+          "title": "МГУ: БВИ победителю и максимум ДВИ призёру, приём-2026",
+          "description": "Не прогноз на приём-2027. На Юридическом факультете МГУ победитель Кутафинской олимпиады по праву получает БВИ; призёр — максимальный балл дополнительного вступительного испытания по обществознанию.",
+          "diploma_requirement": "Результат за 11 класс; подтверждение по обществознанию не ниже 75; вид права зависит от степени диплома",
+          "program_scope": ["Юридический факультет"],
+          "source_url": "https://cpk.msu.ru/files/2026/olymp_benefits.pdf",
+          "source_refs": ["msu_matrix_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "mephi",
+          "benefit_type": "bvi",
+          "title": "НИЯУ МИФИ: БВИ на социально-экономические направления, приём-2026",
+          "description": "Не прогноз на приём-2027. Точная строка Кутафинской олимпиады по праву даёт БВИ на 38.03.01, 38.03.02, 38.03.05, 38.05.01 и 41.03.05.",
+          "diploma_requirement": "Победитель или призёр, результат за 10 или 11 класс; подтверждение по обществознанию не ниже 75",
+          "program_scope": ["38.03.01", "38.03.02", "38.03.05", "38.05.01", "41.03.05"],
+          "source_url": "https://admission.mephi.ru/content/public/uploads/documents/2026/main_doc/19._osobye_prava_moskva_2026_last_1.pdf",
+          "source_refs": ["mephi_matrix_2026", "mephi_page_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "bmstu",
+          "benefit_type": "other",
+          "title": "МГТУ им. Н. Э. Баумана: БВИ по НПС и 100 баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. Кутафинская олимпиада по праву присутствует в матрицах БВИ и 100 баллов по обществознанию; БВИ ограничено НПС с отметкой «Предоставляется».",
+          "diploma_requirement": "Победитель или призёр, результат за 10 или 11 класс; подтверждение по обществознанию не ниже 75",
+          "program_scope": ["Только НПС, отмеченные в приложении 5.1"],
+          "source_url": "https://api.mirror.bmstu.ru/file/124777/download",
+          "source_refs": ["bmstu_rules_2026", "bmstu_bvi_2026", "bmstu_100_2026"]
+        },
+        {
+          "admission_year": 2026,
+          "university_ref": "msal",
+          "benefit_type": "other",
+          "title": "МГЮА: БВИ и 100 баллов по обществознанию, приём-2026",
+          "description": "Не прогноз на приём-2027. В правилах МГЮА победители и призёры Кутафинской олимпиады с результатом за 11 класс получают БВИ и право на 100 баллов; результат за 10 класс даёт 100 баллов.",
+          "diploma_requirement": "Победитель или призёр; 11 класс — БВИ и 100 баллов, 10 класс — 100 баллов; подтверждение по обществознанию не ниже 75",
+          "program_scope": ["40.03.01", "40.05.01 и другие юридические программы из строки правил"],
+          "source_url": "https://msal.ru/upload/iblock/375/dv1dqy6ckb5jhf34ev5zkz7fs7bxh5a3.pdf",
+          "source_refs": ["msal_matrix_2026"]
+        }
+      ],
+      "unresolved": null
+    },
+    {
+      "slug": "registry-2026-27-023-01",
+      "profile": "Графический дизайн",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mospolytech",
+          "benefit_type": "bvi",
+          "title": "Московский Политех: БВИ на графический дизайн, приём-2026",
+          "description": "Не прогноз на приём-2027. Победители и призёры профиля «Графический дизайн» поступают без вступительных испытаний на направление «Дизайн», программа «Графический дизайн мультимедиа».",
+          "diploma_requirement": "Победитель или призёр; для БВИ нужен электронный диплом РСОШ",
+          "program_scope": ["54.03.01 Дизайн — Графический дизайн мультимедиа"],
+          "source_url": "https://mospolytech.ru/postupayushchim/olimpiady/olimpiada-iskusstvo-grafiki/",
+          "source_refs": ["mospolytech_graphic_art_2026", "mospolytech_rules_2026"]
+        }
+      ],
+      "unresolved": null
+    },
+    {
+      "slug": "registry-2026-27-023-02",
+      "profile": "Композиция",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mospolytech",
+          "benefit_type": "other",
+          "title": "Московский Политех: 10/7/5 дополнительных баллов, приём-2026",
+          "description": "Не прогноз на приём-2027. Для поступления на специальность «Графика» профиль «Композиция» даёт 10 дополнительных баллов победителю, 7 баллов призёру II места и 5 баллов призёру III места; участнику финала — 3 балла.",
+          "diploma_requirement": "Количество баллов зависит от результата: победитель, призёр II/III места либо участник заключительного этапа",
+          "program_scope": ["54.05.03 Графика"],
+          "source_url": "https://mospolytech.ru/postupayushchim/olimpiady/olimpiada-iskusstvo-grafiki/",
+          "source_refs": ["mospolytech_graphic_art_2026", "mospolytech_rules_2026"]
+        }
+      ],
+      "unresolved": null
+    },
+    {
+      "slug": "registry-2026-27-023-03",
+      "profile": "Рисунок",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "mospolytech",
+          "benefit_type": "bvi",
+          "title": "Московский Политех: БВИ на графику или дизайн, приём-2026",
+          "description": "Не прогноз на приём-2027. Победители и призёры профиля «Рисунок» поступают без вступительных испытаний на специальность «Графика» или направление «Дизайн», программа «Графический дизайн мультимедиа».",
+          "diploma_requirement": "Победитель или призёр; для БВИ нужен электронный диплом РСОШ",
+          "program_scope": ["54.05.03 Графика", "54.03.01 Дизайн — Графический дизайн мультимедиа"],
+          "source_url": "https://mospolytech.ru/postupayushchim/olimpiady/olimpiada-iskusstvo-grafiki/",
+          "source_refs": ["mospolytech_graphic_art_2026", "mospolytech_rules_2026"]
+        }
+      ],
+      "unresolved": null
+    },
+    {
+      "slug": "registry-2026-27-026-01",
+      "profile": "Искусство",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "tiu",
+          "benefit_type": "other",
+          "title": "ТИУ: БВИ и 100 баллов/особое преимущество, приём-2026",
+          "description": "Не прогноз на приём-2027. Точная строка Межрегиональной олимпиады «Архитектура и искусство» по профилю «искусство» включена в ТИУ и в перечень БВИ, и в перечень 100 баллов/особого преимущества для УГСН 07.03.00.",
+          "diploma_requirement": "Победитель или призёр; результат за 8–11 класс; подтверждающий ЕГЭ для творческого профиля в строке не указан",
+          "program_scope": ["УГСН 07.03.00"],
+          "source_url": "https://www.tyuiu.ru/media/pdf/a3b8b814-667c-453c-832b-0d7d046a7487.pdf",
+          "source_refs": ["tiu_rules_2026"]
+        }
+      ],
+      "unresolved": null
+    },
+    {
+      "slug": "registry-2026-27-028-01",
+      "profile": "Графика",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "tiu",
+          "benefit_type": "other",
+          "title": "ТИУ: БВИ и 100 баллов/особое преимущество, приём-2026",
+          "description": "Не прогноз на приём-2027. В приложениях 6 и 7 правил ТИУ точная строка олимпиады имени В. Е. Татлина по профилю «графика» включена и в перечень БВИ, и в перечень 100 баллов/особого преимущества для УГСН 07.03.00.",
+          "diploma_requirement": "Победитель или призёр; результат за 8–11 класс; подтверждающий ЕГЭ в строке не указан",
+          "program_scope": ["УГСН 07.03.00"],
+          "source_url": "https://www.tyuiu.ru/media/pdf/a3b8b814-667c-453c-832b-0d7d046a7487.pdf",
+          "source_refs": ["tiu_rules_2026", "pguas_tatlin_page"]
+        }
+      ],
+      "unresolved": null
+    },
+    {
+      "slug": "registry-2026-27-028-02",
+      "profile": "Композиция",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "tiu",
+          "benefit_type": "other",
+          "title": "ТИУ: БВИ и 100 баллов/особое преимущество, приём-2026",
+          "description": "Не прогноз на приём-2027. В приложениях 6 и 7 правил ТИУ точная строка олимпиады имени В. Е. Татлина по профилю «композиция» включена и в перечень БВИ, и в перечень 100 баллов/особого преимущества для УГСН 07.03.00.",
+          "diploma_requirement": "Победитель или призёр; результат за 8–11 класс; подтверждающий ЕГЭ в строке не указан",
+          "program_scope": ["УГСН 07.03.00"],
+          "source_url": "https://www.tyuiu.ru/media/pdf/a3b8b814-667c-453c-832b-0d7d046a7487.pdf",
+          "source_refs": ["tiu_rules_2026", "pguas_tatlin_page"]
+        }
+      ],
+      "unresolved": null
+    },
+    {
+      "slug": "registry-2026-27-028-03",
+      "profile": "Рисунок",
+      "review_status": "confirmed",
+      "benefits": [
+        {
+          "admission_year": 2026,
+          "university_ref": "tiu",
+          "benefit_type": "other",
+          "title": "ТИУ: БВИ и 100 баллов/особое преимущество, приём-2026",
+          "description": "Не прогноз на приём-2027. В приложениях 6 и 7 правил ТИУ точная строка олимпиады имени В. Е. Татлина по профилю «рисунок» включена и в перечень БВИ, и в перечень 100 баллов/особого преимущества для УГСН 07.03.00.",
+          "diploma_requirement": "Победитель или призёр; результат за 8–11 класс; подтверждающий ЕГЭ в строке не указан",
+          "program_scope": ["УГСН 07.03.00"],
+          "source_url": "https://www.tyuiu.ru/media/pdf/a3b8b814-667c-453c-832b-0d7d046a7487.pdf",
+          "source_refs": ["tiu_rules_2026", "pguas_tatlin_page"]
+        }
+      ],
+      "unresolved": null
+    }
+  ],
+  "summary": {
+    "target_slug_count": 14,
+    "confirmed_slug_count": 14,
+    "reviewed_no_match_slug_count": 0,
+    "confirmed_benefit_count": 35,
+    "source_count": 24
+  }
+}

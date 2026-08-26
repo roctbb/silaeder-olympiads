@@ -1,0 +1,16 @@
+Authlib<2,>=1.6
+Flask<4,>=3.1
+Flask-Cors<7,>=5
+Flask-Migrate<5,>=4
+Flask-Session<1,>=0.8
+Flask-SQLAlchemy<4,>=3.1
+SQLAlchemy<3,>=2.0
+psycopg[binary]<4,>=3.2
+redis<7,>=5
+celery[redis]<6,>=5.4
+gunicorn<24,>=23
+
+[dev]
+pytest<10,>=8
+pytest-cov<8,>=6
+ruff<1,>=0.12

@@ -1,0 +1,465 @@
+{
+  "as_of": "2026-08-26",
+  "target_academic_year": "2026/27",
+  "method": "Primary organizer sources only. The organizer has not yet published 2026/27 regulations or schedules for either family. Official 2025/26 regulations and profile schedules are therefore stored as previous_year_estimate; the catalog builder projects their dated stages forward by one academic year and labels them unconfirmed. Numeric grades are recorded only where the organizer gives an explicit school-class range. Music-college courses or nonnumeric phrases such as senior classes are not silently converted to ordinary-school grades.",
+  "families": [],
+  "slugs": [
+    {
+      "slug": "registry-2026-27-004-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Положение Вернадского 2025/26 (п. 1.9) прямо устанавливает 7–11 классы для всей олимпиады, а п. 2.3 — два обязательных этапа. Профильный график организатора: дистанционный отбор 22 февраля 2026 года и очный финал 4 апреля 2026 года. Даты будут показаны как прогноз на 2026/27, а не как подтверждённые даты нового сезона.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-02-22",
+          "ends_on": "2026-02-22",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://vernadsky.online/news/10"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-04-04",
+          "ends_on": "2026-04-04",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://vernadsky.online/news/39"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Положение о Всероссийской академической олимпиаде школьников имени В.И. Вернадского 2025/26",
+          "url": "https://vernadsky.online/docs/npa/2025-2026_vernadskyv-Polozhenie.pdf",
+          "publisher": "Оргкомитет Всероссийской академической олимпиады школьников имени В.И. Вернадского",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "График отборочного этапа 2025/26",
+          "url": "https://vernadsky.online/news/10",
+          "publisher": "Оргкомитет Всероссийской академической олимпиады школьников имени В.И. Вернадского",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "График заключительного этапа 2025/26",
+          "url": "https://vernadsky.online/news/39",
+          "publisher": "Оргкомитет Всероссийской академической олимпиады школьников имени В.И. Вернадского",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-004-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Положение Вернадского 2025/26 (п. 1.9) прямо устанавливает 7–11 классы для всей олимпиады, а п. 2.3 — два обязательных этапа. Профильный график организатора: дистанционный отбор 1 марта 2026 года и очный финал 11 апреля 2026 года. Даты будут показаны как прогноз на 2026/27, а не как подтверждённые даты нового сезона.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2026-03-01",
+          "ends_on": "2026-03-01",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "online",
+          "source_url": "https://vernadsky.online/news/10"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-04-11",
+          "ends_on": "2026-04-11",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://vernadsky.online/news/39"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Положение о Всероссийской академической олимпиаде школьников имени В.И. Вернадского 2025/26",
+          "url": "https://vernadsky.online/docs/npa/2025-2026_vernadskyv-Polozhenie.pdf",
+          "publisher": "Оргкомитет Всероссийской академической олимпиады школьников имени В.И. Вернадского",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "График отборочного этапа 2025/26",
+          "url": "https://vernadsky.online/news/10",
+          "publisher": "Оргкомитет Всероссийской академической олимпиады школьников имени В.И. Вернадского",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "График заключительного этапа 2025/26",
+          "url": "https://vernadsky.online/news/39",
+          "publisher": "Оргкомитет Всероссийской академической олимпиады школьников имени В.И. Вернадского",
+          "source_type": "official_schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-019-01",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "Выпускные классы ДШИ/ДМШ, I–IV курсы музыкальных колледжей, старшие классы специализированных школ и лицеев и более старшие возрастные группы.",
+      "notes": "Регламент организатора 2025/26 подтверждает две стадии и финал 13–15 марта 2026 года. В актуальном документе профиль назван «деревянные духовые инструменты»: допускаются выпускные классы ДШИ/ДМШ, I–IV курсы колледжей, старшие классы специализированных школ и лицеев и более старшие группы. Числового диапазона обычных школьных классов нет, поэтому grades намеренно не задан.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-09-01",
+          "ends_on": "2026-01-31",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "unknown",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament.duh.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-13",
+          "ends_on": "2026-03-15",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament.duh.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Международная музыкальная олимпиада: деревянные духовые инструменты — страница 2025/26",
+          "url": "https://nnovcons.ru/olimpiady-konkursy-festivali/predstoyashchie/mezhdunarodnaya-muzykalnaya-olimpiada-po-profilyu-derevyanny/",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_profile",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Регламент профиля «деревянные духовые инструменты» 2025/26",
+          "url": "https://nnovcons.ru/files/olimp_2026/Reglament.duh.pdf",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-019-02",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Профильный регламент 2025/26 прямо включает 7–9 классы специальных музыкальных школ в младшую группу и старшие классы специальных музыкальных школ в старшую группу; в школьной шкале сервиса это непрерывный диапазон 7–11. Подтверждены отбор до 31 января и очный финал 2–6 марта 2026 года.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-09-01",
+          "ends_on": "2026-01-31",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "unknown",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament.nar.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-02",
+          "ends_on": "2026-03-06",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament.nar.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Международная музыкальная олимпиада: инструменты народного оркестра — страница 2025/26",
+          "url": "https://nnovcons.ru/olimpiady-konkursy-festivali/predstoyashchie/mezhdunarodnaya-muzykalnaya-olimpiada-po-profilyu-instrument/",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_profile",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Регламент профиля «инструменты народного оркестра» 2025/26",
+          "url": "https://nnovcons.ru/files/olimp_2026/Reglament.nar.pdf",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-019-03",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "Учащиеся I–IV курсов музыкальных колледжей и училищ; иностранные слушатели подготовительных курсов.",
+      "notes": "Регламент 2025/26 допускает I–IV курсы музыкальных колледжей и училищ и иностранных слушателей подготовительных курсов, но не задаёт числовые классы общеобразовательной школы; grades намеренно не задан. Подтверждены отбор 1 сентября — 31 января и очный финал 23–25 марта 2026 года.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-09-01",
+          "ends_on": "2026-01-31",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "unknown",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament%20ped..pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-23",
+          "ends_on": "2026-03-25",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament%20ped..pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Международная музыкальная олимпиада: музыкальная педагогика и исполнительство — страница 2025/26",
+          "url": "https://nnovcons.ru/olimpiady-konkursy-festivali/predstoyashchie/mezhdunarodnaya-muzykalnaya-olimpiada-po-profilyu-muzykalnaya/",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_profile",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Регламент профиля «музыкальная педагогика и исполнительство» 2025/26",
+          "url": "https://nnovcons.ru/files/olimp_2026/Reglament%20ped..pdf",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-019-04",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "grades": [7, 8, 9, 10, 11],
+      "notes": "Профильный регламент 2025/26 прямо включает 7–9 классы специальных музыкальных школ в младшую группу и старшие классы специальных музыкальных школ в старшую группу; в школьной шкале сервиса это непрерывный диапазон 7–11. Подтверждены отбор 1 сентября — 31 января и очный финал 16–20 марта 2026 года.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-09-01",
+          "ends_on": "2026-01-31",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "unknown",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament.str.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-16",
+          "ends_on": "2026-03-20",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament.str.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Международная музыкальная олимпиада: струнные инструменты — страница 2025/26",
+          "url": "https://nnovcons.ru/olimpiady-konkursy-festivali/predstoyashchie/mezhdunarodnaya-muzykalnaya-olimpiada-po-profilyu-strunnye-i/",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_profile",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Регламент профиля «струнные инструменты» 2025/26",
+          "url": "https://nnovcons.ru/files/olimp_2026/Reglament.str.pdf",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-019-05",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "Учащиеся I–II и III–IV курсов музыкальных училищ; иностранные слушатели подготовительных курсов.",
+      "notes": "Регламент 2025/26 задаёт группы I–II и III–IV курсов музыкальных училищ и иностранных слушателей подготовительных курсов, но не числовые классы общеобразовательной школы; grades намеренно не задан. Подтверждены отбор 1 сентября — 31 января и очный финал 26–28 февраля 2026 года.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-09-01",
+          "ends_on": "2026-01-31",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "unknown",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament.teor.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-02-26",
+          "ends_on": "2026-02-28",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament.teor.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Международная музыкальная олимпиада: теория и история музыки — страница 2025/26",
+          "url": "https://nnovcons.ru/olimpiady-konkursy-festivali/predstoyashchie/mezhdunarodnaya-muzykalnaya-olimpiada-po-profilyu-teoriya-i-/",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_profile",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Регламент профиля «теория и история музыки» 2025/26",
+          "url": "https://nnovcons.ru/files/olimp_2026/Reglament.teor.pdf",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-019-06",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "Учащиеся III–IV курсов организаций СПО, старших классов специализированных школ и лицеев, а также студенты I–II курсов вузов.",
+      "notes": "Регламент 2025/26 допускает III–IV курсы средних профессиональных организаций, старшие классы специализированных школ и лицеев и I–II курсы вузов, но не задаёт числовой диапазон обычных школьных классов; grades намеренно не задан. Подтверждены отбор 1 сентября — 31 января и очный финал 26–29 марта 2026 года.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-09-01",
+          "ends_on": "2026-01-31",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "unknown",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament.f-no.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-26",
+          "ends_on": "2026-03-29",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament.f-no.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Международная музыкальная олимпиада: фортепиано — страница 2025/26",
+          "url": "https://nnovcons.ru/olimpiady-konkursy-festivali/predstoyashchie/mezhdunarodnaya-muzykalnaya-olimpiada-po-profilyu-fortepiano/",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_profile",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Регламент профиля «фортепиано» 2025/26",
+          "url": "https://nnovcons.ru/files/olimp_2026/Reglament.f-no.pdf",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-019-07",
+      "data_status": "previous_year_estimate",
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "Учащиеся I–IV курсов музыкальных училищ; иностранные слушатели подготовительных курсов.",
+      "notes": "Общее положение и профильный регламент 2025/26 задают одну возрастную группу I–IV курсов музыкальных училищ и иностранных слушателей подготовительных курсов, но не числовые классы общеобразовательной школы; grades намеренно не задан. Подтверждены отбор 1 сентября — 31 января и очный финал 10–13 марта 2026 года.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный этап",
+          "stage_type": "qualifying",
+          "starts_on": "2025-09-01",
+          "ends_on": "2026-01-31",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "unknown",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament.dir.pdf"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "starts_on": "2026-03-10",
+          "ends_on": "2026-03-13",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "format": "offline",
+          "source_url": "https://nnovcons.ru/files/olimp_2026/Reglament.dir.pdf"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Международная музыкальная олимпиада: хоровое дирижирование — страница 2025/26",
+          "url": "https://nnovcons.ru/olimpiady-konkursy-festivali/predstoyashchie/mezhdunarodnaya-muzykalnaya-olimpiada-po-profilyu-khorovoe-d/",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_profile",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Регламент профиля «хоровое дирижирование» 2025/26",
+          "url": "https://nnovcons.ru/files/olimp_2026/Reglament.dir.pdf",
+          "publisher": "Нижегородская государственная консерватория им. М.И. Глинки",
+          "source_type": "official_regulation",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-26"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: olympiads-calendar
+Version: 0.1.0
+Summary: API for the school olympiad calendar
+Requires-Python: >=3.11
+Requires-Dist: Authlib<2,>=1.6
+Requires-Dist: Flask<4,>=3.1
+Requires-Dist: Flask-Cors<7,>=5
+Requires-Dist: Flask-Migrate<5,>=4
+Requires-Dist: Flask-Session<1,>=0.8
+Requires-Dist: Flask-SQLAlchemy<4,>=3.1
+Requires-Dist: SQLAlchemy<3,>=2.0
+Requires-Dist: psycopg[binary]<4,>=3.2
+Requires-Dist: redis<7,>=5
+Requires-Dist: celery[redis]<6,>=5.4
+Requires-Dist: gunicorn<24,>=23
+Provides-Extra: dev
+Requires-Dist: pytest<10,>=8; extra == "dev"
+Requires-Dist: pytest-cov<8,>=6; extra == "dev"
+Requires-Dist: ruff<1,>=0.12; extra == "dev"

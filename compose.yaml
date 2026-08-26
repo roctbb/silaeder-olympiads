@@ -1,0 +1,163 @@
+x-backend-environment: &backend-environment
+  SECRET_KEY: ${SECRET_KEY:?SECRET_KEY is required}
+  ALLOW_INSECURE_DEV_SECRET: "false"
+  DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-olympiads}:${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required}@db:5432/${POSTGRES_DB:-olympiads}
+  ACADEMIC_YEAR: ${ACADEMIC_YEAR:-2026/27}
+  APP_BASE_URL: ${APP_BASE_URL:?APP_BASE_URL is required}
+  FRONTEND_BASE_URL: ${FRONTEND_BASE_URL:?FRONTEND_BASE_URL is required}
+  CORS_ORIGINS: ${CORS_ORIGINS:?CORS_ORIGINS is required}
+  SESSION_COOKIE_SECURE: ${SESSION_COOKIE_SECURE:-true}
+  REDIS_URL: redis://redis:6379/2
+  CELERY_BROKER_URL: redis://redis:6379/0
+  CELERY_RESULT_BACKEND: redis://redis:6379/1
+  CRM_OIDC_ISSUER: ${CRM_OIDC_ISSUER:-https://lk.silaeder.ru}
+  CRM_OIDC_CLIENT_ID: ${CRM_OIDC_CLIENT_ID:-}
+  CRM_OIDC_CLIENT_SECRET: ${CRM_OIDC_CLIENT_SECRET:-}
+  CRM_OIDC_SCOPES: ${CRM_OIDC_SCOPES:-openid profile email roles}
+  CRM_NOTIFICATION_URL: ${CRM_NOTIFICATION_URL:-https://lk.silaeder.ru/api/external/notifications}
+  CRM_NOTIFICATION_TIMEOUT_SECONDS: ${CRM_NOTIFICATION_TIMEOUT_SECONDS:-10}
+  CRM_NOTIFICATION_RETRY_BASE_SECONDS: ${CRM_NOTIFICATION_RETRY_BASE_SECONDS:-30}
+  CRM_NOTIFICATION_RETRY_MAX_SECONDS: ${CRM_NOTIFICATION_RETRY_MAX_SECONDS:-3600}
+  CRM_NOTIFICATION_PROCESSING_LEASE_SECONDS: ${CRM_NOTIFICATION_PROCESSING_LEASE_SECONDS:-900}
+  CRM_NOTIFICATION_MAX_ATTEMPTS: ${CRM_NOTIFICATION_MAX_ATTEMPTS:-12}
+  CRM_NOTIFICATION_MAX_AGE_DAYS: ${CRM_NOTIFICATION_MAX_AGE_DAYS:-1}
+  CRM_NOTIFICATION_SCAN_BATCH: ${CRM_NOTIFICATION_SCAN_BATCH:-500}
+
+x-backend-service: &backend-service
+  image: olympiads-api:${IMAGE_TAG:-latest}
+  build:
+    context: ./backend
+  environment: *backend-environment
+
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-olympiads}
+      POSTGRES_USER: ${POSTGRES_USER:-olympiads}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-olympiads} -d ${POSTGRES_DB:-olympiads}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks:
+      - backend
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks:
+      - backend
+
+  migrate:
+    <<: *backend-service
+    restart: "no"
+    command: ["flask", "--app", "wsgi", "db", "upgrade"]
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - backend
+
+  api:
+    <<: *backend-service
+    restart: unless-stopped
+    command:
+      - gunicorn
+      - --bind=0.0.0.0:5000
+      - --workers=${GUNICORN_WORKERS:-2}
+      - --threads=${GUNICORN_THREADS:-4}
+      - --access-logfile=-
+      - --error-logfile=-
+      - wsgi:app
+    ports:
+      - "127.0.0.1:${API_PORT:-5050}:5000"
+    volumes:
+      - ./data:/data:ro
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:5000/api/health', timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+    networks:
+      - backend
+
+  worker:
+    <<: *backend-service
+    restart: unless-stopped
+    command: ["celery", "-A", "app.celery_app:celery_app", "worker", "--loglevel=INFO"]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - backend
+
+  beat:
+    <<: *backend-service
+    restart: unless-stopped
+    command: ["celery", "-A", "app.celery_app:celery_app", "beat", "--loglevel=INFO", "--schedule=/tmp/celerybeat-schedule"]
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - backend
+
+  frontend:
+    image: olympiads-frontend:${IMAGE_TAG:-latest}
+    build:
+      context: ./frontend
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${FRONTEND_PORT:-5188}:8080"
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "-", "http://127.0.0.1:8080/"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+    networks:
+      - frontend
+      - backend
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  # Сеть не internal: API и worker должны обращаться к ЛК по HTTPS.
+  # PostgreSQL и Redis при этом не публикуют порты на хост.
+  backend:
+  frontend:

@@ -1,0 +1,89 @@
+{
+  "checked_at": "2026-08-26T04:22:34Z",
+  "olympiad_slug": "registry-2026-27-030-02",
+  "outcome": "confirmed_first_party_syllabus",
+  "policy": "Принимаются только материалы организатора, относящиеся к биологии. Материалы других профилей ведомственной олимпиады не подставляются. Найденный документ не называется архивом или демоверсией олимпиады: он публикуется Академией ФСБ России как программа общеобразовательного вступительного испытания по биологии и допустим только как профильный syllabus для самостоятельной подготовки.",
+  "materials_by_slug": {
+    "registry-2026-27-030-02": [
+      {
+        "title": "Программа вступительного испытания по биологии: темы, формат и литература",
+        "material_type": "other",
+        "year": 2026,
+        "url": "http://academy.fsb.ru/upload/iblock/a77/pb6cpyv2bnrln4f8dfaqgsuu0l9r723u.pdf",
+        "is_official": true,
+        "scope_note": "Это не задания прошлых лет и не демоверсия олимпиады. Это first-party программа Академии ФСБ России по тому же предмету: восемь страниц с форматом испытания, тематическим syllabus и рекомендуемой литературой. В каталоге должна отображаться как дополнительный материал для подготовки, а не как архив олимпиады.",
+        "verification": {
+          "checked_at": "2026-08-26T04:22:34Z",
+          "publisher_page": "http://academy.fsb.ru/info/institut-podgotovki-operativnogo-sostava/kontrrazvedovatelnyy-fakultet/abiturientam/vstupitelnye-ispytaniya/",
+          "publisher_page_http_status": 200,
+          "publisher_page_content_type": "text/html",
+          "publisher_page_last_modified": "Mon, 03 Aug 2026 08:13:46 GMT",
+          "publisher_page_evidence": "Страница Академии ФСБ России явно подписывает ссылку как «Программа общеобразовательного вступительного испытания по курсу „Биология“».",
+          "http_status": 200,
+          "final_url": "http://academy.fsb.ru/upload/iblock/a77/pb6cpyv2bnrln4f8dfaqgsuu0l9r723u.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 329566,
+          "last_modified": "Mon, 03 Aug 2026 08:13:24 GMT",
+          "file_signature_hex": "255044462d312e350d0a25b5b5b5b50d",
+          "pdf_version": "1.5",
+          "pdf_pages": 8,
+          "sha256": "61791aee5c69673f297db0d483bfce812105b3cba49690d56a37f16a56283b17",
+          "content_check": "Извлечённый текст начинается заголовком программы по биологии. Документ описывает письменное тестирование из 32 заданий, критерии оценивания, темы по эволюции, экосистемам, клетке, генетике, млекопитающим, анатомии и здоровью человека и содержит 10 позиций рекомендуемой литературы.",
+          "transport_note": "HTTPS этого хоста на момент проверки завершался SSL connection timeout; HTTP-вариант без перенаправления реально отдавал полный PDF с кодом 200, поэтому в записи оставлен проверенный HTTP URL."
+        }
+      }
+    ]
+  },
+  "negative_checks": [
+    {
+      "url": "https://back.v-olymp.ru/wp-json/custom/v2/prev-materials/list",
+      "http_status": 200,
+      "result": "В списке только russian_language, social_studies, information_security, foreign_language, cryptography и physics; biology отсутствует."
+    },
+    {
+      "url": "https://back.v-olymp.ru/wp-json/custom/v2/prev-materials?slug=biology&page=0&limit=100",
+      "http_status": 400,
+      "result": "Официальный API отклоняет biology: этот slug не входит в опубликованный enum."
+    },
+    {
+      "url": "https://v-olymp.ru/prev-materials?slug=biology",
+      "http_status": 200,
+      "result": "Возвращается только универсальная SPA-оболочка V-olymp объёмом 1363 байта; профильных данных или файлов в HTML нет, а её API-запрос для biology получает 400."
+    },
+    {
+      "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/list",
+      "http_status": 200,
+      "result": "Опубликованный список карточек олимпиад не содержит biology."
+    },
+    {
+      "url": "https://back.v-olymp.ru/wp-json/custom/v2/olymps/schedule",
+      "http_status": 200,
+      "result": "В расписании шесть профилей, biology отсутствует."
+    },
+    {
+      "url": "https://back.v-olymp.ru/wp-json/custom/v2/distance-education/courses",
+      "http_status": 200,
+      "result": "В публичном перечне СДО есть языковые, гуманитарные, физические и математические курсы, но курса по биологии нет."
+    },
+    {
+      "url": "https://back.v-olymp.ru/wp-json/wp/v2/media?per_page=100&search=%D0%B1%D0%B8%D0%BE%D0%BB%D0%BE%D0%B3",
+      "http_status": 200,
+      "result": "Поиск WordPress-медиа по основе «биолог» возвращает пустой массив."
+    },
+    {
+      "url": "https://back.v-olymp.ru/wp-json/custom/v2/info-support/files?limit=500",
+      "http_status": 200,
+      "result": "В публичном дереве информационных файлов нет заданий, демо, syllabus или курса по биологии."
+    },
+    {
+      "url": "https://back.v-olymp.ru/wp-content/uploads/2.-%D0%9F%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_%D0%91%D0%9E%D0%9E.pdf",
+      "http_status": 200,
+      "result": "Общее положение подтверждает сам профиль «Биология» и два этапа, но не содержит заданий, демоверсии, перечня тем или литературы; как материал подготовки не добавляется."
+    },
+    {
+      "url": "http://academy.fsb.ru/info/abiturientam/grafik-provedeniya-mezhregionalnoy-olimpiady/",
+      "http_status": 200,
+      "result": "Актуальная first-party страница межрегиональных олимпиад всё ещё перечисляет только физику, иностранные языки, русский язык и обществознание для этого семейства; отдельной биологической карточки или архива нет."
+    }
+  ]
+}

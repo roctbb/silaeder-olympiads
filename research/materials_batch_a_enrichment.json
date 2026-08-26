@@ -1,0 +1,798 @@
+{
+  "checked_on": "2026-08-25",
+  "materials_by_slug": {
+    "registry-2026-27-003-01": [
+      {
+        "title": "Задания этапов и лучшие работы ЮРМОШ",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://raai.sfedu.ru/Olimpiada/Olimpia.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://raai.sfedu.ru/Olimpiada/Olimpia.html",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 275781,
+          "content_check": "Открыта официальная страница ЮРМОШ: раздел «Материалы заданий» содержит задания по этапам, предметам и классам; ниже доступны лучшие работы и списки прошлых сезонов."
+        }
+      }
+    ],
+    "registry-2026-27-006-01": [
+      {
+        "title": "Лекции и тест отборочного этапа «Иннагрики» прошлого года",
+        "material_type": "course",
+        "year": null,
+        "url": "https://innagrika.ru/olimpiada/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://innagrika.ru/olimpiada/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 241263,
+          "content_check": "Открыта официальная страница олимпиады: есть курс лекций и блок «Проверь свои знания» с 32 заданиями отборочного этапа «Иннагрики-2024» для 9–11 классов."
+        }
+      }
+    ],
+    "registry-2026-27-011-01": [
+      {
+        "title": "Сеченовская олимпиада по биологии: задания и ответы прошлых лет",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5149/tasks",
+        "is_official": false,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://olimpiada.ru/activity/5149/tasks",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 35042,
+          "content_check": "Открыто рабочее зеркало профильного архива по биологии: доступны задания и ответы отборочного и заключительного этапов за несколько сезонов и для 5–11 классов; первоисточником указан Сеченовский Университет."
+        }
+      }
+    ],
+    "registry-2026-27-011-02": [
+      {
+        "title": "Сеченовская олимпиада по химии: задания и решения прошлых лет",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://olimpiada.ru/activity/5148/tasks",
+        "is_official": false,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://olimpiada.ru/activity/5148/tasks",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 34851,
+          "content_check": "Открыто рабочее зеркало профильного архива по химии: доступны задания и решения отборочного и заключительного этапов за несколько сезонов и для 8–11 классов; первоисточником указан Сеченовский Университет."
+        }
+      }
+    ],
+    "registry-2026-27-017-01": [
+      {
+        "title": "Разборы заданий Интернет-олимпиады по физике прошлых лет",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://distolymp2.spbu.ru/olymp/index_learn.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://distolymp2.spbu.ru/olymp/index_learn.html",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 40786,
+          "content_check": "Открыт раздел «Материалы для подготовки»: доступны методические пособия с разборами заданий Интернет-олимпиады по физике за сезоны 2009–2023."
+        }
+      }
+    ],
+    "registry-2026-27-020-01": [
+      {
+        "title": "Архив Innopolis Open по информатике: задачи и решения",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/informatics",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/informatics",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 235972,
+          "content_check": "Открыта профильная страница: для сезонов 2023/24–2024/25 доступны условия, разборы/решения и работы победителей по всем этапам."
+        }
+      }
+    ],
+    "registry-2026-27-020-02": [
+      {
+        "title": "Архив Innopolis Open по информационной безопасности",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/cyberbez",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/cyberbez",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 249471,
+          "content_check": "Открыта профильная страница: по сезонам размещены материалы заданий отборочных и заключительных этапов, результаты и работы победителей."
+        }
+      }
+    ],
+    "registry-2026-27-020-03": [
+      {
+        "title": "Архив Innopolis Open по искусственному интеллекту",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/ai",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/ai",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 265569,
+          "content_check": "Открыта профильная страница: видны условия, разборы, материалы всех туров и работы победителей за несколько сезонов."
+        }
+      }
+    ],
+    "registry-2026-27-020-04": [
+      {
+        "title": "Сборник и архив Innopolis Open по математике",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/math",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/math",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 263664,
+          "content_check": "Открыта профильная страница: доступен сборник задач прошлых лет и блоки 2021/22–2024/25 с задачами и решениями отборочных и финального туров."
+        }
+      }
+    ],
+    "registry-2026-27-020-05": [
+      {
+        "title": "Архив Innopolis Open по робототехнике",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/robo",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/robo",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 395051,
+          "content_check": "Открыт раздел «Архив прошлых сезонов»: материалы заданий, работы призёров и записи разъяснений задач; выше размещены вебинары подготовки."
+        }
+      }
+    ],
+    "registry-2026-27-023-01": [
+      {
+        "title": "Архив олимпиады «Искусство графики»: задания и работы победителей",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mospolytech.ru/postupayushchim/olimpiady/olimpiada-iskusstvo-grafiki/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mospolytech.ru/postupayushchim/olimpiady/olimpiada-iskusstvo-grafiki/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 356054,
+          "content_check": "Открыта официальная страница: видны задания текущего сезона по профилям и архив результатов и работ победителей/призёров за 2021/22–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-023-02": [
+      {
+        "title": "Архив олимпиады «Искусство графики»: задания и работы победителей",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mospolytech.ru/postupayushchim/olimpiady/olimpiada-iskusstvo-grafiki/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mospolytech.ru/postupayushchim/olimpiady/olimpiada-iskusstvo-grafiki/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 356054,
+          "content_check": "Открыта официальная страница: видны задания текущего сезона по профилям и архив результатов и работ победителей/призёров за 2021/22–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-023-03": [
+      {
+        "title": "Архив олимпиады «Искусство графики»: задания и работы победителей",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://mospolytech.ru/postupayushchim/olimpiady/olimpiada-iskusstvo-grafiki/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://mospolytech.ru/postupayushchim/olimpiady/olimpiada-iskusstvo-grafiki/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 356054,
+          "content_check": "Открыта официальная страница: видны задания текущего сезона по профилям и архив результатов и работ победителей/призёров за 2021/22–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-026-01": [
+      {
+        "title": "Материалы заданий и критерии «Архитектуры и искусства» за 2023/24–2024/25",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://www.tyuiu.ru/media/pdf/38361b4b-09d2-464a-bfa4-42cfd1b0b12b.pdf",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://www.tyuiu.ru/media/pdf/38361b4b-09d2-464a-bfa4-42cfd1b0b12b.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 16170900,
+          "content_check": "Полностью загружен PDF ТИУ (16,17 МБ); извлечён текст с материалами и критериями заданий по рисунку и композиции для 8–11 классов за 2023/24 и 2024/25."
+        }
+      }
+    ],
+    "registry-2026-27-029-01": [
+      {
+        "title": "Материалы прошлых лет олимпиады Верченко — компьютерная безопасность",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://v-olymp.ru/prev-materials?slug=information_security",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://v-olymp.ru/prev-materials?slug=information_security",
+          "content_type": "text/html",
+          "content_bytes": 1363,
+          "content_check": "Открыт SPA-маршрут официального архива. Дополнительно полный GET официального API back.v-olymp.ru вернул 200 и 20 каталогов, включая PDF задач заключительного этапа 2024/25 для 8–11 классов."
+        }
+      }
+    ],
+    "registry-2026-27-029-02": [
+      {
+        "title": "Материалы прошлых лет олимпиады Верченко — математика и криптография",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://v-olymp.ru/prev-materials?slug=cryptography",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://v-olymp.ru/prev-materials?slug=cryptography",
+          "content_type": "text/html",
+          "content_bytes": 1363,
+          "content_check": "Открыт SPA-маршрут официального архива. Дополнительно полный GET официального API back.v-olymp.ru вернул 200 и 23 каталога/набора, включая методические материалы, подготовительные задачи и варианты прошлых сезонов."
+        }
+      }
+    ],
+    "registry-2026-27-032-01": [
+      {
+        "title": "Архив заданий и решений Межрегиональных предметных олимпиад КФУ",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://malun.kpfu.ru/mpoarh",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://malun.kpfu.ru/mpoarh",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 139318,
+          "content_check": "Открыт многолетний официальный архив КФУ: задания и решения распределены по сезонам, предметам и классам; присутствуют все профили из текущей выборки."
+        }
+      }
+    ],
+    "registry-2026-27-032-02": [
+      {
+        "title": "Архив заданий и решений Межрегиональных предметных олимпиад КФУ",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://malun.kpfu.ru/mpoarh",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://malun.kpfu.ru/mpoarh",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 139318,
+          "content_check": "Открыт многолетний официальный архив КФУ: задания и решения распределены по сезонам, предметам и классам; присутствуют все профили из текущей выборки."
+        }
+      }
+    ],
+    "registry-2026-27-032-03": [
+      {
+        "title": "Архив заданий и решений Межрегиональных предметных олимпиад КФУ",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://malun.kpfu.ru/mpoarh",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://malun.kpfu.ru/mpoarh",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 139318,
+          "content_check": "Открыт многолетний официальный архив КФУ: задания и решения распределены по сезонам, предметам и классам; присутствуют все профили из текущей выборки."
+        }
+      }
+    ],
+    "registry-2026-27-032-04": [
+      {
+        "title": "Архив заданий и решений Межрегиональных предметных олимпиад КФУ",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://malun.kpfu.ru/mpoarh",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://malun.kpfu.ru/mpoarh",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 139318,
+          "content_check": "Открыт многолетний официальный архив КФУ: задания и решения распределены по сезонам, предметам и классам; присутствуют все профили из текущей выборки."
+        }
+      }
+    ],
+    "registry-2026-27-032-05": [
+      {
+        "title": "Архив заданий и решений Межрегиональных предметных олимпиад КФУ",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://malun.kpfu.ru/mpoarh",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://malun.kpfu.ru/mpoarh",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 139318,
+          "content_check": "Открыт многолетний официальный архив КФУ: задания и решения распределены по сезонам, предметам и классам; присутствуют все профили из текущей выборки."
+        }
+      }
+    ],
+    "registry-2026-27-032-06": [
+      {
+        "title": "Архив заданий и решений Межрегиональных предметных олимпиад КФУ",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://malun.kpfu.ru/mpoarh",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://malun.kpfu.ru/mpoarh",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 139318,
+          "content_check": "Открыт многолетний официальный архив КФУ: задания и решения распределены по сезонам, предметам и классам; присутствуют все профили из текущей выборки."
+        }
+      }
+    ],
+    "registry-2026-27-032-07": [
+      {
+        "title": "Архив заданий и решений Межрегиональных предметных олимпиад КФУ",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://malun.kpfu.ru/mpoarh",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://malun.kpfu.ru/mpoarh",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 139318,
+          "content_check": "Открыт многолетний официальный архив КФУ: задания и решения распределены по сезонам, предметам и классам; присутствуют все профили из текущей выборки."
+        }
+      }
+    ],
+    "registry-2026-27-032-08": [
+      {
+        "title": "Архив заданий и решений Межрегиональных предметных олимпиад КФУ",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://malun.kpfu.ru/mpoarh",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://malun.kpfu.ru/mpoarh",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 139318,
+          "content_check": "Открыт многолетний официальный архив КФУ: задания и решения распределены по сезонам, предметам и классам; присутствуют все профили из текущей выборки."
+        }
+      }
+    ],
+    "registry-2026-27-036-01": [
+      {
+        "title": "Архив Московской открытой олимпиады по геологии",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://geoschool.web.ru/olympiad/_arhiv.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://geoschool.web.ru/olympiad/_arhiv.html",
+          "content_type": "text/html",
+          "content_bytes": 10486,
+          "content_check": "Открыта страница «Архив олимпиады»: для 2009–2026 годов перечислены варианты заданий письменного тура, участники, победители и призёры."
+        }
+      }
+    ],
+    "registry-2026-27-039-01": [
+      {
+        "title": "Материалы для подготовки к финалу олимпиады ОПК",
+        "material_type": "preparation",
+        "year": null,
+        "url": "https://opk.pravolimp.ru/articles/69a59b7e53bb56162303c58b",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://opk.pravolimp.ru/articles/69a59b7e53bb56162303c58b",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 39841,
+          "content_check": "Открыта публичная страница ПСТГУ: размещены рекомендованные материалы для 4–11 классов, лекции, ссылки на задания муниципального и регионального туров и многолетний сборник заданий ОПК."
+        }
+      }
+    ],
+    "registry-2026-27-043-01": [
+      {
+        "title": "Архив олимпиады «Культура и искусство»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olimp.prouniver.ru/archive/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olimp.prouniver.ru/archive/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 23660,
+          "content_check": "Открыт официальный архив сезонов 2016/17–2025/26; страницы годов содержат PDF заданий, ключей, критериев и архивы работ победителей для обоих комплексов предметов."
+        }
+      }
+    ],
+    "registry-2026-27-043-02": [
+      {
+        "title": "Архив олимпиады «Культура и искусство»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olimp.prouniver.ru/archive/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olimp.prouniver.ru/archive/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 23660,
+          "content_check": "Открыт официальный архив сезонов 2016/17–2025/26; страницы годов содержат PDF заданий, ключей, критериев и архивы работ победителей для обоих комплексов предметов."
+        }
+      }
+    ],
+    "registry-2026-27-047-01": [
+      {
+        "title": "Задания и решения «Гранита науки» — естественные науки",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ogn.spmi.ru/zadaniya-i-resheniya-po-profilyu-estestvennye-nauki",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ogn.spmi.ru/zadaniya-i-resheniya-po-profilyu-estestvennye-nauki",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 27482,
+          "content_check": "Открыта профильная страница заданий и решений с раскрываемыми разделами сезонов 2017/18–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-047-02": [
+      {
+        "title": "Задания и решения «Гранита науки» — информатика",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://ogn.spmi.ru/zadaniya-i-resheniya-po-profilyu-informatika",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://ogn.spmi.ru/zadaniya-i-resheniya-po-profilyu-informatika",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 27571,
+          "content_check": "Открыта профильная страница заданий и решений с раскрываемыми разделами сезонов 2017/18–2025/26."
+        }
+      }
+    ],
+    "registry-2026-27-055-01": [
+      {
+        "title": "Архив заданий Олимпиады школьников Президентской академии",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 410120,
+          "content_check": "Открыт архив 2020/21–2025/26: видны задания отборочного и заключительного этапов по классам для журналистики, языков, истории, обществознания, политологии, финансовой грамотности и экономики."
+        }
+      }
+    ],
+    "registry-2026-27-055-02": [
+      {
+        "title": "Архив заданий Олимпиады школьников Президентской академии",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 410120,
+          "content_check": "Открыт архив 2020/21–2025/26: видны задания отборочного и заключительного этапов по классам для журналистики, языков, истории, обществознания, политологии, финансовой грамотности и экономики."
+        }
+      }
+    ],
+    "registry-2026-27-055-03": [
+      {
+        "title": "Архив заданий Олимпиады школьников Президентской академии",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 410120,
+          "content_check": "Открыт архив 2020/21–2025/26: видны задания отборочного и заключительного этапов по классам для журналистики, языков, истории, обществознания, политологии, финансовой грамотности и экономики."
+        }
+      }
+    ],
+    "registry-2026-27-055-04": [
+      {
+        "title": "Архив заданий Олимпиады школьников Президентской академии",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 410120,
+          "content_check": "Открыт архив 2020/21–2025/26: видны задания отборочного и заключительного этапов по классам для журналистики, языков, истории, обществознания, политологии, финансовой грамотности и экономики."
+        }
+      }
+    ],
+    "registry-2026-27-055-05": [
+      {
+        "title": "Архив заданий Олимпиады школьников Президентской академии",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 410120,
+          "content_check": "Открыт архив 2020/21–2025/26: видны задания отборочного и заключительного этапов по классам для журналистики, языков, истории, обществознания, политологии, финансовой грамотности и экономики."
+        }
+      }
+    ],
+    "registry-2026-27-055-06": [
+      {
+        "title": "Архив заданий Олимпиады школьников Президентской академии",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 410120,
+          "content_check": "Открыт архив 2020/21–2025/26: видны задания отборочного и заключительного этапов по классам для журналистики, языков, истории, обществознания, политологии, финансовой грамотности и экономики."
+        }
+      }
+    ],
+    "registry-2026-27-055-07": [
+      {
+        "title": "Архив заданий Олимпиады школьников Президентской академии",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://www.ranepa.ru/olymp/arkhiv-zadaniy/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 410120,
+          "content_check": "Открыт архив 2020/21–2025/26: видны задания отборочного и заключительного этапов по классам для журналистики, языков, истории, обществознания, политологии, финансовой грамотности и экономики."
+        }
+      }
+    ],
+    "registry-2026-27-057-01": [
+      {
+        "title": "Задания, критерии и работы прошлых лет олимпиады «В мир права»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://rpa-mu.wixsite.com/my-site",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://rpa-mu.wixsite.com/my-site",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 981253,
+          "content_check": "Открыта официальная страница ВГУЮ: содержательные разделы «Задания и критерии оценивания — 2024/25», «Работы победителей и призёров — 2024/25», «Архив» и список источников для подготовки."
+        }
+      }
+    ],
+    "registry-2026-27-061-01": [
+      {
+        "title": "Архивы Открытой олимпиады по программированию: условия, тесты и решения",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://inf-open.ru/archive/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://inf-open.ru/archive/",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 4535,
+          "content_check": "Открыт официальный многолетний архив 2006/07–2024/25; страница указывает на доступные для каждого сезона условия, тесты и решения и на тренировочные контесты."
+        }
+      }
+    ],
+    "registry-2026-27-064-01": [
+      {
+        "title": "Материалы Открытой химической олимпиады прошлых лет",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://oho.misis.ru/materialy/materialy-proshlyh-let/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://oho.misis.ru/materialy/materialy-proshlyh-let/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 43703,
+          "content_check": "Открыта страница материалов: задания и решения заключительных этапов 2023–2025 по 9–11 классам и подготовительные вебинары для школьников и педагогов."
+        }
+      }
+    ],
+    "registry-2026-27-067-01": [
+      {
+        "title": "Пироговская олимпиада по биологии: задания и ответы прошлых лет",
+        "material_type": "archive",
+        "year": 2024,
+        "url": "https://olimpiada.ru/activity/5777/tasks/2023?class=10",
+        "is_official": false,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://olimpiada.ru/activity/5777/tasks/2023?class=10",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 33141,
+          "content_check": "Открыта страница зеркала с выбором 9–11 класса и сезонов 2023/24–2024/25; для финала доступны отдельные сохранённые копии заданий и ответов, а первоисточником указан РНИМУ."
+        }
+      },
+      {
+        "title": "Пироговская олимпиада: задания финала по биологии, 10 класс, 2023/24",
+        "material_type": "tasks",
+        "year": 2024,
+        "url": "https://tasks.olimpiada.ru/upload/files/tasks/5777/2023/5777-tasks-biol-10-final-23-24.pdf",
+        "is_official": false,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 206,
+          "final_url": "https://tasks.olimpiada.ru/upload/files/tasks/5777/2023/5777-tasks-biol-10-final-23-24.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 3412835,
+          "content_check": "Открыта сохранённая копия 16-страничного PDF заданий финала 2023/24; документ называет РНИМУ им. Н. И. Пирогова и Пироговскую олимпиаду, сигнатура PDF подтверждена реальным GET."
+        }
+      },
+      {
+        "title": "Пироговская олимпиада: ответы финала по биологии, 10 класс, 2023/24",
+        "material_type": "solutions",
+        "year": 2024,
+        "url": "https://tasks.olimpiada.ru/upload/files/tasks/5777/2023/5777-ans-biol-10-final-23-24.pdf",
+        "is_official": false,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 206,
+          "final_url": "https://tasks.olimpiada.ru/upload/files/tasks/5777/2023/5777-ans-biol-10-final-23-24.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 2767282,
+          "content_check": "Открыта сохранённая копия 21-страничного PDF ответов финала 2023/24; файл связан со страницей задания и отдаётся с корректной PDF-сигнатурой."
+        }
+      }
+    ],
+    "registry-2026-27-070-01": [
+      {
+        "title": "Задачи и решения теоретического тура Санкт-Петербургской астрономической олимпиады 2024/25",
+        "material_type": "solutions",
+        "year": null,
+        "url": "http://school.astro.spbu.ru/?q=node/678",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "http://school.astro.spbu.ru/?q=node/678",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 170349,
+          "content_check": "Открыта официальная страница теоретического тура XXXII олимпиады; доступны отдельные PDF «задачи и решения» для 5–6, 7–8, 9, 10 и 11 классов."
+        }
+      }
+    ],
+    "registry-2026-27-073-01": [
+      {
+        "title": "Архив лучших работ Строгановской олимпиады",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://olymp.rghpu.ru/arkhiv-luchshikh-rabot",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.rghpu.ru/arkhiv-luchshikh-rabot",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 77635,
+          "content_check": "Открыт архив лучших работ XVI Строгановской олимпиады по предметному, транспортному и мебельному дизайну, скульптуре, живописи и рисунку с распределением по местам."
+        }
+      },
+      {
+        "title": "Задания заключительного этапа Строгановской олимпиады",
+        "material_type": "tasks",
+        "year": null,
+        "url": "https://olymp.rghpu.ru/zaklyuchitelnyj-etap/zadaniya-zaklyuchitelnogo-etapa-2026",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://olymp.rghpu.ru/zaklyuchitelnyj-etap/zadaniya-zaklyuchitelnogo-etapa-2026",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 21356,
+          "content_check": "Открыта официальная страница заданий заключительного этапа по рисунку/живописи/скульптуре, предметному и транспортному дизайну и дизайну мебели."
+        }
+      }
+    ],
+    "registry-2026-27-076-01": [
+      {
+        "title": "Задачи и решения всех Турниров городов",
+        "material_type": "solutions",
+        "year": null,
+        "url": "https://turgor.ru/problems/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-25",
+          "http_status": 200,
+          "final_url": "https://turgor.ru/problems/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 26741,
+          "content_check": "Открыт официальный многолетний архив: условия и решения базовых, сложных, весенних, осенних и устных туров, включая сезоны 2023/24–2025/26."
+        }
+      }
+    ]
+  }
+}

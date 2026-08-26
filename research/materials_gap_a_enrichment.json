@@ -1,0 +1,75 @@
+{
+  "checked_on": "2026-08-26",
+  "policy": "Добавлены только первичные материалы организаторов, доступные прямым HTTPS GET с обычной проверкой TLS. Для HTML проверено содержимое, для PDF и OOXML — сигнатура файла. Профиль ведомственной олимпиады по биологии оставлен без материала: на 26.08.2026 его нет ни в текущем списке олимпиад v-olymp.ru, ни в официальном архиве, ни в курсах.",
+  "materials_by_slug": {
+    "registry-2026-27-003-01": [
+      {
+        "title": "Задания, критерии и лучшие работы ЮРМОШ 2025/26",
+        "material_type": "archive",
+        "year": 2026,
+        "url": "https://raai.sfedu.ru/Olimpiada/Olimpia.html",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://raai.sfedu.ru/Olimpiada/Olimpia.html",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 275781,
+          "content_check": "Официальная страница содержит интерактивные материалы заданий и критерии оценивания по рисунку, живописи, композиции и черчению для нескольких групп классов и этапов. Галерея лучших работ загружает рабочие PNG через 15 официальных JSON-списков; проверенный пример PNG открылся с HTTP 200 и корректной сигнатурой.",
+          "metadata_correction": "Этот URL уже есть в каталоге, но размечен как course без года. Запись с тем же URL должна заменить метаданные на archive, year=2026 и более точный заголовок, а не создать дубль."
+        }
+      }
+    ],
+    "registry-2026-27-006-01": [
+      {
+        "title": "Архив заданий и работ победителей «Иннагрики»",
+        "material_type": "archive",
+        "year": null,
+        "url": "https://innagrika.ru/olimpiada/zadanija-i-pobediteli-proshlyh-let/",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://innagrika.ru/olimpiada/zadanija-i-pobediteli-proshlyh-let/",
+          "content_type": "text/html; charset=UTF-8",
+          "content_bytes": 381699,
+          "content_check": "Официальный профильный архив содержит семь сборников по агрогенетике, агрохимии и агротеху за 2023/24–2025/26 и 145 ссылок на работы победителей и призёров по классам. Для агрогенетики доступны сборники трёх сезонов."
+        }
+      },
+      {
+        "title": "Сборник заданий и критериев по агрогенетике 2025/26",
+        "material_type": "tasks",
+        "year": 2026,
+        "url": "https://innagrika.ru/wp-content/uploads/2026/05/7.materialy_zadanij_i_kriterii_ocenki_profil_agrogenetika_2025-26.pdf",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://innagrika.ru/wp-content/uploads/2026/05/7.materialy_zadanij_i_kriterii_ocenki_profil_agrogenetika_2025-26.pdf",
+          "content_type": "application/pdf",
+          "content_bytes": 85898518,
+          "file_magic": "%PDF-1.3",
+          "content_check": "Прямая ссылка опубликована в официальном архиве в разделе «Агрогенетика — 2025/26 год». HTTPS GET вернул PDF с корректной сигнатурой и заявленным размером 85 898 518 байт."
+        }
+      }
+    ],
+    "registry-2026-27-079-01": [
+      {
+        "title": "Задание второго этапа: предпринимательская инициатива, шаблон и критерии",
+        "material_type": "tasks",
+        "year": 2026,
+        "url": "https://disk.360.yandex.ru/d/bP7LfOrVlE3khg",
+        "is_official": true,
+        "verification": {
+          "checked_on": "2026-08-26",
+          "http_status": 200,
+          "final_url": "https://disk.360.yandex.ru/d/bP7LfOrVlE3khg",
+          "content_type": "text/html; charset=utf-8",
+          "content_bytes": 86780,
+          "content_check": "Публичная папка указана организатором в открытом API официального пространства второго сезона на Braim как задание второго этапа. В папке пять файлов: инструкция, заполняемый DOCX, критерии, перечень кластеров и разбор работы с кластерами; технологические инициативы входят в перечень направлений. Все пять файлов скачаны прямым GET: четыре PDF имеют сигнатуру %PDF, DOCX — PK/OOXML; размеры совпали с официальным API Яндекс.Диска."
+        }
+      }
+    ],
+    "registry-2026-27-030-02": []
+  }
+}
