@@ -177,6 +177,13 @@ export function getAdminOlympiads(academicYear = '2026/27') {
   return request('/api/admin/olympiads?' + query)
 }
 
+export function getAdminUsers(params = {}) {
+  const clean = Object.fromEntries(
+    Object.entries(params).filter(([, value]) => value !== '' && value !== null && value !== undefined),
+  )
+  return request('/api/admin/users?' + new URLSearchParams(clean))
+}
+
 export function createAdminOlympiad(payload) {
   return request('/api/admin/olympiads', {
     method: 'POST',

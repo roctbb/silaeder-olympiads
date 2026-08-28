@@ -5,6 +5,7 @@ import {
   adminSession,
   createAdminOlympiad,
   deleteAdminOlympiad,
+  getAdminUsers,
   resetAdminSessionForTests,
   updateAdminOlympiad,
 } from './api'
@@ -63,5 +64,24 @@ describe('admin API CSRF contract', () => {
     await deleteAdminOlympiad('old-card')
 
     expect(fetchMock.mock.calls[1][1].headers.get('X-CSRF-Token')).toBe('restored-csrf')
+  })
+
+  it('передаёт фильтры списка пользователей без CSRF', async () => {
+    const fetchMock = vi.spyOn(globalThis, 'fetch')
+      .mockResolvedValueOnce(jsonResponse({ items: [], pagination: {}, summary: {} }))
+
+    await getAdminUsers({ academic_year: '2026/27', q: 'Анна', page: 2, per_page: 25 })
+
+    const [url, options] = fetchMock.mock.calls[0]
+    const parsed = new URL(url, 'https://example.test')
+    expect(parsed.pathname).toBe('/api/admin/users')
+    expect(Object.fromEntries(parsed.searchParams)).toEqual({
+      academic_year: '2026/27',
+      q: 'Анна',
+      page: '2',
+      per_page: '25',
+    })
+    expect(options.credentials).toBe('include')
+    expect(options.headers.has('X-CSRF-Token')).toBe(false)
   })
 })

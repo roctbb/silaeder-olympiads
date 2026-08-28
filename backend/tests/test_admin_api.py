@@ -1,11 +1,100 @@
+from datetime import UTC, datetime
+
+from sqlalchemy import select
 from sqlalchemy.exc import IntegrityError
 
 from app.api import admin as admin_api
+from app.extensions import db
+from app.models import OlympiadEdition, User, UserOlympiadPlan
 
 
 def test_admin_requires_login(client, olympiad_payload):
     response = client.post("/api/admin/olympiads", json=olympiad_payload)
     assert response.status_code == 401
+    assert client.get("/api/admin/users").status_code == 401
+
+
+def test_admin_can_view_users_and_their_plans(app, admin_client, olympiad_payload):
+    created = admin_client.post("/api/admin/olympiads", json=olympiad_payload)
+    assert created.status_code == 201
+
+    with app.app_context():
+        user_with_plan = User(
+            oidc_issuer="https://lk.silaeder.ru",
+            oidc_subject="user-with-plan",
+            name="Анна Петрова",
+            preferred_username="anna",
+            email="anna@example.test",
+            crm_role="student",
+            object_type="students",
+            grade=9,
+            last_login_at=datetime(2026, 8, 28, 9, 30, tzinfo=UTC),
+        )
+        user_without_plan = User(
+            oidc_issuer="https://lk.silaeder.ru",
+            oidc_subject="user-without-plan",
+            name="Борис Сидоров",
+            preferred_username="boris",
+            email="boris@example.test",
+            crm_role="student",
+            object_type="students",
+            grade=7,
+            last_login_at=datetime(2026, 8, 27, 8, 0, tzinfo=UTC),
+        )
+        edition = db.session.scalar(
+            select(OlympiadEdition).where(OlympiadEdition.academic_year == "2026/27")
+        )
+        db.session.add_all([user_with_plan, user_without_plan])
+        db.session.flush()
+        db.session.add(
+            UserOlympiadPlan(
+                user=user_with_plan,
+                edition=edition,
+                is_name_public=False,
+                reminders_enabled=True,
+                reminder_days_before=[7, 1],
+            )
+        )
+        db.session.commit()
+
+    response = admin_client.get("/api/admin/users?academic_year=2026%2F27")
+
+    assert response.status_code == 200
+    payload = response.get_json()
+    assert payload["summary"] == {
+        "total_users": 2,
+        "users_with_plans": 1,
+        "plans_total": 1,
+    }
+    assert payload["pagination"] == {
+        "page": 1,
+        "per_page": 25,
+        "total": 2,
+        "pages": 1,
+    }
+    anna = next(item for item in payload["items"] if item["preferred_username"] == "anna")
+    assert anna["grade"] == 9
+    assert anna["plan_count"] == 1
+    assert anna["plans"][0]["olympiad"] == {
+        "slug": "test-math",
+        "name": "Тестовая олимпиада — Математика",
+        "family_name": "Тестовая олимпиада",
+        "profile": "Математика",
+    }
+    assert anna["plans"][0]["academic_year"] == "2026/27"
+    assert anna["plans"][0]["is_name_public"] is False
+    assert anna["plans"][0]["reminder_days_before"] == [7, 1]
+    assert "oidc_subject" not in anna
+    assert "oidc_issuer" not in anna
+
+    searched = admin_client.get("/api/admin/users?q=boris&per_page=1&page=1")
+    assert searched.status_code == 200
+    assert searched.get_json()["pagination"]["total"] == 1
+    assert searched.get_json()["items"][0]["name"] == "Борис Сидоров"
+    assert searched.get_json()["items"][0]["plans"] == []
+
+    assert admin_client.get("/api/admin/users?page=0").status_code == 400
+    assert admin_client.get("/api/admin/users?per_page=101").status_code == 400
 
 
 def test_login_rejects_wrong_password(client):

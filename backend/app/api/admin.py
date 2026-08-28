@@ -1,14 +1,15 @@
 import secrets
 from functools import wraps
+from math import ceil
 
 from flask import Blueprint, current_app, jsonify, request, session
-from sqlalchemy import func, select
+from sqlalchemy import func, or_, select
 from sqlalchemy.exc import DataError, IntegrityError
 from sqlalchemy.orm import joinedload, selectinload
 
 from ..auth import _rotate_session_id, csrf_protected
 from ..extensions import db
-from ..models import Admin, Benefit, Olympiad, OlympiadEdition, UserOlympiadPlan
+from ..models import Admin, Benefit, Olympiad, OlympiadEdition, User, UserOlympiadPlan
 from ..services.catalog import (
     ConflictError,
     ValidationError,
@@ -127,6 +128,142 @@ def admin_olympiad_list():
     ).all()
     return jsonify(
         items=[serialize_olympiad(edition.olympiad, edition, detailed=True) for edition in editions]
+    )
+
+
+def _positive_int_argument(name: str, default: int, maximum: int | None = None) -> int:
+    raw = request.args.get(name)
+    if raw in (None, ""):
+        return default
+    try:
+        value = int(raw)
+    except ValueError as exc:
+        raise ValidationError(f"Параметр {name} должен быть целым числом") from exc
+    if value < 1 or (maximum is not None and value > maximum):
+        suffix = f" от 1 до {maximum}" if maximum is not None else " больше нуля"
+        raise ValidationError(f"Параметр {name} должен быть{suffix}")
+    return value
+
+
+def _serialize_admin_plan(plan: UserOlympiadPlan) -> dict[str, object]:
+    edition = plan.edition
+    olympiad = edition.olympiad
+    return {
+        "id": plan.id,
+        "status": plan.status.value,
+        "is_name_public": plan.is_name_public,
+        "reminders_enabled": plan.reminders_enabled,
+        "reminder_days_before": list(plan.reminder_days_before),
+        "academic_year": edition.academic_year,
+        "edition_status": edition.status.value,
+        "olympiad": {
+            "slug": olympiad.slug,
+            "name": olympiad.name,
+            "family_name": olympiad.family_name,
+            "profile": olympiad.profile,
+        },
+        "created_at": plan.created_at.isoformat() if plan.created_at else None,
+        "updated_at": plan.updated_at.isoformat() if plan.updated_at else None,
+    }
+
+
+@admin_bp.get("/users")
+@admin_required
+def admin_user_list():
+    try:
+        page = _positive_int_argument("page", 1)
+        per_page = _positive_int_argument("per_page", 25, 100)
+    except ValidationError as exc:
+        return jsonify(error=str(exc)), 400
+
+    academic_year = request.args.get(
+        "academic_year", current_app.config["ACADEMIC_YEAR"]
+    ).strip()
+    search = request.args.get("q", "").strip()
+    predicates = []
+    if search:
+        pattern = f"%{search}%"
+        predicates.append(
+            or_(
+                User.name.ilike(pattern),
+                User.preferred_username.ilike(pattern),
+                User.email.ilike(pattern),
+            )
+        )
+
+    total = db.session.scalar(select(func.count()).select_from(User).where(*predicates)) or 0
+    users = db.session.scalars(
+        select(User)
+        .options(
+            selectinload(User.plans)
+            .selectinload(UserOlympiadPlan.edition)
+            .joinedload(OlympiadEdition.olympiad)
+        )
+        .where(*predicates)
+        .order_by(func.lower(User.name), User.id)
+        .offset((page - 1) * per_page)
+        .limit(per_page)
+    ).all()
+
+    plan_filter = (
+        (OlympiadEdition.academic_year == academic_year) if academic_year else True
+    )
+    plans_total = db.session.scalar(
+        select(func.count())
+        .select_from(UserOlympiadPlan)
+        .join(OlympiadEdition)
+        .where(plan_filter)
+    ) or 0
+    users_with_plans = db.session.scalar(
+        select(func.count(func.distinct(UserOlympiadPlan.user_id)))
+        .select_from(UserOlympiadPlan)
+        .join(OlympiadEdition)
+        .where(plan_filter)
+    ) or 0
+
+    items = []
+    for user in users:
+        plans = [
+            plan
+            for plan in user.plans
+            if not academic_year or plan.edition.academic_year == academic_year
+        ]
+        plans.sort(
+            key=lambda plan: (
+                plan.edition.olympiad.family_name.casefold(),
+                plan.edition.olympiad.profile.casefold(),
+            )
+        )
+        items.append(
+            {
+                "id": user.id,
+                "name": user.name,
+                "preferred_username": user.preferred_username,
+                "email": user.email,
+                "crm_role": user.crm_role,
+                "object_type": user.object_type,
+                "grade": user.grade,
+                "last_login_at": user.last_login_at.isoformat(),
+                "created_at": user.created_at.isoformat() if user.created_at else None,
+                "plan_count": len(plans),
+                "plans": [_serialize_admin_plan(plan) for plan in plans],
+            }
+        )
+
+    return jsonify(
+        items=items,
+        academic_year=academic_year or None,
+        summary={
+            "total_users": db.session.scalar(select(func.count()).select_from(User)) or 0,
+            "users_with_plans": users_with_plans,
+            "plans_total": plans_total,
+        },
+        pagination={
+            "page": page,
+            "per_page": per_page,
+            "total": total,
+            "pages": ceil(total / per_page) if total else 0,
+        },
     )
 
 

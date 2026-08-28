@@ -36,6 +36,12 @@ const routes = [
     meta: { requiresAdmin: true },
   },
   {
+    path: '/admin/users',
+    name: 'admin-users',
+    component: () => import('./views/AdminUsersView.vue'),
+    meta: { requiresAdmin: true },
+  },
+  {
     path: '/admin/olympiads/:slug',
     name: 'admin-edit',
     component: () => import('./views/AdminEditorView.vue'),
