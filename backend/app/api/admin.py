@@ -7,7 +7,7 @@ from sqlalchemy import func, or_, select
 from sqlalchemy.exc import DataError, IntegrityError
 from sqlalchemy.orm import joinedload, selectinload
 
-from ..auth import _rotate_session_id, csrf_protected
+from ..auth import _rotate_session_id, csrf_protected, current_user
 from ..extensions import db
 from ..models import Admin, Benefit, Olympiad, OlympiadEdition, User, UserOlympiadPlan
 from ..services.catalog import (
@@ -41,12 +41,30 @@ def current_admin() -> Admin | None:
     return db.session.get(Admin, admin_id) if admin_id else None
 
 
+def current_crm_admin() -> User | None:
+    user = current_user()
+    if user is None or (user.crm_role or "").strip().casefold() != "admin":
+        return None
+    return user
+
+
+def _current_admin_identity() -> tuple[Admin | User, str] | None:
+    admin = current_admin()
+    if admin is not None and admin.is_active:
+        return admin, "local"
+    if admin is not None or session.get("admin_id"):
+        session.pop("admin_id", None)
+
+    crm_admin = current_crm_admin()
+    if crm_admin is not None:
+        return crm_admin, "crm"
+    return None
+
+
 def admin_required(view):
     @wraps(view)
     def wrapped(*args, **kwargs):
-        admin = current_admin()
-        if admin is None or not admin.is_active:
-            session.pop("admin_id", None)
+        if _current_admin_identity() is None:
             return jsonify(error="Требуется вход администратора"), 401
         return view(*args, **kwargs)
 
@@ -67,24 +85,30 @@ def _loaded_olympiad(slug: str) -> Olympiad | None:
     )
 
 
-def _admin_session_document(admin: Admin) -> dict[str, str | bool]:
+def _admin_session_document(identity: Admin | User, source: str) -> dict[str, str | bool]:
     token = session.get("csrf_token")
     if not token:
         token = secrets.token_urlsafe(32)
         session["csrf_token"] = token
+    username = (
+        identity.username
+        if isinstance(identity, Admin)
+        else identity.preferred_username or identity.email or identity.name
+    )
     return {
         "authenticated": True,
-        "username": admin.username,
+        "username": username,
+        "auth_source": source,
         "csrf_token": token,
     }
 
 
 @admin_bp.get("/session")
 def admin_session():
-    admin = current_admin()
-    if admin is None or not admin.is_active:
+    identity = _current_admin_identity()
+    if identity is None:
         return jsonify(authenticated=False), 401
-    return jsonify(_admin_session_document(admin))
+    return jsonify(_admin_session_document(*identity))
 
 
 @admin_bp.post("/session")
@@ -98,7 +122,7 @@ def admin_login():
     session.clear()
     session["admin_id"] = admin.id
     _rotate_session_id()
-    return jsonify(_admin_session_document(admin))
+    return jsonify(_admin_session_document(admin, "local"))
 
 
 @admin_bp.delete("/session")

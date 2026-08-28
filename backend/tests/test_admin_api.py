@@ -14,6 +14,40 @@ def test_admin_requires_login(client, olympiad_payload):
     assert client.get("/api/admin/users").status_code == 401
 
 
+def test_crm_admin_inherits_admin_access(app, client, user_id, olympiad_payload):
+    with app.app_context():
+        user = db.session.get(User, user_id)
+        user.crm_role = "admin"
+        db.session.commit()
+
+    with client.session_transaction() as session:
+        session["user_id"] = user_id
+        session["csrf_token"] = "crm-admin-csrf"
+
+    session_response = client.get("/api/admin/session")
+    assert session_response.status_code == 200
+    assert session_response.get_json() == {
+        "authenticated": True,
+        "auth_source": "crm",
+        "csrf_token": "crm-admin-csrf",
+        "username": "ivan",
+    }
+    assert client.get("/api/admin/users").status_code == 200
+    assert client.post(
+        "/api/admin/olympiads", json=olympiad_payload
+    ).status_code == 403
+    assert client.post(
+        "/api/admin/olympiads",
+        headers={"X-CSRF-Token": "crm-admin-csrf"},
+        json=olympiad_payload,
+    ).status_code == 201
+
+
+def test_non_admin_crm_role_does_not_grant_admin_access(user_client):
+    assert user_client.get("/api/admin/session").status_code == 401
+    assert user_client.get("/api/admin/users").status_code == 401
+
+
 def test_admin_can_view_users_and_their_plans(app, admin_client, olympiad_payload):
     created = admin_client.post("/api/admin/olympiads", json=olympiad_payload)
     assert created.status_code == 201
@@ -118,6 +152,7 @@ def test_admin_login_rotates_session_and_returns_csrf(client):
     after = client.get_cookie("session")
     assert response.status_code == 200
     assert response.get_json()["csrf_token"]
+    assert response.get_json()["auth_source"] == "local"
     assert after is not None
     assert after.value != before.value
     with client.session_transaction() as session:
