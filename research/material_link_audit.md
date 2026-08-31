@@ -1,20 +1,20 @@
 # Аудит ссылок на материалы олимпиад
 
-Проверено: **2026-08-26T19:41:26+00:00**. Каталог: `data/seed/catalog.json`.
-SHA-256 каталога: `28fa1d02b5cdd3a96ed7a98753740e21267d1ba32e5e9bac6c80f49f0068f6b5`.
+Проверено: **2026-08-31T08:44:49+00:00**. Каталог: `data/seed/catalog.json`.
+SHA-256 каталога: `f0eaa0d80a4ab71461d806ac8c112acb98fb70e03b9a2066522b649effd52ade`.
 
 Проверка выполняет реальные GET-запросы с переходом по редиректам. URL проверяются один раз вне зависимости от числа использований; запросы к одному домену идут последовательно. Читается только начало ответа, достаточное для определения файла, пустой страницы, сообщения об ошибке или JavaScript-оболочки.
 
 ## Итог
 
-- Записей материалов: **480**.
-- Уникальных URL: **291**.
-- Олимпиад с материалами: **363** из 363.
-- Работают: **291** URL / **480** записей материалов.
+- Записей материалов: **482**.
+- Уникальных URL: **293**.
+- Олимпиад с материалами: **364** из 364.
+- Работают: **293** URL / **482** записей материалов.
 - Сломаны: **0** URL / **0** записей материалов.
 - Неоднозначны: **0** URL / **0** записей материалов.
 - За счёт дедупликации не отправлено повторных GET: **189**.
-- Время аудита: **87.19 с**.
+- Время аудита: **115.35 с**.
 
 `inconclusive` не означает, что ссылка сломана: сервер мог потребовать JavaScript, CAPTCHA или заблокировать автоматический клиент. Такие URL нельзя считать подтверждёнными без проверки в браузере.
 
@@ -103,6 +103,8 @@ SHA-256 каталога: `28fa1d02b5cdd3a96ed7a98753740e21267d1ba32e5e9bac6c80f
 | ok | 200 | application/pdf | 1 | https://lk-dovuz.innopolis.university/public/files/robo_contest_9-11.pdf | download_nonempty |
 | ok | 200 | text/html | 1 | https://malun.kpfu.ru/mendeleev | html_nonempty |
 | ok | 200 | text/html | 8 | https://malun.kpfu.ru/mpoarh | html_nonempty |
+| ok | 200 | text/html | 1 | https://matol.ru/archives.php | html_nonempty |
+| ok | 200 | text/html | 1 | https://matol.ru/current_materials.php | html_nonempty |
 | ok | 200 | text/html | 1 | https://maxwell.mipt.ru/ | html_nonempty |
 | ok | 200 | text/html | 1 | https://mkoshp.ru/ | html_nonempty |
 | ok | 200 | text/html | 1 | https://moebiustour.ru/archive | html_nonempty |

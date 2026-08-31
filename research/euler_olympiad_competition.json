@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-08-31",
+  "records": [
+    {
+      "slug": "euler-mathematics",
+      "name": "Математическая олимпиада имени Леонарда Эйлера",
+      "family_name": "Олимпиада имени Леонарда Эйлера",
+      "profile": "Математика",
+      "description": "Всероссийская математическая олимпиада для школьников не старше 8 класса. Региональный и заключительный этапы продолжают олимпиадный маршрут для младших школьников, для которых аналогичные этапы ВсОШ по математике не проводятся.",
+      "organizer": "Координационный совет олимпиады имени Леонарда Эйлера",
+      "website_url": "https://matol.ru/",
+      "geography": "russia",
+      "is_team": false,
+      "academic_year": "2026/27",
+      "data_status": "previous_year_estimate",
+      "is_in_registry": false,
+      "registry_level": null,
+      "registry_status": "not_listed",
+      "is_popular": true,
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-08-31",
+      "registration_url": null,
+      "previous_year_reference": "2025/26",
+      "eligibility_notes": "Положение допускает учащихся не старше 8 класса. В сезоне 2025/26 в региональном этапе участвовали школьники 5–8 классов, а в финале — 6–8 классов; основная целевая параллель — 8 класс.",
+      "notes": "Расписание и регистрация 2026/27 на официальном сайте ещё не опубликованы. Даты этапов показаны как ориентир, полученный сдвигом официального расписания 2025/26 на один учебный год. Олимпиада не входит в перечень РСОШ и сама по себе не даёт федеральной льготы при поступлении.",
+      "grades": [5, 6, 7, 8],
+      "stages": [
+        {
+          "key": "distance-round-1",
+          "name": "Дистанционный этап — первый тур",
+          "stage_type": "qualifying",
+          "start_date": "2025-11-09",
+          "end_date": "2025-11-09",
+          "date_precision": "exact",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "source_url": "https://matol.ru/files/dist_pravila.pdf"
+        },
+        {
+          "key": "distance-round-2",
+          "name": "Дистанционный этап — второй тур",
+          "stage_type": "qualifying",
+          "start_date": "2025-12-07",
+          "end_date": "2025-12-07",
+          "date_precision": "exact",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "source_url": "https://matol.ru/files/dist_pravila.pdf"
+        },
+        {
+          "key": "regional",
+          "name": "Региональный этап",
+          "stage_type": "regional",
+          "start_date": "2026-02-02",
+          "end_date": "2026-02-03",
+          "date_precision": "range",
+          "date_status": "official_2025_26",
+          "format": "offline",
+          "source_url": "https://matol.ru/current_materials.php"
+        },
+        {
+          "key": "final",
+          "name": "Заключительный этап",
+          "stage_type": "final",
+          "start_date": "2026-03-24",
+          "end_date": "2026-03-27",
+          "date_precision": "range",
+          "date_status": "official_2025_26",
+          "format": "offline",
+          "source_url": "https://matol.ru/current_materials.php"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Материалы олимпиады 2025/26: задания, решения и критерии",
+          "material_type": "archive",
+          "year": 2026,
+          "url": "https://matol.ru/current_materials.php",
+          "is_official": true
+        },
+        {
+          "title": "Архив заданий и решений прошлых лет",
+          "material_type": "archive",
+          "year": null,
+          "url": "https://matol.ru/archives.php",
+          "is_official": true
+        }
+      ],
+      "benefits": [],
+      "sources": [
+        {
+          "title": "Официальный сайт олимпиады имени Леонарда Эйлера",
+          "url": "https://matol.ru/",
+          "publisher": "Олимпиада имени Леонарда Эйлера",
+          "source_type": "official_website",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-31"
+        },
+        {
+          "title": "Положение об олимпиаде",
+          "url": "https://matol.ru/files/polozh.pdf",
+          "publisher": "Координационный совет олимпиады имени Леонарда Эйлера",
+          "source_type": "regulations",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-31"
+        },
+        {
+          "title": "Правила дистанционного этапа 2025/26",
+          "url": "https://matol.ru/files/dist_pravila.pdf",
+          "publisher": "Олимпиада имени Леонарда Эйлера",
+          "source_type": "schedule",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-31"
+        },
+        {
+          "title": "Материалы олимпиады 2025/26",
+          "url": "https://matol.ru/current_materials.php",
+          "publisher": "Олимпиада имени Леонарда Эйлера",
+          "source_type": "results_and_tasks",
+          "source_year": "2025/26",
+          "accessed_on": "2026-08-31"
+        }
+      ]
+    }
+  ]
+}

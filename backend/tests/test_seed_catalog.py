@@ -529,7 +529,7 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
     for path in CURRENT_REGISTRATION_ENRICHMENT_PATHS:
         enrichment = json.loads(path.read_text(encoding="utf-8"))
         assert enrichment["target_academic_year"] == "2026/27"
-        assert enrichment["checked_on"] == "2026-08-26"
+        assert date.fromisoformat(enrichment["checked_on"]) >= date(2026, 8, 26)
         for entry in enrichment["slugs"]:
             slug = entry["slug"]
             assert slug not in seen
@@ -578,7 +578,7 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
         "open": 50,
         "announced": 29,
         "not_open": 60,
-        "not_found": 224,
+        "not_found": 225,
     }
     assert by_slug["registry-2026-27-005-01"]["registration_url"] == (
         "https://talent.kruzhok.org/registration?event=10334"
@@ -741,6 +741,30 @@ def test_bmstu_gazprom_has_all_six_profiles_and_hybrid_finals():
     ict_benefit = by_slug["registry-2026-27-065-02"]["benefits"][0]
     assert ict_benefit["has_bvi"] is True
     assert ict_benefit["has_hundred_points"] is True
+
+
+def test_euler_olympiad_is_present_with_projected_dates_and_official_archive():
+    records = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))["records"]
+    euler = next(record for record in records if record["slug"] == "euler-mathematics")
+
+    assert euler["profile"] == "Математика"
+    assert euler["grades"] == [5, 6, 7, 8]
+    assert euler["registry_status"] == "not_listed"
+    assert euler["registry_level"] is None
+    assert euler["data_status"] == "previous_year_estimate"
+    assert euler["registration_status"] == "not_found"
+    assert euler["registration_url"] is None
+    assert [(stage["key"], stage["starts_on"], stage["ends_on"]) for stage in euler["stages"]] == [
+        ("distance-round-1", "2026-11-09", "2026-11-09"),
+        ("distance-round-2", "2026-12-07", "2026-12-07"),
+        ("regional", "2027-02-02", "2027-02-03"),
+        ("final", "2027-03-24", "2027-03-27"),
+    ]
+    assert all(stage["is_date_confirmed"] is False for stage in euler["stages"])
+    assert {material["url"] for material in euler["materials"]} == {
+        "https://matol.ru/archives.php",
+        "https://matol.ru/current_materials.php",
+    }
 
 
 def test_university_benefits_use_only_published_2026_rules():
@@ -978,8 +1002,8 @@ def test_seed_materials_are_profile_specific_and_audited():
         record["slug"] for record in records if not record.get("materials")
     }
 
-    assert records_with_materials == 363
-    assert len(records_with_past_tasks) == 361
+    assert records_with_materials == 364
+    assert len(records_with_past_tasks) == 362
     assert records_without_materials == set()
     assert len(material_urls) >= 286
     assert DEPRECATED_VSOSH_ARCHIVE not in material_urls
