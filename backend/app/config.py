@@ -86,9 +86,9 @@ class Config:
         "task_reject_on_worker_lost": True,
         "worker_prefetch_multiplier": 1,
         "beat_schedule": {
-            "scan-olympiad-reminders-daily": {
+            "scan-olympiad-notifications": {
                 "task": "reminders.scan",
-                "schedule": crontab(hour=7, minute=0),
+                "schedule": crontab(minute="*/15"),
             }
         },
     }

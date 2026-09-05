@@ -645,6 +645,8 @@ def upsert_catalog_record(
             "У олимпиады вне перечня не может быть уровня перечня"
         )
     edition.is_popular = bool(payload.get("is_popular", False))
+    previous_registration_status = edition.registration_status
+    previous_registration_url = edition.registration_url
     edition.registration_url = _url(payload.get("registration_url"), "registration_url")
     default_registration_status = edition.registration_status or (
         RegistrationStatus.OPEN
@@ -681,6 +683,14 @@ def upsert_catalog_record(
         raise ValidationError(
             "registration_url допустим только для открытой регистрации"
         )
+    if edition.registration_status == RegistrationStatus.OPEN:
+        if (
+            previous_registration_status != RegistrationStatus.OPEN
+            or previous_registration_url != edition.registration_url
+        ):
+            edition.registration_opened_at = datetime.now(UTC)
+    else:
+        edition.registration_opened_at = None
     edition.previous_year_reference = _optional_text(
         payload.get("previous_year_reference"), "previous_year_reference", 9
     )

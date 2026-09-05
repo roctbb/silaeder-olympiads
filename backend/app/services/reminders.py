@@ -315,7 +315,7 @@ def _retry_delay(attempt_count: int, retry_after: str | None, now: datetime) -> 
 
 
 def _mark_retry(
-    dispatch: ReminderDispatch,
+    dispatch: Any,
     *,
     now: datetime,
     error: str,
@@ -411,27 +411,12 @@ def _claim_dispatch(dispatch_id: int, now: datetime) -> tuple[ReminderDispatch |
     return dispatch, "claimed"
 
 
-def deliver_reminder_once(
-    dispatch_id: int,
+def _deliver_claimed_dispatch(
+    dispatch: Any,
     *,
-    http_post: Callable[..., Any] = requests.post,
-    now: datetime | None = None,
+    http_post: Callable[..., Any],
+    now: datetime,
 ) -> DeliveryOutcome:
-    """Attempt one CRM POST and persist its outcome without exposing its body in logs."""
-    now = _aware_utc(now or _now_utc())
-    dispatch, claim_status = _claim_dispatch(dispatch_id, now)
-    if dispatch is None:
-        return DeliveryOutcome("missing")
-    if claim_status == "finished" and dispatch.status == ReminderStatus.PROCESSING:
-        lease_until = _aware_utc(dispatch.last_attempt_at or now) + timedelta(
-            seconds=current_app.config["CRM_NOTIFICATION_PROCESSING_LEASE_SECONDS"]
-        )
-        return DeliveryOutcome(
-            "retry", max(1, math.ceil((lease_until - now).total_seconds()))
-        )
-    if claim_status != "claimed":
-        return DeliveryOutcome(claim_status)
-
     client_id = current_app.config["CRM_OIDC_CLIENT_ID"]
     client_secret = current_app.config["CRM_OIDC_CLIENT_SECRET"]
     if not client_id or not client_secret:
@@ -481,3 +466,26 @@ def deliver_reminder_once(
     dispatch.last_error = f"http_{status_code}"
     db.session.commit()
     return DeliveryOutcome("permanent_failed")
+
+
+def deliver_reminder_once(
+    dispatch_id: int,
+    *,
+    http_post: Callable[..., Any] = requests.post,
+    now: datetime | None = None,
+) -> DeliveryOutcome:
+    """Attempt one CRM POST and persist its outcome without exposing its body in logs."""
+    now = _aware_utc(now or _now_utc())
+    dispatch, claim_status = _claim_dispatch(dispatch_id, now)
+    if dispatch is None:
+        return DeliveryOutcome("missing")
+    if claim_status == "finished" and dispatch.status == ReminderStatus.PROCESSING:
+        lease_until = _aware_utc(dispatch.last_attempt_at or now) + timedelta(
+            seconds=current_app.config["CRM_NOTIFICATION_PROCESSING_LEASE_SECONDS"]
+        )
+        return DeliveryOutcome(
+            "retry", max(1, math.ceil((lease_until - now).total_seconds()))
+        )
+    if claim_status != "claimed":
+        return DeliveryOutcome(claim_status)
+    return _deliver_claimed_dispatch(dispatch, http_post=http_post, now=now)

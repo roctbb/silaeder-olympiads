@@ -313,6 +313,46 @@ def test_registration_close_timestamp_roundtrip_and_validation(
     assert "registration_url" in rejected_announced.get_json()["error"]
 
 
+def test_registration_open_transition_is_recorded_once(admin_client, olympiad_payload):
+    created = admin_client.post("/api/admin/olympiads", json=olympiad_payload)
+    assert created.status_code == 201
+    edition = db.session.scalar(select(OlympiadEdition))
+    first_opened_at = edition.registration_opened_at
+    assert first_opened_at is not None
+
+    unchanged = admin_client.put(
+        "/api/admin/olympiads/test-math", json=created.get_json()
+    )
+    assert unchanged.status_code == 200
+    db.session.refresh(edition)
+    assert edition.registration_opened_at == first_opened_at
+
+    closed_payload = unchanged.get_json()
+    closed_payload.update(
+        registration_status="not_open",
+        registration_url=None,
+        registration_closes_at=None,
+    )
+    closed = admin_client.put(
+        "/api/admin/olympiads/test-math", json=closed_payload
+    )
+    assert closed.status_code == 200
+    db.session.refresh(edition)
+    assert edition.registration_opened_at is None
+
+    reopened_payload = closed.get_json()
+    reopened_payload.update(
+        registration_status="open",
+        registration_url="https://example.test/new-registration",
+    )
+    reopened = admin_client.put(
+        "/api/admin/olympiads/test-math", json=reopened_payload
+    )
+    assert reopened.status_code == 200
+    db.session.refresh(edition)
+    assert edition.registration_opened_at is not None
+
+
 def test_create_rejects_existing_slug_without_overwrite(admin_client, olympiad_payload):
     created = admin_client.post("/api/admin/olympiads", json=olympiad_payload)
     assert created.status_code == 201

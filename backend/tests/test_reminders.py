@@ -14,11 +14,18 @@ from app.models import (
     Olympiad,
     OlympiadEdition,
     PlanStatus,
+    RegistrationNotificationDispatch,
+    RegistrationStatus,
     ReminderDispatch,
     ReminderStatus,
     Stage,
     User,
     UserOlympiadPlan,
+)
+from app.services.registration_notifications import (
+    deliver_registration_notification_once,
+    due_registration_notification_ids,
+    schedule_registration_notification_dispatches,
 )
 from app.services.reminders import (
     deliver_reminder_once,
@@ -91,6 +98,16 @@ def _create_due_dispatch(today: date) -> ReminderDispatch:
     )
     assert dispatch is not None
     return dispatch
+
+
+def _open_registration(
+    plan: UserOlympiadPlan, *, opened_at: datetime, url: str = "https://example.test/register"
+) -> None:
+    plan.created_at = opened_at - timedelta(seconds=1)
+    plan.edition.registration_status = RegistrationStatus.OPEN
+    plan.edition.registration_url = url
+    plan.edition.registration_opened_at = opened_at
+    db.session.commit()
 
 
 def test_scanner_persists_confirmed_active_reminders_and_deduplicates(app):
@@ -407,22 +424,117 @@ def test_changed_or_unconfirmed_stage_cancels_persisted_reminder(app):
     assert dispatch.status == ReminderStatus.CANCELLED
 
 
-def test_daily_task_schedules_and_enqueues_without_calling_crm(app, monkeypatch):
+def test_registration_opening_notifies_existing_subscribers_once(app):
+    now = datetime(2026, 9, 5, 9, tzinfo=UTC)
+    plan, _stage = _create_plan(
+        event_on=date(2026, 10, 1), suffix="registration"
+    )
+    _open_registration(plan, opened_at=now)
+
+    created = schedule_registration_notification_dispatches(now=now)
+    assert len(created) == 1
+    assert schedule_registration_notification_dispatches(now=now) == []
+
+    dispatch = db.session.get(RegistrationNotificationDispatch, created[0])
+    assert dispatch is not None
+    assert dispatch.status == ReminderStatus.PENDING
+    assert dispatch.payload == {
+        "recipient_sub": plan.user.oidc_subject,
+        "title": "Открылась регистрация: Тестовая олимпиада — Математика",
+        "message": (
+            "На олимпиаду «Тестовая олимпиада — Математика» открылась регистрация. "
+            "Проверьте сроки и перейдите к официальной форме со страницы олимпиады."
+        ),
+        "url": (
+            "http://localhost/olympiads/test-reminder-registration"
+            "?academic_year=2026%2F27"
+        ),
+    }
+    assert due_registration_notification_ids(now=now) == [dispatch.id]
+
+    calls = []
+
+    def fake_post(url, **kwargs):
+        calls.append((url, kwargs))
+        return FakeResponse(202)
+
+    outcome = deliver_registration_notification_once(
+        dispatch.id, http_post=fake_post, now=now
+    )
+    db.session.refresh(dispatch)
+    assert outcome.status == "sent"
+    assert dispatch.status == ReminderStatus.SENT
+    assert calls[0][1]["headers"] == {"Idempotency-Key": dispatch.idempotency_key}
+    assert calls[0][1]["json"] == dispatch.payload
+
+
+def test_registration_notification_skips_late_or_unsubscribed_plans(app):
+    now = datetime(2026, 9, 5, 9, tzinfo=UTC)
+    late_plan, _stage = _create_plan(
+        event_on=date(2026, 10, 1), suffix="late-registration"
+    )
+    _open_registration(late_plan, opened_at=now - timedelta(hours=1))
+    late_plan.created_at = now
+
+    disabled_plan, _stage = _create_plan(
+        event_on=date(2026, 10, 1),
+        suffix="disabled-registration",
+        reminders_enabled=False,
+    )
+    _open_registration(disabled_plan, opened_at=now)
+    db.session.commit()
+
+    assert schedule_registration_notification_dispatches(now=now) == []
+
+
+def test_registration_notification_is_cancelled_if_registration_closes(app):
+    now = datetime(2026, 9, 5, 9, tzinfo=UTC)
+    plan, _stage = _create_plan(
+        event_on=date(2026, 10, 1), suffix="closed-registration"
+    )
+    _open_registration(plan, opened_at=now)
+    [dispatch_id] = schedule_registration_notification_dispatches(now=now)
+    plan.edition.registration_status = RegistrationStatus.NOT_OPEN
+    plan.edition.registration_url = None
+    plan.edition.registration_opened_at = None
+    db.session.commit()
+
+    outcome = deliver_registration_notification_once(
+        dispatch_id,
+        http_post=lambda *_args, **_kwargs: pytest.fail("CRM must not be called"),
+        now=now,
+    )
+    dispatch = db.session.get(RegistrationNotificationDispatch, dispatch_id)
+    assert outcome.status == "cancelled"
+    assert dispatch.status == ReminderStatus.CANCELLED
+    assert dispatch.last_error == "registration_no_longer_open"
+
+
+def test_periodic_task_schedules_and_enqueues_without_calling_crm(app, monkeypatch):
     from app import tasks
 
     queued = []
     monkeypatch.setattr(tasks, "schedule_reminder_dispatches", lambda: [10, 11])
+    monkeypatch.setattr(
+        tasks, "schedule_registration_notification_dispatches", lambda: [20]
+    )
     monkeypatch.setattr(tasks, "due_dispatch_ids", lambda: [10])
+    monkeypatch.setattr(tasks, "due_registration_notification_ids", lambda: [20])
     monkeypatch.setattr(
         tasks.deliver_reminder,
         "apply_async",
         lambda *, args: queued.append(args),
     )
+    monkeypatch.setattr(
+        tasks.deliver_registration_notification,
+        "apply_async",
+        lambda *, args: queued.append(args),
+    )
 
-    assert tasks.scan_reminders.run() == {"created": 2, "enqueued": 1}
-    assert queued == [(10,)]
+    assert tasks.scan_reminders.run() == {"created": 3, "enqueued": 2}
+    assert queued == [(10,), (20,)]
     schedule = app.config["CELERY"]["beat_schedule"][
-        "scan-olympiad-reminders-daily"
+        "scan-olympiad-notifications"
     ]
     assert schedule["task"] == "reminders.scan"
     assert app.config["CELERY"]["timezone"] == "Europe/Moscow"

@@ -196,6 +196,9 @@ class OlympiadEdition(TimestampMixin, db.Model):
     registration_closes_at: Mapped[datetime | None] = mapped_column(
         db.DateTime(timezone=True)
     )
+    registration_opened_at: Mapped[datetime | None] = mapped_column(
+        db.DateTime(timezone=True), index=True
+    )
     previous_year_reference: Mapped[str | None] = mapped_column(String(9))
     eligibility_notes: Mapped[str | None] = mapped_column(Text)
     notes: Mapped[str | None] = mapped_column(Text)
@@ -393,6 +396,9 @@ class UserOlympiadPlan(TimestampMixin, db.Model):
     reminder_dispatches: Mapped[list[ReminderDispatch]] = relationship(
         back_populates="plan", cascade="all, delete-orphan"
     )
+    registration_notification_dispatches: Mapped[
+        list[RegistrationNotificationDispatch]
+    ] = relationship(back_populates="plan", cascade="all, delete-orphan")
 
 
 class UserStageProgress(TimestampMixin, db.Model):
@@ -472,3 +478,54 @@ class ReminderDispatch(TimestampMixin, db.Model):
 
     plan: Mapped[UserOlympiadPlan] = relationship(back_populates="reminder_dispatches")
     stage: Mapped[Stage] = relationship(back_populates="reminder_dispatches")
+
+
+class RegistrationNotificationDispatch(TimestampMixin, db.Model):
+    __tablename__ = "registration_notification_dispatches"
+    __table_args__ = (
+        UniqueConstraint(
+            "plan_id",
+            "registration_opened_at",
+            name="registration_notification_plan_opened_at",
+        ),
+        CheckConstraint("attempt_count >= 0", name="nonnegative_attempt_count"),
+        CheckConstraint(
+            "length(idempotency_key) BETWEEN 8 AND 128",
+            name="valid_idempotency_key_length",
+        ),
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    plan_id: Mapped[int] = mapped_column(
+        ForeignKey("user_olympiad_plans.id", ondelete="CASCADE"),
+        nullable=False,
+        index=True,
+    )
+    registration_opened_at: Mapped[datetime] = mapped_column(
+        db.DateTime(timezone=True), nullable=False
+    )
+    registration_url_sha256: Mapped[str] = mapped_column(String(64), nullable=False)
+    scheduled_for: Mapped[date] = mapped_column(db.Date, nullable=False, index=True)
+    idempotency_key: Mapped[str] = mapped_column(
+        String(128), nullable=False, unique=True
+    )
+    payload: Mapped[dict] = mapped_column(db.JSON, nullable=False)
+    payload_sha256: Mapped[str] = mapped_column(String(64), nullable=False)
+    status: Mapped[ReminderStatus] = mapped_column(
+        enum_type(ReminderStatus),
+        default=ReminderStatus.PENDING,
+        nullable=False,
+        index=True,
+    )
+    attempt_count: Mapped[int] = mapped_column(default=0, nullable=False)
+    next_attempt_at: Mapped[datetime | None] = mapped_column(
+        db.DateTime(timezone=True), index=True
+    )
+    last_attempt_at: Mapped[datetime | None] = mapped_column(db.DateTime(timezone=True))
+    sent_at: Mapped[datetime | None] = mapped_column(db.DateTime(timezone=True))
+    response_status: Mapped[int | None] = mapped_column(db.SmallInteger)
+    last_error: Mapped[str | None] = mapped_column(String(100))
+
+    plan: Mapped[UserOlympiadPlan] = relationship(
+        back_populates="registration_notification_dispatches"
+    )
