@@ -230,14 +230,6 @@ def _claim_dispatch(
 ) -> tuple[RegistrationNotificationDispatch | None, str]:
     dispatch = db.session.scalar(
         select(RegistrationNotificationDispatch)
-        .options(
-            joinedload(RegistrationNotificationDispatch.plan)
-            .joinedload(UserOlympiadPlan.edition)
-            .joinedload(OlympiadEdition.olympiad),
-            joinedload(RegistrationNotificationDispatch.plan).joinedload(
-                UserOlympiadPlan.user
-            ),
-        )
         .where(RegistrationNotificationDispatch.id == dispatch_id)
         .with_for_update()
     )

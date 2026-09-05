@@ -343,13 +343,6 @@ def _mark_retry(
 def _claim_dispatch(dispatch_id: int, now: datetime) -> tuple[ReminderDispatch | None, str]:
     dispatch = db.session.scalar(
         select(ReminderDispatch)
-        .options(
-            joinedload(ReminderDispatch.plan)
-            .joinedload(UserOlympiadPlan.edition)
-            .joinedload(OlympiadEdition.olympiad),
-            joinedload(ReminderDispatch.plan).joinedload(UserOlympiadPlan.user),
-            joinedload(ReminderDispatch.stage),
-        )
         .where(ReminderDispatch.id == dispatch_id)
         .with_for_update()
     )
