@@ -1,20 +1,20 @@
 # Аудит ссылок на материалы олимпиад
 
-Проверено: **2026-08-31T08:44:49+00:00**. Каталог: `data/seed/catalog.json`.
-SHA-256 каталога: `f0eaa0d80a4ab71461d806ac8c112acb98fb70e03b9a2066522b649effd52ade`.
+Проверено: **2026-09-05T12:02:52+00:00**. Каталог: `data/seed/catalog.json`.
+SHA-256 каталога: `7ac7a5d32b1e4fd5866188bed565b25b4aa35f4d5f522959d7fad1beb886b424`.
 
 Проверка выполняет реальные GET-запросы с переходом по редиректам. URL проверяются один раз вне зависимости от числа использований; запросы к одному домену идут последовательно. Читается только начало ответа, достаточное для определения файла, пустой страницы, сообщения об ошибке или JavaScript-оболочки.
 
 ## Итог
 
-- Записей материалов: **482**.
-- Уникальных URL: **293**.
+- Записей материалов: **481**.
+- Уникальных URL: **292**.
 - Олимпиад с материалами: **364** из 364.
-- Работают: **293** URL / **482** записей материалов.
+- Работают: **292** URL / **481** записей материалов.
 - Сломаны: **0** URL / **0** записей материалов.
 - Неоднозначны: **0** URL / **0** записей материалов.
 - За счёт дедупликации не отправлено повторных GET: **189**.
-- Время аудита: **115.35 с**.
+- Время аудита: **53.85 с**.
 
 `inconclusive` не означает, что ссылка сломана: сервер мог потребовать JavaScript, CAPTCHA или заблокировать автоматический клиент. Такие URL нельзя считать подтверждёнными без проверки в браузере.
 
@@ -291,7 +291,6 @@ SHA-256 каталога: `f0eaa0d80a4ab71461d806ac8c112acb98fb70e03b9a2066522b6
 | ok | 200 | text/html | 1 | https://v-olymp.ru/prev-materials?slug=physics | official_api_materials |
 | ok | 200 | text/html | 1 | https://v-olymp.ru/prev-materials?slug=russian_language | official_api_materials |
 | ok | 200 | text/html | 1 | https://v-olymp.ru/prev-materials?slug=social_studies | official_api_materials |
-| ok | 200 | text/html | 1 | https://vos.olimpiada.ru/archive/table/tasks/years/2025_2026/ | html_nonempty |
 | ok | 200 | text/html | 1 | https://vserosolimp.edsoo.ru/anglyaz | html_nonempty |
 | ok | 200 | text/html | 1 | https://vserosolimp.edsoo.ru/astronom | html_nonempty |
 | ok | 200 | text/html | 1 | https://vserosolimp.edsoo.ru/biolog | html_nonempty |

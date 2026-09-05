@@ -4,10 +4,12 @@
   "slugs": [
     {
       "slug": "registry-2026-27-001-01",
+      "checked_on": "2026-09-05",
       "registration_url": "http://olimp-test.ru/olimpiada2026-2027/registration",
-      "registration_status": "announced",
+      "registration_closes_at": "2026-11-30T21:00:00Z",
+      "registration_status": "open",
       "source_url": "https://fin-olimp.ru/",
-      "evidence": "Официальный сайт цикла 2026/27 назначает регистрацию на 01.09–30.11.2026 и прямо указывает платформу olimp-test.ru. Точная страница /olimpiada2026-2027/registration отвечает HTTP 200, но 26.08.2026 показывает «Регистрация закончилась» и не принимает заявку; поэтому ссылка отмечена announced, а не open."
+      "evidence": "Официальный сайт XXII сезона 2026/27 показывает статус «Регистрация открыта», дату начала 01.09.2026 и ведёт на действующую форму olimp-test.ru; форма принимает данные. По опубликованному календарю регистрация и отбор идут до 30.11.2026. Проверено 05.09.2026."
     },
     {
       "slug": "registry-2026-27-012-01",

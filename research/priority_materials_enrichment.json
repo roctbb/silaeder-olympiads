@@ -1529,21 +1529,6 @@
           "content_bytes": 207334,
           "content_check": "Открыт официальный сайт МФТИ; видна таблица «Задания прошлых лет» с теоретическими и экспериментальными турами 2016–2026."
         }
-      },
-      {
-        "title": "Московский архив заданий 2025/26",
-        "material_type": "tasks",
-        "year": null,
-        "url": "https://vos.olimpiada.ru/archive/table/tasks/years/2025_2026/",
-        "is_official": true,
-        "verification": {
-          "checked_on": "2026-08-25",
-          "http_status": 200,
-          "final_url": "https://vos.olimpiada.ru/archive/table/tasks/years/2025_2026/",
-          "content_type": "text/html; charset=UTF-8",
-          "content_bytes": 290059,
-          "content_check": "Открыт московский архив задач 2025/26; найдено 1368 прямых файлов заданий/решений по предметам."
-        }
       }
     ],
     "lomonosov-tournament-astronomy-earth-sciences": [

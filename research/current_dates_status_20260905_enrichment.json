@@ -1,0 +1,105 @@
+{
+  "target_academic_year": "2026/27",
+  "checked_on": "2026-09-05",
+  "replace_stage_details": true,
+  "remove_note_fragments": [
+    "Точные даты этапов на 25.08.2026 не опубликованы.",
+    "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+  ],
+  "families": [
+    {
+      "family_name": "Всероссийская междисциплинарная олимпиада школьников 8–11 классов «Национальная технологическая олимпиада»",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-10-23",
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-10-22",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "source_title": "Расписание НТО 2026/27",
+          "details": "Регистрация старшего трека открыта с 26 августа по 22 октября 2026 года; индивидуальный этап проходит с 17 сентября по 23 октября."
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-05",
+          "ends_on": "2026-12-11",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "source_title": "Расписание НТО 2026/27",
+          "details": "Командный этап начинается 5 ноября; ручная проверка завершается до 7 декабря, автоматическая — до 11 декабря 2026 года."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-02-01",
+          "ends_on": "2027-04-30",
+          "date_precision": "month",
+          "is_date_confirmed": true,
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "source_title": "Расписание НТО 2026/27",
+          "details": "Организатор пока указывает период финалов с февраля по апрель 2027 года без профильных дат."
+        }
+      ]
+    }
+  ],
+  "slugs": [
+    {"slug":"vosh-2026-27-16","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-11","ends_on":"2026-09-13","registration_opens_on":"2026-09-04","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: немецкий язык — 11–13 сентября для 5–6 классов и 11 сентября для 7–11 классов; регистрация с 4 сентября."}]},
+    {"slug":"vosh-2026-27-14","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-14","ends_on":"2026-09-16","registration_opens_on":"2026-09-07","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: литература — 14–16 сентября для 5–6 классов и 14 сентября для 7–11 классов; регистрация с 7 сентября."}]},
+    {"slug":"vosh-2026-27-21","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-15","ends_on":"2026-09-21","registration_opens_on":"2026-09-08","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: теоретический тур 15–17 сентября, практический — 15–21 сентября; регистрация с 8 сентября."}]},
+    {"slug":"vosh-2026-27-22","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-15","ends_on":"2026-09-21","registration_opens_on":"2026-09-08","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: теоретический тур 15–17 сентября, практический — 15–21 сентября; регистрация с 8 сентября."}]},
+    {"slug":"vosh-2026-27-01","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-16","ends_on":"2026-09-18","registration_opens_on":"2026-09-09","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: английский язык — 16–18 сентября для 5–6 классов и 16 сентября для 7–11 классов; регистрация с 9 сентября."}]},
+    {"slug":"vosh-2026-27-18","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-17","ends_on":"2026-09-19","registration_opens_on":"2026-09-10","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: обществознание — 17–19 сентября для 5–6 классов и 17 сентября для 7–11 классов; регистрация с 10 сентября."}]},
+    {"slug":"vosh-2026-27-17","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-21","ends_on":"2026-09-27","registration_opens_on":"2026-09-14","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: теоретический тур 21–23 сентября, практический — 21–27 сентября; регистрация с 14 сентября."}]},
+    {"slug":"vosh-2026-27-20","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-22","ends_on":"2026-09-24","registration_opens_on":"2026-09-15","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: русский язык — 22–24 сентября для 4–6 классов и 22 сентября для 7–11 классов; регистрация с 15 сентября."}]},
+    {"slug":"vosh-2026-27-02","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-23","ends_on":"2026-09-25","registration_opens_on":"2026-09-16","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: астрономия — 23–25 сентября для 5–6 классов и 23 сентября для 7–11 классов; регистрация с 16 сентября."}]},
+    {"slug":"vosh-2026-27-24","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-24","ends_on":"2026-09-30","registration_opens_on":"2026-09-17","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: теоретический тур 24–26 сентября, практический — 24–30 сентября; регистрация с 17 сентября."}]},
+    {"slug":"vosh-2026-27-11","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-25","ends_on":"2026-09-27","registration_opens_on":"2026-09-18","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: история — 25–27 сентября для 5–6 классов и 25 сентября для 7–11 классов; регистрация с 18 сентября."}]},
+    {"slug":"vosh-2026-27-12","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-28","ends_on":"2026-09-30","registration_opens_on":"2026-09-21","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: итальянский язык — 28–30 сентября для 5–6 классов и 28 сентября для 7–11 классов; регистрация с 21 сентября."}]},
+    {"slug":"vosh-2026-27-09","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-29","ends_on":"2026-09-29","registration_opens_on":"2026-09-22","date_precision":"exact","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: искусство (МХК) — 29 сентября; регистрация с 22 сентября."}]},
+    {"slug":"vosh-2026-27-23","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-09-30","ends_on":"2026-09-30","registration_opens_on":"2026-09-23","date_precision":"exact","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: физика — 30 сентября; регистрация с 23 сентября."}]},
+    {"slug":"vosh-2026-27-10","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-01","ends_on":"2026-10-03","registration_opens_on":"2026-09-24","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: испанский язык — 1–3 октября для 5–6 классов и 1 октября для 7–11 классов; регистрация с 24 сентября."}]},
+    {"slug":"vosh-2026-27-07","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-02","ends_on":"2026-10-08","registration_opens_on":"2026-09-25","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: теоретический тур 2–4 октября, практический — 2–8 октября; регистрация с 25 сентября."}]},
+    {"slug":"vosh-2026-27-04","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-05","ends_on":"2026-10-07","registration_opens_on":"2026-09-28","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: география — 5–7 октября для 5–6 классов и 5 октября для 7–11 классов; регистрация с 28 сентября."}]},
+    {"slug":"vosh-2026-27-03","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-06","ends_on":"2026-10-08","registration_opens_on":"2026-09-29","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: биология — 6–8 октября для 5–6 классов и 6 октября для 7–11 классов; регистрация с 29 сентября."}]},
+    {"slug":"vosh-2026-27-25","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-07","ends_on":"2026-10-09","registration_opens_on":"2026-09-30","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: французский язык — 7–9 октября для 5–6 классов и 7 октября для 7–11 классов; регистрация с 30 сентября."}]},
+    {"slug":"vosh-2026-27-27","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-08","ends_on":"2026-10-10","registration_opens_on":"2026-10-01","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: экология — 8–10 октября для 5–6 классов и 8 октября для 7–11 классов; регистрация с 1 октября."}]},
+    {"slug":"vosh-2026-27-15","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-12","ends_on":"2026-10-15","registration_opens_on":"2026-10-05","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: математика — 12–15 октября для 4–6 классов и 13 октября для 7–11 классов; регистрация с 5 октября."}]},
+    {"slug":"vosh-2026-27-19","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-14","ends_on":"2026-10-16","registration_opens_on":"2026-10-07","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: право — 14–16 октября для 5–6 классов и 14 октября для 7–11 классов; регистрация с 7 октября."}]},
+    {"slug":"vosh-2026-27-26","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-15","ends_on":"2026-10-15","registration_opens_on":"2026-10-08","date_precision":"exact","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: химия — 15 октября; регистрация с 8 октября."}]},
+    {"slug":"vosh-2026-27-13","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-16","ends_on":"2026-10-18","registration_opens_on":"2026-10-09","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: китайский язык — 16–18 октября для 5–6 классов и 16 октября для 7–11 классов; регистрация с 9 октября."}]},
+    {"slug":"vosh-2026-27-05","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-20","ends_on":"2026-10-22","registration_opens_on":"2026-10-13","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: программирование — 20–22 октября для 5–6 классов и 20 октября для 7–11 классов; регистрация с 13 октября."}]},
+    {"slug":"vosh-2026-27-08","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-21","ends_on":"2026-10-23","registration_opens_on":"2026-10-14","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: информационная безопасность — 21–23 октября для 5–6 классов и 21 октября для 7–11 классов; регистрация с 14 октября."}]},
+    {"slug":"vosh-2026-27-28","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-22","ends_on":"2026-10-22","registration_opens_on":"2026-10-15","date_precision":"exact","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: экономика — 22 октября; регистрация с 15 октября."}]},
+    {"slug":"vosh-2026-27-06","stages":[{"key":"school-shkolnyi-etap","starts_on":"2026-10-23","ends_on":"2026-10-25","registration_opens_on":"2026-10-16","date_precision":"range","is_date_confirmed":false,"source_url":"https://vos.olimpiada.ru/2026/school#schedule","source_title":"Проект графика школьного этапа ВсОШ в Москве 2026/27","details":"Проект: искусственный интеллект — 23–25 октября для 5–6 классов и 23 октября для 7–11 классов; регистрация с 16 октября."}]},
+    {
+      "slug": "registry-2026-27-001-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-09-01",
+          "ends_on": "2026-11-30",
+          "registration_opens_on": "2026-09-01",
+          "registration_closes_on": "2026-11-30",
+          "date_precision": "month",
+          "is_date_confirmed": true,
+          "source_url": "https://fin-olimp.ru/",
+          "source_title": "Финатлон 2026/27 — этапы и регистрация",
+          "details": "Официальный сайт показывает открытую с 1 сентября регистрацию и окончание отборочного этапа в ноябре 2026 года."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-02-01",
+          "ends_on": "2027-03-31",
+          "date_precision": "month",
+          "is_date_confirmed": true,
+          "source_url": "https://fin-olimp.ru/",
+          "source_title": "Финатлон 2026/27 — этапы и регистрация",
+          "details": "Очный финал запланирован на февраль–март 2027 года; точные профильные даты пока не опубликованы."
+        }
+      ]
+    }
+  ]
+}

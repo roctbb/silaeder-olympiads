@@ -451,20 +451,29 @@ def test_reviewed_structure_enrichment_fills_only_sourced_gaps():
     assert all(record["stages"] for record in nonnumeric_music_profiles)
 
 
-def test_current_dates_are_confirmed_overlays_on_stable_stage_keys():
+def test_current_dates_are_published_overlays_on_stable_stage_keys():
     records = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))["records"]
     by_slug = {record["slug"]: record for record in records}
+    by_family = {}
+    for record in records:
+        by_family.setdefault(record["family_name"], []).append(record)
     targets = []
 
     for path in CURRENT_DATE_ENRICHMENT_PATHS:
         enrichment = json.loads(path.read_text(encoding="utf-8"))
         assert enrichment["target_academic_year"] == "2026/27"
-        for entry in enrichment["slugs"]:
+        entries = list(enrichment.get("slugs", []))
+        for family_entry in enrichment.get("families", []):
+            entries.extend(
+                {**family_entry, "slug": record["slug"]}
+                for record in by_family[family_entry["family_name"]]
+            )
+        for entry in entries:
             stages_by_key = {stage["key"]: stage for stage in by_slug[entry["slug"]]["stages"]}
             for raw_stage in entry["stages"]:
                 targets.append((entry["slug"], raw_stage["key"]))
                 stage = stages_by_key[raw_stage["key"]]
-                assert stage["is_date_confirmed"] is True
+                assert stage["is_date_confirmed"] is raw_stage["is_date_confirmed"]
                 assert stage["source_url"] == raw_stage["source_url"]
                 for field in (
                     "starts_on",
@@ -531,6 +540,8 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
         assert enrichment["target_academic_year"] == "2026/27"
         assert date.fromisoformat(enrichment["checked_on"]) >= date(2026, 8, 26)
         for entry in enrichment["slugs"]:
+            checked_on = entry.get("checked_on", enrichment["checked_on"])
+            assert date.fromisoformat(checked_on) >= date(2026, 8, 26)
             slug = entry["slug"]
             assert slug not in seen
             seen.add(slug)
@@ -542,7 +553,7 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
             }
             status_counts[entry["registration_status"]] += 1
             assert by_slug[slug]["registration_status"] == entry["registration_status"]
-            assert by_slug[slug]["registration_checked_on"] == enrichment["checked_on"]
+            assert by_slug[slug]["registration_checked_on"] == checked_on
             assert entry["source_url"] in {source["url"] for source in by_slug[slug]["sources"]}
             assert entry["source_url"].startswith(("http://", "https://"))
             assert entry["evidence"]
@@ -575,21 +586,28 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
     assert reviewed_open == published_registration_links
     assert seen == set(by_slug)
     assert status_counts == {
-        "open": 50,
-        "announced": 29,
-        "not_open": 60,
+        "open": 58,
+        "announced": 49,
+        "not_open": 32,
         "not_found": 225,
     }
     assert by_slug["registry-2026-27-005-01"]["registration_url"] == (
-        "https://talent.kruzhok.org/registration?event=10334"
+        "https://my.ntcontest.ru/?utm_campaign=school_8_11&utm_medium=schedule&utm_source=site"
     )
     nto_records = [
         record
         for record in records
-        if record["registration_url"] == "https://talent.kruzhok.org/registration?event=10334"
+        if record["registration_url"]
+        == "https://my.ntcontest.ru/?utm_campaign=school_8_11&utm_medium=schedule&utm_source=site"
     ]
     assert len(nto_records) == 21
-    assert {record["registration_closes_at"] for record in nto_records} == {"2026-08-26T08:50:00Z"}
+    assert {record["registration_closes_at"] for record in nto_records} == {
+        "2026-10-22T21:00:00Z"
+    }
+    assert by_slug["registry-2026-27-001-01"]["registration_status"] == "open"
+    assert by_slug["registry-2026-27-024-01"]["registration_status"] == "open"
+    assert by_slug["vosh-2026-27-16"]["registration_status"] == "open"
+    assert by_slug["vosh-2026-27-19"]["registration_status"] == "announced"
     assert by_slug["registry-2026-27-017-01"]["registration_url"] == (
         "https://distolymp.spbu.ru/phys/olymp/registration/user/"
     )

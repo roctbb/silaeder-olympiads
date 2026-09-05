@@ -1404,7 +1404,6 @@ def apply_structure_enrichments(
             raise ValueError(
                 f"{path.name}: ожидался учебный год {TARGET_ACADEMIC_YEAR}"
             )
-
         family_entries = document.get("families", [])
         slug_entries = document.get("slugs", [])
         family_names = [clean_text(entry.get("family_name")) for entry in family_entries]
@@ -1475,6 +1474,9 @@ def apply_current_date_enrichments(
 
     result = deepcopy(records)
     by_slug = {record["slug"]: record for record in result}
+    by_family: dict[str, list[dict[str, Any]]] = {}
+    for record in result:
+        by_family.setdefault(record["family_name"], []).append(record)
     seen: dict[tuple[str, str], str] = {}
     date_fields = (
         "starts_on",
@@ -1489,7 +1491,20 @@ def apply_current_date_enrichments(
             raise ValueError(
                 f"{path.name}: ожидался учебный год {TARGET_ACADEMIC_YEAR}"
             )
-        for entry in document.get("slugs", []):
+        checked_on = normalize_date(document.get("checked_on")) or SNAPSHOT_DATE
+        entries = list(document.get("slugs", []))
+        for family_entry in document.get("families", []):
+            family_name = clean_text(family_entry.get("family_name"))
+            if not family_name or family_name not in by_family:
+                raise ValueError(
+                    f"Неизвестное семейство в {path.name}: {family_name}"
+                )
+            entries.extend(
+                {**family_entry, "slug": record["slug"]}
+                for record in by_family[family_name]
+            )
+
+        for entry in entries:
             slug = clean_text(entry.get("slug"))
             if not slug or slug not in by_slug:
                 raise ValueError(f"Неизвестный slug в {path.name}: {slug}")
@@ -1516,9 +1531,10 @@ def apply_current_date_enrichments(
                     raise ValueError(
                         f"У текущей даты нет официального источника: {slug} / {key}"
                     )
-                if raw.get("is_date_confirmed") is not True:
+                is_date_confirmed = raw.get("is_date_confirmed")
+                if not isinstance(is_date_confirmed, bool):
                     raise ValueError(
-                        f"Current-date enrichment принимает только подтверждённые даты: "
+                        f"У current-date enrichment нет признака подтверждения: "
                         f"{slug} / {key}"
                     )
 
@@ -1568,9 +1584,20 @@ def apply_current_date_enrichments(
                 ):
                     precision = "range"
                 stage["date_precision"] = precision
-                stage["is_date_confirmed"] = True
+                stage["is_date_confirmed"] = is_date_confirmed
                 stage["source_url"] = source_url
-                stage["details"] = join_notes(stage.get("details"), raw.get("details"))
+                replace_details = raw.get(
+                    "replace_details",
+                    entry.get(
+                        "replace_stage_details",
+                        document.get("replace_stage_details", False),
+                    ),
+                )
+                stage["details"] = (
+                    clean_text(raw.get("details"))
+                    if replace_details
+                    else join_notes(stage.get("details"), raw.get("details"))
+                )
                 updated = True
                 schedule_year = (
                     normalize_year_label(record.get("cycle_label"))
@@ -1587,13 +1614,23 @@ def apply_current_date_enrichments(
                             "publisher": record.get("organizer"),
                             "source_type": "official_schedule",
                             "source_year": schedule_year,
-                            "accessed_on": SNAPSHOT_DATE,
+                            "accessed_on": checked_on,
                         }
                     ],
                     source_key,
                 )
 
             if updated:
+                remove_note_fragments = [
+                    *document.get("remove_note_fragments", []),
+                    *entry.get("remove_note_fragments", []),
+                ]
+                for fragment in remove_note_fragments:
+                    normalized_fragment = clean_text(fragment)
+                    if normalized_fragment and record.get("notes"):
+                        record["notes"] = clean_text(
+                            record["notes"].replace(normalized_fragment, "")
+                        )
                 all_confirmed = all(
                     stage.get("starts_on") and stage.get("is_date_confirmed")
                     for stage in record["stages"]
@@ -1659,14 +1696,15 @@ def apply_current_registration_enrichments(
             raise ValueError(
                 f"{path.name}: ожидался учебный год {TARGET_ACADEMIC_YEAR}"
             )
-        checked_on = normalize_date(document.get("checked_on"))
-        if not checked_on:
+        document_checked_on = normalize_date(document.get("checked_on"))
+        if not document_checked_on:
             raise ValueError(f"{path.name}: отсутствует корректная дата проверки")
 
         entries = document.get("slugs", [])
         if not isinstance(entries, list):
             raise TypeError(f"{path.name}: slugs должен быть массивом")
         for entry in entries:
+            checked_on = normalize_date(entry.get("checked_on")) or document_checked_on
             slug = clean_text(entry.get("slug"))
             if not slug or slug not in by_slug:
                 raise ValueError(f"Неизвестный slug в {path.name}: {slug}")
