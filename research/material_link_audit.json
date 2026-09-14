@@ -2,7 +2,7 @@
   "schema_version": 1,
   "generated_at": "2026-09-05T12:02:52+00:00",
   "catalog_path": "data/seed/catalog.json",
-  "catalog_sha256": "7ac7a5d32b1e4fd5866188bed565b25b4aa35f4d5f522959d7fad1beb886b424",
+  "catalog_sha256": "255685e53af2366b30ae43992959e373bbf7c93652589e0001c3edd9d6015a2e",
   "catalog_academic_year": "2026/27",
   "catalog_records": 364,
   "material_occurrences": 481,

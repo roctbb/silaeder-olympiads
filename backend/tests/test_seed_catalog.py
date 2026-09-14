@@ -586,9 +586,9 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
     assert reviewed_open == published_registration_links
     assert seen == set(by_slug)
     assert status_counts == {
-        "open": 58,
-        "announced": 49,
-        "not_open": 32,
+        "open": 63,
+        "announced": 43,
+        "not_open": 33,
         "not_found": 225,
     }
     assert by_slug["registry-2026-27-005-01"]["registration_url"] == (
@@ -606,7 +606,18 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
     }
     assert by_slug["registry-2026-27-001-01"]["registration_status"] == "open"
     assert by_slug["registry-2026-27-024-01"]["registration_status"] == "open"
-    assert by_slug["vosh-2026-27-16"]["registration_status"] == "open"
+    assert by_slug["vosh-2026-27-16"]["registration_status"] == "not_open"
+    assert {
+        by_slug[slug]["registration_status"]
+        for slug in (
+            "vosh-2026-27-01",
+            "vosh-2026-27-14",
+            "vosh-2026-27-17",
+            "vosh-2026-27-18",
+            "vosh-2026-27-21",
+            "vosh-2026-27-22",
+        )
+    } == {"open"}
     assert by_slug["vosh-2026-27-19"]["registration_status"] == "announced"
     assert by_slug["registry-2026-27-017-01"]["registration_url"] == (
         "https://distolymp.spbu.ru/phys/olymp/registration/user/"

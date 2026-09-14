@@ -4,11 +4,12 @@
   "slugs": [
     {
       "slug": "vosh-2026-27-01",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-14",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
-      "registration_status": "announced",
-      "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-      "evidence": "Официальная московская страница школьного этапа публикует проект графика 2026/27, даты открытия регистрации по предметам и рабочую страницу ссылок МЭШ; проверено 05.09.2026."
+      "registration_status": "open",
+      "registration_closes_at": "2026-09-18T16:50:00Z",
+      "source_url": "https://vos.olimpiada.ru/2026/school/links",
+      "evidence": "Официальная страница содержит действующие ссылки МЭШ для английского языка; последняя регистрация доступна до 18.09.2026 19:50 по Москве. Проверено 14.09.2026."
     },
     {
       "slug": "vosh-2026-27-02",
@@ -92,19 +93,21 @@
     },
     {
       "slug": "vosh-2026-27-21",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-14",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
-      "registration_status": "announced",
-      "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-      "evidence": "Официальная московская страница школьного этапа публикует проект графика 2026/27, даты открытия регистрации по предметам и рабочую страницу ссылок МЭШ; проверено 05.09.2026."
+      "registration_status": "open",
+      "registration_closes_at": "2026-09-17T16:30:00Z",
+      "source_url": "https://vos.olimpiada.ru/2026/school/links",
+      "evidence": "Официальная страница содержит действующие ссылки МЭШ для профиля «Культура дома, дизайн и технологии»; последняя регистрация доступна до 17.09.2026 19:30 по Москве. Проверено 14.09.2026."
     },
     {
       "slug": "vosh-2026-27-14",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-14",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
-      "registration_status": "announced",
-      "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-      "evidence": "Официальная московская страница школьного этапа публикует проект графика 2026/27, даты открытия регистрации по предметам и рабочую страницу ссылок МЭШ; проверено 05.09.2026."
+      "registration_status": "open",
+      "registration_closes_at": "2026-09-16T16:00:00Z",
+      "source_url": "https://vos.olimpiada.ru/2026/school/links",
+      "evidence": "Официальная страница содержит действующие ссылки МЭШ для литературы; для 5–6 классов регистрация доступна до 16.09.2026 19:00 по Москве. Проверено 14.09.2026."
     },
     {
       "slug": "vosh-2026-27-15",
@@ -116,27 +119,29 @@
     },
     {
       "slug": "vosh-2026-27-16",
-      "checked_on": "2026-09-05",
-      "registration_url": "https://vos.olimpiada.ru/2026/school/links",
-      "registration_status": "open",
-      "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-      "evidence": "Официальная московская страница школьного этапа публикует проект графика 2026/27, даты открытия регистрации по предметам и рабочую страницу ссылок МЭШ; проверено 05.09.2026."
+      "checked_on": "2026-09-14",
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://vos.olimpiada.ru/2026/school/links",
+      "evidence": "Регистрация на немецкий язык завершилась не позднее 13.09.2026 19:55 по Москве; туры закончились 13 сентября. Проверено на официальной странице 14.09.2026."
     },
     {
       "slug": "vosh-2026-27-18",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-14",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
-      "registration_status": "announced",
-      "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-      "evidence": "Официальная московская страница школьного этапа публикует проект графика 2026/27, даты открытия регистрации по предметам и рабочую страницу ссылок МЭШ; проверено 05.09.2026."
+      "registration_status": "open",
+      "registration_closes_at": "2026-09-19T17:00:00Z",
+      "source_url": "https://vos.olimpiada.ru/2026/school/links",
+      "evidence": "Официальная страница содержит действующие ссылки МЭШ для обществознания; последняя регистрация доступна до 19.09.2026 20:00 по Москве. Проверено 14.09.2026."
     },
     {
       "slug": "vosh-2026-27-17",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-14",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
-      "registration_status": "announced",
-      "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-      "evidence": "Официальная московская страница школьного этапа публикует проект графика 2026/27, даты открытия регистрации по предметам и рабочую страницу ссылок МЭШ; проверено 05.09.2026."
+      "registration_status": "open",
+      "registration_closes_at": "2026-09-23T17:15:00Z",
+      "source_url": "https://vos.olimpiada.ru/2026/school/links",
+      "evidence": "Официальная страница содержит действующие ссылки МЭШ для ОБЗР; последняя регистрация доступна до 23.09.2026 20:15 по Москве. Проверено 14.09.2026."
     },
     {
       "slug": "vosh-2026-27-19",
@@ -172,11 +177,12 @@
     },
     {
       "slug": "vosh-2026-27-22",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-14",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
-      "registration_status": "announced",
-      "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-      "evidence": "Официальная московская страница школьного этапа публикует проект графика 2026/27, даты открытия регистрации по предметам и рабочую страницу ссылок МЭШ; проверено 05.09.2026."
+      "registration_status": "open",
+      "registration_closes_at": "2026-09-17T16:30:00Z",
+      "source_url": "https://vos.olimpiada.ru/2026/school/links",
+      "evidence": "Официальная страница содержит действующие ссылки МЭШ для профиля «Техника, технологии и техническое творчество»; последняя регистрация доступна до 17.09.2026 19:30 по Москве. Проверено 14.09.2026."
     },
     {
       "slug": "vosh-2026-27-23",
