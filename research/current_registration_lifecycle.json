@@ -5,10 +5,11 @@
   "slugs": [
     {
       "slug": "dano-data-analysis",
-      "registration_url": null,
-      "registration_status": "not_open",
+      "registration_url": "https://dano.hse.ru/reg_26",
+      "registration_status": "open",
       "source_url": "https://dano.hse.ru/",
-      "evidence": "Официальная страница публикует регистрацию в сентябре 2026 года и кнопку «Узнай о регистрации на Олимпиаду первым», но действующей формы регистрации на DANO 2026/27 на 26.08.2026 ещё нет."
+      "evidence": "Календарь DANO 2026/27 опубликован: регистрация 31 августа — 5 октября, два отбора 9–12 октября и 1 ноября, задачный тур 18 декабря, проектный тур 18–23 декабря. Формирование команд — в ноябре, точные дни не опубликованы.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "prod-mlops",
@@ -47,10 +48,11 @@
     },
     {
       "slug": "mkoshp-programming",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://mkoshp.ru/",
+      "registration_status": "open",
       "source_url": "https://mkoshp.ru/",
-      "evidence": "Официальная главная страница всё ещё подписана «МКОШП 2025» и содержит завершённые туры 12 и 26 октября 2025 года. Формы или объявления регистрации МКОШП-2026 нет."
+      "evidence": "Действует форма регистрации команды на отбор любительской лиги до 24.09.2026. Не путать с отдельной формой регистрации площадок. Профессиональная лига имеет отдельный отбор; этот статус относится к любительской лиге.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "maxwell-physics",
@@ -61,59 +63,67 @@
     },
     {
       "slug": "lomonosov-tournament-astronomy-earth-sciences",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
+      "registration_status": "announced",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Официальная страница относится к завершённому XLVIII Турниру 2025/26: на ней указаны «Регистрация завершена» и «Турнир прошёл». Календарь и форма XLIX Турнира 2026/27 не опубликованы."
+      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "lomonosov-tournament-biology",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
+      "registration_status": "announced",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Официальная страница относится к завершённому XLVIII Турниру 2025/26: на ней указаны «Регистрация завершена» и «Турнир прошёл». Календарь и форма XLIX Турнира 2026/27 не опубликованы."
+      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "lomonosov-tournament-history",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
+      "registration_status": "announced",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Официальная страница относится к завершённому XLVIII Турниру 2025/26: на ней указаны «Регистрация завершена» и «Турнир прошёл». Календарь и форма XLIX Турнира 2026/27 не опубликованы."
+      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "lomonosov-tournament-linguistics",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
+      "registration_status": "announced",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Официальная страница относится к завершённому XLVIII Турниру 2025/26: на ней указаны «Регистрация завершена» и «Турнир прошёл». Календарь и форма XLIX Турнира 2026/27 не опубликованы."
+      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "lomonosov-tournament-literature",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
+      "registration_status": "announced",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Официальная страница относится к завершённому XLVIII Турниру 2025/26: на ней указаны «Регистрация завершена» и «Турнир прошёл». Календарь и форма XLIX Турнира 2026/27 не опубликованы."
+      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "lomonosov-tournament-mathematics",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
+      "registration_status": "announced",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Официальная страница относится к завершённому XLVIII Турниру 2025/26: на ней указаны «Регистрация завершена» и «Турнир прошёл». Календарь и форма XLIX Турнира 2026/27 не опубликованы."
+      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "lomonosov-tournament-physics",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
+      "registration_status": "announced",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Официальная страница относится к завершённому XLVIII Турниру 2025/26: на ней указаны «Регистрация завершена» и «Турнир прошёл». Календарь и форма XLIX Турнира 2026/27 не опубликованы."
+      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "lomonosov-tournament-chemistry",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
+      "registration_status": "announced",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Официальная страница относится к завершённому XLVIII Турниру 2025/26: на ней указаны «Регистрация завершена» и «Турнир прошёл». Календарь и форма XLIX Турнира 2026/27 не опубликованы."
+      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "moebius-mathematics",
@@ -124,228 +134,228 @@
     },
     {
       "slug": "vysshaya-proba-biology",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-oriental-studies",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-oriental-languages",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-design",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-journalism",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-engineering-sciences",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-foreign-languages",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-informatics",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-history",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-art-history",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-culture",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-math",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-international-relations",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-social-science",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-business-basics",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-law",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-psychology",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-russian-language",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-sociology",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-philology",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-philosophy",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-financial-literacy",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-chemistry",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-economics",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://myolymp.hse.ru/school.html",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
       "source_url": "https://olymp.hse.ru/mmo/instr-reg",
-      "evidence": "Официальная инструкция «Высшей пробы» подтверждает открытую регистрацию 2026/27 с 20 августа по 21 сентября 2026 года до 14:00 мск и прямо ведёт в кабинет участника myolymp.hse.ru."
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     },
     {
       "slug": "vysshaya-proba-industrial-programming",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://olympiads.lms.yandex.ru/new-candidate/admission-devcode-26-27",
-      "registration_closes_at": "2026-09-21T11:00:00Z",
       "registration_status": "open",
-      "source_url": "https://olymp.hse.ru/mmo/devcode",
-      "evidence": "Официальная профильная страница «Высшей пробы» ведёт на отдельную форму, чей идентификатор прямо содержит сезон 26-27; переход проходит через действующую авторизацию Яндекса."
+      "source_url": "https://olymp.hse.ru/mmo/instr-reg",
+      "evidence": "Организатор продлил общую регистрацию до 22 сентября 2026, 14:00 мск. На момент проверки вечером 22 сентября срок завершён; закрытие вычисляется по registration_closes_at.",
+      "registration_closes_at": "2026-09-22T11:00:00Z"
     }
   ]
 }

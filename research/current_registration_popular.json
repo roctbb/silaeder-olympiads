@@ -4,20 +4,21 @@
   "slugs": [
     {
       "slug": "vosh-2026-27-01",
-      "checked_on": "2026-09-14",
+      "checked_on": "2026-09-22",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
       "registration_status": "open",
-      "registration_closes_at": "2026-09-18T16:50:00Z",
       "source_url": "https://vos.olimpiada.ru/2026/school/links",
-      "evidence": "Официальная страница содержит действующие ссылки МЭШ для английского языка; последняя регистрация доступна до 18.09.2026 19:50 по Москве. Проверено 14.09.2026."
+      "evidence": "Английский язык: 5–6 классы — 16–18 сентября, регистрация до 18 сентября 19:50; 7–11 классы — 16 сентября. Регистрация завершена. Время московское. Проверено 22.09.2026.",
+      "registration_closes_at": "2026-09-18T16:50:00Z"
     },
     {
       "slug": "vosh-2026-27-02",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
-      "registration_status": "announced",
-      "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-      "evidence": "Официальная московская страница школьного этапа публикует проект графика 2026/27, даты открытия регистрации по предметам и рабочую страницу ссылок МЭШ; проверено 05.09.2026."
+      "registration_status": "open",
+      "source_url": "https://vos.olimpiada.ru/2026/school/links",
+      "evidence": "Астрономия: 5–6 классы — 23–25 сентября, регистрация до 25 сентября 20:00; 7–8 классы — 23 сентября, регистрация до 20:00; 9–11 классы — 23 сентября, регистрация до 19:40. Время московское. Проверено 22.09.2026.",
+      "registration_closes_at": "2026-09-25T17:00:00Z"
     },
     {
       "slug": "vosh-2026-27-03",
@@ -53,11 +54,12 @@
     },
     {
       "slug": "vosh-2026-27-09",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
-      "registration_status": "announced",
-      "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-      "evidence": "Официальная московская страница школьного этапа публикует проект графика 2026/27, даты открытия регистрации по предметам и рабочую страницу ссылок МЭШ; проверено 05.09.2026."
+      "registration_status": "open",
+      "source_url": "https://vos.olimpiada.ru/2026/school/links",
+      "evidence": "Искусство (МХК): 7–8 классы — 29 сентября, регистрация до 19:00; 9–11 классы — 29 сентября, регистрация до 18:40. Время московское. Проверено 22.09.2026.",
+      "registration_closes_at": "2026-09-29T16:00:00Z"
     },
     {
       "slug": "vosh-2026-27-10",
@@ -69,19 +71,21 @@
     },
     {
       "slug": "vosh-2026-27-11",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
-      "registration_status": "announced",
-      "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-      "evidence": "Официальная московская страница школьного этапа публикует проект графика 2026/27, даты открытия регистрации по предметам и рабочую страницу ссылок МЭШ; проверено 05.09.2026."
+      "registration_status": "open",
+      "source_url": "https://vos.olimpiada.ru/2026/school/links",
+      "evidence": "История: 5–6 классы — 25–27 сентября, регистрация до 27 сентября 20:00; 7–8 классы — 25 сентября, регистрация до 19:30; 9–11 классы — 25 сентября, регистрация до 18:30. Время московское. Проверено 22.09.2026.",
+      "registration_closes_at": "2026-09-27T17:00:00Z"
     },
     {
       "slug": "vosh-2026-27-12",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
-      "registration_status": "announced",
-      "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-      "evidence": "Официальная московская страница школьного этапа публикует проект графика 2026/27, даты открытия регистрации по предметам и рабочую страницу ссылок МЭШ; проверено 05.09.2026."
+      "registration_status": "open",
+      "source_url": "https://vos.olimpiada.ru/2026/school/links",
+      "evidence": "Итальянский язык: 5–6 классы — 28–30 сентября, регистрация до 30 сентября 19:00; 7–11 классы — 28 сентября, регистрация до 19:00. Время московское. Проверено 22.09.2026.",
+      "registration_closes_at": "2026-09-30T16:00:00Z"
     },
     {
       "slug": "vosh-2026-27-13",
@@ -93,21 +97,21 @@
     },
     {
       "slug": "vosh-2026-27-21",
-      "checked_on": "2026-09-14",
+      "checked_on": "2026-09-22",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
       "registration_status": "open",
-      "registration_closes_at": "2026-09-17T16:30:00Z",
       "source_url": "https://vos.olimpiada.ru/2026/school/links",
-      "evidence": "Официальная страница содержит действующие ссылки МЭШ для профиля «Культура дома, дизайн и технологии»; последняя регистрация доступна до 17.09.2026 19:30 по Москве. Проверено 14.09.2026."
+      "evidence": "Труд (КДиДТ): теория 5–6 классов — 15–17 сентября, регистрация до 17 сентября 19:30; 7–11 классов — 15 сентября. Регистрация на теорию завершена; практика 15–21 сентября по проекту графика. Время московское. Проверено 22.09.2026.",
+      "registration_closes_at": "2026-09-17T16:30:00Z"
     },
     {
       "slug": "vosh-2026-27-14",
-      "checked_on": "2026-09-14",
+      "checked_on": "2026-09-22",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
       "registration_status": "open",
-      "registration_closes_at": "2026-09-16T16:00:00Z",
       "source_url": "https://vos.olimpiada.ru/2026/school/links",
-      "evidence": "Официальная страница содержит действующие ссылки МЭШ для литературы; для 5–6 классов регистрация доступна до 16.09.2026 19:00 по Москве. Проверено 14.09.2026."
+      "evidence": "Литература: 5–6 классы — 14–16 сентября, регистрация до 16 сентября 19:00; 7–11 классы — 14 сентября. Регистрация завершена. Время московское. Проверено 22.09.2026.",
+      "registration_closes_at": "2026-09-16T16:00:00Z"
     },
     {
       "slug": "vosh-2026-27-15",
@@ -119,29 +123,30 @@
     },
     {
       "slug": "vosh-2026-27-16",
-      "checked_on": "2026-09-14",
-      "registration_url": null,
-      "registration_status": "not_open",
+      "checked_on": "2026-09-22",
+      "registration_url": "https://vos.olimpiada.ru/2026/school/links",
+      "registration_status": "open",
       "source_url": "https://vos.olimpiada.ru/2026/school/links",
-      "evidence": "Регистрация на немецкий язык завершилась не позднее 13.09.2026 19:55 по Москве; туры закончились 13 сентября. Проверено на официальной странице 14.09.2026."
+      "evidence": "Немецкий язык: 5–6 классы — 11–13 сентября, регистрация до 13 сентября 19:55; 7–11 классы — 11 сентября. Регистрация завершена. Время московское. Проверено 22.09.2026.",
+      "registration_closes_at": "2026-09-13T16:55:00Z"
     },
     {
       "slug": "vosh-2026-27-18",
-      "checked_on": "2026-09-14",
+      "checked_on": "2026-09-22",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
       "registration_status": "open",
-      "registration_closes_at": "2026-09-19T17:00:00Z",
       "source_url": "https://vos.olimpiada.ru/2026/school/links",
-      "evidence": "Официальная страница содержит действующие ссылки МЭШ для обществознания; последняя регистрация доступна до 19.09.2026 20:00 по Москве. Проверено 14.09.2026."
+      "evidence": "Обществознание: 5–6 классы — 17–19 сентября, регистрация до 19 сентября 20:00; 7–11 классы — 17 сентября. Регистрация завершена. Время московское. Проверено 22.09.2026.",
+      "registration_closes_at": "2026-09-19T17:00:00Z"
     },
     {
       "slug": "vosh-2026-27-17",
-      "checked_on": "2026-09-14",
+      "checked_on": "2026-09-22",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
       "registration_status": "open",
-      "registration_closes_at": "2026-09-23T17:15:00Z",
       "source_url": "https://vos.olimpiada.ru/2026/school/links",
-      "evidence": "Официальная страница содержит действующие ссылки МЭШ для ОБЗР; последняя регистрация доступна до 23.09.2026 20:15 по Москве. Проверено 14.09.2026."
+      "evidence": "ОБЗР: теория 5–6 классов — 21–23 сентября, регистрация до 23 сентября 20:15. Для 7–11 классов теория и регистрация завершились 21 сентября. Практика 21–27 сентября по проекту графика. Время московское. Проверено 22.09.2026.",
+      "registration_closes_at": "2026-09-23T17:15:00Z"
     },
     {
       "slug": "vosh-2026-27-19",
@@ -169,20 +174,21 @@
     },
     {
       "slug": "vosh-2026-27-20",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
-      "registration_status": "announced",
-      "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-      "evidence": "Официальная московская страница школьного этапа публикует проект графика 2026/27, даты открытия регистрации по предметам и рабочую страницу ссылок МЭШ; проверено 05.09.2026."
+      "registration_status": "open",
+      "source_url": "https://vos.olimpiada.ru/2026/school/links",
+      "evidence": "Русский язык: 5–6 классы — 22–24 сентября, регистрация до 24 сентября 19:30. Для 7–8 классов регистрация до 22 сентября 19:00, для 9–11 — до 22 сентября 18:30; тур старших классов 22 сентября. Время московское. Проверено 22.09.2026.",
+      "registration_closes_at": "2026-09-24T16:30:00Z"
     },
     {
       "slug": "vosh-2026-27-22",
-      "checked_on": "2026-09-14",
+      "checked_on": "2026-09-22",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
       "registration_status": "open",
-      "registration_closes_at": "2026-09-17T16:30:00Z",
       "source_url": "https://vos.olimpiada.ru/2026/school/links",
-      "evidence": "Официальная страница содержит действующие ссылки МЭШ для профиля «Техника, технологии и техническое творчество»; последняя регистрация доступна до 17.09.2026 19:30 по Москве. Проверено 14.09.2026."
+      "evidence": "Труд (ТТ): теория 5–6 классов — 15–17 сентября, регистрация до 17 сентября 19:30; 7–11 классов — 15 сентября. Регистрация на теорию завершена; практика 15–21 сентября по проекту графика. Время московское. Проверено 22.09.2026.",
+      "registration_closes_at": "2026-09-17T16:30:00Z"
     },
     {
       "slug": "vosh-2026-27-23",
@@ -194,11 +200,12 @@
     },
     {
       "slug": "vosh-2026-27-24",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-09-22",
       "registration_url": "https://vos.olimpiada.ru/2026/school/links",
-      "registration_status": "announced",
-      "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-      "evidence": "Официальная московская страница школьного этапа публикует проект графика 2026/27, даты открытия регистрации по предметам и рабочую страницу ссылок МЭШ; проверено 05.09.2026."
+      "registration_status": "open",
+      "source_url": "https://vos.olimpiada.ru/2026/school/links",
+      "evidence": "Физкультура: теория 5–6 классов — 24–26 сентября, регистрация до 26 сентября 20:25; 7–11 классов — 24 сентября, регистрация до 20:25. Практика 24–30 сентября по проекту графика. Время московское. Проверено 22.09.2026.",
+      "registration_closes_at": "2026-09-26T17:25:00Z"
     },
     {
       "slug": "vosh-2026-27-25",

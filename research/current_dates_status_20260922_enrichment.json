@@ -1,0 +1,716 @@
+{
+  "checked_on": "2026-09-22",
+  "target_academic_year": "2026/27",
+  "replace_stage_details": true,
+  "slugs": [
+    {
+      "slug": "vosh-2026-27-01",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-09-16",
+          "ends_on": "2026-09-18",
+          "registration_opens_on": "2026-09-09",
+          "registration_closes_on": "2026-09-18",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Ссылки на школьный этап ВсОШ в Москве 2026/27",
+          "details": "Английский язык: 5–6 классы — 16–18 сентября, регистрация до 18 сентября 19:50; 7–11 классы — 16 сентября. Регистрация завершена. Время московское."
+        }
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-14",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-09-14",
+          "ends_on": "2026-09-16",
+          "registration_opens_on": "2026-09-07",
+          "registration_closes_on": "2026-09-16",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Ссылки на школьный этап ВсОШ в Москве 2026/27",
+          "details": "Литература: 5–6 классы — 14–16 сентября, регистрация до 16 сентября 19:00; 7–11 классы — 14 сентября. Регистрация завершена. Время московское."
+        }
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-16",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-09-11",
+          "ends_on": "2026-09-13",
+          "registration_opens_on": "2026-09-04",
+          "registration_closes_on": "2026-09-13",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Ссылки на школьный этап ВсОШ в Москве 2026/27",
+          "details": "Немецкий язык: 5–6 классы — 11–13 сентября, регистрация до 13 сентября 19:55; 7–11 классы — 11 сентября. Регистрация завершена. Время московское."
+        }
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-18",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-09-19",
+          "registration_opens_on": "2026-09-10",
+          "registration_closes_on": "2026-09-19",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Ссылки на школьный этап ВсОШ в Москве 2026/27",
+          "details": "Обществознание: 5–6 классы — 17–19 сентября, регистрация до 19 сентября 20:00; 7–11 классы — 17 сентября. Регистрация завершена. Время московское."
+        }
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-21",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-09-15",
+          "ends_on": "2026-09-21",
+          "registration_opens_on": "2026-09-08",
+          "registration_closes_on": "2026-09-17",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Проект графика школьного этапа ВсОШ в Москве 2026/27",
+          "details": "Труд (КДиДТ): теория 5–6 классов — 15–17 сентября, регистрация до 17 сентября 19:30; 7–11 классов — 15 сентября. Регистрация на теорию завершена; практика 15–21 сентября по проекту графика. Время московское."
+        }
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-22",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-09-15",
+          "ends_on": "2026-09-21",
+          "registration_opens_on": "2026-09-08",
+          "registration_closes_on": "2026-09-17",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Проект графика школьного этапа ВсОШ в Москве 2026/27",
+          "details": "Труд (ТТ): теория 5–6 классов — 15–17 сентября, регистрация до 17 сентября 19:30; 7–11 классов — 15 сентября. Регистрация на теорию завершена; практика 15–21 сентября по проекту графика. Время московское."
+        }
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-17",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-09-21",
+          "ends_on": "2026-09-27",
+          "registration_opens_on": "2026-09-14",
+          "registration_closes_on": "2026-09-23",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Проект графика школьного этапа ВсОШ в Москве 2026/27",
+          "details": "ОБЗР: теория 5–6 классов — 21–23 сентября, регистрация до 23 сентября 20:15. Для 7–11 классов теория и регистрация завершились 21 сентября. Практика 21–27 сентября по проекту графика. Время московское."
+        }
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-20",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-09-22",
+          "ends_on": "2026-09-24",
+          "registration_opens_on": "2026-09-15",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Проект графика школьного этапа ВсОШ в Москве 2026/27",
+          "details": "Русский язык: 5–6 классы — 22–24 сентября, регистрация до 24 сентября 19:30. Для 7–8 классов регистрация до 22 сентября 19:00, для 9–11 — до 22 сентября 18:30; тур старших классов 22 сентября. Время московское."
+        }
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-02",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-09-23",
+          "ends_on": "2026-09-25",
+          "registration_opens_on": "2026-09-16",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Проект графика школьного этапа ВсОШ в Москве 2026/27",
+          "details": "Астрономия: 5–6 классы — 23–25 сентября, регистрация до 25 сентября 20:00; 7–8 классы — 23 сентября, регистрация до 20:00; 9–11 классы — 23 сентября, регистрация до 19:40. Время московское."
+        }
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-24",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-09-24",
+          "ends_on": "2026-09-30",
+          "registration_opens_on": "2026-09-17",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Проект графика школьного этапа ВсОШ в Москве 2026/27",
+          "details": "Физкультура: теория 5–6 классов — 24–26 сентября, регистрация до 26 сентября 20:25; 7–11 классов — 24 сентября, регистрация до 20:25. Практика 24–30 сентября по проекту графика. Время московское."
+        }
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-11",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-09-25",
+          "ends_on": "2026-09-27",
+          "registration_opens_on": "2026-09-18",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Проект графика школьного этапа ВсОШ в Москве 2026/27",
+          "details": "История: 5–6 классы — 25–27 сентября, регистрация до 27 сентября 20:00; 7–8 классы — 25 сентября, регистрация до 19:30; 9–11 классы — 25 сентября, регистрация до 18:30. Время московское."
+        }
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-12",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-09-28",
+          "ends_on": "2026-09-30",
+          "registration_opens_on": "2026-09-21",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Проект графика школьного этапа ВсОШ в Москве 2026/27",
+          "details": "Итальянский язык: 5–6 классы — 28–30 сентября, регистрация до 30 сентября 19:00; 7–11 классы — 28 сентября, регистрация до 19:00. Время московское."
+        }
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-09",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-09-29",
+          "ends_on": "2026-09-29",
+          "registration_opens_on": "2026-09-22",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Проект графика школьного этапа ВсОШ в Москве 2026/27",
+          "details": "Искусство (МХК): 7–8 классы — 29 сентября, регистрация до 19:00; 9–11 классы — 29 сентября, регистрация до 18:40. Время московское."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-052-02",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-23",
+          "ends_on": "2026-12-07",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/raspisanie-otborochnogo-etapa-2026-2027",
+          "details": "Две отдельные волны: 23–25 октября и 5–7 декабря 2026. Промежуток между волнами не является непрерывным туром. В расписании направление компьютерного моделирования и графики обозначено как «Черчение»."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-052-03",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-23",
+          "ends_on": "2026-12-07",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/raspisanie-otborochnogo-etapa-2026-2027",
+          "details": "Две отдельные волны: 23–25 октября и 5–7 декабря 2026. Промежуток между волнами не является непрерывным туром. В расписании направление компьютерного моделирования и графики обозначено как «Черчение»."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-052-04",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-16",
+          "ends_on": "2026-11-22",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/raspisanie-otborochnogo-etapa-2026-2027",
+          "details": "Математика: 16–22 ноября 2026. Регистрация откроется позже, формат будет объявлен отдельно."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-052-05",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-23",
+          "ends_on": "2026-12-07",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/raspisanie-otborochnogo-etapa-2026-2027",
+          "details": "Две отдельные волны: 23–25 октября и 5–7 декабря 2026. Промежуток между волнами не является непрерывным туром. В расписании направление компьютерного моделирования и графики обозначено как «Черчение»."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-052-06",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-08",
+          "ends_on": "2026-11-29",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/raspisanie-otborochnogo-etapa-2026-2027",
+          "details": "Две отдельные волны по химии: 8 и 29 ноября 2026, не непрерывный тур."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-006-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-16",
+          "ends_on": "2026-10-18",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://innagrika.ru/olimpiada/",
+          "details": "Дистанционный отбор 16–18 октября. Регистрация 1 сентября — 15 октября 2026.",
+          "registration_opens_on": "2026-09-01",
+          "registration_closes_on": "2026-10-15"
+        },
+        {
+          "key": "semifinal",
+          "starts_on": "2026-11-16",
+          "ends_on": "2026-11-21",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://innagrika.ru/olimpiada/",
+          "details": "Очный полуфинал 16–21 ноября 2026."
+        },
+        {
+          "key": "final",
+          "starts_on": "2026-12-13",
+          "ends_on": "2026-12-19",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://innagrika.ru/olimpiada/",
+          "details": "В календаре указан финал 13–19 декабря 2026. В общем FAQ осталось упоминание завершения 20 декабря: для этапа использовано подробное расписание, даты поездки уточняйте у организатора."
+        }
+      ],
+      "remove_note_fragments": [
+        "Окна не являются длительностью соревнований: точные дни туров организатор должен опубликовать отдельно, поэтому даты самих этапов оставлены TBA."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-051-04",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-11",
+          "ends_on": "2026-11-07",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "source_url": "https://olymp-online.mipt.ru/event/449",
+          "details": "Математика: 11 октября 10:00 и 1 ноября 08:00 для 9–11 классов; 7 ноября 10:00 только для 11 класса. Регистрация до 10 октября 10:00, 31 октября 08:00 и 6 ноября 10:00 соответственно. Время московское. На странице расписание названо предварительным; туры не идут непрерывно.",
+          "registration_opens_on": "2026-09-07",
+          "registration_closes_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-051-05",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-04",
+          "ends_on": "2026-11-08",
+          "date_precision": "range",
+          "is_date_confirmed": false,
+          "source_url": "https://olymp-online.mipt.ru/event/449",
+          "details": "Физика: 4 октября 10:00 и 25 октября 08:00 для 9–11 классов; 8 ноября 10:00 только для 11 класса. Регистрация до 3 октября 10:00, 24 октября 08:00 и 7 ноября 10:00 соответственно. Время московское. На странице расписание названо предварительным; туры не идут непрерывно.",
+          "registration_opens_on": "2026-09-07",
+          "registration_closes_on": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "slug": "masteryata-family-professional-skills",
+      "stages": [
+        {
+          "key": "application-and-distance-task",
+          "starts_on": "2026-09-01",
+          "ends_on": "2026-10-11",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://kid.mcrpo.ru/",
+          "details": "Приём заявки и видео дистанционного задания до трёх минут: 1 сентября — 11 октября 2026.",
+          "registration_opens_on": "2026-09-01",
+          "registration_closes_on": "2026-10-11"
+        },
+        {
+          "key": "final",
+          "starts_on": "2026-11-23",
+          "ends_on": "2026-12-06",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://kid.mcrpo.ru/",
+          "details": "Очные финалы на базовых площадках; расписание конкретной компетенции уточняйте в её карточке."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-058-01",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "starts_on": "2026-09-13",
+          "ends_on": "2026-09-13",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "source_url": "https://yumsh.ru/cms/yumsh-olymp/2026-27",
+          "details": "Первый отбор: 10:00–15:00 мск, завершён."
+        },
+        {
+          "key": "qualifying-2",
+          "starts_on": "2026-10-17",
+          "ends_on": "2026-10-17",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "source_url": "https://yumsh.ru/cms/yumsh-olymp/2026-27",
+          "details": "Второй отбор: 16:00–21:00 мск."
+        },
+        {
+          "key": "final-7-11",
+          "starts_on": "2026-12-13",
+          "ends_on": "2026-12-13",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "source_url": "https://yumsh.ru/cms/yumsh-olymp/2026-27",
+          "details": "Предварительная дата организатора для 7–11 классов."
+        },
+        {
+          "key": "final-5-6",
+          "starts_on": "2027-01-17",
+          "ends_on": "2027-01-17",
+          "date_precision": "exact",
+          "is_date_confirmed": false,
+          "source_url": "https://yumsh.ru/cms/yumsh-olymp/2026-27",
+          "details": "Предварительная дата организатора для 4–6 классов; в каталоге показаны 5–6 классы."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-01",
+          "ends_on": "2026-11-01",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
+          "details": "Основной очный отбор 2026/27. Регистрация закрывается за 48 часов до начала этапа по времени площадки; в таблице организатора начало указано в 11:00 по Новосибирску.",
+          "registration_opens_on": "2026-10-12",
+          "registration_closes_on": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-02",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-08",
+          "ends_on": "2026-11-08",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
+          "details": "Основной очный отбор 2026/27. Регистрация закрывается за 48 часов до начала этапа по времени площадки; в таблице организатора начало указано в 11:00 по Новосибирску.",
+          "registration_opens_on": "2026-10-19",
+          "registration_closes_on": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-03",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-18",
+          "ends_on": "2026-10-18",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
+          "details": "Основной очный отбор 2026/27. Регистрация закрывается за 48 часов до начала этапа по времени площадки; в таблице организатора начало указано в 11:00 по Новосибирску.",
+          "registration_opens_on": "2026-09-28",
+          "registration_closes_on": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-04",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-15",
+          "ends_on": "2026-11-15",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
+          "details": "Основной очный отбор 2026/27. Регистрация закрывается за 48 часов до начала этапа по времени площадки; в таблице организатора начало указано в 11:00 по Новосибирску.",
+          "registration_opens_on": "2026-10-26",
+          "registration_closes_on": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-05",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-22",
+          "ends_on": "2026-11-22",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
+          "details": "Основной очный отбор 2026/27. Регистрация закрывается за 48 часов до начала этапа по времени площадки; в таблице организатора начало указано в 11:00 по Новосибирску.",
+          "registration_opens_on": "2026-10-26",
+          "registration_closes_on": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-018-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2027-01-16",
+          "ends_on": "2027-01-17",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://msal.ru/content/abiturientam/olimpiady-i-konkursy/kutafinskaya-olimpiada-shkolnikov-po-pravu/",
+          "details": "Отбор: 16 января для 8–10 классов; 17 января для 11 класса, в каждый день 00:00–23:59 мск.",
+          "registration_opens_on": "2026-10-01",
+          "registration_closes_on": "2027-01-11"
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-02-27",
+          "ends_on": "2027-02-28",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://msal.ru/content/abiturientam/olimpiady-i-konkursy/kutafinskaya-olimpiada-shkolnikov-po-pravu/",
+          "details": "Финал: 27 февраля для 8–10 классов, 28 февраля для 11 класса, очно."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-13",
+          "ends_on": "2027-02-07",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период очных финалов в КФУ и на площадках партнёров; профильные дни уточняйте у организатора."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-02",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-13",
+          "ends_on": "2027-02-07",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период очных финалов в КФУ и на площадках партнёров; профильные дни уточняйте у организатора."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-03",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-13",
+          "ends_on": "2027-02-07",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период очных финалов в КФУ и на площадках партнёров; профильные дни уточняйте у организатора."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-04",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-13",
+          "ends_on": "2027-02-07",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период очных финалов в КФУ и на площадках партнёров; профильные дни уточняйте у организатора."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-05",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-13",
+          "ends_on": "2027-02-07",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период очных финалов в КФУ и на площадках партнёров; профильные дни уточняйте у организатора."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-06",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-13",
+          "ends_on": "2027-02-07",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период очных финалов в КФУ и на площадках партнёров; профильные дни уточняйте у организатора."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-07",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-13",
+          "ends_on": "2027-02-07",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период очных финалов в КФУ и на площадках партнёров; профильные дни уточняйте у организатора."
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-08",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-13",
+          "ends_on": "2027-02-07",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://malun.kpfu.ru/mpo",
+          "details": "Общий период очных финалов в КФУ и на площадках партнёров; профильные дни уточняйте у организатора."
+        }
+      ]
+    }
+  ]
+}

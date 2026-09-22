@@ -4,10 +4,11 @@
   "slugs": [
     {
       "slug": "shag-v-budushchee-biology",
-      "registration_url": "https://lk-olymp.bmstu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.bmstu.ru/ru/calendar",
-      "evidence": "Официальный календарь отвечает HTTP 200, уже озаглавлен 2026–2027 и отдельно перечисляет профиль «Биология». Он сообщает, что расписание скоро появится, и ведёт в личный кабинет. Без авторизации нельзя подтвердить активную заявку на профиль, поэтому ссылка отмечена announced, а не open."
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/registraciya-na-olimpiadu-shag-v-buduschee-otkryta",
+      "evidence": "Профиль биология не будет проводиться в сезоне 2026/27; официальное объявление 14.09.2026.",
+      "checked_on": "2026-09-22"
     }
   ]
 }

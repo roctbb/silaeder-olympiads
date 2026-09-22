@@ -53,10 +53,11 @@
     },
     {
       "slug": "registry-2026-27-018-01",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://msal.ru/content/abiturientam/olimpiady-i-konkursy/kutafinskaya-olimpiada-shkolnikov-po-pravu/",
+      "registration_status": "announced",
       "source_url": "https://msal.ru/content/abiturientam/olimpiady-i-konkursy/kutafinskaya-olimpiada-shkolnikov-po-pravu/",
-      "evidence": "Официальная страница отвечает HTTP 200, но последние сроки и новости относятся к 2025/26. Форма reg.msal.ru/sign-in технически доступна, однако сама система всё ещё подписана сезоном 2025/26; это не заявка на новый цикл."
+      "evidence": "Регистрация 1 октября 2026 — 11 января 2027 включительно; сейчас только анонс. Опубликованы даты отбора и финала по классам.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-022-01",
@@ -88,59 +89,67 @@
     },
     {
       "slug": "registry-2026-27-032-01",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://malun.kpfu.ru/mpo",
+      "registration_status": "announced",
       "source_url": "https://malun.kpfu.ru/mpo",
-      "evidence": "Официальная страница МПО КФУ отвечает HTTP 200 и приглашает только в сезон 2025/26 с завершившимся отбором 5–30 ноября 2025 года. Встроенная общая регистрация аккаунта Малого университета не является заявкой на МПО 2026/27."
+      "evidence": "Анонсированы многопрофильные олимпиады КФУ 2026/27: дистанционный отбор 26 октября — 23 ноября, финалы 13 января — 7 февраля 2027. Создание общего аккаунта не принято за открытую регистрацию на профиль.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-032-02",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://malun.kpfu.ru/mpo",
+      "registration_status": "announced",
       "source_url": "https://malun.kpfu.ru/mpo",
-      "evidence": "Официальная страница МПО КФУ отвечает HTTP 200 и приглашает только в сезон 2025/26 с завершившимся отбором 5–30 ноября 2025 года. Встроенная общая регистрация аккаунта Малого университета не является заявкой на МПО 2026/27."
+      "evidence": "Анонсированы многопрофильные олимпиады КФУ 2026/27: дистанционный отбор 26 октября — 23 ноября, финалы 13 января — 7 февраля 2027. Создание общего аккаунта не принято за открытую регистрацию на профиль.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-032-03",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://malun.kpfu.ru/mpo",
+      "registration_status": "announced",
       "source_url": "https://malun.kpfu.ru/mpo",
-      "evidence": "Официальная страница МПО КФУ отвечает HTTP 200 и приглашает только в сезон 2025/26 с завершившимся отбором 5–30 ноября 2025 года. Встроенная общая регистрация аккаунта Малого университета не является заявкой на МПО 2026/27."
+      "evidence": "Анонсированы многопрофильные олимпиады КФУ 2026/27: дистанционный отбор 26 октября — 23 ноября, финалы 13 января — 7 февраля 2027. Создание общего аккаунта не принято за открытую регистрацию на профиль.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-032-04",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://malun.kpfu.ru/mpo",
+      "registration_status": "announced",
       "source_url": "https://malun.kpfu.ru/mpo",
-      "evidence": "Официальная страница МПО КФУ отвечает HTTP 200 и приглашает только в сезон 2025/26 с завершившимся отбором 5–30 ноября 2025 года. Встроенная общая регистрация аккаунта Малого университета не является заявкой на МПО 2026/27."
+      "evidence": "Анонсированы многопрофильные олимпиады КФУ 2026/27: дистанционный отбор 26 октября — 23 ноября, финалы 13 января — 7 февраля 2027. Создание общего аккаунта не принято за открытую регистрацию на профиль.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-032-05",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://malun.kpfu.ru/mpo",
+      "registration_status": "announced",
       "source_url": "https://malun.kpfu.ru/mpo",
-      "evidence": "Официальная страница МПО КФУ отвечает HTTP 200 и приглашает только в сезон 2025/26 с завершившимся отбором 5–30 ноября 2025 года. Встроенная общая регистрация аккаунта Малого университета не является заявкой на МПО 2026/27."
+      "evidence": "Анонсированы многопрофильные олимпиады КФУ 2026/27: дистанционный отбор 26 октября — 23 ноября, финалы 13 января — 7 февраля 2027. Создание общего аккаунта не принято за открытую регистрацию на профиль.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-032-06",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://malun.kpfu.ru/mpo",
+      "registration_status": "announced",
       "source_url": "https://malun.kpfu.ru/mpo",
-      "evidence": "Официальная страница МПО КФУ отвечает HTTP 200 и приглашает только в сезон 2025/26 с завершившимся отбором 5–30 ноября 2025 года. Встроенная общая регистрация аккаунта Малого университета не является заявкой на МПО 2026/27."
+      "evidence": "Анонсированы многопрофильные олимпиады КФУ 2026/27: дистанционный отбор 26 октября — 23 ноября, финалы 13 января — 7 февраля 2027. Создание общего аккаунта не принято за открытую регистрацию на профиль.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-032-07",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://malun.kpfu.ru/mpo",
+      "registration_status": "announced",
       "source_url": "https://malun.kpfu.ru/mpo",
-      "evidence": "Официальная страница МПО КФУ отвечает HTTP 200 и приглашает только в сезон 2025/26 с завершившимся отбором 5–30 ноября 2025 года. Встроенная общая регистрация аккаунта Малого университета не является заявкой на МПО 2026/27."
+      "evidence": "Анонсированы многопрофильные олимпиады КФУ 2026/27: дистанционный отбор 26 октября — 23 ноября, финалы 13 января — 7 февраля 2027. Создание общего аккаунта не принято за открытую регистрацию на профиль.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-032-08",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://malun.kpfu.ru/mpo",
+      "registration_status": "announced",
       "source_url": "https://malun.kpfu.ru/mpo",
-      "evidence": "Официальная страница МПО КФУ отвечает HTTP 200 и приглашает только в сезон 2025/26 с завершившимся отбором 5–30 ноября 2025 года. Встроенная общая регистрация аккаунта Малого университета не является заявкой на МПО 2026/27."
+      "evidence": "Анонсированы многопрофильные олимпиады КФУ 2026/27: дистанционный отбор 26 октября — 23 ноября, финалы 13 января — 7 февраля 2027. Создание общего аккаунта не принято за открытую регистрацию на профиль.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-037-01",
@@ -180,44 +189,50 @@
     {
       "slug": "registry-2026-27-052-01",
       "registration_url": "https://lk-olymp.bmstu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.bmstu.ru/ru/calendar",
-      "evidence": "Официальный календарь отвечает HTTP 200 и уже озаглавлен 2026–2027; он перечисляет профили, сообщает, что расписание скоро появится, и ведёт в личный кабинет, который также отвечает HTTP 200. Без авторизации нельзя подтвердить активную кнопку «Принять участие», поэтому ссылка отмечена announced, а не open."
+      "registration_status": "open",
+      "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/registraciya-na-olimpiadu-shag-v-buduschee-otkryta",
+      "evidence": "14 сентября 2026 организатор открыл регистрацию на отбор через личный кабинет. Исключения — математика (позже) и биология (не проводится).",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-052-02",
       "registration_url": "https://lk-olymp.bmstu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.bmstu.ru/ru/calendar",
-      "evidence": "Официальный календарь отвечает HTTP 200 и уже озаглавлен 2026–2027; он перечисляет профили, сообщает, что расписание скоро появится, и ведёт в личный кабинет, который также отвечает HTTP 200. Без авторизации нельзя подтвердить активную кнопку «Принять участие», поэтому ссылка отмечена announced, а не open."
+      "registration_status": "open",
+      "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/registraciya-na-olimpiadu-shag-v-buduschee-otkryta",
+      "evidence": "14 сентября 2026 организатор открыл регистрацию на отбор через личный кабинет. Исключения — математика (позже) и биология (не проводится).",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-052-03",
       "registration_url": "https://lk-olymp.bmstu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.bmstu.ru/ru/calendar",
-      "evidence": "Официальный календарь отвечает HTTP 200 и уже озаглавлен 2026–2027; он перечисляет профили, сообщает, что расписание скоро появится, и ведёт в личный кабинет, который также отвечает HTTP 200. Без авторизации нельзя подтвердить активную кнопку «Принять участие», поэтому ссылка отмечена announced, а не open."
+      "registration_status": "open",
+      "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/registraciya-na-olimpiadu-shag-v-buduschee-otkryta",
+      "evidence": "14 сентября 2026 организатор открыл регистрацию на отбор через личный кабинет. Исключения — математика (позже) и биология (не проводится).",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-052-04",
       "registration_url": "https://lk-olymp.bmstu.ru/",
       "registration_status": "announced",
-      "source_url": "https://olymp.bmstu.ru/ru/calendar",
-      "evidence": "Официальный календарь отвечает HTTP 200 и уже озаглавлен 2026–2027; он перечисляет профили, сообщает, что расписание скоро появится, и ведёт в личный кабинет, который также отвечает HTTP 200. Без авторизации нельзя подтвердить активную кнопку «Принять участие», поэтому ссылка отмечена announced, а не open."
+      "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/registraciya-na-olimpiadu-shag-v-buduschee-otkryta",
+      "evidence": "Регистрация по математике откроется позже; организатор объявит новый формат.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-052-05",
       "registration_url": "https://lk-olymp.bmstu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.bmstu.ru/ru/calendar",
-      "evidence": "Официальный календарь отвечает HTTP 200 и уже озаглавлен 2026–2027; он перечисляет профили, сообщает, что расписание скоро появится, и ведёт в личный кабинет, который также отвечает HTTP 200. Без авторизации нельзя подтвердить активную кнопку «Принять участие», поэтому ссылка отмечена announced, а не open."
+      "registration_status": "open",
+      "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/registraciya-na-olimpiadu-shag-v-buduschee-otkryta",
+      "evidence": "14 сентября 2026 организатор открыл регистрацию на отбор через личный кабинет. Исключения — математика (позже) и биология (не проводится).",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-052-06",
       "registration_url": "https://lk-olymp.bmstu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.bmstu.ru/ru/calendar",
-      "evidence": "Официальный календарь отвечает HTTP 200 и уже озаглавлен 2026–2027; он перечисляет профили, сообщает, что расписание скоро появится, и ведёт в личный кабинет, который также отвечает HTTP 200. Без авторизации нельзя подтвердить активную кнопку «Принять участие», поэтому ссылка отмечена announced, а не open."
+      "registration_status": "open",
+      "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/registraciya-na-olimpiadu-shag-v-buduschee-otkryta",
+      "evidence": "14 сентября 2026 организатор открыл регистрацию на отбор через личный кабинет. Исключения — математика (позже) и биология (не проводится).",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-053-01",

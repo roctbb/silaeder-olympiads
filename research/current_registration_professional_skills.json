@@ -11,10 +11,11 @@
     },
     {
       "slug": "masteryata-family-professional-skills",
-      "registration_url": null,
-      "registration_status": "not_found",
+      "registration_url": "https://kid.mcrpo.ru/w/application/",
+      "registration_status": "open",
       "source_url": "https://kid.mcrpo.ru/",
-      "evidence": "Регистрация на чемпионат «Мастерята» сезона 2026/27 ещё не опубликована. Доступные объявления описывают завершённый цикл 2025/26."
+      "evidence": "Приём заявок и дистанционных заданий 1 сентября — 11 октября 2026, форма ведёт в действующий личный кабинет МЦРПО. Точное время закрытия не опубликовано.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "professionals-national-juniors",

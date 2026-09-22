@@ -775,6 +775,9 @@ def infer_geography(raw: dict[str, Any]) -> str:
 
 
 def normalize_record(raw: dict[str, Any]) -> dict[str, Any]:
+    publication_status = raw.get("publication_status", "published")
+    if publication_status not in {"published", "archived"}:
+        raise ValueError(f"Некорректный publication_status: {publication_status}")
     family = (
         clean_text(raw.get("family_name")) or clean_text(raw.get("name")) or "Олимпиада"
     )
@@ -881,7 +884,7 @@ def normalize_record(raw: dict[str, Any]) -> dict[str, Any]:
         "is_team": bool(raw.get("is_team", False)),
         "academic_year": TARGET_ACADEMIC_YEAR,
         "cycle_label": clean_text(raw.get("cycle_label")),
-        "status": "published",
+        "status": publication_status,
         "data_status": data_status,
         "is_in_registry": bool(raw.get("is_in_registry", False)),
         "registry_status": infer_registry_status(raw),

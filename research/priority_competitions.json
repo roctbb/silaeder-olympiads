@@ -22,40 +22,187 @@
       "is_team": true,
       "academic_year": "2026/27",
       "status": "upcoming",
-      "data_status": "official_months_2026_27_exact_days_pending",
+      "data_status": "partial",
       "is_in_registry": true,
       "registry_level": 3,
       "registry_status": "previous_year",
       "is_popular": true,
       "registration_url": "https://dano.hse.ru/",
       "previous_year_reference": null,
-      "notes": "Не считать отдельным событием от записи DANO: это тот же профиль и тот же календарь. Индивидуальны первый, второй и задачный туры; проект выполняется командой.",
-      "grades": [9, 10, 11],
+      "notes": "Календарь DANO 2026/27 опубликован: регистрация 31 августа — 5 октября, два отбора 9–12 октября и 1 ноября, задачный тур 18 декабря, проектный тур 18–23 декабря. Формирование команд — в ноябре, точные дни не опубликованы.",
+      "grades": [
+        9,
+        10,
+        11
+      ],
       "stages": [
-        {"name": "Регистрация", "date_text": "сентябрь 2026", "start_date": null, "end_date": null, "date_precision": "month", "date_status": "official_2026_27", "format": "онлайн"},
-        {"name": "Первый отборочный этап", "date_text": "октябрь 2026", "start_date": null, "end_date": null, "date_precision": "month", "date_status": "official_2026_27", "format": "онлайн, индивидуально, 120 минут"},
-        {"name": "Второй отборочный этап", "date_text": "ноябрь 2026", "start_date": null, "end_date": null, "date_precision": "month", "date_status": "official_2026_27", "format": "онлайн с прокторингом, индивидуально, 210 минут"},
-        {"name": "Формирование команд", "date_text": "ноябрь 2026", "start_date": null, "end_date": null, "date_precision": "month", "date_status": "official_2026_27", "format": "онлайн"},
-        {"name": "Заключительный этап — задачный тур", "date_text": "декабрь 2026", "start_date": null, "end_date": null, "date_precision": "month", "date_status": "official_2026_27", "format": "индивидуально, 240 минут"},
-        {"name": "Заключительный этап — проектный тур", "date_text": "декабрь 2026", "start_date": null, "end_date": null, "date_precision": "month", "date_status": "official_2026_27", "format": "очно, командная выездная школа; проживание и питание оплачивает организатор, дорогу до Москвы — участник"}
+        {
+          "name": "Регистрация",
+          "date_text": null,
+          "start_date": "2026-08-31",
+          "end_date": "2026-10-05",
+          "date_precision": "range",
+          "date_status": "official_2026_27",
+          "format": "онлайн",
+          "source_url": "https://dano.hse.ru/"
+        },
+        {
+          "name": "Первый отборочный этап",
+          "date_text": null,
+          "start_date": "2026-10-09",
+          "end_date": "2026-10-12",
+          "date_precision": "range",
+          "date_status": "official_2026_27",
+          "format": "онлайн, индивидуально, 120 минут",
+          "source_url": "https://dano.hse.ru/"
+        },
+        {
+          "name": "Второй отборочный этап",
+          "date_text": null,
+          "start_date": "2026-11-01",
+          "end_date": "2026-11-01",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "онлайн с прокторингом, индивидуально, 210 минут",
+          "source_url": "https://dano.hse.ru/"
+        },
+        {
+          "name": "Формирование команд",
+          "date_text": "ноябрь 2026",
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "month",
+          "date_status": "official_2026_27",
+          "format": "онлайн"
+        },
+        {
+          "name": "Заключительный этап — задачный тур",
+          "date_text": null,
+          "start_date": "2026-12-18",
+          "end_date": "2026-12-18",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "индивидуально, 240 минут",
+          "source_url": "https://dano.hse.ru/"
+        },
+        {
+          "name": "Заключительный этап — проектный тур",
+          "date_text": null,
+          "start_date": "2026-12-18",
+          "end_date": "2026-12-23",
+          "date_precision": "range",
+          "date_status": "official_2026_27",
+          "format": "очно, командная выездная школа; проживание и питание оплачивает организатор, дорогу до Москвы — участник",
+          "source_url": "https://dano.hse.ru/"
+        }
       ],
       "materials": [
-        {"title": "Задания и разборы DANO прошлых лет", "url": "https://dano.hse.ru/library/past_tasks", "type": "tasks_solutions_data"}
+        {
+          "title": "Задания и разборы DANO прошлых лет",
+          "url": "https://dano.hse.ru/library/past_tasks",
+          "type": "tasks_solutions_data"
+        }
       ],
       "benefits": [
-        {"kind": "admission", "academic_year": "прием-2026", "benefit_type": "other", "status": "last_official_published", "universities": ["НИУ ВШЭ"], "has_bvi": true, "has_hundred_points": true, "description": "БВИ либо 100 баллов в НИУ ВШЭ — по программе и степени диплома. Условия ежегодные.", "url": "https://dano.hse.ru/library/bonus"},
-        {"kind": "admission", "academic_year": "прием-2026", "benefit_type": "other", "status": "last_official_published", "universities": ["Университет ИТМО"], "has_bvi": true, "has_hundred_points": false, "description": "БВИ на ряд программ Университета ИТМО. Условия ежегодные.", "url": "https://dano.hse.ru/library/bonus"},
-        {"kind": "admission", "academic_year": "прием-2026", "benefit_type": "other", "status": "last_official_published", "universities": ["ПГНИУ"], "has_bvi": true, "has_hundred_points": false, "description": "БВИ на ряд программ ПГНИУ. Условия ежегодные.", "url": "https://dano.hse.ru/library/bonus"},
-        {"kind": "admission", "academic_year": "прием-2026", "benefit_type": "other", "status": "last_official_published", "universities": ["УрФУ"], "has_bvi": true, "has_hundred_points": false, "description": "БВИ на ряд программ УрФУ. Условия ежегодные.", "url": "https://dano.hse.ru/library/bonus"},
-        {"kind": "individual_achievement", "academic_year": "2025/26", "admission_year": 2026, "benefit_type": "other", "title": "Баллы за индивидуальные достижения", "status": "last_official_published", "universities": ["Адыгейский государственный университет"], "description": "5 баллов победителю, 4 призеру финала; 3 балла победителю или призеру второго этапа на ряд программ.", "url": "https://dano.hse.ru/library/bonus"},
-        {"kind": "career", "academic_year": "current_page", "status": "official", "universities": [], "description": "Упрощенный отбор на стажировку Т-Старт по аналитике и возможность претендовать на стипендию Т-Банка.", "url": "https://dano.hse.ru/library/bonus"},
-        {"kind": "next_year", "academic_year": "2027/28", "status": "official_general_rule", "universities": [], "description": "Дипломанты 9–10 классов получают право сразу участвовать в заключительном этапе «Высшей пробы» следующего года.", "url": "https://olymp.hse.ru/mmo/pref"}
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "benefit_type": "other",
+          "status": "last_official_published",
+          "universities": [
+            "НИУ ВШЭ"
+          ],
+          "has_bvi": true,
+          "has_hundred_points": true,
+          "description": "БВИ либо 100 баллов в НИУ ВШЭ — по программе и степени диплома. Условия ежегодные.",
+          "url": "https://dano.hse.ru/library/bonus"
+        },
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "benefit_type": "other",
+          "status": "last_official_published",
+          "universities": [
+            "Университет ИТМО"
+          ],
+          "has_bvi": true,
+          "has_hundred_points": false,
+          "description": "БВИ на ряд программ Университета ИТМО. Условия ежегодные.",
+          "url": "https://dano.hse.ru/library/bonus"
+        },
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "benefit_type": "other",
+          "status": "last_official_published",
+          "universities": [
+            "ПГНИУ"
+          ],
+          "has_bvi": true,
+          "has_hundred_points": false,
+          "description": "БВИ на ряд программ ПГНИУ. Условия ежегодные.",
+          "url": "https://dano.hse.ru/library/bonus"
+        },
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "benefit_type": "other",
+          "status": "last_official_published",
+          "universities": [
+            "УрФУ"
+          ],
+          "has_bvi": true,
+          "has_hundred_points": false,
+          "description": "БВИ на ряд программ УрФУ. Условия ежегодные.",
+          "url": "https://dano.hse.ru/library/bonus"
+        },
+        {
+          "kind": "individual_achievement",
+          "academic_year": "2025/26",
+          "admission_year": 2026,
+          "benefit_type": "other",
+          "title": "Баллы за индивидуальные достижения",
+          "status": "last_official_published",
+          "universities": [
+            "Адыгейский государственный университет"
+          ],
+          "description": "5 баллов победителю, 4 призеру финала; 3 балла победителю или призеру второго этапа на ряд программ.",
+          "url": "https://dano.hse.ru/library/bonus"
+        },
+        {
+          "kind": "career",
+          "academic_year": "current_page",
+          "status": "official",
+          "universities": [],
+          "description": "Упрощенный отбор на стажировку Т-Старт по аналитике и возможность претендовать на стипендию Т-Банка.",
+          "url": "https://dano.hse.ru/library/bonus"
+        },
+        {
+          "kind": "next_year",
+          "academic_year": "2027/28",
+          "status": "official_general_rule",
+          "universities": [],
+          "description": "Дипломанты 9–10 классов получают право сразу участвовать в заключительном этапе «Высшей пробы» следующего года.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        }
       ],
       "sources": [
-        {"title": "Профиль «Анализ данных»", "url": "https://olymp.hse.ru/mmo/data"},
-        {"title": "Календарь DANO 2026/27", "url": "https://dano.hse.ru/"},
-        {"title": "Бонусы DANO", "url": "https://dano.hse.ru/library/bonus"},
-        {"title": "Перечень 2025/26, приказ № 669", "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"}
+        {
+          "title": "Профиль «Анализ данных»",
+          "url": "https://olymp.hse.ru/mmo/data"
+        },
+        {
+          "title": "Календарь DANO 2026/27",
+          "url": "https://dano.hse.ru/"
+        },
+        {
+          "title": "Бонусы DANO",
+          "url": "https://dano.hse.ru/library/bonus"
+        },
+        {
+          "title": "Перечень 2025/26, приказ № 669",
+          "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"
+        }
       ]
     },
     {
@@ -78,22 +225,91 @@
       "registration_url": "https://olymp.hse.ru/mmo/",
       "previous_year_reference": null,
       "notes": "Точная дата тура профиля внутри опубликованного окна будет указана в расписании.",
-      "grades": [9, 10, 11],
-      "stages": [
-        {"name": "Регистрация", "date_text": "20 августа — 21 сентября 2026, до 14:00 мск", "start_date": "2026-08-20", "end_date": "2026-09-21T14:00:00+03:00", "date_precision": "exact", "date_status": "official_2026_27", "format": "онлайн"},
-        {"name": "Первый отборочный тур", "date_text": "25 сентября — 11 октября 2026", "start_date": "2026-09-25", "end_date": "2026-10-11", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Второй отборочный тур", "date_text": "13—22 ноября 2026", "start_date": "2026-11-13", "end_date": "2026-11-22", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Заключительный этап", "date_text": "5—15 февраля 2027", "start_date": "2027-02-05", "end_date": "2027-02-15", "date_precision": "event_window", "date_status": "official_2026_27", "format": "очно"}
+      "grades": [
+        9,
+        10,
+        11
       ],
-      "materials": [{"title": "Задания прошлых лет — биология", "url": "https://olymp.hse.ru/mmo/tasks-biology", "type": "tasks_solutions"}],
+      "stages": [
+        {
+          "name": "Регистрация",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
+          "start_date": "2026-08-20",
+          "end_date": "2026-09-22",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
+        },
+        {
+          "name": "Первый отборочный тур",
+          "date_text": "25 сентября — 11 октября 2026",
+          "start_date": "2026-09-25",
+          "end_date": "2026-10-11",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Второй отборочный тур",
+          "date_text": "13—22 ноября 2026",
+          "start_date": "2026-11-13",
+          "end_date": "2026-11-22",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Заключительный этап",
+          "date_text": "5—15 февраля 2027",
+          "start_date": "2027-02-05",
+          "end_date": "2027-02-15",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "очно"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задания прошлых лет — биология",
+          "url": "https://olymp.hse.ru/mmo/tasks-biology",
+          "type": "tasks_solutions"
+        }
+      ],
       "benefits": [
-        {"kind": "admission", "academic_year": "прием-2026", "status": "annual_rules_apply", "universities": ["НИУ ВШЭ", "другие вузы РФ по собственным ежегодным правилам"], "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему предмету; требуется подтверждающий ЕГЭ, обычно не ниже 75, вуз вправе установить выше.", "url": "https://olymp.hse.ru/mmo/pref"},
-        {"kind": "next_year", "academic_year": "2027/28", "status": "official_general_rule", "universities": [], "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.", "url": "https://olymp.hse.ru/mmo/pref"}
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "status": "annual_rules_apply",
+          "universities": [
+            "НИУ ВШЭ",
+            "другие вузы РФ по собственным ежегодным правилам"
+          ],
+          "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему предмету; требуется подтверждающий ЕГЭ, обычно не ниже 75, вуз вправе установить выше.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        },
+        {
+          "kind": "next_year",
+          "academic_year": "2027/28",
+          "status": "official_general_rule",
+          "universities": [],
+          "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        }
       ],
       "sources": [
-        {"title": "Профиль и классы", "url": "https://olymp.hse.ru/mmo/biology"},
-        {"title": "Календарь 2026/27", "url": "https://olymp.hse.ru/mmo/"},
-        {"title": "Перечень 2025/26", "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"}
+        {
+          "title": "Профиль и классы",
+          "url": "https://olymp.hse.ru/mmo/biology"
+        },
+        {
+          "title": "Календарь 2026/27",
+          "url": "https://olymp.hse.ru/mmo/"
+        },
+        {
+          "title": "Перечень 2025/26",
+          "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"
+        }
       ]
     },
     {
@@ -116,19 +332,92 @@
       "registration_url": "https://olymp.hse.ru/mmo/",
       "previous_year_reference": null,
       "notes": "Точная дата тура профиля внутри опубликованного окна будет указана в расписании.",
-      "grades": [9, 10, 11],
+      "grades": [
+        9,
+        10,
+        11
+      ],
       "stages": [
-        {"name": "Регистрация", "date_text": "20 августа — 21 сентября 2026, до 14:00 мск", "start_date": "2026-08-20", "end_date": "2026-09-21T14:00:00+03:00", "date_precision": "exact", "date_status": "official_2026_27", "format": "онлайн"},
-        {"name": "Первый отборочный тур", "date_text": "25 сентября — 11 октября 2026", "start_date": "2026-09-25", "end_date": "2026-10-11", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Второй отборочный тур", "date_text": "13—22 ноября 2026", "start_date": "2026-11-13", "end_date": "2026-11-22", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Заключительный этап", "date_text": "5—15 февраля 2027", "start_date": "2027-02-05", "end_date": "2027-02-15", "date_precision": "event_window", "date_status": "official_2026_27", "format": "очно"}
+        {
+          "name": "Регистрация",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
+          "start_date": "2026-08-20",
+          "end_date": "2026-09-22",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
+        },
+        {
+          "name": "Первый отборочный тур",
+          "date_text": "25 сентября — 11 октября 2026",
+          "start_date": "2026-09-25",
+          "end_date": "2026-10-11",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Второй отборочный тур",
+          "date_text": "13—22 ноября 2026",
+          "start_date": "2026-11-13",
+          "end_date": "2026-11-22",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Заключительный этап",
+          "date_text": "5—15 февраля 2027",
+          "start_date": "2027-02-05",
+          "end_date": "2027-02-15",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "очно"
+        }
       ],
-      "materials": [{"title": "Задания прошлых лет — востоковедение", "url": "https://olymp.hse.ru/mmo/tasks-vostok", "type": "tasks_solutions"}],
+      "materials": [
+        {
+          "title": "Задания прошлых лет — востоковедение",
+          "url": "https://olymp.hse.ru/mmo/tasks-vostok",
+          "type": "tasks_solutions"
+        }
+      ],
       "benefits": [
-        {"kind": "admission", "academic_year": "прием-2026", "status": "annual_rules_apply", "universities": ["НИУ ВШЭ", "другие вузы РФ по собственным ежегодным правилам"], "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему предмету при выполнении правил конкретной программы и подтверждении ЕГЭ.", "url": "https://olymp.hse.ru/mmo/pref"},
-        {"kind": "next_year", "academic_year": "2027/28", "status": "official_general_rule", "universities": [], "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.", "url": "https://olymp.hse.ru/mmo/pref"}
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "status": "annual_rules_apply",
+          "universities": [
+            "НИУ ВШЭ",
+            "другие вузы РФ по собственным ежегодным правилам"
+          ],
+          "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему предмету при выполнении правил конкретной программы и подтверждении ЕГЭ.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        },
+        {
+          "kind": "next_year",
+          "academic_year": "2027/28",
+          "status": "official_general_rule",
+          "universities": [],
+          "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        }
       ],
-      "sources": [{"title": "Профиль и классы", "url": "https://olymp.hse.ru/mmo/vostok"}, {"title": "Календарь 2026/27", "url": "https://olymp.hse.ru/mmo/"}, {"title": "Перечень 2025/26", "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"}]
+      "sources": [
+        {
+          "title": "Профиль и классы",
+          "url": "https://olymp.hse.ru/mmo/vostok"
+        },
+        {
+          "title": "Календарь 2026/27",
+          "url": "https://olymp.hse.ru/mmo/"
+        },
+        {
+          "title": "Перечень 2025/26",
+          "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"
+        }
+      ]
     },
     {
       "slug": "vysshaya-proba-oriental-languages",
@@ -150,19 +439,92 @@
       "registration_url": "https://olymp.hse.ru/mmo/",
       "previous_year_reference": null,
       "notes": "Точная дата тура профиля внутри опубликованного окна будет указана в расписании.",
-      "grades": [9, 10, 11],
+      "grades": [
+        9,
+        10,
+        11
+      ],
       "stages": [
-        {"name": "Регистрация", "date_text": "20 августа — 21 сентября 2026, до 14:00 мск", "start_date": "2026-08-20", "end_date": "2026-09-21T14:00:00+03:00", "date_precision": "exact", "date_status": "official_2026_27", "format": "онлайн"},
-        {"name": "Первый отборочный тур", "date_text": "25 сентября — 11 октября 2026", "start_date": "2026-09-25", "end_date": "2026-10-11", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Второй отборочный тур", "date_text": "13—22 ноября 2026", "start_date": "2026-11-13", "end_date": "2026-11-22", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Заключительный этап", "date_text": "5—15 февраля 2027", "start_date": "2027-02-05", "end_date": "2027-02-15", "date_precision": "event_window", "date_status": "official_2026_27", "format": "очно"}
+        {
+          "name": "Регистрация",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
+          "start_date": "2026-08-20",
+          "end_date": "2026-09-22",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
+        },
+        {
+          "name": "Первый отборочный тур",
+          "date_text": "25 сентября — 11 октября 2026",
+          "start_date": "2026-09-25",
+          "end_date": "2026-10-11",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Второй отборочный тур",
+          "date_text": "13—22 ноября 2026",
+          "start_date": "2026-11-13",
+          "end_date": "2026-11-22",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Заключительный этап",
+          "date_text": "5—15 февраля 2027",
+          "start_date": "2027-02-05",
+          "end_date": "2027-02-15",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "очно"
+        }
       ],
-      "materials": [{"title": "Задания прошлых лет — восточные языки", "url": "https://olymp.hse.ru/mmo/tasks-lang-orient", "type": "tasks_solutions"}],
+      "materials": [
+        {
+          "title": "Задания прошлых лет — восточные языки",
+          "url": "https://olymp.hse.ru/mmo/tasks-lang-orient",
+          "type": "tasks_solutions"
+        }
+      ],
       "benefits": [
-        {"kind": "admission", "academic_year": "прием-2026", "status": "annual_rules_apply", "universities": ["НИУ ВШЭ", "другие вузы РФ по собственным ежегодным правилам"], "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему предмету при выполнении правил конкретной программы и подтверждении ЕГЭ.", "url": "https://olymp.hse.ru/mmo/pref"},
-        {"kind": "next_year", "academic_year": "2027/28", "status": "official_general_rule", "universities": [], "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.", "url": "https://olymp.hse.ru/mmo/pref"}
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "status": "annual_rules_apply",
+          "universities": [
+            "НИУ ВШЭ",
+            "другие вузы РФ по собственным ежегодным правилам"
+          ],
+          "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему предмету при выполнении правил конкретной программы и подтверждении ЕГЭ.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        },
+        {
+          "kind": "next_year",
+          "academic_year": "2027/28",
+          "status": "official_general_rule",
+          "universities": [],
+          "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        }
       ],
-      "sources": [{"title": "Профиль и классы", "url": "https://olymp.hse.ru/mmo/lang-orient"}, {"title": "Календарь 2026/27", "url": "https://olymp.hse.ru/mmo/"}, {"title": "Перечень 2025/26", "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"}]
+      "sources": [
+        {
+          "title": "Профиль и классы",
+          "url": "https://olymp.hse.ru/mmo/lang-orient"
+        },
+        {
+          "title": "Календарь 2026/27",
+          "url": "https://olymp.hse.ru/mmo/"
+        },
+        {
+          "title": "Перечень 2025/26",
+          "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"
+        }
+      ]
     },
     {
       "slug": "vysshaya-proba-design",
@@ -184,19 +546,92 @@
       "registration_url": "https://olymp.hse.ru/mmo/",
       "previous_year_reference": null,
       "notes": "Точная дата тура профиля внутри опубликованного окна будет указана в расписании.",
-      "grades": [9, 10, 11],
+      "grades": [
+        9,
+        10,
+        11
+      ],
       "stages": [
-        {"name": "Регистрация", "date_text": "20 августа — 21 сентября 2026, до 14:00 мск", "start_date": "2026-08-20", "end_date": "2026-09-21T14:00:00+03:00", "date_precision": "exact", "date_status": "official_2026_27", "format": "онлайн"},
-        {"name": "Первый отборочный тур", "date_text": "25 сентября — 11 октября 2026", "start_date": "2026-09-25", "end_date": "2026-10-11", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Второй отборочный тур", "date_text": "13—22 ноября 2026", "start_date": "2026-11-13", "end_date": "2026-11-22", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Заключительный этап", "date_text": "5—15 февраля 2027", "start_date": "2027-02-05", "end_date": "2027-02-15", "date_precision": "event_window", "date_status": "official_2026_27", "format": "очно"}
+        {
+          "name": "Регистрация",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
+          "start_date": "2026-08-20",
+          "end_date": "2026-09-22",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
+        },
+        {
+          "name": "Первый отборочный тур",
+          "date_text": "25 сентября — 11 октября 2026",
+          "start_date": "2026-09-25",
+          "end_date": "2026-10-11",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Второй отборочный тур",
+          "date_text": "13—22 ноября 2026",
+          "start_date": "2026-11-13",
+          "end_date": "2026-11-22",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Заключительный этап",
+          "date_text": "5—15 февраля 2027",
+          "start_date": "2027-02-05",
+          "end_date": "2027-02-15",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "очно"
+        }
       ],
-      "materials": [{"title": "Задания прошлых лет — дизайн", "url": "https://olymp.hse.ru/mmo/tasks-design", "type": "tasks_criteria"}],
+      "materials": [
+        {
+          "title": "Задания прошлых лет — дизайн",
+          "url": "https://olymp.hse.ru/mmo/tasks-design",
+          "type": "tasks_criteria"
+        }
+      ],
       "benefits": [
-        {"kind": "admission", "academic_year": "прием-2026", "status": "annual_rules_apply", "universities": ["НИУ ВШЭ", "другие вузы РФ по собственным ежегодным правилам"], "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему вступительному испытанию; соответствие программ и подтверждение результата ежегодно определяет вуз.", "url": "https://olymp.hse.ru/mmo/pref"},
-        {"kind": "next_year", "academic_year": "2027/28", "status": "official_general_rule", "universities": [], "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.", "url": "https://olymp.hse.ru/mmo/pref"}
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "status": "annual_rules_apply",
+          "universities": [
+            "НИУ ВШЭ",
+            "другие вузы РФ по собственным ежегодным правилам"
+          ],
+          "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему вступительному испытанию; соответствие программ и подтверждение результата ежегодно определяет вуз.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        },
+        {
+          "kind": "next_year",
+          "academic_year": "2027/28",
+          "status": "official_general_rule",
+          "universities": [],
+          "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        }
       ],
-      "sources": [{"title": "Профиль и классы", "url": "https://olymp.hse.ru/mmo/design"}, {"title": "Календарь 2026/27", "url": "https://olymp.hse.ru/mmo/"}, {"title": "Перечень 2025/26", "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"}]
+      "sources": [
+        {
+          "title": "Профиль и классы",
+          "url": "https://olymp.hse.ru/mmo/design"
+        },
+        {
+          "title": "Календарь 2026/27",
+          "url": "https://olymp.hse.ru/mmo/"
+        },
+        {
+          "title": "Перечень 2025/26",
+          "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"
+        }
+      ]
     },
     {
       "slug": "vysshaya-proba-journalism",
@@ -218,19 +653,92 @@
       "registration_url": "https://olymp.hse.ru/mmo/",
       "previous_year_reference": null,
       "notes": "Точная дата тура профиля внутри опубликованного окна будет указана в расписании.",
-      "grades": [9, 10, 11],
+      "grades": [
+        9,
+        10,
+        11
+      ],
       "stages": [
-        {"name": "Регистрация", "date_text": "20 августа — 21 сентября 2026, до 14:00 мск", "start_date": "2026-08-20", "end_date": "2026-09-21T14:00:00+03:00", "date_precision": "exact", "date_status": "official_2026_27", "format": "онлайн"},
-        {"name": "Первый отборочный тур", "date_text": "25 сентября — 11 октября 2026", "start_date": "2026-09-25", "end_date": "2026-10-11", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Второй отборочный тур", "date_text": "13—22 ноября 2026", "start_date": "2026-11-13", "end_date": "2026-11-22", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Заключительный этап", "date_text": "5—15 февраля 2027", "start_date": "2027-02-05", "end_date": "2027-02-15", "date_precision": "event_window", "date_status": "official_2026_27", "format": "очно"}
+        {
+          "name": "Регистрация",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
+          "start_date": "2026-08-20",
+          "end_date": "2026-09-22",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
+        },
+        {
+          "name": "Первый отборочный тур",
+          "date_text": "25 сентября — 11 октября 2026",
+          "start_date": "2026-09-25",
+          "end_date": "2026-10-11",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Второй отборочный тур",
+          "date_text": "13—22 ноября 2026",
+          "start_date": "2026-11-13",
+          "end_date": "2026-11-22",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Заключительный этап",
+          "date_text": "5—15 февраля 2027",
+          "start_date": "2027-02-05",
+          "end_date": "2027-02-15",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "очно"
+        }
       ],
-      "materials": [{"title": "Задания прошлых лет — журналистика", "url": "https://olymp.hse.ru/mmo/tasks-journ", "type": "tasks_criteria"}],
+      "materials": [
+        {
+          "title": "Задания прошлых лет — журналистика",
+          "url": "https://olymp.hse.ru/mmo/tasks-journ",
+          "type": "tasks_criteria"
+        }
+      ],
       "benefits": [
-        {"kind": "admission", "academic_year": "прием-2026", "status": "annual_rules_apply", "universities": ["НИУ ВШЭ", "другие вузы РФ по собственным ежегодным правилам"], "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему вступительному испытанию; соответствие программ ежегодно определяет вуз.", "url": "https://olymp.hse.ru/mmo/pref"},
-        {"kind": "next_year", "academic_year": "2027/28", "status": "official_general_rule", "universities": [], "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.", "url": "https://olymp.hse.ru/mmo/pref"}
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "status": "annual_rules_apply",
+          "universities": [
+            "НИУ ВШЭ",
+            "другие вузы РФ по собственным ежегодным правилам"
+          ],
+          "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему вступительному испытанию; соответствие программ ежегодно определяет вуз.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        },
+        {
+          "kind": "next_year",
+          "academic_year": "2027/28",
+          "status": "official_general_rule",
+          "universities": [],
+          "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        }
       ],
-      "sources": [{"title": "Профиль и классы", "url": "https://olymp.hse.ru/mmo/journ"}, {"title": "Календарь 2026/27", "url": "https://olymp.hse.ru/mmo/"}, {"title": "Перечень 2025/26", "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"}]
+      "sources": [
+        {
+          "title": "Профиль и классы",
+          "url": "https://olymp.hse.ru/mmo/journ"
+        },
+        {
+          "title": "Календарь 2026/27",
+          "url": "https://olymp.hse.ru/mmo/"
+        },
+        {
+          "title": "Перечень 2025/26",
+          "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"
+        }
+      ]
     },
     {
       "slug": "vysshaya-proba-engineering-sciences",
@@ -252,19 +760,92 @@
       "registration_url": "https://olymp.hse.ru/mmo/",
       "previous_year_reference": null,
       "notes": "Точная дата тура профиля внутри опубликованного окна будет указана в расписании.",
-      "grades": [9, 10, 11],
+      "grades": [
+        9,
+        10,
+        11
+      ],
       "stages": [
-        {"name": "Регистрация", "date_text": "20 августа — 21 сентября 2026, до 14:00 мск", "start_date": "2026-08-20", "end_date": "2026-09-21T14:00:00+03:00", "date_precision": "exact", "date_status": "official_2026_27", "format": "онлайн"},
-        {"name": "Первый отборочный тур", "date_text": "25 сентября — 11 октября 2026", "start_date": "2026-09-25", "end_date": "2026-10-11", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Второй отборочный тур", "date_text": "13—22 ноября 2026", "start_date": "2026-11-13", "end_date": "2026-11-22", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Заключительный этап", "date_text": "5—15 февраля 2027", "start_date": "2027-02-05", "end_date": "2027-02-15", "date_precision": "event_window", "date_status": "official_2026_27", "format": "очно"}
+        {
+          "name": "Регистрация",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
+          "start_date": "2026-08-20",
+          "end_date": "2026-09-22",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
+        },
+        {
+          "name": "Первый отборочный тур",
+          "date_text": "25 сентября — 11 октября 2026",
+          "start_date": "2026-09-25",
+          "end_date": "2026-10-11",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Второй отборочный тур",
+          "date_text": "13—22 ноября 2026",
+          "start_date": "2026-11-13",
+          "end_date": "2026-11-22",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Заключительный этап",
+          "date_text": "5—15 февраля 2027",
+          "start_date": "2027-02-05",
+          "end_date": "2027-02-15",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "очно"
+        }
       ],
-      "materials": [{"title": "Задания прошлых лет — инженерные науки", "url": "https://olymp.hse.ru/mmo/tasks-electronics", "type": "tasks_solutions"}],
+      "materials": [
+        {
+          "title": "Задания прошлых лет — инженерные науки",
+          "url": "https://olymp.hse.ru/mmo/tasks-electronics",
+          "type": "tasks_solutions"
+        }
+      ],
       "benefits": [
-        {"kind": "admission", "academic_year": "прием-2026", "status": "annual_rules_apply", "universities": ["НИУ ВШЭ", "другие вузы РФ по собственным ежегодным правилам"], "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему предмету при выполнении правил конкретной программы и подтверждении ЕГЭ.", "url": "https://olymp.hse.ru/mmo/pref"},
-        {"kind": "next_year", "academic_year": "2027/28", "status": "official_general_rule", "universities": [], "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.", "url": "https://olymp.hse.ru/mmo/pref"}
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "status": "annual_rules_apply",
+          "universities": [
+            "НИУ ВШЭ",
+            "другие вузы РФ по собственным ежегодным правилам"
+          ],
+          "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему предмету при выполнении правил конкретной программы и подтверждении ЕГЭ.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        },
+        {
+          "kind": "next_year",
+          "academic_year": "2027/28",
+          "status": "official_general_rule",
+          "universities": [],
+          "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        }
       ],
-      "sources": [{"title": "Профиль и классы", "url": "https://olymp.hse.ru/mmo/electronics"}, {"title": "Календарь 2026/27", "url": "https://olymp.hse.ru/mmo/"}, {"title": "Перечень 2025/26", "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"}]
+      "sources": [
+        {
+          "title": "Профиль и классы",
+          "url": "https://olymp.hse.ru/mmo/electronics"
+        },
+        {
+          "title": "Календарь 2026/27",
+          "url": "https://olymp.hse.ru/mmo/"
+        },
+        {
+          "title": "Перечень 2025/26",
+          "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"
+        }
+      ]
     },
     {
       "slug": "vysshaya-proba-foreign-languages",
@@ -286,19 +867,92 @@
       "registration_url": "https://olymp.hse.ru/mmo/",
       "previous_year_reference": null,
       "notes": "Точная дата тура профиля внутри опубликованного окна будет указана в расписании.",
-      "grades": [9, 10, 11],
+      "grades": [
+        9,
+        10,
+        11
+      ],
       "stages": [
-        {"name": "Регистрация", "date_text": "20 августа — 21 сентября 2026, до 14:00 мск", "start_date": "2026-08-20", "end_date": "2026-09-21T14:00:00+03:00", "date_precision": "exact", "date_status": "official_2026_27", "format": "онлайн"},
-        {"name": "Первый отборочный тур", "date_text": "25 сентября — 11 октября 2026", "start_date": "2026-09-25", "end_date": "2026-10-11", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Второй отборочный тур", "date_text": "13—22 ноября 2026", "start_date": "2026-11-13", "end_date": "2026-11-22", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Заключительный этап", "date_text": "5—15 февраля 2027", "start_date": "2027-02-05", "end_date": "2027-02-15", "date_precision": "event_window", "date_status": "official_2026_27", "format": "очно"}
+        {
+          "name": "Регистрация",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
+          "start_date": "2026-08-20",
+          "end_date": "2026-09-22",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
+        },
+        {
+          "name": "Первый отборочный тур",
+          "date_text": "25 сентября — 11 октября 2026",
+          "start_date": "2026-09-25",
+          "end_date": "2026-10-11",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Второй отборочный тур",
+          "date_text": "13—22 ноября 2026",
+          "start_date": "2026-11-13",
+          "end_date": "2026-11-22",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Заключительный этап",
+          "date_text": "5—15 февраля 2027",
+          "start_date": "2027-02-05",
+          "end_date": "2027-02-15",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "очно"
+        }
       ],
-      "materials": [{"title": "Задания прошлых лет — иностранные языки", "url": "https://olymp.hse.ru/mmo/tasks-lang", "type": "tasks_solutions"}],
+      "materials": [
+        {
+          "title": "Задания прошлых лет — иностранные языки",
+          "url": "https://olymp.hse.ru/mmo/tasks-lang",
+          "type": "tasks_solutions"
+        }
+      ],
       "benefits": [
-        {"kind": "admission", "academic_year": "прием-2026", "status": "annual_rules_apply", "universities": ["НИУ ВШЭ", "другие вузы РФ по собственным ежегодным правилам"], "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему предмету при выполнении правил конкретной программы и подтверждении ЕГЭ.", "url": "https://olymp.hse.ru/mmo/pref"},
-        {"kind": "next_year", "academic_year": "2027/28", "status": "official_general_rule", "universities": [], "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.", "url": "https://olymp.hse.ru/mmo/pref"}
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "status": "annual_rules_apply",
+          "universities": [
+            "НИУ ВШЭ",
+            "другие вузы РФ по собственным ежегодным правилам"
+          ],
+          "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему предмету при выполнении правил конкретной программы и подтверждении ЕГЭ.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        },
+        {
+          "kind": "next_year",
+          "academic_year": "2027/28",
+          "status": "official_general_rule",
+          "universities": [],
+          "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        }
       ],
-      "sources": [{"title": "Профиль и классы", "url": "https://olymp.hse.ru/mmo/lang"}, {"title": "Календарь 2026/27", "url": "https://olymp.hse.ru/mmo/"}, {"title": "Перечень 2025/26", "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"}]
+      "sources": [
+        {
+          "title": "Профиль и классы",
+          "url": "https://olymp.hse.ru/mmo/lang"
+        },
+        {
+          "title": "Календарь 2026/27",
+          "url": "https://olymp.hse.ru/mmo/"
+        },
+        {
+          "title": "Перечень 2025/26",
+          "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"
+        }
+      ]
     },
     {
       "slug": "vysshaya-proba-informatics",
@@ -320,19 +974,92 @@
       "registration_url": "https://olymp.hse.ru/mmo/",
       "previous_year_reference": null,
       "notes": "Точная дата тура профиля внутри опубликованного окна будет указана в расписании.",
-      "grades": [9, 10, 11],
+      "grades": [
+        9,
+        10,
+        11
+      ],
       "stages": [
-        {"name": "Регистрация", "date_text": "20 августа — 21 сентября 2026, до 14:00 мск", "start_date": "2026-08-20", "end_date": "2026-09-21T14:00:00+03:00", "date_precision": "exact", "date_status": "official_2026_27", "format": "онлайн"},
-        {"name": "Первый отборочный тур", "date_text": "25 сентября — 11 октября 2026", "start_date": "2026-09-25", "end_date": "2026-10-11", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Второй отборочный тур", "date_text": "13—22 ноября 2026", "start_date": "2026-11-13", "end_date": "2026-11-22", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Заключительный этап", "date_text": "5—15 февраля 2027", "start_date": "2027-02-05", "end_date": "2027-02-15", "date_precision": "event_window", "date_status": "official_2026_27", "format": "очно"}
+        {
+          "name": "Регистрация",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
+          "start_date": "2026-08-20",
+          "end_date": "2026-09-22",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
+        },
+        {
+          "name": "Первый отборочный тур",
+          "date_text": "25 сентября — 11 октября 2026",
+          "start_date": "2026-09-25",
+          "end_date": "2026-10-11",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Второй отборочный тур",
+          "date_text": "13—22 ноября 2026",
+          "start_date": "2026-11-13",
+          "end_date": "2026-11-22",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Заключительный этап",
+          "date_text": "5—15 февраля 2027",
+          "start_date": "2027-02-05",
+          "end_date": "2027-02-15",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "очно"
+        }
       ],
-      "materials": [{"title": "Задания прошлых лет — информатика", "url": "https://olymp.hse.ru/mmo/tasks-it", "type": "tasks_solutions"}],
+      "materials": [
+        {
+          "title": "Задания прошлых лет — информатика",
+          "url": "https://olymp.hse.ru/mmo/tasks-it",
+          "type": "tasks_solutions"
+        }
+      ],
       "benefits": [
-        {"kind": "admission", "academic_year": "прием-2026", "status": "annual_rules_apply", "universities": ["НИУ ВШЭ", "другие вузы РФ по собственным ежегодным правилам"], "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по информатике при выполнении правил конкретной программы и подтверждении ЕГЭ.", "url": "https://olymp.hse.ru/mmo/pref"},
-        {"kind": "next_year", "academic_year": "2027/28", "status": "official_general_rule", "universities": [], "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.", "url": "https://olymp.hse.ru/mmo/pref"}
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "status": "annual_rules_apply",
+          "universities": [
+            "НИУ ВШЭ",
+            "другие вузы РФ по собственным ежегодным правилам"
+          ],
+          "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по информатике при выполнении правил конкретной программы и подтверждении ЕГЭ.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        },
+        {
+          "kind": "next_year",
+          "academic_year": "2027/28",
+          "status": "official_general_rule",
+          "universities": [],
+          "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        }
       ],
-      "sources": [{"title": "Профиль и классы", "url": "https://olymp.hse.ru/mmo/it"}, {"title": "Календарь 2026/27", "url": "https://olymp.hse.ru/mmo/"}, {"title": "Перечень 2025/26", "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"}]
+      "sources": [
+        {
+          "title": "Профиль и классы",
+          "url": "https://olymp.hse.ru/mmo/it"
+        },
+        {
+          "title": "Календарь 2026/27",
+          "url": "https://olymp.hse.ru/mmo/"
+        },
+        {
+          "title": "Перечень 2025/26",
+          "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"
+        }
+      ]
     },
     {
       "slug": "vysshaya-proba-history",
@@ -354,19 +1081,94 @@
       "registration_url": "https://olymp.hse.ru/mmo/",
       "previous_year_reference": null,
       "notes": "Проводится для 7–11 классов; точная дата тура профиля внутри окна будет указана в расписании.",
-      "grades": [7, 8, 9, 10, 11],
+      "grades": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
       "stages": [
-        {"name": "Регистрация", "date_text": "20 августа — 21 сентября 2026, до 14:00 мск", "start_date": "2026-08-20", "end_date": "2026-09-21T14:00:00+03:00", "date_precision": "exact", "date_status": "official_2026_27", "format": "онлайн"},
-        {"name": "Первый отборочный тур", "date_text": "25 сентября — 11 октября 2026", "start_date": "2026-09-25", "end_date": "2026-10-11", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Второй отборочный тур", "date_text": "13—22 ноября 2026", "start_date": "2026-11-13", "end_date": "2026-11-22", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Заключительный этап", "date_text": "5—15 февраля 2027", "start_date": "2027-02-05", "end_date": "2027-02-15", "date_precision": "event_window", "date_status": "official_2026_27", "format": "очно"}
+        {
+          "name": "Регистрация",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
+          "start_date": "2026-08-20",
+          "end_date": "2026-09-22",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
+        },
+        {
+          "name": "Первый отборочный тур",
+          "date_text": "25 сентября — 11 октября 2026",
+          "start_date": "2026-09-25",
+          "end_date": "2026-10-11",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Второй отборочный тур",
+          "date_text": "13—22 ноября 2026",
+          "start_date": "2026-11-13",
+          "end_date": "2026-11-22",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Заключительный этап",
+          "date_text": "5—15 февраля 2027",
+          "start_date": "2027-02-05",
+          "end_date": "2027-02-15",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "очно"
+        }
       ],
-      "materials": [{"title": "Задания прошлых лет — история", "url": "https://olymp.hse.ru/mmo/tasks-history", "type": "tasks_solutions"}],
+      "materials": [
+        {
+          "title": "Задания прошлых лет — история",
+          "url": "https://olymp.hse.ru/mmo/tasks-history",
+          "type": "tasks_solutions"
+        }
+      ],
       "benefits": [
-        {"kind": "admission", "academic_year": "прием-2026", "status": "annual_rules_apply", "universities": ["НИУ ВШЭ", "другие вузы РФ по собственным ежегодным правилам"], "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по истории при выполнении правил конкретной программы и подтверждении ЕГЭ.", "url": "https://olymp.hse.ru/mmo/pref"},
-        {"kind": "next_year", "academic_year": "2027/28", "status": "official_general_rule", "universities": [], "description": "Дипломанты 7–10 классов проходят сразу в заключительный этап следующего года.", "url": "https://olymp.hse.ru/mmo/pref"}
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "status": "annual_rules_apply",
+          "universities": [
+            "НИУ ВШЭ",
+            "другие вузы РФ по собственным ежегодным правилам"
+          ],
+          "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по истории при выполнении правил конкретной программы и подтверждении ЕГЭ.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        },
+        {
+          "kind": "next_year",
+          "academic_year": "2027/28",
+          "status": "official_general_rule",
+          "universities": [],
+          "description": "Дипломанты 7–10 классов проходят сразу в заключительный этап следующего года.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        }
       ],
-      "sources": [{"title": "Профиль и классы", "url": "https://olymp.hse.ru/mmo/history"}, {"title": "Календарь 2026/27", "url": "https://olymp.hse.ru/mmo/"}, {"title": "Перечень 2025/26", "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"}]
+      "sources": [
+        {
+          "title": "Профиль и классы",
+          "url": "https://olymp.hse.ru/mmo/history"
+        },
+        {
+          "title": "Календарь 2026/27",
+          "url": "https://olymp.hse.ru/mmo/"
+        },
+        {
+          "title": "Перечень 2025/26",
+          "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"
+        }
+      ]
     },
     {
       "slug": "vysshaya-proba-art-history",
@@ -388,19 +1190,92 @@
       "registration_url": "https://olymp.hse.ru/mmo/",
       "previous_year_reference": null,
       "notes": "Точная дата тура профиля внутри опубликованного окна будет указана в расписании.",
-      "grades": [9, 10, 11],
+      "grades": [
+        9,
+        10,
+        11
+      ],
       "stages": [
-        {"name": "Регистрация", "date_text": "20 августа — 21 сентября 2026, до 14:00 мск", "start_date": "2026-08-20", "end_date": "2026-09-21T14:00:00+03:00", "date_precision": "exact", "date_status": "official_2026_27", "format": "онлайн"},
-        {"name": "Первый отборочный тур", "date_text": "25 сентября — 11 октября 2026", "start_date": "2026-09-25", "end_date": "2026-10-11", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Второй отборочный тур", "date_text": "13—22 ноября 2026", "start_date": "2026-11-13", "end_date": "2026-11-22", "date_precision": "event_window", "date_status": "official_2026_27", "format": "дистанционно"},
-        {"name": "Заключительный этап", "date_text": "5—15 февраля 2027", "start_date": "2027-02-05", "end_date": "2027-02-15", "date_precision": "event_window", "date_status": "official_2026_27", "format": "очно"}
+        {
+          "name": "Регистрация",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
+          "start_date": "2026-08-20",
+          "end_date": "2026-09-22",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
+        },
+        {
+          "name": "Первый отборочный тур",
+          "date_text": "25 сентября — 11 октября 2026",
+          "start_date": "2026-09-25",
+          "end_date": "2026-10-11",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Второй отборочный тур",
+          "date_text": "13—22 ноября 2026",
+          "start_date": "2026-11-13",
+          "end_date": "2026-11-22",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "дистанционно"
+        },
+        {
+          "name": "Заключительный этап",
+          "date_text": "5—15 февраля 2027",
+          "start_date": "2027-02-05",
+          "end_date": "2027-02-15",
+          "date_precision": "event_window",
+          "date_status": "official_2026_27",
+          "format": "очно"
+        }
       ],
-      "materials": [{"title": "Задания прошлых лет — история искусств", "url": "https://olymp.hse.ru/mmo/tasks-arthist", "type": "tasks_solutions"}],
+      "materials": [
+        {
+          "title": "Задания прошлых лет — история искусств",
+          "url": "https://olymp.hse.ru/mmo/tasks-arthist",
+          "type": "tasks_solutions"
+        }
+      ],
       "benefits": [
-        {"kind": "admission", "academic_year": "прием-2026", "status": "annual_rules_apply", "universities": ["НИУ ВШЭ", "другие вузы РФ по собственным ежегодным правилам"], "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему вступительному испытанию; точное соответствие ежегодно определяет вуз.", "url": "https://olymp.hse.ru/mmo/pref"},
-        {"kind": "next_year", "academic_year": "2027/28", "status": "official_general_rule", "universities": [], "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.", "url": "https://olymp.hse.ru/mmo/pref"}
+        {
+          "kind": "admission",
+          "academic_year": "прием-2026",
+          "status": "annual_rules_apply",
+          "universities": [
+            "НИУ ВШЭ",
+            "другие вузы РФ по собственным ежегодным правилам"
+          ],
+          "description": "Для дипломантов 11 класса возможны БВИ или 100 баллов по соответствующему вступительному испытанию; точное соответствие ежегодно определяет вуз.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        },
+        {
+          "kind": "next_year",
+          "academic_year": "2027/28",
+          "status": "official_general_rule",
+          "universities": [],
+          "description": "Дипломанты 9–10 классов проходят сразу в заключительный этап следующего года.",
+          "url": "https://olymp.hse.ru/mmo/pref"
+        }
       ],
-      "sources": [{"title": "Профиль и классы", "url": "https://olymp.hse.ru/mmo/arthist"}, {"title": "Календарь 2026/27", "url": "https://olymp.hse.ru/mmo/"}, {"title": "Перечень 2025/26", "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"}]
+      "sources": [
+        {
+          "title": "Профиль и классы",
+          "url": "https://olymp.hse.ru/mmo/arthist"
+        },
+        {
+          "title": "Календарь 2026/27",
+          "url": "https://olymp.hse.ru/mmo/"
+        },
+        {
+          "title": "Перечень 2025/26",
+          "url": "https://rg.ru/documents/2025/10/03/minnauki-prikaz669-site-dok.html"
+        }
+      ]
     },
     {
       "slug": "vysshaya-proba-culture",
@@ -430,12 +1305,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -538,12 +1414,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -644,12 +1521,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -750,12 +1628,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -856,12 +1735,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -962,12 +1842,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -1068,12 +1949,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": null,
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": null,
-          "end_date": null,
+          "end_date": "2026-09-22",
           "date_precision": "unknown",
           "date_status": "official_separate_registration_link_period_not_published",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -1174,12 +2056,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -1282,12 +2165,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -1388,12 +2272,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -1496,12 +2381,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -1602,12 +2488,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -1710,12 +2597,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -1817,12 +2705,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -1923,12 +2812,13 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "20 августа — 21 сентября 2026, до 14:00 мск",
+          "date_text": "20 августа — 22 сентября 2026, до 14:00 мск; срок продлён организатором",
           "start_date": "2026-08-20",
-          "end_date": "2026-09-21T14:00:00+03:00",
+          "end_date": "2026-09-22",
           "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://olymp.hse.ru/mmo/instr-reg"
         },
         {
           "name": "Первый отборочный тур",
@@ -2013,14 +2903,14 @@
       "is_team": true,
       "academic_year": "2026/27",
       "status": "upcoming",
-      "data_status": "official_months_2026_27_exact_days_pending",
+      "data_status": "partial",
       "is_in_registry": true,
       "registry_level": 3,
       "registry_status": "previous_year",
       "is_popular": true,
       "registration_url": "https://dano.hse.ru/",
       "previous_year_reference": null,
-      "notes": "Это то же соревнование, что профиль «Анализ данных» олимпиады «Высшая проба»; не удваивать событие и участников. Уровень III подтвержден последним Перечнем 2025/26.",
+      "notes": "Календарь DANO 2026/27 опубликован: регистрация 31 августа — 5 октября, два отбора 9–12 октября и 1 ноября, задачный тур 18 декабря, проектный тур 18–23 декабря. Формирование команд — в ноябре, точные дни не опубликованы.",
       "grades": [
         9,
         10,
@@ -2029,30 +2919,33 @@
       "stages": [
         {
           "name": "Регистрация",
-          "date_text": "сентябрь 2026",
-          "start_date": null,
-          "end_date": null,
-          "date_precision": "month",
+          "date_text": null,
+          "start_date": "2026-08-31",
+          "end_date": "2026-10-05",
+          "date_precision": "range",
           "date_status": "official_2026_27",
-          "format": "онлайн"
+          "format": "онлайн",
+          "source_url": "https://dano.hse.ru/"
         },
         {
           "name": "Первый отборочный этап",
-          "date_text": "октябрь 2026",
-          "start_date": null,
-          "end_date": null,
-          "date_precision": "month",
+          "date_text": null,
+          "start_date": "2026-10-09",
+          "end_date": "2026-10-12",
+          "date_precision": "range",
           "date_status": "official_2026_27",
-          "format": "онлайн, индивидуально, 120 минут"
+          "format": "онлайн, индивидуально, 120 минут",
+          "source_url": "https://dano.hse.ru/"
         },
         {
           "name": "Второй отборочный этап",
-          "date_text": "ноябрь 2026",
-          "start_date": null,
-          "end_date": null,
-          "date_precision": "month",
+          "date_text": null,
+          "start_date": "2026-11-01",
+          "end_date": "2026-11-01",
+          "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "онлайн с прокторингом, индивидуально, 210 минут"
+          "format": "онлайн с прокторингом, индивидуально, 210 минут",
+          "source_url": "https://dano.hse.ru/"
         },
         {
           "name": "Формирование команд и распределение баз данных",
@@ -2065,21 +2958,23 @@
         },
         {
           "name": "Заключительный этап — задачный тур",
-          "date_text": "декабрь 2026",
-          "start_date": null,
-          "end_date": null,
-          "date_precision": "month",
+          "date_text": null,
+          "start_date": "2026-12-18",
+          "end_date": "2026-12-18",
+          "date_precision": "exact",
           "date_status": "official_2026_27",
-          "format": "индивидуально, 240 минут"
+          "format": "индивидуально, 240 минут",
+          "source_url": "https://dano.hse.ru/"
         },
         {
           "name": "Заключительный этап — проектный тур",
-          "date_text": "декабрь 2026",
-          "start_date": null,
-          "end_date": null,
-          "date_precision": "month",
+          "date_text": null,
+          "start_date": "2026-12-18",
+          "end_date": "2026-12-23",
+          "date_precision": "range",
           "date_status": "official_2026_27",
-          "format": "очно, командная выездная школа; проживание и питание оплачивает организатор, дорогу до Москвы — участник"
+          "format": "очно, командная выездная школа; проживание и питание оплачивает организатор, дорогу до Москвы — участник",
+          "source_url": "https://dano.hse.ru/"
         }
       ],
       "materials": [
@@ -2202,15 +3097,15 @@
       "geography": "Осенний тур онлайн; весенний заключительный тур очно во многих городах России.",
       "is_team": false,
       "academic_year": "2025/26",
-      "status": "last_published",
-      "data_status": "last_official_exact_2025_26_not_a_2026_27_forecast",
+      "status": "upcoming",
+      "data_status": "partial",
       "is_in_registry": true,
       "registry_level": 2,
       "registry_status": "previous_year",
       "is_popular": true,
       "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
       "previous_year_reference": "XLVIII Турнир, 2025/26",
-      "notes": "Календарь XLIX Турнира 2026/27 на дату исследования не опубликован. Осенний тур доступен 6–11 классам; весенний — только приглашенным ученикам 10–11 классов. Уровень, если указан, относится к Перечню 2025/26.",
+      "notes": "XLIX Турнир: осенний тур 4 октября 2026 для 6–11 классов, онлайн на платформе «Сириус», до пяти часов, завершение не позднее 15:00 мск. Весенний тур для приглашённых 10–11 классов планируется 13 марта 2027; дата предварительная. Регистрация пока не открыта.",
       "grades": [
         6,
         7,
@@ -2222,30 +3117,33 @@
       "stages": [
         {
           "name": "Регистрация на осенний тур",
-          "date_text": "4—27 сентября 2025, до 23:59 мск",
-          "start_date": "2025-09-04",
-          "end_date": "2025-09-27T23:59:00+03:00",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн"
+          "date_text": null,
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "tba",
+          "date_status": "pending",
+          "format": "онлайн",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Осенний тур",
-          "date_text": "28 сентября 2025",
-          "start_date": "2025-09-28",
-          "end_date": "2025-09-28",
+          "date_text": null,
+          "start_date": "2026-10-04",
+          "end_date": "2026-10-04",
           "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно"
+          "date_status": "official_2026_27",
+          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Весенний заключительный тур",
-          "date_text": "14 марта 2026",
-          "start_date": "2026-03-14",
-          "end_date": "2026-03-14",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "очно во многих городах России, по приглашению для 10–11 классов"
+          "date_text": null,
+          "start_date": "2027-03-13",
+          "end_date": "2027-03-13",
+          "date_precision": "approximate",
+          "date_status": "planned_2026_27",
+          "format": "очно во многих городах России, по приглашению для 10–11 классов",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         }
       ],
       "materials": [
@@ -2305,15 +3203,15 @@
       "geography": "Осенний тур онлайн; весенний заключительный тур очно во многих городах России.",
       "is_team": false,
       "academic_year": "2025/26",
-      "status": "last_published",
-      "data_status": "last_official_exact_2025_26_not_a_2026_27_forecast",
+      "status": "upcoming",
+      "data_status": "partial",
       "is_in_registry": true,
       "registry_level": 2,
       "registry_status": "previous_year",
       "is_popular": true,
       "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
       "previous_year_reference": "XLVIII Турнир, 2025/26",
-      "notes": "Календарь XLIX Турнира 2026/27 на дату исследования не опубликован. Осенний тур доступен 6–11 классам; весенний — только приглашенным ученикам 10–11 классов. Уровень, если указан, относится к Перечню 2025/26.",
+      "notes": "XLIX Турнир: осенний тур 4 октября 2026 для 6–11 классов, онлайн на платформе «Сириус», до пяти часов, завершение не позднее 15:00 мск. Весенний тур для приглашённых 10–11 классов планируется 13 марта 2027; дата предварительная. Регистрация пока не открыта.",
       "grades": [
         6,
         7,
@@ -2325,30 +3223,33 @@
       "stages": [
         {
           "name": "Регистрация на осенний тур",
-          "date_text": "4—27 сентября 2025, до 23:59 мск",
-          "start_date": "2025-09-04",
-          "end_date": "2025-09-27T23:59:00+03:00",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн"
+          "date_text": null,
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "tba",
+          "date_status": "pending",
+          "format": "онлайн",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Осенний тур",
-          "date_text": "28 сентября 2025",
-          "start_date": "2025-09-28",
-          "end_date": "2025-09-28",
+          "date_text": null,
+          "start_date": "2026-10-04",
+          "end_date": "2026-10-04",
           "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно"
+          "date_status": "official_2026_27",
+          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Весенний заключительный тур",
-          "date_text": "14 марта 2026",
-          "start_date": "2026-03-14",
-          "end_date": "2026-03-14",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "очно во многих городах России, по приглашению для 10–11 классов"
+          "date_text": null,
+          "start_date": "2027-03-13",
+          "end_date": "2027-03-13",
+          "date_precision": "approximate",
+          "date_status": "planned_2026_27",
+          "format": "очно во многих городах России, по приглашению для 10–11 классов",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         }
       ],
       "materials": [
@@ -2408,15 +3309,15 @@
       "geography": "Осенний тур онлайн; весенний заключительный тур очно во многих городах России.",
       "is_team": false,
       "academic_year": "2025/26",
-      "status": "last_published",
-      "data_status": "last_official_exact_2025_26_not_a_2026_27_forecast",
+      "status": "upcoming",
+      "data_status": "partial",
       "is_in_registry": true,
       "registry_level": 2,
       "registry_status": "previous_year",
       "is_popular": false,
       "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
       "previous_year_reference": "XLVIII Турнир, 2025/26",
-      "notes": "Календарь XLIX Турнира 2026/27 на дату исследования не опубликован. Осенний тур доступен 6–11 классам; весенний — только приглашенным ученикам 10–11 классов. Уровень, если указан, относится к Перечню 2025/26.",
+      "notes": "XLIX Турнир: осенний тур 4 октября 2026 для 6–11 классов, онлайн на платформе «Сириус», до пяти часов, завершение не позднее 15:00 мск. Весенний тур для приглашённых 10–11 классов планируется 13 марта 2027; дата предварительная. Регистрация пока не открыта.",
       "grades": [
         6,
         7,
@@ -2428,30 +3329,33 @@
       "stages": [
         {
           "name": "Регистрация на осенний тур",
-          "date_text": "4—27 сентября 2025, до 23:59 мск",
-          "start_date": "2025-09-04",
-          "end_date": "2025-09-27T23:59:00+03:00",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн"
+          "date_text": null,
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "tba",
+          "date_status": "pending",
+          "format": "онлайн",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Осенний тур",
-          "date_text": "28 сентября 2025",
-          "start_date": "2025-09-28",
-          "end_date": "2025-09-28",
+          "date_text": null,
+          "start_date": "2026-10-04",
+          "end_date": "2026-10-04",
           "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно"
+          "date_status": "official_2026_27",
+          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Весенний заключительный тур",
-          "date_text": "14 марта 2026",
-          "start_date": "2026-03-14",
-          "end_date": "2026-03-14",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "очно во многих городах России, по приглашению для 10–11 классов"
+          "date_text": null,
+          "start_date": "2027-03-13",
+          "end_date": "2027-03-13",
+          "date_precision": "approximate",
+          "date_status": "planned_2026_27",
+          "format": "очно во многих городах России, по приглашению для 10–11 классов",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         }
       ],
       "materials": [
@@ -2511,15 +3415,15 @@
       "geography": "Осенний тур онлайн; весенний заключительный тур очно во многих городах России.",
       "is_team": false,
       "academic_year": "2025/26",
-      "status": "last_published",
-      "data_status": "last_official_exact_2025_26_not_a_2026_27_forecast",
+      "status": "upcoming",
+      "data_status": "partial",
       "is_in_registry": true,
       "registry_level": 2,
       "registry_status": "previous_year",
       "is_popular": false,
       "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
       "previous_year_reference": "XLVIII Турнир, 2025/26",
-      "notes": "Календарь XLIX Турнира 2026/27 на дату исследования не опубликован. Осенний тур доступен 6–11 классам; весенний — только приглашенным ученикам 10–11 классов. Уровень, если указан, относится к Перечню 2025/26.",
+      "notes": "XLIX Турнир: осенний тур 4 октября 2026 для 6–11 классов, онлайн на платформе «Сириус», до пяти часов, завершение не позднее 15:00 мск. Весенний тур для приглашённых 10–11 классов планируется 13 марта 2027; дата предварительная. Регистрация пока не открыта.",
       "grades": [
         6,
         7,
@@ -2531,30 +3435,33 @@
       "stages": [
         {
           "name": "Регистрация на осенний тур",
-          "date_text": "4—27 сентября 2025, до 23:59 мск",
-          "start_date": "2025-09-04",
-          "end_date": "2025-09-27T23:59:00+03:00",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн"
+          "date_text": null,
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "tba",
+          "date_status": "pending",
+          "format": "онлайн",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Осенний тур",
-          "date_text": "28 сентября 2025",
-          "start_date": "2025-09-28",
-          "end_date": "2025-09-28",
+          "date_text": null,
+          "start_date": "2026-10-04",
+          "end_date": "2026-10-04",
           "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно"
+          "date_status": "official_2026_27",
+          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Весенний заключительный тур",
-          "date_text": "14 марта 2026",
-          "start_date": "2026-03-14",
-          "end_date": "2026-03-14",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "очно во многих городах России, по приглашению для 10–11 классов"
+          "date_text": null,
+          "start_date": "2027-03-13",
+          "end_date": "2027-03-13",
+          "date_precision": "approximate",
+          "date_status": "planned_2026_27",
+          "format": "очно во многих городах России, по приглашению для 10–11 классов",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         }
       ],
       "materials": [
@@ -2614,15 +3521,15 @@
       "geography": "Осенний тур онлайн; весенний заключительный тур очно во многих городах России.",
       "is_team": false,
       "academic_year": "2025/26",
-      "status": "last_published",
-      "data_status": "last_official_exact_2025_26_not_a_2026_27_forecast",
+      "status": "upcoming",
+      "data_status": "partial",
       "is_in_registry": true,
       "registry_level": 2,
       "registry_status": "previous_year",
       "is_popular": true,
       "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
       "previous_year_reference": "XLVIII Турнир, 2025/26",
-      "notes": "Календарь XLIX Турнира 2026/27 на дату исследования не опубликован. Осенний тур доступен 6–11 классам; весенний — только приглашенным ученикам 10–11 классов. Уровень, если указан, относится к Перечню 2025/26.",
+      "notes": "XLIX Турнир: осенний тур 4 октября 2026 для 6–11 классов, онлайн на платформе «Сириус», до пяти часов, завершение не позднее 15:00 мск. Весенний тур для приглашённых 10–11 классов планируется 13 марта 2027; дата предварительная. Регистрация пока не открыта.",
       "grades": [
         6,
         7,
@@ -2634,30 +3541,33 @@
       "stages": [
         {
           "name": "Регистрация на осенний тур",
-          "date_text": "4—27 сентября 2025, до 23:59 мск",
-          "start_date": "2025-09-04",
-          "end_date": "2025-09-27T23:59:00+03:00",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн"
+          "date_text": null,
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "tba",
+          "date_status": "pending",
+          "format": "онлайн",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Осенний тур",
-          "date_text": "28 сентября 2025",
-          "start_date": "2025-09-28",
-          "end_date": "2025-09-28",
+          "date_text": null,
+          "start_date": "2026-10-04",
+          "end_date": "2026-10-04",
           "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно"
+          "date_status": "official_2026_27",
+          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Весенний заключительный тур",
-          "date_text": "14 марта 2026",
-          "start_date": "2026-03-14",
-          "end_date": "2026-03-14",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "очно во многих городах России, по приглашению для 10–11 классов"
+          "date_text": null,
+          "start_date": "2027-03-13",
+          "end_date": "2027-03-13",
+          "date_precision": "approximate",
+          "date_status": "planned_2026_27",
+          "format": "очно во многих городах России, по приглашению для 10–11 классов",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         }
       ],
       "materials": [
@@ -2717,15 +3627,15 @@
       "geography": "Осенний тур онлайн; весенний заключительный тур очно во многих городах России.",
       "is_team": false,
       "academic_year": "2025/26",
-      "status": "last_published",
-      "data_status": "last_official_exact_2025_26_not_a_2026_27_forecast",
+      "status": "upcoming",
+      "data_status": "partial",
       "is_in_registry": true,
       "registry_level": 2,
       "registry_status": "previous_year",
       "is_popular": true,
       "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
       "previous_year_reference": "XLVIII Турнир, 2025/26",
-      "notes": "Календарь XLIX Турнира 2026/27 на дату исследования не опубликован. Осенний тур доступен 6–11 классам; весенний — только приглашенным ученикам 10–11 классов. Уровень, если указан, относится к Перечню 2025/26.",
+      "notes": "XLIX Турнир: осенний тур 4 октября 2026 для 6–11 классов, онлайн на платформе «Сириус», до пяти часов, завершение не позднее 15:00 мск. Весенний тур для приглашённых 10–11 классов планируется 13 марта 2027; дата предварительная. Регистрация пока не открыта.",
       "grades": [
         6,
         7,
@@ -2737,30 +3647,33 @@
       "stages": [
         {
           "name": "Регистрация на осенний тур",
-          "date_text": "4—27 сентября 2025, до 23:59 мск",
-          "start_date": "2025-09-04",
-          "end_date": "2025-09-27T23:59:00+03:00",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн"
+          "date_text": null,
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "tba",
+          "date_status": "pending",
+          "format": "онлайн",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Осенний тур",
-          "date_text": "28 сентября 2025",
-          "start_date": "2025-09-28",
-          "end_date": "2025-09-28",
+          "date_text": null,
+          "start_date": "2026-10-04",
+          "end_date": "2026-10-04",
           "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно"
+          "date_status": "official_2026_27",
+          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Весенний заключительный тур",
-          "date_text": "14 марта 2026",
-          "start_date": "2026-03-14",
-          "end_date": "2026-03-14",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "очно во многих городах России, по приглашению для 10–11 классов"
+          "date_text": null,
+          "start_date": "2027-03-13",
+          "end_date": "2027-03-13",
+          "date_precision": "approximate",
+          "date_status": "planned_2026_27",
+          "format": "очно во многих городах России, по приглашению для 10–11 классов",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         }
       ],
       "materials": [
@@ -2820,15 +3733,15 @@
       "geography": "Осенний тур онлайн; весенний заключительный тур очно во многих городах России.",
       "is_team": false,
       "academic_year": "2025/26",
-      "status": "last_published",
-      "data_status": "last_official_exact_2025_26_not_a_2026_27_forecast",
+      "status": "upcoming",
+      "data_status": "partial",
       "is_in_registry": true,
       "registry_level": 2,
       "registry_status": "previous_year",
       "is_popular": true,
       "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
       "previous_year_reference": "XLVIII Турнир, 2025/26",
-      "notes": "Календарь XLIX Турнира 2026/27 на дату исследования не опубликован. Осенний тур доступен 6–11 классам; весенний — только приглашенным ученикам 10–11 классов. Уровень, если указан, относится к Перечню 2025/26.",
+      "notes": "XLIX Турнир: осенний тур 4 октября 2026 для 6–11 классов, онлайн на платформе «Сириус», до пяти часов, завершение не позднее 15:00 мск. Весенний тур для приглашённых 10–11 классов планируется 13 марта 2027; дата предварительная. Регистрация пока не открыта.",
       "grades": [
         6,
         7,
@@ -2840,30 +3753,33 @@
       "stages": [
         {
           "name": "Регистрация на осенний тур",
-          "date_text": "4—27 сентября 2025, до 23:59 мск",
-          "start_date": "2025-09-04",
-          "end_date": "2025-09-27T23:59:00+03:00",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн"
+          "date_text": null,
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "tba",
+          "date_status": "pending",
+          "format": "онлайн",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Осенний тур",
-          "date_text": "28 сентября 2025",
-          "start_date": "2025-09-28",
-          "end_date": "2025-09-28",
+          "date_text": null,
+          "start_date": "2026-10-04",
+          "end_date": "2026-10-04",
           "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно"
+          "date_status": "official_2026_27",
+          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Весенний заключительный тур",
-          "date_text": "14 марта 2026",
-          "start_date": "2026-03-14",
-          "end_date": "2026-03-14",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "очно во многих городах России, по приглашению для 10–11 классов"
+          "date_text": null,
+          "start_date": "2027-03-13",
+          "end_date": "2027-03-13",
+          "date_precision": "approximate",
+          "date_status": "planned_2026_27",
+          "format": "очно во многих городах России, по приглашению для 10–11 классов",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         }
       ],
       "materials": [
@@ -2923,15 +3839,15 @@
       "geography": "Осенний тур онлайн; весенний заключительный тур очно во многих городах России.",
       "is_team": false,
       "academic_year": "2025/26",
-      "status": "last_published",
-      "data_status": "last_official_exact_2025_26_not_a_2026_27_forecast",
+      "status": "upcoming",
+      "data_status": "partial",
       "is_in_registry": false,
       "registry_level": null,
       "registry_status": "not_listed",
       "is_popular": false,
       "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
       "previous_year_reference": "XLVIII Турнир, 2025/26",
-      "notes": "Календарь XLIX Турнира 2026/27 на дату исследования не опубликован. Осенний тур доступен 6–11 классам; весенний — только приглашенным ученикам 10–11 классов. Уровень, если указан, относится к Перечню 2025/26.",
+      "notes": "XLIX Турнир: осенний тур 4 октября 2026 для 6–11 классов, онлайн на платформе «Сириус», до пяти часов, завершение не позднее 15:00 мск. Весенний тур для приглашённых 10–11 классов планируется 13 марта 2027; дата предварительная. Регистрация пока не открыта.",
       "grades": [
         6,
         7,
@@ -2943,30 +3859,33 @@
       "stages": [
         {
           "name": "Регистрация на осенний тур",
-          "date_text": "4—27 сентября 2025, до 23:59 мск",
-          "start_date": "2025-09-04",
-          "end_date": "2025-09-27T23:59:00+03:00",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн"
+          "date_text": null,
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "tba",
+          "date_status": "pending",
+          "format": "онлайн",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Осенний тур",
-          "date_text": "28 сентября 2025",
-          "start_date": "2025-09-28",
-          "end_date": "2025-09-28",
+          "date_text": null,
+          "start_date": "2026-10-04",
+          "end_date": "2026-10-04",
           "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно"
+          "date_status": "official_2026_27",
+          "format": "онлайн на платформе «Сириус», до 5 часов; все предметы одновременно",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         },
         {
           "name": "Весенний заключительный тур",
-          "date_text": "14 марта 2026",
-          "start_date": "2026-03-14",
-          "end_date": "2026-03-14",
-          "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "очно во многих городах России, по приглашению для 10–11 классов"
+          "date_text": null,
+          "start_date": "2027-03-13",
+          "end_date": "2027-03-13",
+          "date_precision": "approximate",
+          "date_status": "planned_2026_27",
+          "format": "очно во многих городах России, по приглашению для 10–11 классов",
+          "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/"
         }
       ],
       "materials": [
@@ -3705,18 +4624,18 @@
       "description": "Командная олимпиада по алгоритмическому программированию в ICPC-подобном формате; московский отбор на ВКОШП.",
       "organizer": "Департамент образования и науки города Москвы / Центр педагогического мастерства, МГУ; партнер площадки финала — Т-Банк",
       "website_url": "https://mkoshp.ru/",
-      "geography": "Москва и Московская область; отбор очно на зарегистрированных площадках школ, вузов и кружков, финал 2025 — офис Т-Банка в Москве.",
+      "geography": "Москва; только учащиеся общеобразовательных организаций города Москвы. Отборы на городских площадках, финалы в офисе Т-Банка.",
       "is_team": true,
       "academic_year": "2025/26",
-      "status": "last_published",
-      "data_status": "last_official_exact_2025_26_not_a_2026_27_forecast",
+      "status": "upcoming",
+      "data_status": "confirmed",
       "is_in_registry": false,
       "registry_level": null,
       "registry_status": "not_listed",
       "is_popular": true,
       "registration_url": "https://mkoshp.ru/",
       "previous_year_reference": "МКОШП-2025",
-      "notes": "Команда обычно из трех школьников и использует один компьютер. Официальные правила называют участников школьниками, но не устанавливают нижний класс; grades ограничены 5–11 рамками создаваемого сервиса. Точный период регистрации 2025 на открытой странице не указан.",
+      "notes": "В 2026 году две лиги: любительская (отбор 26 сентября, финал 4 октября) и профессиональная (отбор 11 октября, финал 15 ноября). Команды с дипломантом или двумя участниками регионального этапа ВсОШ по информатике не допускаются в любительскую лигу. Формы регистрации команд любительской лиги принимаются до 24 сентября; время закрытия не указано. Правила состава и переходов между лигами — на сайте организатора.",
       "grades": [
         5,
         6,
@@ -3728,31 +4647,62 @@
       ],
       "stages": [
         {
-          "name": "Регистрация команд и площадок",
+          "name": "Регистрация команд любительской лиги",
           "date_text": null,
           "start_date": null,
-          "end_date": null,
-          "date_precision": "unknown",
-          "date_status": "last_season_window_not_published_on_current_page",
-          "format": "через школу/кружок либо самостоятельно в предусмотренных правилами случаях"
+          "end_date": "2026-09-24",
+          "date_precision": "range",
+          "date_status": "official_2026_27",
+          "format": "через школу/кружок либо самостоятельно в предусмотренных правилами случаях",
+          "key": "registration-registratsiya-komand-i-ploschadok",
+          "registration_closes_on": "2026-09-24",
+          "source_url": "https://mkoshp.ru/"
         },
         {
-          "name": "Отборочный (квалификационный) тур",
-          "date_text": "12 октября 2025, 11:00—15:00 мск",
-          "start_date": "2025-10-12T11:00:00+03:00",
-          "end_date": "2025-10-12T15:00:00+03:00",
+          "key": "amateur-qualifying",
+          "name": "Отборочный тур любительской лиги",
+          "stage_type": "qualifying",
+          "start_date": "2026-09-26",
+          "end_date": "2026-09-26",
+          "date_status": "official_2026_27",
           "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "очно на зарегистрированных площадках, 4 часа"
+          "format": "offline",
+          "source_url": "https://mkoshp.ru/",
+          "details": "15:00–19:00 мск на площадках города."
         },
         {
-          "name": "Заключительный тур",
-          "date_text": "26 октября 2025, 10:30—15:30 мск",
-          "start_date": "2025-10-26T10:30:00+03:00",
-          "end_date": "2025-10-26T15:30:00+03:00",
+          "key": "amateur-final",
+          "name": "Финал любительской лиги",
+          "stage_type": "final",
+          "start_date": "2026-10-04",
+          "end_date": "2026-10-04",
+          "date_status": "official_2026_27",
           "date_precision": "exact",
-          "date_status": "last_official_2025_26",
-          "format": "очно, один компьютер на команду, 5 часов; офис Т-Банка, Москва"
+          "format": "offline",
+          "source_url": "https://mkoshp.ru/",
+          "details": "Офис Т-Банка, Москва."
+        },
+        {
+          "name": "Отборочный тур профессиональной лиги",
+          "date_text": null,
+          "start_date": "2026-10-11",
+          "end_date": "2026-10-11",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "offline",
+          "key": "qualifying-otborochnyi-kvalifikatsionnyi-tur",
+          "source_url": "https://mkoshp.ru/"
+        },
+        {
+          "name": "Финал профессиональной лиги",
+          "date_text": null,
+          "start_date": "2026-11-15",
+          "end_date": "2026-11-15",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "offline",
+          "key": "final-zaklyuchitelnyi-tur",
+          "source_url": "https://mkoshp.ru/"
         }
       ],
       "materials": [

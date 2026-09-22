@@ -1,5 +1,12 @@
 {
   "schema_version": 1,
+  "reuse_for_catalog": {
+    "checked_on": "2026-09-22",
+    "catalog_sha256": "4c91c9ffc06f607652d1b55aa4b5de372b8efa31d1f5db4f6e96330ea2a5aefd",
+    "unchanged_materials_sha256": "8a72a7144e2ae36c533c3d8ec9125831f87d1b8c0f7661f9e89f7468a5d85ae6",
+    "network_rechecked": false,
+    "reason": "Обновлены только статусы, расписания и сведения о сезоне. Материалы по каждому slug побайтово эквивалентны предыдущему JSON; дата исходной сетевой проверки сохранена."
+  },
   "generated_at": "2026-09-05T12:02:52+00:00",
   "catalog_path": "data/seed/catalog.json",
   "catalog_sha256": "255685e53af2366b30ae43992959e373bbf7c93652589e0001c3edd9d6015a2e",

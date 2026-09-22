@@ -48,10 +48,11 @@
     },
     {
       "slug": "registry-2026-27-014-02",
-      "registration_url": "https://vsesib.nsu.ru/",
+      "registration_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
       "registration_status": "announced",
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Актуальная страница этапов 2026/27 назначает начало регистрации на 28.09.2026 и прямо требует зарегистрироваться в этом личном кабинете; кабинет отвечает HTTP 200. До начала окна ссылка отмечена announced."
+      "evidence": "Опубликован календарь 2026/27: регистрация по профилю начнётся 2026-10-19, отбор 2026-11-08. Общий личный кабинет не означает, что уже можно подать заявку на предмет.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-017-01",
@@ -160,10 +161,11 @@
     },
     {
       "slug": "registry-2026-27-058-01",
-      "registration_url": null,
-      "registration_status": "not_found",
-      "source_url": "https://yumsh.ru/cms/",
-      "evidence": "Официальный сайт отвечает HTTP 200, а навигация и последние олимпиадные объявления относятся к 2025/26 и январю 2026 года. Страницы регистрации текущего 2026/27 цикла не найдено."
+      "registration_url": "https://education.tbank.ru/school/events/yumsh-olymp/",
+      "registration_status": "open",
+      "source_url": "https://yumsh.ru/cms/yumsh-olymp/2026-27",
+      "evidence": "Регистрация на платформе Т-образования доступна. Первый отбор прошёл 13 сентября; второй — 17 октября 16:00–21:00 мск. Прошедшие в финал по первому отбору во втором не участвуют.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-048-01",
@@ -377,17 +379,21 @@
     },
     {
       "slug": "registry-2026-27-051-04",
-      "registration_url": "https://olymp-online.mipt.ru/pre-reg/",
-      "registration_status": "announced",
+      "registration_url": "https://olymp-online.mipt.ru/event/449",
+      "registration_status": "open",
       "source_url": "https://olymp-online.mipt.ru/event/449",
-      "evidence": "Точная карточка «Отборочный этап 2026/27» публикует текущие туры и начало регистрации 07.09.2026 для математики и физики. Связанная форма /pre-reg/ отвечает HTTP 200 и пока сообщает «Регистрация в данный момент закрыта», поэтому статус announced."
+      "evidence": "Регистрация на онлайн-этап 2026/27 открыта с 7 сентября 10:00 мск. Математика: 11 октября 10:00 и 1 ноября 08:00 для 9–11 классов; 7 ноября 10:00 только для 11 класса. Регистрация до 10 октября 10:00, 31 октября 08:00 и 6 ноября 10:00 соответственно. Время московское.",
+      "checked_on": "2026-09-22",
+      "registration_closes_at": "2026-11-06T07:00:00Z"
     },
     {
       "slug": "registry-2026-27-051-05",
-      "registration_url": "https://olymp-online.mipt.ru/pre-reg/",
-      "registration_status": "announced",
+      "registration_url": "https://olymp-online.mipt.ru/event/449",
+      "registration_status": "open",
       "source_url": "https://olymp-online.mipt.ru/event/449",
-      "evidence": "Точная карточка «Отборочный этап 2026/27» публикует текущие туры и начало регистрации 07.09.2026 для математики и физики. Связанная форма /pre-reg/ отвечает HTTP 200 и пока сообщает «Регистрация в данный момент закрыта», поэтому статус announced."
+      "evidence": "Регистрация на онлайн-этап 2026/27 открыта с 7 сентября 10:00 мск. Физика: 4 октября 10:00 и 25 октября 08:00 для 9–11 классов; 8 ноября 10:00 только для 11 класса. Регистрация до 3 октября 10:00, 24 октября 08:00 и 7 ноября 10:00 соответственно. Время московское.",
+      "checked_on": "2026-09-22",
+      "registration_closes_at": "2026-11-07T07:00:00Z"
     },
     {
       "slug": "registry-2026-27-051-07",

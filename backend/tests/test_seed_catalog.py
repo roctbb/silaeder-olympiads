@@ -182,9 +182,13 @@ def test_seed_contains_school_professional_skills_championships():
         record = by_slug[slug]
         assert record["academic_year"] == "2026/27"
         assert record["registry_status"] == "not_listed"
-        assert record["registration_url"] is None
+        if slug == "masteryata-family-professional-skills":
+            assert record["registration_url"] == "https://kid.mcrpo.ru/w/application/"
+        else:
+            assert record["registration_url"] is None
         assert record["materials"]
         assert all(not stage["is_date_confirmed"] for stage in record["stages"]) or slug in {
+            "masteryata-family-professional-skills",
             "professionals-national-juniors",
             "high-technology-championship-juniors",
         }
@@ -514,18 +518,21 @@ def test_deadlines_and_regulatory_windows_are_not_rendered_as_event_ranges():
         "final",
     ]
     assert all(
-        stage["starts_on"] is None
-        and stage["ends_on"] is None
-        and stage["date_precision"] == "tba"
-        and stage["is_date_confirmed"] is False
+        stage["starts_on"] is not None
+        and stage["ends_on"] is not None
+        and stage["date_precision"] == "range"
+        and stage["is_date_confirmed"] is True
         for stage in innagrika["stages"]
     )
     qualifying = innagrika["stages"][0]
     assert qualifying["registration_opens_on"] == "2026-09-01"
-    assert qualifying["registration_closes_on"] == "2026-10-31"
-    assert "1–31 октября 2026 года" in qualifying["details"]
-    assert "1 ноября — 31 декабря 2026 года" in innagrika["stages"][1]["details"]
-    assert "1 декабря 2026 года — 28 февраля 2027 года" in innagrika["stages"][2]["details"]
+    assert qualifying["registration_closes_on"] == "2026-10-15"
+    assert [(s["starts_on"], s["ends_on"]) for s in innagrika["stages"]] == [
+        ("2026-10-16", "2026-10-18"),
+        ("2026-11-16", "2026-11-21"),
+        ("2026-12-13", "2026-12-19"),
+    ]
+    assert "оставлены TBA" not in innagrika["notes"]
 
 
 def test_current_registration_links_are_reviewed_for_the_target_season():
@@ -586,10 +593,10 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
     assert reviewed_open == published_registration_links
     assert seen == set(by_slug)
     assert status_counts == {
-        "open": 63,
-        "announced": 43,
-        "not_open": 33,
-        "not_found": 225,
+        "open": 82,
+        "announced": 46,
+        "not_open": 31,
+        "not_found": 205,
     }
     assert by_slug["registry-2026-27-005-01"]["registration_url"] == (
         "https://my.ntcontest.ru/?utm_campaign=school_8_11&utm_medium=schedule&utm_source=site"
@@ -606,7 +613,9 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
     }
     assert by_slug["registry-2026-27-001-01"]["registration_status"] == "open"
     assert by_slug["registry-2026-27-024-01"]["registration_status"] == "open"
-    assert by_slug["vosh-2026-27-16"]["registration_status"] == "not_open"
+    # A past cutoff preserves the registration history but closes the public link.
+    assert by_slug["vosh-2026-27-16"]["registration_status"] == "open"
+    assert by_slug["vosh-2026-27-16"]["registration_closes_at"] == "2026-09-13T16:55:00Z"
     assert {
         by_slug[slug]["registration_status"]
         for slug in (
@@ -677,14 +686,15 @@ def test_bmstu_biology_is_a_separate_non_registry_profile():
     assert biology["is_in_registry"] is False
     assert biology["registry_status"] == "not_listed"
     assert biology["registry_level"] is None
-    assert biology["registration_status"] == "announced"
+    assert biology["status"] == "archived"
+    assert biology["registration_status"] == "not_open"
     assert biology["registration_url"] is None
     assert [
         (stage["key"], stage["starts_on"], stage["is_date_confirmed"])
         for stage in biology["stages"]
     ] == [
-        ("qualifying", "2026-10-03", False),
-        ("final", "2027-02-01", False),
+        ("qualifying", None, False),
+        ("final", None, False),
     ]
     assert {(material["material_type"], material["url"]) for material in biology["materials"]} == {
         ("archive", "https://olymp.bmstu.ru/ru/biology-olymp"),
@@ -1092,7 +1102,16 @@ def test_seed_materials_are_profile_specific_and_audited():
         )
 
     audit = json.loads(MATERIAL_AUDIT_PATH.read_text(encoding="utf-8"))
-    assert audit["catalog_sha256"] == hashlib.sha256(catalog_bytes).hexdigest()
+    catalog_hash = hashlib.sha256(catalog_bytes).hexdigest()
+    if audit["catalog_sha256"] != catalog_hash:
+        reuse = audit["reuse_for_catalog"]
+        assert reuse["catalog_sha256"] == catalog_hash
+        material_data = {r["slug"]: r["materials"] for r in records}
+        material_hash = hashlib.sha256(
+            json.dumps(material_data, ensure_ascii=False, sort_keys=True).encode()
+        ).hexdigest()
+        assert reuse["unchanged_materials_sha256"] == material_hash
+        assert reuse["network_rechecked"] is False
     assert audit["catalog_records"] == len(records)
     assert audit["material_occurrences"] == material_occurrences
     assert audit["unique_urls"] == len(material_urls)

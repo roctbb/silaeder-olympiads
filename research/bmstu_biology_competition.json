@@ -13,7 +13,7 @@
       "geography": "russia",
       "is_team": false,
       "academic_year": "2026/27",
-      "data_status": "previous_year_estimate",
+      "data_status": "confirmed",
       "is_in_registry": false,
       "registry_level": null,
       "registry_status": "not_listed",
@@ -23,33 +23,41 @@
       "registration_url": null,
       "previous_year_reference": "2025/26",
       "eligibility_notes": "Общая страница организатора разрешает участие с 5 класса; опубликованные варианты и продолжительность туров по биологии приведены для 8–11 классов.",
-      "notes": "Официальный портал МГТУ перечисляет биологию как самостоятельный седьмой профиль, однако отдельной строки этого профиля нет в утверждённом перечне 2025/26 и проекте перечня 2026/27. Поэтому карточка честно помечена как неперечневая. Расписание 2026/27 ещё не опубликовано; даты этапов являются ориентиром по 2025/26.",
-      "grades": [5, 6, 7, 8, 9, 10, 11],
+      "notes": "Организатор 14 сентября 2026 объявил, что биология в сезоне 2026/27 не проводится. Карточка архивная; материалы прошлых лет и пользовательские планы сохранены. Прогнозные даты отменённого сезона убраны.",
+      "grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
       "stages": [
         {
           "key": "qualifying",
           "name": "Отборочный этап",
           "stage_type": "qualifying",
-          "start_date": "2025-10-03",
-          "end_date": "2025-12-01",
-          "date_precision": "range",
-          "date_status": "official_2025_26",
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "tba",
+          "date_status": "cancelled_2026_27",
           "format": "online",
-          "details": "В 2025/26 прошли три волны: 3–6 октября, 31 октября–3 ноября и 28 ноября–1 декабря.",
-          "source_url": "https://olymp.bmstu.ru/ru/biology-olymp"
+          "details": "Этап не проводится в сезоне 2026/27.",
+          "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/registraciya-na-olimpiadu-shag-v-buduschee-otkryta"
         },
         {
           "key": "final",
           "name": "Заключительный этап",
           "stage_type": "final",
-          "start_date": "2026-02-01",
-          "end_date": "2026-02-01",
-          "date_precision": "exact",
-          "date_status": "official_2025_26",
+          "start_date": null,
+          "end_date": null,
+          "date_precision": "tba",
+          "date_status": "cancelled_2026_27",
           "format": "offline",
           "location": "МГТУ им. Н. Э. Баумана и региональные площадки",
-          "details": "Заключительный этап 2025/26 был назначен на 1 февраля 2026 года.",
-          "source_url": "https://olymp.bmstu.ru/ru/biology-olymp"
+          "details": "Этап не проводится в сезоне 2026/27.",
+          "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/registraciya-na-olimpiadu-shag-v-buduschee-otkryta"
         }
       ],
       "materials": [
@@ -105,8 +113,17 @@
           "source_type": "official_schedule",
           "source_year": "2026/27",
           "accessed_on": "2026-08-26"
+        },
+        {
+          "title": "Биология не проводится в 2026/27",
+          "url": "https://olymp.bmstu.ru/ru/news/2026/09/14/registraciya-na-olimpiadu-shag-v-buduschee-otkryta",
+          "publisher": "МГТУ им. Н. Э. Баумана",
+          "source_type": "official",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-22"
         }
-      ]
+      ],
+      "publication_status": "archived"
     }
   ]
 }

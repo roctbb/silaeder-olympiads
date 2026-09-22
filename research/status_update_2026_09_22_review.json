@@ -1,0 +1,125 @@
+{
+  "checked_on": "2026-09-22",
+  "academic_year": "2026/27",
+  "reviewed_registration_slugs": [
+    "dano-data-analysis",
+    "lomonosov-tournament-astronomy-earth-sciences",
+    "lomonosov-tournament-biology",
+    "lomonosov-tournament-chemistry",
+    "lomonosov-tournament-history",
+    "lomonosov-tournament-linguistics",
+    "lomonosov-tournament-literature",
+    "lomonosov-tournament-mathematics",
+    "lomonosov-tournament-physics",
+    "masteryata-family-professional-skills",
+    "mkoshp-programming",
+    "registry-2026-27-006-01",
+    "registry-2026-27-014-01",
+    "registry-2026-27-014-02",
+    "registry-2026-27-014-03",
+    "registry-2026-27-014-04",
+    "registry-2026-27-014-05",
+    "registry-2026-27-018-01",
+    "registry-2026-27-032-01",
+    "registry-2026-27-032-02",
+    "registry-2026-27-032-03",
+    "registry-2026-27-032-04",
+    "registry-2026-27-032-05",
+    "registry-2026-27-032-06",
+    "registry-2026-27-032-07",
+    "registry-2026-27-032-08",
+    "registry-2026-27-051-04",
+    "registry-2026-27-051-05",
+    "registry-2026-27-052-01",
+    "registry-2026-27-052-02",
+    "registry-2026-27-052-03",
+    "registry-2026-27-052-04",
+    "registry-2026-27-052-05",
+    "registry-2026-27-052-06",
+    "registry-2026-27-058-01",
+    "shag-v-budushchee-biology",
+    "vosh-2026-27-01",
+    "vosh-2026-27-02",
+    "vosh-2026-27-09",
+    "vosh-2026-27-11",
+    "vosh-2026-27-12",
+    "vosh-2026-27-14",
+    "vosh-2026-27-16",
+    "vosh-2026-27-17",
+    "vosh-2026-27-18",
+    "vosh-2026-27-20",
+    "vosh-2026-27-21",
+    "vosh-2026-27-22",
+    "vosh-2026-27-24",
+    "vysshaya-proba-art-history",
+    "vysshaya-proba-biology",
+    "vysshaya-proba-business-basics",
+    "vysshaya-proba-chemistry",
+    "vysshaya-proba-culture",
+    "vysshaya-proba-design",
+    "vysshaya-proba-economics",
+    "vysshaya-proba-engineering-sciences",
+    "vysshaya-proba-financial-literacy",
+    "vysshaya-proba-foreign-languages",
+    "vysshaya-proba-history",
+    "vysshaya-proba-industrial-programming",
+    "vysshaya-proba-informatics",
+    "vysshaya-proba-international-relations",
+    "vysshaya-proba-journalism",
+    "vysshaya-proba-law",
+    "vysshaya-proba-math",
+    "vysshaya-proba-oriental-languages",
+    "vysshaya-proba-oriental-studies",
+    "vysshaya-proba-philology",
+    "vysshaya-proba-philosophy",
+    "vysshaya-proba-psychology",
+    "vysshaya-proba-russian-language",
+    "vysshaya-proba-social-science",
+    "vysshaya-proba-sociology"
+  ],
+  "caveats": [
+    "HTTP-доступность источника сама по себе не подтверждает регистрацию.",
+    "Миссия выполнима: новая общая кнопка lk.fa.ru/elk доступна, но профильная ссылка my.fa.ru/auth/login не разрешается; открытие не подтверждено.",
+    "PROD: форма подписки на новости не является регистрацией.",
+    "Мёбиус: регистрация ещё не открыта.",
+    "МКОШП: открыта только любительская лига.",
+    "ВсОШ: верхнеуровневый срок — последний для всех классов; индивидуальные сроки приведены в описании этапа.",
+    "Где указан только день закрытия без времени, точный timestamp не выдумывался.",
+    "Аудит материалов прежний: эта проверка касается статусов и расписаний."
+  ],
+  "source_fetch_scan": {
+    "attempted": 135,
+    "readable_responses": 128,
+    "note": "HTTP-проверка — только поиск изменений, не подтверждение статусов всех олимпиад.",
+    "errors": [
+      {
+        "url": "https://moebiustour.ru/reg",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://olymp.psu.ru/",
+        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+      },
+      {
+        "url": "https://pro.voenmeh.ru/oto",
+        "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+      },
+      {
+        "url": "http://school.astro.spbu.ru/",
+        "error": "Remote end closed connection without response"
+      },
+      {
+        "url": "https://www.pdmi.ras.ru/~olymp/current.html",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+      },
+      {
+        "url": "https://dovuz.sfu.ru/abiturientu-sfu/olimpiady/belchonok/2025-2026-uchebnyy-god/",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://herzen.spb.ru/abiturients/olimpiady/olimp-rsosh/fl/",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ]
+  }
+}

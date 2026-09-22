@@ -4,10 +4,11 @@
   "slugs": [
     {
       "slug": "registry-2026-27-006-01",
-      "registration_url": null,
-      "registration_status": "not_open",
-      "source_url": "https://innagrika.ru/wp-content/uploads/2026/06/3_reglament_olimpiady_innagrika.pdf",
-      "evidence": "Регламент 2026 предусматривает онлайн-регистрацию ежегодно с 1 сентября по 31 октября и публикацию точного периода не позднее 1 сентября. На 26.08.2026 отдельная форма сезона 2026/27 не опубликована; страница олимпиады всё ещё показывает сроки 2025 года и не использована."
+      "registration_url": "https://innagrika.cifrium.ru/invite/VW597G",
+      "registration_status": "open",
+      "source_url": "https://innagrika.ru/olimpiada/",
+      "evidence": "На странице сезона 2026/27 действует регистрация 1 сентября — 15 октября 2026. Актуальное расписание сайта заменяет общую ежегодную рамку старого регламента; точное время закрытия не указано.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-007-01",
@@ -53,31 +54,35 @@
     },
     {
       "slug": "registry-2026-27-014-01",
-      "registration_url": "https://vsesib.nsu.ru/",
+      "registration_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
       "registration_status": "announced",
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Актуальная страница этапов 2026/27 назначает регистрацию с 28 сентября 2026 и прямо требует зарегистрироваться в этом личном кабинете; кабинет отвечает HTTP 200. До начала окна ссылка отмечена как announced."
+      "evidence": "Опубликован календарь 2026/27: регистрация по профилю начнётся 2026-10-12, отбор 2026-11-01. Общий личный кабинет не означает, что уже можно подать заявку на предмет.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-014-03",
-      "registration_url": "https://vsesib.nsu.ru/",
+      "registration_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
       "registration_status": "announced",
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Актуальная страница этапов 2026/27 назначает регистрацию с 28 сентября 2026 и прямо требует зарегистрироваться в этом личном кабинете; кабинет отвечает HTTP 200. До начала окна ссылка отмечена как announced."
+      "evidence": "Опубликован календарь 2026/27: регистрация по профилю начнётся 2026-09-28, отбор 2026-10-18. Общий личный кабинет не означает, что уже можно подать заявку на предмет.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-014-04",
-      "registration_url": "https://vsesib.nsu.ru/",
+      "registration_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
       "registration_status": "announced",
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Актуальная страница этапов 2026/27 назначает регистрацию с 28 сентября 2026 и прямо требует зарегистрироваться в этом личном кабинете; кабинет отвечает HTTP 200. До начала окна ссылка отмечена как announced."
+      "evidence": "Опубликован календарь 2026/27: регистрация по профилю начнётся 2026-10-26, отбор 2026-11-15. Общий личный кабинет не означает, что уже можно подать заявку на предмет.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-014-05",
-      "registration_url": "https://vsesib.nsu.ru/",
+      "registration_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
       "registration_status": "announced",
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Актуальная страница этапов 2026/27 назначает регистрацию с 28 сентября 2026 и прямо требует зарегистрироваться в этом личном кабинете; кабинет отвечает HTTP 200. До начала окна ссылка отмечена как announced."
+      "evidence": "Опубликован календарь 2026/27: регистрация по профилю начнётся 2026-10-26, отбор 2026-11-22. Общий личный кабинет не означает, что уже можно подать заявку на предмет.",
+      "checked_on": "2026-09-22"
     },
     {
       "slug": "registry-2026-27-021-01",
