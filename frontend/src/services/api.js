@@ -210,3 +210,24 @@ export function deleteAdminOlympiad(slug) {
 export function resetAdminSessionForTests() {
   adminCsrfToken = ''
 }
+
+export function getMyClass() {
+  return request('/api/v1/my-class')
+}
+
+export function getClassCandidates(params = {}) {
+  return request('/api/v1/my-class/candidates?' + new URLSearchParams(params))
+}
+
+export function addClassStudent(studentId, csrfToken) {
+  return request('/api/v1/my-class/students', {
+    method: 'POST', headers: csrfHeaders(csrfToken),
+    body: JSON.stringify({ student_id: studentId }),
+  })
+}
+
+export function removeClassStudent(studentId, csrfToken) {
+  return request('/api/v1/my-class/students/' + encodeURIComponent(studentId), {
+    method: 'DELETE', headers: csrfHeaders(csrfToken),
+  })
+}

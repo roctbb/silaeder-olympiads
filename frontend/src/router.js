@@ -14,6 +14,11 @@ const routes = [
     props: true,
   },
   {
+    path: '/my-class',
+    name: 'my-class',
+    component: () => import('./views/MyClassView.vue'),
+  },
+  {
     path: '/my-plan',
     name: 'my-plan',
     component: () => import('./views/MyPlanView.vue'),

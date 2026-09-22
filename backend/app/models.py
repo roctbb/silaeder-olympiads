@@ -529,3 +529,56 @@ class RegistrationNotificationDispatch(TimestampMixin, db.Model):
     plan: Mapped[UserOlympiadPlan] = relationship(
         back_populates="registration_notification_dispatches"
     )
+
+
+class ClassStudent(TimestampMixin, db.Model):
+    __tablename__ = "class_students"
+    __table_args__ = (
+        UniqueConstraint("teacher_id", "student_id", name="class_teacher_student"),
+        UniqueConstraint("admin_id", "student_id", name="class_admin_student"),
+        CheckConstraint(
+            "(teacher_id IS NULL) != (admin_id IS NULL)", name="one_class_owner"
+        ),
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    teacher_id: Mapped[int | None] = mapped_column(
+        ForeignKey("users.id", ondelete="CASCADE"), index=True
+    )
+    admin_id: Mapped[int | None] = mapped_column(
+        ForeignKey("admins.id", ondelete="CASCADE"), index=True
+    )
+    student_id: Mapped[int] = mapped_column(
+        ForeignKey("users.id", ondelete="CASCADE"), index=True
+    )
+    student: Mapped[User] = relationship(foreign_keys=[student_id])
+    teacher: Mapped[User | None] = relationship(foreign_keys=[teacher_id])
+
+
+class ClassNotificationDispatch(TimestampMixin, db.Model):
+    __tablename__ = "class_notification_dispatches"
+    __table_args__ = (
+        UniqueConstraint("teacher_id", "edition_id", "scheduled_for", name="class_daily_edition"),
+    )
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    teacher_id: Mapped[int] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"))
+    edition_id: Mapped[int] = mapped_column(
+        ForeignKey("olympiad_editions.id", ondelete="CASCADE")
+    )
+    scheduled_for: Mapped[date] = mapped_column(db.Date, index=True)
+    events: Mapped[list] = mapped_column(db.JSON, nullable=False)
+    idempotency_key: Mapped[str] = mapped_column(String(128), unique=True)
+    payload: Mapped[dict] = mapped_column(db.JSON, nullable=False)
+    payload_sha256: Mapped[str] = mapped_column(String(64))
+    status: Mapped[ReminderStatus] = mapped_column(
+        enum_type(ReminderStatus), default=ReminderStatus.PENDING, index=True
+    )
+    attempt_count: Mapped[int] = mapped_column(default=0)
+    next_attempt_at: Mapped[datetime | None] = mapped_column(db.DateTime(timezone=True), index=True)
+    last_attempt_at: Mapped[datetime | None] = mapped_column(db.DateTime(timezone=True))
+    sent_at: Mapped[datetime | None] = mapped_column(db.DateTime(timezone=True))
+    response_status: Mapped[int | None] = mapped_column(db.SmallInteger)
+    last_error: Mapped[str | None] = mapped_column(String(100))
+    teacher: Mapped[User] = relationship()
+    edition: Mapped[OlympiadEdition] = relationship()

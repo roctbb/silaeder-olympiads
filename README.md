@@ -79,6 +79,7 @@ frontend доступны внешнему nginx только на `127.0.0.1`.
 
 - каталог: <http://localhost:5188>;
 - личный план: <http://localhost:5188/my-plan>;
+- мой класс для учителей и администраторов: <http://localhost:5188/my-class>;
 - админка: <http://localhost:5188/admin>;
 - пользователи и их планы: <http://localhost:5188/admin/users>;
 - readiness API (PostgreSQL + Redis): <http://localhost:5050/api/health>;

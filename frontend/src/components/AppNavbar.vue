@@ -76,6 +76,9 @@ async function logout() {
               </span>
             </li>
             <template v-else-if="auth.user">
+              <li v-if="['teacher', 'admin'].includes(auth.user.role?.trim().toLowerCase())" class="nav-item">
+                <RouterLink class="nav-link" to="/my-class">Мой класс</RouterLink>
+              </li>
               <li class="nav-item ms-lg-2">
                 <span class="navbar-user" :title="auth.user.name">
                   <i class="fa-solid fa-circle-user" aria-hidden="true"></i>

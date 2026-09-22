@@ -1,5 +1,10 @@
 from celery import shared_task
 
+from .services.class_notifications import (
+    deliver_class_notification_once,
+    due_class_notification_ids,
+    schedule_class_notifications,
+)
 from .services.registration_notifications import (
     deliver_registration_notification_once,
     due_registration_notification_ids,
@@ -21,6 +26,10 @@ def catalog_health() -> dict[str, str]:
 @shared_task(name="reminders.scan")
 def scan_reminders() -> dict[str, int]:
     """Persist and enqueue stage reminders and registration notifications."""
+    class_created_ids = schedule_class_notifications()
+    class_due_ids = due_class_notification_ids()
+    for dispatch_id in class_due_ids:
+        deliver_class_notification.apply_async(args=(dispatch_id,))
     reminder_created_ids = schedule_reminder_dispatches()
     registration_created_ids = schedule_registration_notification_dispatches()
     reminder_due_ids = due_dispatch_ids()
@@ -30,8 +39,10 @@ def scan_reminders() -> dict[str, int]:
     for dispatch_id in registration_due_ids:
         deliver_registration_notification.apply_async(args=(dispatch_id,))
     return {
-        "created": len(reminder_created_ids) + len(registration_created_ids),
-        "enqueued": len(reminder_due_ids) + len(registration_due_ids),
+        "created": len(reminder_created_ids)
+        + len(registration_created_ids)
+        + len(class_created_ids),
+        "enqueued": len(reminder_due_ids) + len(registration_due_ids) + len(class_due_ids),
     }
 
 
@@ -51,9 +62,7 @@ def deliver_reminder(self, dispatch_id: int) -> dict[str, str | int]:
     name="registration_notifications.deliver",
     max_retries=None,
 )
-def deliver_registration_notification(
-    self, dispatch_id: int
-) -> dict[str, str | int]:
+def deliver_registration_notification(self, dispatch_id: int) -> dict[str, str | int]:
     outcome = deliver_registration_notification_once(dispatch_id)
     if outcome.status == "retry":
         raise self.retry(countdown=outcome.retry_after or 1)
@@ -61,3 +70,11 @@ def deliver_registration_notification(
     if outcome.retry_after is not None:
         result["retry_after"] = outcome.retry_after
     return result
+
+
+@shared_task(bind=True, name="class_notifications.deliver", max_retries=None)
+def deliver_class_notification(self, dispatch_id):
+    outcome = deliver_class_notification_once(dispatch_id)
+    if outcome.status == "retry":
+        raise self.retry(countdown=outcome.retry_after or 1)
+    return {"status": outcome.status}

@@ -80,6 +80,7 @@ onMounted(load)
       </div>
       <div class="d-flex flex-wrap gap-2">
         <button type="button" class="btn btn-outline-secondary" @click="logout">Выйти</button>
+        <RouterLink class="btn btn-outline-primary" to="/my-class">Мой класс</RouterLink>
         <RouterLink class="btn btn-outline-primary" :to="{ name: 'admin-users' }">
           <i class="fa-solid fa-users me-1" aria-hidden="true"></i>
           Пользователи и планы

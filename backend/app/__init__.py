@@ -108,6 +108,7 @@ def create_app(config_object: type[Config] | None = None) -> Flask:
 
     from . import models  # noqa: F401
     from .api.admin import admin_bp
+    from .api.my_class import class_bp
     from .api.personal import personal_bp
     from .api.public import public_bp
     from .auth import auth_bp
@@ -115,6 +116,7 @@ def create_app(config_object: type[Config] | None = None) -> Flask:
 
     app.register_blueprint(public_bp, url_prefix="/api/v1")
     app.register_blueprint(personal_bp, url_prefix="/api/v1")
+    app.register_blueprint(class_bp, url_prefix="/api/v1")
     app.register_blueprint(auth_bp)
     app.register_blueprint(admin_bp, url_prefix="/api/admin")
     register_commands(app)
