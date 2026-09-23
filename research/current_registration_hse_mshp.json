@@ -1,0 +1,13 @@
+{
+  "checked_on": "2026-09-23",
+  "target_academic_year": "2026/27",
+  "slugs": [
+    {
+      "slug": "hse-mshp-informatics",
+      "registration_url": "https://cs.hse.ru/abitur/polls/1200947403.html",
+      "registration_status": "announced",
+      "source_url": "https://cs.hse.ru/abitur/olympiad26",
+      "evidence": "Официальная страница приглашает учащихся 8–10 классов на 25 октября, регистрация заявлена до 21 октября 23:59. Ссылка ведёт на страницу с HTTP 200 и заголовком регистрации, но без формы: проверены HTML и отображение в браузере 23.09.2026. Поэтому приём заявок не отмечен как подтверждённо открытый."
+    }
+  ]
+}

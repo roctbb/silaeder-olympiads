@@ -1,4 +1,5 @@
 import hashlib
+import importlib.util
 import json
 import re
 from collections import Counter
@@ -82,6 +83,38 @@ def test_seed_profiles_have_explicit_direction_taxonomy_coverage():
 
     assert len(seed_profiles) == 135
     assert seed_profiles == MAPPED_PROFILES
+
+
+def test_hse_mshp_is_a_separate_competition_with_an_unverified_registration_form():
+    by_slug = {
+        record["slug"]: record
+        for record in json.loads(CATALOG_PATH.read_text(encoding="utf-8"))["records"]
+    }
+    record = by_slug["hse-mshp-informatics"]
+    assert record["grades"] == [8, 9, 10]
+    assert record["registration_status"] == "announced"
+    assert record["registration_url"] is None
+    assert record["materials"] == []
+    assert "Архив заданий именно этой олимпиады пока не найден" in record["notes"]
+    assert record["is_in_registry"] is False
+    assert record["benefits"] == []
+    assert record["stages"][0]["starts_on"] == "2026-10-25"
+    assert record["stages"][0]["registration_closes_on"] == "2026-10-21"
+    assert record["stages"][0]["is_date_confirmed"] is True
+    assert by_slug["registry-2026-27-060-01"]["family_name"] == "Открытая олимпиада школьников"
+
+    spec = importlib.util.spec_from_file_location(
+        "catalog_builder", RESEARCH_PATH.parent / "scripts" / "build_catalog.py"
+    )
+    builder = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(builder)
+    document = json.loads((RESEARCH_PATH / "hse_mshp_competition.json").read_text())
+    assert document["merge_by_slug_only"] is True
+    incoming = builder.normalize_record(document["records"][0])
+    existing = by_slug["registry-2026-27-060-01"]
+    merged = builder.merge_records([existing], [incoming], exact_slug_only=True)
+    assert merged == [existing, incoming]
+    assert builder.merge_records(merged, [incoming], exact_slug_only=True) == merged
 
 
 def test_seed_catalog_is_complete_and_importable(app):
@@ -594,7 +627,7 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
     assert seen == set(by_slug)
     assert status_counts == {
         "open": 82,
-        "announced": 46,
+        "announced": 47,
         "not_open": 31,
         "not_found": 205,
     }
@@ -1043,7 +1076,7 @@ def test_seed_materials_are_profile_specific_and_audited():
 
     assert records_with_materials == 364
     assert len(records_with_past_tasks) == 362
-    assert records_without_materials == set()
+    assert records_without_materials == {"hse-mshp-informatics"}
     assert len(material_urls) >= 286
     assert DEPRECATED_VSOSH_ARCHIVE not in material_urls
     assert all(record["materials"] for record in records if record["is_popular"])
@@ -1112,7 +1145,11 @@ def test_seed_materials_are_profile_specific_and_audited():
         ).hexdigest()
         assert reuse["unchanged_materials_sha256"] == material_hash
         assert reuse["network_rechecked"] is False
-    assert audit["catalog_records"] == len(records)
+    added_without_materials = set(
+        audit.get("reuse_for_catalog", {}).get("added_records_without_materials", [])
+    )
+    assert added_without_materials == records_without_materials
+    assert audit["catalog_records"] + len(added_without_materials) == len(records)
     assert audit["material_occurrences"] == material_occurrences
     assert audit["unique_urls"] == len(material_urls)
     assert audit["olympiads_with_materials"] == records_with_materials

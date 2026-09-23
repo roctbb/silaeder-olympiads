@@ -36,6 +36,7 @@ EXTRA_COMPETITION_PATHS = (
     RESEARCH / "bmstu_biology_competition.json",
     RESEARCH / "bmstu_gazprom_competitions.json",
     RESEARCH / "euler_olympiad_competition.json",
+    RESEARCH / "hse_mshp_competition.json",
     RESEARCH / "professional_skills_competitions.json",
 )
 ADDITIONAL_UNIVERSITY_BENEFITS_GLOBS = (
@@ -1188,13 +1189,22 @@ def merge_record(base: dict[str, Any], overlay: dict[str, Any]) -> dict[str, Any
     return result
 
 
-def merge_records(base_records: list[dict[str, Any]], overlays: list[dict[str, Any]]):
+def merge_records(
+    base_records: list[dict[str, Any]],
+    overlays: list[dict[str, Any]],
+    *,
+    exact_slug_only: bool = False,
+):
     result = deepcopy(base_records)
     for overlay in overlays:
         candidates = [
             (record_match_score(base, overlay), index)
             for index, base in enumerate(result)
-            if record_matches(base, overlay)
+            if (
+                base["slug"] == overlay["slug"]
+                if exact_slug_only
+                else record_matches(base, overlay)
+            )
         ]
         if not candidates:
             result.append(deepcopy(overlay))
@@ -2361,7 +2371,9 @@ def main() -> None:
         if not isinstance(raw_records, list) or not raw_records:
             raise ValueError(f"{extra_path.name}: records должен быть непустым массивом")
         records = merge_records(
-            records, [normalize_record(item) for item in raw_records]
+            records,
+            [normalize_record(item) for item in raw_records],
+            exact_slug_only=document.get("merge_by_slug_only", False),
         )
     records = apply_material_enrichments(records)
     records = expand_mosh_directions(records)
