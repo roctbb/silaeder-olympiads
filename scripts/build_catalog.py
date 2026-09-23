@@ -33,6 +33,7 @@ PROFILE_METADATA_ENRICHMENT_PATHS = (
 )
 UNIVERSITY_BENEFITS_ENRICHMENT = RESEARCH / "university_benefits_2026_enrichment.json"
 EXTRA_COMPETITION_PATHS = (
+    RESEARCH / "additional_competitions_20260923.json",
     RESEARCH / "bmstu_biology_competition.json",
     RESEARCH / "bmstu_gazprom_competitions.json",
     RESEARCH / "euler_olympiad_competition.json",

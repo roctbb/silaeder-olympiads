@@ -117,6 +117,100 @@ def test_hse_mshp_is_a_separate_competition_with_an_unverified_registration_form
     assert builder.merge_records(merged, [incoming], exact_slug_only=True) == merged
 
 
+def test_additional_competitions_keep_age_groups_and_forecasts_separate(tmp_path):
+    records = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))["records"]
+    by_slug = {r["slug"]: r for r in records}
+    expected_regattas = {
+        7: ("2027-05-15", "2027-04-15", "2027-04-22"),
+        8: ("2027-01-16", "2026-12-16", "2026-12-23"),
+        9: ("2026-10-10", "2026-09-10", "2026-09-17"),
+        10: ("2027-02-27", "2027-01-27", "2027-02-03"),
+        11: ("2026-11-14", "2026-10-14", "2026-10-21"),
+    }
+    for grade, (day, opens, closes) in expected_regattas.items():
+        record = by_slug[f"moscow-math-regatta-grade-{grade}"]
+        assert record["grades"] == [grade]
+        stage = record["stages"][0]
+        assert (stage["starts_on"], stage["ends_on"]) == (day, day)
+        assert stage["registration_opens_on"] == opens
+        assert stage["registration_closes_on"] == closes
+        assert stage["is_date_confirmed"] is True
+        assert record["registration_status"] == ("not_open" if grade == 9 else "announced")
+
+    kolm = by_slug["kolmogorov-cup-mathematics"]
+    assert kolm["registration_status"] == "open"
+    assert kolm["registration_url"] == "https://turmath.ru/kolm/reg-team.php"
+    assert kolm["stages"][0]["registration_closes_on"] == "2026-11-05"
+    assert "48 000" in kolm["notes"] and "платное" in kolm["notes"]
+    assert "меньше 5 или больше 6" in kolm["eligibility_notes"]
+    hse = by_slug["hse-team-programming"]
+    assert hse["stages"][0]["date_precision"] == "month"
+    assert hse["registration_url"] is None
+    for slug in (
+        "vkoshp-junior-programming", "moscow-oral-team-math-8-9",
+        "moscow-oral-team-math-10-11", "yandex-education-cup-5-7",
+        "yandex-education-cup-8-11",
+    ):
+        record = by_slug[slug]
+        assert record["data_status"] == "previous_year_estimate"
+        assert record["registration_status"] == "not_found"
+        assert all(not s["is_date_confirmed"] for s in record["stages"])
+        assert all("Прогноз на 2026/27" in s["details"] for s in record["stages"])
+    assert by_slug["moscow-oral-team-math-8-9"]["grades"] == [8, 9]
+    assert by_slug["moscow-oral-team-math-10-11"]["grades"] == [10, 11]
+    assert len(by_slug["yandex-education-cup-5-7"]["stages"]) == 1
+    senior = by_slug["yandex-education-cup-8-11"]
+    assert senior["grades"] == [8, 9, 10, 11]
+    assert len(senior["stages"]) == 4
+    assert [s["starts_on"] for s in senior["stages"]][1:3] == ["2027-02-14", "2027-02-18"]
+    assert all(not r["is_in_registry"] for r in records if r["slug"].startswith("yandex-education-cup-"))
+
+    spec = importlib.util.spec_from_file_location(
+        "additional_catalog_builder", RESEARCH_PATH.parent / "scripts" / "build_catalog.py"
+    )
+    builder = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(builder)
+    builder.OUTPUT = tmp_path / "catalog.json"
+    builder.main()
+    assert builder.OUTPUT.read_bytes() == CATALOG_PATH.read_bytes()
+
+
+def test_added_age_groups_are_filtered_in_public_catalog_and_calendar(app, client):
+    records = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))["records"]
+    added = json.loads(
+        (RESEARCH_PATH / "additional_competitions_20260923.json").read_text(encoding="utf-8")
+    )
+    slugs = {r["slug"] for r in added["records"]}
+    with app.app_context():
+        for record in records:
+            if record["slug"] in slugs:
+                upsert_catalog_record(record)
+        db.session.commit()
+    response = client.get(
+        "/api/v1/olympiads",
+        query_string={"q": "регата", "grade": 7, "academic_year": "2026/27"},
+    )
+    assert response.status_code == 200
+    assert [r["slug"] for r in response.get_json()["items"]] == ["moscow-math-regatta-grade-7"]
+    calendar = client.get(
+        "/api/v1/calendar",
+        query_string={"q": "регата", "grade": 7, "month": "2026-10"},
+    )
+    assert calendar.status_code == 200
+    assert calendar.get_json()["events"] == []
+    calendar = client.get(
+        "/api/v1/calendar",
+        query_string={"q": "регата", "grade": 7, "month": "2027-05"},
+    )
+    assert calendar.status_code == 200
+    assert calendar.get_json()["total"] == 1
+    yandex = client.get(
+        "/api/v1/olympiads",
+        query_string={"q": "Яндекс", "grade": 6, "academic_year": "2026/27"},
+    )
+    assert [r["slug"] for r in yandex.get_json()["items"]] == ["yandex-education-cup-5-7"]
+
+
 def test_seed_catalog_is_complete_and_importable(app):
     document = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
     records = document["records"]
@@ -626,10 +720,10 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
     assert reviewed_open == published_registration_links
     assert seen == set(by_slug)
     assert status_counts == {
-        "open": 82,
-        "announced": 47,
-        "not_open": 31,
-        "not_found": 205,
+        "open": 83,
+        "announced": 51,
+        "not_open": 32,
+        "not_found": 211,
     }
     assert by_slug["registry-2026-27-005-01"]["registration_url"] == (
         "https://my.ntcontest.ru/?utm_campaign=school_8_11&utm_medium=schedule&utm_source=site"
@@ -1074,8 +1168,8 @@ def test_seed_materials_are_profile_specific_and_audited():
         record["slug"] for record in records if not record.get("materials")
     }
 
-    assert records_with_materials == 364
-    assert len(records_with_past_tasks) == 362
+    assert records_with_materials == 376
+    assert len(records_with_past_tasks) == 374
     assert records_without_materials == {"hse-mshp-informatics"}
     assert len(material_urls) >= 286
     assert DEPRECATED_VSOSH_ARCHIVE not in material_urls
@@ -1139,7 +1233,10 @@ def test_seed_materials_are_profile_specific_and_audited():
     if audit["catalog_sha256"] != catalog_hash:
         reuse = audit["reuse_for_catalog"]
         assert reuse["catalog_sha256"] == catalog_hash
-        material_data = {r["slug"]: r["materials"] for r in records}
+        additional_slugs = set(reuse.get("additional_record_slugs", []))
+        material_data = {
+            r["slug"]: r["materials"] for r in records if r["slug"] not in additional_slugs
+        }
         material_hash = hashlib.sha256(
             json.dumps(material_data, ensure_ascii=False, sort_keys=True).encode()
         ).hexdigest()
@@ -1149,9 +1246,38 @@ def test_seed_materials_are_profile_specific_and_audited():
         audit.get("reuse_for_catalog", {}).get("added_records_without_materials", [])
     )
     assert added_without_materials == records_without_materials
-    assert audit["catalog_records"] + len(added_without_materials) == len(records)
-    assert audit["material_occurrences"] == material_occurrences
-    assert audit["unique_urls"] == len(material_urls)
-    assert audit["olympiads_with_materials"] == records_with_materials
-    assert audit["summary"]["status_unique_urls"] == {"ok": len(material_urls)}
-    assert {row["url"] for row in audit["results"]} == material_urls
+    additional_path = RESEARCH_PATH / "additional_competitions_20260923.json"
+    additional = json.loads(additional_path.read_text(encoding="utf-8"))
+    additional_slugs = {r["slug"] for r in additional["records"]}
+    assert set(audit["reuse_for_catalog"]["additional_record_slugs"]) == additional_slugs
+    delta = json.loads(
+        (RESEARCH_PATH / "additional_material_audit_20260923.json").read_text(encoding="utf-8")
+    )
+    assert delta["catalog_sha256"] == hashlib.sha256(additional_path.read_bytes()).hexdigest()
+    assert delta["catalog_records"] == len(additional_slugs) == 12
+    assert audit["catalog_records"] + len(added_without_materials) + len(additional_slugs) == len(records)
+    assert audit["material_occurrences"] + delta["material_occurrences"] == material_occurrences
+    assert audit["olympiads_with_materials"] + delta["olympiads_with_materials"] == records_with_materials
+    base_urls = {row["url"] for row in audit["results"]}
+    delta_urls = {row["url"] for row in delta["results"]}
+    assert base_urls.isdisjoint(delta_urls)
+    assert audit["unique_urls"] + delta["unique_urls"] == len(material_urls)
+    assert audit["summary"]["status_unique_urls"] == {"ok": len(base_urls)}
+    assert base_urls | delta_urls == material_urls
+
+    reviews = json.loads(
+        (RESEARCH_PATH / "additional_material_browser_review_20260923.json").read_text(encoding="utf-8")
+    )
+    browser_review = {row["url"]: row for row in reviews["results"]}
+    assert len(browser_review) == 2
+    for row in delta["results"]:
+        if row["status"] != "ok":
+            review = browser_review[row["url"]]
+            assert row["http_status"] == 200
+            assert row["reason_code"] == "empty_html"
+            assert review["sample_sha256"] == row["sample_sha256"]
+            assert review["status"] == "browser_verified"
+            assert review["task_cards_count"] in {33, 39}
+            assert review["evidence"]
+    for raw in additional["records"]:
+        assert by_slug[raw["slug"]]["materials"] == raw["materials"]

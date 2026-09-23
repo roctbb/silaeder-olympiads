@@ -1,0 +1,90 @@
+{
+  "checked_on": "2026-09-23",
+  "target_academic_year": "2026/27",
+  "slugs": [
+    {
+      "slug": "moscow-math-regatta-grade-7",
+      "registration_status": "announced",
+      "registration_url": "https://math.hse.ru/math.regata.hse.ru",
+      "source_url": "https://olympiads.mccme.ru/regata/",
+      "evidence": "Официальное окно заявок 2027-04-15 — 2027-04-22; на 2026-09-23 ещё не наступило. Регистрация через факультет математики ВШЭ, по правилам отбора 2026/27."
+    },
+    {
+      "slug": "moscow-math-regatta-grade-8",
+      "registration_status": "announced",
+      "registration_url": "https://math.hse.ru/math.regata.hse.ru",
+      "source_url": "https://olympiads.mccme.ru/regata/",
+      "evidence": "Официальное окно заявок 2026-12-16 — 2026-12-23; на 2026-09-23 ещё не наступило. Регистрация через факультет математики ВШЭ, по правилам отбора 2026/27."
+    },
+    {
+      "slug": "moscow-math-regatta-grade-9",
+      "registration_status": "not_open",
+      "registration_url": null,
+      "source_url": "https://olympiads.mccme.ru/regata/",
+      "evidence": "Официальное окно заявок 2026-09-10 — 2026-09-17; на 2026-09-23 закрыто. Регистрация через факультет математики ВШЭ, по правилам отбора 2026/27."
+    },
+    {
+      "slug": "moscow-math-regatta-grade-10",
+      "registration_status": "announced",
+      "registration_url": "https://math.hse.ru/math.regata.hse.ru",
+      "source_url": "https://olympiads.mccme.ru/regata/",
+      "evidence": "Официальное окно заявок 2027-01-27 — 2027-02-03; на 2026-09-23 ещё не наступило. Регистрация через факультет математики ВШЭ, по правилам отбора 2026/27."
+    },
+    {
+      "slug": "moscow-math-regatta-grade-11",
+      "registration_status": "announced",
+      "registration_url": "https://math.hse.ru/math.regata.hse.ru",
+      "source_url": "https://olympiads.mccme.ru/regata/",
+      "evidence": "Официальное окно заявок 2026-10-14 — 2026-10-21; на 2026-09-23 ещё не наступило. Регистрация через факультет математики ВШЭ, по правилам отбора 2026/27."
+    },
+    {
+      "slug": "hse-team-programming",
+      "registration_status": "not_found",
+      "registration_url": null,
+      "source_url": "https://cs.hse.ru/olymp-team-comp",
+      "evidence": "На официальной странице есть анонс сентября 2026, но нет точных дат и опубликованной ссылки регистрации."
+    },
+    {
+      "slug": "vkoshp-junior-programming",
+      "registration_status": "not_found",
+      "registration_url": null,
+      "source_url": "https://vkoshp.letovo.ru/",
+      "evidence": "На официальных страницах опубликованы только даты завершённого сезона 2025/26; регистрацию на 2026/27 не обнаружили."
+    },
+    {
+      "slug": "kolmogorov-cup-mathematics",
+      "registration_status": "open",
+      "registration_url": "https://turmath.ru/kolm/reg-team.php",
+      "source_url": "https://turmath.ru/kolm/teams.php",
+      "evidence": "Проверена форма регистрации команды на XXIX Кубок: отображаются поля и возрастные группы. Письмо 2026 подтверждает срок первичной заявки до 5 ноября и даты 24.11–01.12.2026. Форму не отправляли."
+    },
+    {
+      "slug": "moscow-oral-team-math-8-9",
+      "registration_status": "not_found",
+      "registration_url": null,
+      "source_url": "https://olympiads.mccme.ru/matboi/",
+      "evidence": "На странице организаторов и в регламентах опубликован только сезон 2025/26. Регистрация и приглашения 2026/27 не подтверждены."
+    },
+    {
+      "slug": "moscow-oral-team-math-10-11",
+      "registration_status": "not_found",
+      "registration_url": null,
+      "source_url": "https://olympiads.mccme.ru/matboi/",
+      "evidence": "На странице организаторов и в регламентах опубликован только сезон 2025/26. Регистрация и приглашения 2026/27 не подтверждены."
+    },
+    {
+      "slug": "yandex-education-cup-5-7",
+      "registration_status": "not_found",
+      "registration_url": null,
+      "source_url": "https://education.yandex.ru/olymp/inf2025",
+      "evidence": "Официальная страница помечена «2025/26 учебный год, олимпиада завершена». Новый сезон и регистрация 2026/27 не опубликованы; бонус выхода в «Высшую пробу» 2026/27 не является анонсом нового Кубка."
+    },
+    {
+      "slug": "yandex-education-cup-8-11",
+      "registration_status": "not_found",
+      "registration_url": null,
+      "source_url": "https://education.yandex.ru/olymp/inf2025",
+      "evidence": "Официальная страница помечена «2025/26 учебный год, олимпиада завершена». Новый сезон и регистрация 2026/27 не опубликованы; бонус выхода в «Высшую пробу» 2026/27 не является анонсом нового Кубка."
+    }
+  ]
+}

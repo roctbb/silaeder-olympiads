@@ -2,13 +2,29 @@
   "schema_version": 1,
   "reuse_for_catalog": {
     "checked_on": "2026-09-23",
-    "catalog_sha256": "002e51f39c779d628dec44902a6cbbe53aedad25f356a61660465c45102baf74",
+    "catalog_sha256": "6c10ac87176e784c2ec2952d3bbb292e76c42599608bd99066665f0a12540456",
     "unchanged_materials_sha256": "43405bfa90cd61cf0bb65c8cf2f8e4a5062e3b525b01721d75b7f04c0a960e64",
     "added_records_without_materials": [
       "hse-mshp-informatics"
     ],
     "network_rechecked": false,
-    "reason": "Добавлена олимпиада ФКН и МШП без материалов: архив именно этого соревнования пока не найден. Материалы всех прежних 364 карточек не изменились; исходные дата, количество карточек и результаты сетевой проверки сохранены."
+    "reason": "Все материалы прежних 365 карточек сохранены без изменений; исходная сетевая проверка от 05.09.2026 не выдаётся за новую. Для 12 добавленных карточек выполнен отдельный HTTP-аудит от 23.09.2026 и браузерная проверка двух интерактивных уроков Яндекса.",
+    "additional_record_slugs": [
+      "hse-team-programming",
+      "kolmogorov-cup-mathematics",
+      "moscow-math-regatta-grade-10",
+      "moscow-math-regatta-grade-11",
+      "moscow-math-regatta-grade-7",
+      "moscow-math-regatta-grade-8",
+      "moscow-math-regatta-grade-9",
+      "moscow-oral-team-math-10-11",
+      "moscow-oral-team-math-8-9",
+      "vkoshp-junior-programming",
+      "yandex-education-cup-5-7",
+      "yandex-education-cup-8-11"
+    ],
+    "additional_material_audit": "research/additional_material_audit_20260923.json",
+    "additional_browser_review": "research/additional_material_browser_review_20260923.json"
   },
   "generated_at": "2026-09-05T12:02:52+00:00",
   "catalog_path": "data/seed/catalog.json",

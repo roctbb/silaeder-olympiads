@@ -1,0 +1,941 @@
+{
+  "schema_version": 1,
+  "merge_by_slug_only": true,
+  "checked_on": "2026-09-23",
+  "academic_year": "2026/27",
+  "records": [
+    {
+      "academic_year": "2026/27",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": false,
+      "is_team": true,
+      "geography": "moscow",
+      "data_status": "confirmed",
+      "benefits": [],
+      "slug": "moscow-math-regatta-grade-7",
+      "name": "Московская математическая регата — 7 класс",
+      "family_name": "Московские математические регаты",
+      "profile": "Математика",
+      "grades": [
+        7
+      ],
+      "description": "Командное решение математических задач на время для одной школьной параллели. Команда обычно состоит из четырёх человек.",
+      "organizer": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+      "website_url": "https://olympiads.mccme.ru/regata/",
+      "eligibility_notes": "Команда из 4 учащихся одной параллели; неполный состав согласуется с оргкомитетом. Заявку подаёт учитель, руководитель кружка или администратор школы. В 2026/27 предусмотрены 50 мест по рейтингу организаций и не менее 30 по жеребьёвке. Дисквалифицированные организатором школы не допускаются; список и ограничения числа команд опубликованы в правилах.",
+      "notes": "Сроки 2026/27 опубликованы организаторами. Приём заявок этой параллели ещё не начался; не путать с регистрацией других классов.",
+      "stages": [
+        {
+          "key": "regatta",
+          "name": "Математическая регата",
+          "stage_type": "final",
+          "start_date": "2027-05-15",
+          "end_date": "2027-05-15",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "offline",
+          "source_url": "https://olympiads.mccme.ru/regata/",
+          "registration_opens_on": "2027-04-15",
+          "registration_closes_on": "2027-04-22",
+          "location": "Москва; точную площадку сообщают допущенным командам",
+          "details": "7 класс. Допуск после подтверждения организаторов; подача заявки не гарантирует участие."
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задания и решения регаты 7 класса, 2025/26",
+          "url": "https://olympiads.mccme.ru/regata/20252026/reg7.htm",
+          "year": 2026,
+          "material_type": "archive",
+          "is_official": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Календарь регат 2026/27",
+          "url": "https://olympiads.mccme.ru/regata/",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Правила отбора и подачи заявок",
+          "url": "https://olympiads.mccme.ru/regata/pravila_otbora.htm",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Правила соревнования",
+          "url": "https://olympiads.mccme.ru/regata/pravila.htm",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        }
+      ],
+      "registration_status": "announced",
+      "registration_checked_on": "2026-09-23",
+      "registration_url": null
+    },
+    {
+      "academic_year": "2026/27",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": false,
+      "is_team": true,
+      "geography": "moscow",
+      "data_status": "confirmed",
+      "benefits": [],
+      "slug": "moscow-math-regatta-grade-8",
+      "name": "Московская математическая регата — 8 класс",
+      "family_name": "Московские математические регаты",
+      "profile": "Математика",
+      "grades": [
+        8
+      ],
+      "description": "Командное решение математических задач на время для одной школьной параллели. Команда обычно состоит из четырёх человек.",
+      "organizer": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+      "website_url": "https://olympiads.mccme.ru/regata/",
+      "eligibility_notes": "Команда из 4 учащихся одной параллели; неполный состав согласуется с оргкомитетом. Заявку подаёт учитель, руководитель кружка или администратор школы. В 2026/27 предусмотрены 50 мест по рейтингу организаций и не менее 30 по жеребьёвке. Дисквалифицированные организатором школы не допускаются; список и ограничения числа команд опубликованы в правилах.",
+      "notes": "Сроки 2026/27 опубликованы организаторами. Приём заявок этой параллели ещё не начался; не путать с регистрацией других классов.",
+      "stages": [
+        {
+          "key": "regatta",
+          "name": "Математическая регата",
+          "stage_type": "final",
+          "start_date": "2027-01-16",
+          "end_date": "2027-01-16",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "offline",
+          "source_url": "https://olympiads.mccme.ru/regata/",
+          "registration_opens_on": "2026-12-16",
+          "registration_closes_on": "2026-12-23",
+          "location": "Москва; точную площадку сообщают допущенным командам",
+          "details": "8 класс. Допуск после подтверждения организаторов; подача заявки не гарантирует участие."
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задания и решения регаты 8 класса, 2025/26",
+          "url": "https://olympiads.mccme.ru/regata/20252026/reg8.htm",
+          "year": 2026,
+          "material_type": "archive",
+          "is_official": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Календарь регат 2026/27",
+          "url": "https://olympiads.mccme.ru/regata/",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Правила отбора и подачи заявок",
+          "url": "https://olympiads.mccme.ru/regata/pravila_otbora.htm",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Правила соревнования",
+          "url": "https://olympiads.mccme.ru/regata/pravila.htm",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        }
+      ],
+      "registration_status": "announced",
+      "registration_checked_on": "2026-09-23",
+      "registration_url": null
+    },
+    {
+      "academic_year": "2026/27",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": false,
+      "is_team": true,
+      "geography": "moscow",
+      "data_status": "confirmed",
+      "benefits": [],
+      "slug": "moscow-math-regatta-grade-9",
+      "name": "Московская математическая регата — 9 класс",
+      "family_name": "Московские математические регаты",
+      "profile": "Математика",
+      "grades": [
+        9
+      ],
+      "description": "Командное решение математических задач на время для одной школьной параллели. Команда обычно состоит из четырёх человек.",
+      "organizer": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+      "website_url": "https://olympiads.mccme.ru/regata/",
+      "eligibility_notes": "Команда из 4 учащихся одной параллели; неполный состав согласуется с оргкомитетом. Заявку подаёт учитель, руководитель кружка или администратор школы. В 2026/27 предусмотрены 50 мест по рейтингу организаций и не менее 30 по жеребьёвке. Дисквалифицированные организатором школы не допускаются; список и ограничения числа команд опубликованы в правилах.",
+      "notes": "Регистрация этой параллели завершилась 17 сентября 2026. Для остальных классов есть отдельные карточки со своими сроками.",
+      "stages": [
+        {
+          "key": "regatta",
+          "name": "Математическая регата",
+          "stage_type": "final",
+          "start_date": "2026-10-10",
+          "end_date": "2026-10-10",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "offline",
+          "source_url": "https://olympiads.mccme.ru/regata/",
+          "registration_opens_on": "2026-09-10",
+          "registration_closes_on": "2026-09-17",
+          "location": "Москва; точную площадку сообщают допущенным командам",
+          "details": "9 класс. Допуск после подтверждения организаторов; подача заявки не гарантирует участие."
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задания и решения регаты 9 класса, 2025/26",
+          "url": "https://olympiads.mccme.ru/regata/20252026/reg9.htm",
+          "year": 2025,
+          "material_type": "archive",
+          "is_official": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Календарь регат 2026/27",
+          "url": "https://olympiads.mccme.ru/regata/",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Правила отбора и подачи заявок",
+          "url": "https://olympiads.mccme.ru/regata/pravila_otbora.htm",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Правила соревнования",
+          "url": "https://olympiads.mccme.ru/regata/pravila.htm",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        }
+      ],
+      "registration_status": "not_open",
+      "registration_checked_on": "2026-09-23",
+      "registration_url": null
+    },
+    {
+      "academic_year": "2026/27",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": false,
+      "is_team": true,
+      "geography": "moscow",
+      "data_status": "confirmed",
+      "benefits": [],
+      "slug": "moscow-math-regatta-grade-10",
+      "name": "Московская математическая регата — 10 класс",
+      "family_name": "Московские математические регаты",
+      "profile": "Математика",
+      "grades": [
+        10
+      ],
+      "description": "Командное решение математических задач на время для одной школьной параллели. Команда обычно состоит из четырёх человек.",
+      "organizer": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+      "website_url": "https://olympiads.mccme.ru/regata/",
+      "eligibility_notes": "Команда из 4 учащихся одной параллели; неполный состав согласуется с оргкомитетом. Заявку подаёт учитель, руководитель кружка или администратор школы. В 2026/27 предусмотрены 50 мест по рейтингу организаций и не менее 30 по жеребьёвке. Дисквалифицированные организатором школы не допускаются; список и ограничения числа команд опубликованы в правилах.",
+      "notes": "Сроки 2026/27 опубликованы организаторами. Приём заявок этой параллели ещё не начался; не путать с регистрацией других классов.",
+      "stages": [
+        {
+          "key": "regatta",
+          "name": "Математическая регата",
+          "stage_type": "final",
+          "start_date": "2027-02-27",
+          "end_date": "2027-02-27",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "offline",
+          "source_url": "https://olympiads.mccme.ru/regata/",
+          "registration_opens_on": "2027-01-27",
+          "registration_closes_on": "2027-02-03",
+          "location": "Москва; точную площадку сообщают допущенным командам",
+          "details": "10 класс. Допуск после подтверждения организаторов; подача заявки не гарантирует участие."
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задания и решения регаты 10 класса, 2025/26",
+          "url": "https://olympiads.mccme.ru/regata/20252026/reg10.htm",
+          "year": 2026,
+          "material_type": "archive",
+          "is_official": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Календарь регат 2026/27",
+          "url": "https://olympiads.mccme.ru/regata/",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Правила отбора и подачи заявок",
+          "url": "https://olympiads.mccme.ru/regata/pravila_otbora.htm",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Правила соревнования",
+          "url": "https://olympiads.mccme.ru/regata/pravila.htm",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        }
+      ],
+      "registration_status": "announced",
+      "registration_checked_on": "2026-09-23",
+      "registration_url": null
+    },
+    {
+      "academic_year": "2026/27",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": false,
+      "is_team": true,
+      "geography": "moscow",
+      "data_status": "confirmed",
+      "benefits": [],
+      "slug": "moscow-math-regatta-grade-11",
+      "name": "Московская математическая регата — 11 класс",
+      "family_name": "Московские математические регаты",
+      "profile": "Математика",
+      "grades": [
+        11
+      ],
+      "description": "Командное решение математических задач на время для одной школьной параллели. Команда обычно состоит из четырёх человек.",
+      "organizer": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+      "website_url": "https://olympiads.mccme.ru/regata/",
+      "eligibility_notes": "Команда из 4 учащихся одной параллели; неполный состав согласуется с оргкомитетом. Заявку подаёт учитель, руководитель кружка или администратор школы. В 2026/27 предусмотрены 50 мест по рейтингу организаций и не менее 30 по жеребьёвке. Дисквалифицированные организатором школы не допускаются; список и ограничения числа команд опубликованы в правилах.",
+      "notes": "Сроки 2026/27 опубликованы организаторами. Приём заявок этой параллели ещё не начался; не путать с регистрацией других классов.",
+      "stages": [
+        {
+          "key": "regatta",
+          "name": "Математическая регата",
+          "stage_type": "final",
+          "start_date": "2026-11-14",
+          "end_date": "2026-11-14",
+          "date_precision": "exact",
+          "date_status": "official_2026_27",
+          "format": "offline",
+          "source_url": "https://olympiads.mccme.ru/regata/",
+          "registration_opens_on": "2026-10-14",
+          "registration_closes_on": "2026-10-21",
+          "location": "Москва; точную площадку сообщают допущенным командам",
+          "details": "11 класс. Допуск после подтверждения организаторов; подача заявки не гарантирует участие."
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задания и решения регаты 11 класса, 2025/26",
+          "url": "https://olympiads.mccme.ru/regata/20252026/reg11.htm",
+          "year": 2025,
+          "material_type": "archive",
+          "is_official": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Календарь регат 2026/27",
+          "url": "https://olympiads.mccme.ru/regata/",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Правила отбора и подачи заявок",
+          "url": "https://olympiads.mccme.ru/regata/pravila_otbora.htm",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Правила соревнования",
+          "url": "https://olympiads.mccme.ru/regata/pravila.htm",
+          "publisher": "МЦНМО, факультет математики НИУ ВШЭ и Т-Банк",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        }
+      ],
+      "registration_status": "announced",
+      "registration_checked_on": "2026-09-23",
+      "registration_url": null
+    },
+    {
+      "academic_year": "2026/27",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": false,
+      "is_team": true,
+      "geography": "russia",
+      "data_status": "partial",
+      "benefits": [],
+      "slug": "hse-team-programming",
+      "name": "Командный турнир ФКН НИУ ВШЭ по программированию",
+      "family_name": "Командный турнир ФКН НИУ ВШЭ по программированию",
+      "profile": "Информатика",
+      "grades": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "organizer": "Факультет компьютерных наук НИУ ВШЭ",
+      "website_url": "https://cs.hse.ru/olymp-team-comp",
+      "description": "Одноэтапное онлайн-соревнование команд из 2–3 школьников. Дивизион 2 — для подготовленных участников, дивизион 3 — для начинающих.",
+      "eligibility_notes": "6–11 классы; участники могут учиться в разных школах. На команду используется один компьютер.",
+      "notes": "Анонс на официальной странице указывает только сентябрь 2026. Точный день и регистрация не опубликованы; месяц в календаре не означает непрерывное соревнование. Это отдельный турнир, не МКОШП и не совместная олимпиада ФКН и МШП.",
+      "stages": [
+        {
+          "key": "team-contest",
+          "name": "Командный турнир",
+          "stage_type": "final",
+          "start_date": "2026-09-01",
+          "end_date": "2026-09-30",
+          "date_precision": "month",
+          "date_status": "official_2026_27",
+          "format": "online",
+          "source_url": "https://cs.hse.ru/olymp-team-comp",
+          "details": "Официально указан только месяц — сентябрь 2026. Точные начало и окончание не заполнены."
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задачи прошлых лет для дивизионов 2 и 3",
+          "url": "https://cs.hse.ru/olymp-team-comp/materials",
+          "year": null,
+          "material_type": "archive",
+          "is_official": true
+        },
+        {
+          "title": "Условия двух дивизионов, 2025/26 (PDF на Яндекс Диске)",
+          "url": "https://disk.yandex.ru/d/ld8BxyB3IFS1pQ",
+          "year": 2025,
+          "material_type": "tasks",
+          "is_official": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Анонс и правила участия",
+          "url": "https://cs.hse.ru/olymp-team-comp",
+          "publisher": "НИУ ВШЭ",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Материалы для подготовки",
+          "url": "https://cs.hse.ru/olymp-team-comp/materials",
+          "publisher": "НИУ ВШЭ",
+          "source_type": "official_website",
+          "source_year": "2025/26",
+          "accessed_on": "2026-09-23"
+        }
+      ],
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-09-23",
+      "registration_url": null
+    },
+    {
+      "academic_year": "2026/27",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": false,
+      "is_team": true,
+      "geography": "russia",
+      "data_status": "previous_year_estimate",
+      "benefits": [],
+      "slug": "vkoshp-junior-programming",
+      "name": "ВКОШП.Junior — командная олимпиада по программированию",
+      "family_name": "ВКОШП.Junior",
+      "profile": "Информатика",
+      "grades": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "organizer": "Т-Образование, Центральный университет и оргкомитет ВКОШП.Junior",
+      "website_url": "https://vkoshp.letovo.ru/",
+      "previous_year_reference": "2025/26",
+      "description": "Командная олимпиада по программированию для школьников 5–8 классов: дистанционный отбор и очный финал в Москве.",
+      "eligibility_notes": "По правилам 2025/26 участвуют команды ровно из трёх человек; допускаются разные классы, школы и города. Финал по приглашению после отбора. Проезд и проживание участники оплачивают самостоятельно.",
+      "notes": "Сезон 2026/27 ещё не анонсирован. Даты показаны как прогноз по 2025/26, а не открытая регистрация. Старый официальный сайт направляет на Т-Образование; при прямой проверке нового сайта 23.09.2026 возникла ошибка сертификата, защиту не отключали. На старом сайте доступны подтверждённые прошлогодние даты и архив. Призы прошлого сезона: дипломы, кубки, медали и памятные подарки; льготы при поступлении не подтверждены.",
+      "stages": [
+        {
+          "key": "qualifying",
+          "name": "Отборочный онлайн-тур",
+          "stage_type": "qualifying",
+          "start_date": "2026-02-28",
+          "end_date": "2026-02-28",
+          "date_precision": "exact",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "source_url": "https://vkoshp.letovo.ru/",
+          "details": "В сезоне 2025/26 регистрация до 25 февраля; начало трёхчасового тура выбирали в промежутке 08:00–18:00 МСК. Новый дедлайн пока не объявлен."
+        },
+        {
+          "key": "final",
+          "name": "Очный финал",
+          "stage_type": "final",
+          "start_date": "2026-04-05",
+          "end_date": "2026-04-05",
+          "date_precision": "exact",
+          "date_status": "official_2025_26",
+          "format": "offline",
+          "source_url": "https://vkoshp.letovo.ru/",
+          "location": "Москва; в сезоне 2025/26 — штаб-квартира Т-Банка, Грузинский Вал, 7"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Архив ВКОШП.Junior: задачи отборов и финалов",
+          "url": "https://www.vkoshp.letovo.ru/archive",
+          "year": null,
+          "material_type": "archive",
+          "is_official": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Официальный сайт: даты 2026 и переезд",
+          "url": "https://vkoshp.letovo.ru/",
+          "publisher": "Оргкомитет ВКОШП.Junior",
+          "source_type": "official_website",
+          "source_year": "2025/26",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Правила участия и программа 2025/26",
+          "url": "https://education.tbank.ru/school/events/vkoshp-junior/",
+          "publisher": "Т-Образование",
+          "source_type": "official_website",
+          "source_year": "2025/26",
+          "accessed_on": "2026-09-23"
+        }
+      ],
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-09-23",
+      "registration_url": null
+    },
+    {
+      "academic_year": "2026/27",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": false,
+      "is_team": true,
+      "geography": "russia",
+      "data_status": "confirmed",
+      "benefits": [],
+      "slug": "kolmogorov-cup-mathematics",
+      "name": "Кубок памяти А. Н. Колмогорова",
+      "family_name": "Кубок памяти А. Н. Колмогорова",
+      "profile": "Математика",
+      "grades": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "organizer": "«Выездные школы МММФ» и ООО «Игра» при поддержке Pinely",
+      "website_url": "https://turmath.ru/kolm/teams.php",
+      "description": "Международный математический турнир с командной олимпиадой, математическими боями и личной олимпиадой; команды делятся на возрастные группы и лиги по подготовке.",
+      "eligibility_notes": "Команда из 6 школьников и сопровождающего. Юниоры — все не старше 9 класса; сеньоры — есть участник 10–11 класса. Нижняя граница класса в письме не установлена; каталог отображает доступные ему 5–11 классы. Состав из 5 человек и сборная из трёх и более регионов требуют письменного разрешения координатора. Команды меньше 5 или больше 6 человек не допускаются.",
+      "notes": "XXIX Кубок: 24 ноября — 1 декабря 2026. Участие платное: 48 000 ₽ за школьника, 46 000 ₽ за руководителя, включая проживание и питание. Первичная заявка — до 5 ноября, полные сведения — до 10 ноября, оплата — до 14 ноября. Точное время окончания приёма заявок не указано. Победители высших лиг получают Большой и Малый переходящие кубки; вузовские льготы не подтверждены.",
+      "stages": [
+        {
+          "key": "tournament",
+          "name": "Турнир: командная олимпиада и математические бои",
+          "stage_type": "final",
+          "start_date": "2026-11-24",
+          "end_date": "2026-12-01",
+          "date_precision": "range",
+          "date_status": "official_2026_27",
+          "format": "offline",
+          "source_url": "https://turmath.ru/files/letter-kolm.pdf",
+          "registration_closes_on": "2026-11-05",
+          "location": "Ленинградская область, Приозерский район, п. Петровское, комплекс «Связист»",
+          "details": "Заезд 24 ноября; по предварительной программе командная олимпиада 25 ноября, матбои 26–27 и 29–30 ноября, личная олимпиада и отъезд 1 декабря. Подача заявки до 5 ноября не заменяет подтверждение оргкомитета."
+        }
+      ],
+      "materials": [
+        {
+          "title": "Архив задач и решений Кубка Колмогорова",
+          "url": "https://turmath.ru/kolm/archive.php",
+          "year": null,
+          "material_type": "archive",
+          "is_official": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "XXIX Кубок и регистрация",
+          "url": "https://turmath.ru/kolm/teams.php",
+          "publisher": "Оргкомитет Кубка",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Информационное письмо 2026: условия, стоимость и сроки",
+          "url": "https://turmath.ru/files/letter-kolm.pdf",
+          "publisher": "Оргкомитет Кубка",
+          "source_type": "regulations",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Форма регистрации команды",
+          "url": "https://turmath.ru/kolm/reg-team.php",
+          "publisher": "Оргкомитет Кубка",
+          "source_type": "official_website",
+          "source_year": "2026/27",
+          "accessed_on": "2026-09-23"
+        }
+      ],
+      "registration_status": "open",
+      "registration_checked_on": "2026-09-23",
+      "registration_url": "https://turmath.ru/kolm/reg-team.php"
+    },
+    {
+      "academic_year": "2026/27",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": false,
+      "is_team": true,
+      "geography": "moscow",
+      "data_status": "previous_year_estimate",
+      "benefits": [],
+      "slug": "moscow-oral-team-math-8-9",
+      "name": "Московская устная командная олимпиада по математике — 8-9 классы",
+      "family_name": "Московская устная командная олимпиада по математике",
+      "profile": "Математика",
+      "grades": [
+        8,
+        9
+      ],
+      "organizer": "Лицей «Вторая школа» при поддержке школ № 444 и № 2007",
+      "website_url": "https://olympiads.mccme.ru/matboi/",
+      "previous_year_reference": "2025/26",
+      "description": "Команды решают десять математических задач и устно защищают решения перед жюри. По регламенту прошлого сезона на соревнование отводилось четыре часа.",
+      "eligibility_notes": "По регламенту 2025/26 команда из 6–8 учащихся одной школы, с взрослым руководителем, работающим в жюри. Для московских команд — не менее трёх кандидатов в сборную Москвы; команды других городов приглашают организаторы. Команды кружков допускаются по согласованию. Есть квоты на число команд.",
+      "notes": "Расписание 2026/27 пока не опубликовано; дата является прогнозом по соответствующей лиге 2025/26. Это олимпиада по приглашению, не свободная индивидуальная регистрация. В прошлом сезоне заявки направляли организаторам не позднее трёх дней до соревнования, но новый приём не подтверждён. Не дублируется отдельной карточкой турнира матбоёв из исторического архива.",
+      "stages": [
+        {
+          "key": "oral-team",
+          "name": "Устная командная олимпиада",
+          "stage_type": "final",
+          "start_date": "2025-11-02",
+          "end_date": "2025-11-02",
+          "date_precision": "exact",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "source_url": "https://olympiads.mccme.ru/matboi/"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задачи и решения для 8-9 классов, 2025",
+          "url": "https://olympiads.mccme.ru/matboi/usl2025_89.pdf",
+          "year": 2025,
+          "material_type": "tasks",
+          "is_official": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Официальная страница и расписание 2025",
+          "url": "https://olympiads.mccme.ru/matboi/",
+          "publisher": "Оргкомитет командной олимпиады",
+          "source_type": "official_website",
+          "source_year": "2025/26",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Регламент 8-9 классов 2025",
+          "url": "https://olympiads.mccme.ru/matboi/reglament2025_89.pdf",
+          "publisher": "Лицей «Вторая школа»",
+          "source_type": "regulations",
+          "source_year": "2025/26",
+          "accessed_on": "2026-09-23"
+        }
+      ],
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-09-23",
+      "registration_url": null
+    },
+    {
+      "academic_year": "2026/27",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": false,
+      "is_team": true,
+      "geography": "moscow",
+      "data_status": "previous_year_estimate",
+      "benefits": [],
+      "slug": "moscow-oral-team-math-10-11",
+      "name": "Московская устная командная олимпиада по математике — 10-11 классы",
+      "family_name": "Московская устная командная олимпиада по математике",
+      "profile": "Математика",
+      "grades": [
+        10,
+        11
+      ],
+      "organizer": "Лицей «Вторая школа» при поддержке школ № 444 и № 2007",
+      "website_url": "https://olympiads.mccme.ru/matboi/",
+      "previous_year_reference": "2025/26",
+      "description": "Команды решают десять математических задач и устно защищают решения перед жюри. По регламенту прошлого сезона на соревнование отводилось четыре часа.",
+      "eligibility_notes": "По регламенту 2025/26 команда из 6–8 учащихся одной школы, с взрослым руководителем, работающим в жюри. Для московских команд — не менее трёх кандидатов в сборную Москвы; команды других городов приглашают организаторы. Команды кружков допускаются по согласованию. Есть квоты на число команд.",
+      "notes": "Расписание 2026/27 пока не опубликовано; дата является прогнозом по соответствующей лиге 2025/26. Это олимпиада по приглашению, не свободная индивидуальная регистрация. В прошлом сезоне заявки направляли организаторам не позднее трёх дней до соревнования, но новый приём не подтверждён. Не дублируется отдельной карточкой турнира матбоёв из исторического архива.",
+      "stages": [
+        {
+          "key": "oral-team",
+          "name": "Устная командная олимпиада",
+          "stage_type": "final",
+          "start_date": "2025-12-28",
+          "end_date": "2025-12-28",
+          "date_precision": "exact",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "source_url": "https://olympiads.mccme.ru/matboi/"
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задачи и решения для 10-11 классов, 2024",
+          "url": "https://olympiads.mccme.ru/matboi/usl2024_10_11.pdf",
+          "year": 2024,
+          "material_type": "tasks",
+          "is_official": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Официальная страница и расписание 2025",
+          "url": "https://olympiads.mccme.ru/matboi/",
+          "publisher": "Оргкомитет командной олимпиады",
+          "source_type": "official_website",
+          "source_year": "2025/26",
+          "accessed_on": "2026-09-23"
+        },
+        {
+          "title": "Регламент 10-11 классов 2025",
+          "url": "https://olympiads.mccme.ru/matboi/reglament2025_1011.pdf",
+          "publisher": "Лицей «Вторая школа»",
+          "source_type": "regulations",
+          "source_year": "2025/26",
+          "accessed_on": "2026-09-23"
+        }
+      ],
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-09-23",
+      "registration_url": null
+    },
+    {
+      "academic_year": "2026/27",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": false,
+      "is_team": false,
+      "geography": "russia",
+      "data_status": "previous_year_estimate",
+      "benefits": [],
+      "slug": "yandex-education-cup-5-7",
+      "name": "Кубок Яндекс Образования по информатике — 5-7 классы",
+      "family_name": "Кубок Яндекс Образования по информатике",
+      "profile": "Информатика",
+      "grades": [
+        5,
+        6,
+        7
+      ],
+      "organizer": "Яндекс Учебник и Яндекс Лицей",
+      "website_url": "https://education.yandex.ru/olymp/inf2025",
+      "previous_year_reference": "2025/26",
+      "description": "Олимпиада с задачами на логику, алгоритмы и программирование. Для младшей группы предусмотрен один онлайн-тур.",
+      "eligibility_notes": "По правилам 2025/26 участие бесплатное. Учётную запись школьника в Яндекс Учебнике выдаёт учитель. Второй тур и очный финал предназначены только для 8–11 классов.",
+      "notes": "Новый сезон 2026/27 не объявлен; даты — прогноз по 2025/26. Упоминание перечня Минпросвещения на сайте не означает включения в перечень РСОШ и автоматических БВИ/100 баллов. Призы и бонусы партнёров описаны за прошлый сезон, перенос на новый не подтверждён. По прошлогодним правилам — дипломы, сертификаты и подарки лучшим участникам.",
+      "stages": [
+        {
+          "key": "first",
+          "name": "Первый онлайн-тур",
+          "stage_type": "final",
+          "start_date": "2025-11-17",
+          "end_date": "2025-12-21",
+          "date_precision": "range",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "source_url": "https://education.yandex.ru/olymp/inf2025",
+          "details": "Вариант соответствующей возрастной группы. Для 5–7 классов это единственный соревновательный тур."
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задания первого тура для 5-7 классов (интерактивный урок)",
+          "url": "https://education.yandex.ru/classroom/public-lesson/85189580/run/",
+          "year": 2025,
+          "material_type": "tasks",
+          "is_official": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Кубок 2025/26: программа, классы и расписание",
+          "url": "https://education.yandex.ru/olymp/inf2025",
+          "publisher": "Яндекс Образование",
+          "source_type": "official_website",
+          "source_year": "2025/26",
+          "accessed_on": "2026-09-23"
+        }
+      ],
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-09-23",
+      "registration_url": null
+    },
+    {
+      "academic_year": "2026/27",
+      "is_in_registry": false,
+      "registry_status": "not_listed",
+      "registry_level": null,
+      "is_popular": false,
+      "is_team": true,
+      "geography": "russia",
+      "data_status": "previous_year_estimate",
+      "benefits": [],
+      "slug": "yandex-education-cup-8-11",
+      "name": "Кубок Яндекс Образования по информатике — 8-11 классы",
+      "family_name": "Кубок Яндекс Образования по информатике",
+      "profile": "Информатика",
+      "grades": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "organizer": "Яндекс Учебник и Яндекс Лицей",
+      "website_url": "https://education.yandex.ru/olymp/inf2025",
+      "previous_year_reference": "2025/26",
+      "description": "Олимпиада по информатике: два онлайн-тура и очный финал с индивидуальными заданиями и командным хакатоном.",
+      "eligibility_notes": "По правилам 2025/26 участие бесплатное. Учётную запись школьника в Яндекс Учебнике выдаёт учитель. Отбор индивидуальный; командный формат появляется в финале.",
+      "notes": "Новый сезон 2026/27 не объявлен; даты — прогноз по 2025/26. Упоминание перечня Минпросвещения на сайте не означает включения в перечень РСОШ и автоматических БВИ/100 баллов. Призы и бонусы партнёров описаны за прошлый сезон, перенос на новый не подтверждён. В 2025/26 организаторы объявляли мерч, покрытие расходов приглашённых финалистов и возможность выхода в финал «Высшей пробы» 2026/27; это не обещание льгот за будущий Кубок.",
+      "stages": [
+        {
+          "key": "first",
+          "name": "Первый онлайн-тур",
+          "stage_type": "qualifying",
+          "start_date": "2025-11-17",
+          "end_date": "2025-12-21",
+          "date_precision": "range",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "source_url": "https://education.yandex.ru/olymp/inf2025",
+          "details": "Вариант соответствующей возрастной группы. Для 5–7 классов это единственный соревновательный тур."
+        },
+        {
+          "key": "second-slot-1",
+          "name": "Второй тур — первый слот на выбор",
+          "stage_type": "qualifying",
+          "start_date": "2026-02-14",
+          "end_date": "2026-02-14",
+          "date_precision": "exact",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "source_url": "https://education.yandex.ru/olymp/inf2025",
+          "details": "В прошлом сезоне участник выбирал один из двух слотов: 14 или 18 февраля, а не участвовал дважды."
+        },
+        {
+          "key": "second-slot-2",
+          "name": "Второй тур — второй слот на выбор",
+          "stage_type": "qualifying",
+          "start_date": "2026-02-18",
+          "end_date": "2026-02-18",
+          "date_precision": "exact",
+          "date_status": "official_2025_26",
+          "format": "online",
+          "source_url": "https://education.yandex.ru/olymp/inf2025",
+          "details": "Альтернатива первому слоту, не дополнительный обязательный этап."
+        },
+        {
+          "key": "final",
+          "name": "Очный финал: личные задачи и командный хакатон",
+          "stage_type": "final",
+          "start_date": "2026-03-20",
+          "end_date": "2026-03-22",
+          "date_precision": "range",
+          "date_status": "official_2025_26",
+          "format": "offline",
+          "source_url": "https://education.yandex.ru/olymp/inf2025",
+          "location": "Москва",
+          "details": "По приглашению после второго тура; формат и условия нового сезона требуют подтверждения."
+        }
+      ],
+      "materials": [
+        {
+          "title": "Задания первого тура для 8-11 классов (интерактивный урок)",
+          "url": "https://education.yandex.ru/classroom/public-lesson/85189581/run/",
+          "year": 2025,
+          "material_type": "tasks",
+          "is_official": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "Кубок 2025/26: программа, классы и расписание",
+          "url": "https://education.yandex.ru/olymp/inf2025",
+          "publisher": "Яндекс Образование",
+          "source_type": "official_website",
+          "source_year": "2025/26",
+          "accessed_on": "2026-09-23"
+        }
+      ],
+      "registration_status": "not_found",
+      "registration_checked_on": "2026-09-23",
+      "registration_url": null
+    }
+  ]
+}
