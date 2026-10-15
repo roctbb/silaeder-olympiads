@@ -8,36 +8,41 @@
       "registration_url": "https://dano.hse.ru/reg_26",
       "registration_status": "open",
       "source_url": "https://dano.hse.ru/",
-      "evidence": "Календарь DANO 2026/27 опубликован: регистрация 31 августа — 5 октября, два отбора 9–12 октября и 1 ноября, задачный тур 18 декабря, проектный тур 18–23 декабря. Формирование команд — в ноябре, точные дни не опубликованы.",
-      "checked_on": "2026-09-22"
+      "evidence": "Новость от 6 октября: регистрация продлена до 8 октября 10:00 мск; срок уже истёк. В обновлённом календаре первый отбор 9–10 и 16–19 октября, второй — 1 ноября.",
+      "checked_on": "2026-10-15",
+      "registration_closes_at": "2026-10-08T07:00:00Z"
     },
     {
       "slug": "prod-mlops",
       "registration_url": null,
       "registration_status": "not_open",
       "source_url": "https://prodcontest.com/",
-      "evidence": "На официальной странице сроки приведены без года, а последний явно подписанный цикл в результатах — 2025/26. Регистрация 2026/27 организатором ещё не подтверждена; опубликованные даты используются только как прогноз."
+      "evidence": "На сайте по-прежнему доступна подписка на уведомления, а не регистрация участника. Точные сроки регистрации нового сезона не подтверждены.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "prod-backend",
       "registration_url": null,
       "registration_status": "not_open",
       "source_url": "https://prodcontest.com/",
-      "evidence": "На официальной странице сроки приведены без года, а последний явно подписанный цикл в результатах — 2025/26. Регистрация 2026/27 организатором ещё не подтверждена; опубликованные даты используются только как прогноз."
+      "evidence": "На сайте по-прежнему доступна подписка на уведомления, а не регистрация участника. Точные сроки регистрации нового сезона не подтверждены.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "prod-mobile",
       "registration_url": null,
       "registration_status": "not_open",
       "source_url": "https://prodcontest.com/",
-      "evidence": "На официальной странице сроки приведены без года, а последний явно подписанный цикл в результатах — 2025/26. Регистрация 2026/27 организатором ещё не подтверждена; опубликованные даты используются только как прогноз."
+      "evidence": "На сайте по-прежнему доступна подписка на уведомления, а не регистрация участника. Точные сроки регистрации нового сезона не подтверждены.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "prod-frontend",
       "registration_url": null,
       "registration_status": "not_open",
       "source_url": "https://prodcontest.com/",
-      "evidence": "На официальной странице сроки приведены без года, а последний явно подписанный цикл в результатах — 2025/26. Регистрация 2026/27 организатором ещё не подтверждена; опубликованные даты используются только как прогноз."
+      "evidence": "На сайте по-прежнему доступна подписка на уведомления, а не регистрация участника. Точные сроки регистрации нового сезона не подтверждены.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "vkoshp-programming",
@@ -48,11 +53,11 @@
     },
     {
       "slug": "mkoshp-programming",
-      "registration_url": "https://mkoshp.ru/",
-      "registration_status": "open",
+      "registration_url": null,
+      "registration_status": "not_open",
       "source_url": "https://mkoshp.ru/",
-      "evidence": "Действует форма регистрации команды на отбор любительской лиги до 24.09.2026. Не путать с отдельной формой регистрации площадок. Профессиональная лига имеет отдельный отбор; этот статус относится к любительской лиге.",
-      "checked_on": "2026-09-22"
+      "evidence": "Любительский финал прошёл 4 октября, отбор профессиональной лиги — 11 октября. Приём новых команд на эти отборы завершён. Финал профессиональной лиги 15 ноября — для прошедших отбор.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "maxwell-physics",
@@ -63,67 +68,67 @@
     },
     {
       "slug": "lomonosov-tournament-astronomy-earth-sciences",
-      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "registration_status": "announced",
+      "registration_url": null,
+      "registration_status": "not_open",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
-      "checked_on": "2026-09-22"
+      "evidence": "На сайте регистрация завершена: срок 4 октября 15:00. Осенний тур прошёл; опубликованы разборы. Весенний тур — для прошедших отбор.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "lomonosov-tournament-biology",
-      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "registration_status": "announced",
+      "registration_url": null,
+      "registration_status": "not_open",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
-      "checked_on": "2026-09-22"
+      "evidence": "На сайте регистрация завершена: срок 4 октября 15:00. Осенний тур прошёл; опубликованы разборы. Весенний тур — для прошедших отбор.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "lomonosov-tournament-history",
-      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "registration_status": "announced",
+      "registration_url": null,
+      "registration_status": "not_open",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
-      "checked_on": "2026-09-22"
+      "evidence": "На сайте регистрация завершена: срок 4 октября 15:00. Осенний тур прошёл; опубликованы разборы. Весенний тур — для прошедших отбор.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "lomonosov-tournament-linguistics",
-      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "registration_status": "announced",
+      "registration_url": null,
+      "registration_status": "not_open",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
-      "checked_on": "2026-09-22"
+      "evidence": "На сайте регистрация завершена: срок 4 октября 15:00. Осенний тур прошёл; опубликованы разборы. Весенний тур — для прошедших отбор.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "lomonosov-tournament-literature",
-      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "registration_status": "announced",
+      "registration_url": null,
+      "registration_status": "not_open",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
-      "checked_on": "2026-09-22"
+      "evidence": "На сайте регистрация завершена: срок 4 октября 15:00. Осенний тур прошёл; опубликованы разборы. Весенний тур — для прошедших отбор.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "lomonosov-tournament-mathematics",
-      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "registration_status": "announced",
+      "registration_url": null,
+      "registration_status": "not_open",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
-      "checked_on": "2026-09-22"
+      "evidence": "На сайте регистрация завершена: срок 4 октября 15:00. Осенний тур прошёл; опубликованы разборы. Весенний тур — для прошедших отбор.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "lomonosov-tournament-physics",
-      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "registration_status": "announced",
+      "registration_url": null,
+      "registration_status": "not_open",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
-      "checked_on": "2026-09-22"
+      "evidence": "На сайте регистрация завершена: срок 4 октября 15:00. Осенний тур прошёл; опубликованы разборы. Весенний тур — для прошедших отбор.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "lomonosov-tournament-chemistry",
-      "registration_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "registration_status": "announced",
+      "registration_url": null,
+      "registration_status": "not_open",
       "source_url": "https://xn--k1acfgjg.xn--l1afu.xn--p1ai/",
-      "evidence": "Опубликован анонс XLIX турнира 4 октября 2026. На сайте пока «Ожидание регистрации», ссылка появится позднее; не считать регистрацию открытой.",
-      "checked_on": "2026-09-22"
+      "evidence": "На сайте регистрация завершена: срок 4 октября 15:00. Осенний тур прошёл; опубликованы разборы. Весенний тур — для прошедших отбор.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "moebius-mathematics",

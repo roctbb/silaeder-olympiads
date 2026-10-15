@@ -144,8 +144,11 @@ def test_additional_competitions_keep_age_groups_and_forecasts_separate(tmp_path
     assert "48 000" in kolm["notes"] and "платное" in kolm["notes"]
     assert "меньше 5 или больше 6" in kolm["eligibility_notes"]
     hse = by_slug["hse-team-programming"]
-    assert hse["stages"][0]["date_precision"] == "month"
-    assert hse["registration_url"] is None
+    assert hse["stages"][0]["date_precision"] == "range"
+    assert hse["stages"][0]["starts_on"] == "2026-09-25"
+    assert hse["stages"][0]["ends_on"] == "2026-10-25"
+    assert hse["registration_url"] == "https://cs.hse.ru/olymp-team-comp"
+    assert "самостоятельно не регистрируются" in hse["stages"][0]["details"]
     for slug in (
         "vkoshp-junior-programming", "moscow-oral-team-math-8-9",
         "moscow-oral-team-math-10-11", "yandex-education-cup-5-7",
@@ -720,24 +723,22 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
     assert reviewed_open == published_registration_links
     assert seen == set(by_slug)
     assert status_counts == {
-        "open": 83,
-        "announced": 51,
-        "not_open": 32,
-        "not_found": 211,
+        "open": 105,
+        "announced": 74,
+        "not_open": 42,
+        "not_found": 156,
     }
-    assert by_slug["registry-2026-27-005-01"]["registration_url"] == (
-        "https://my.ntcontest.ru/?utm_campaign=school_8_11&utm_medium=schedule&utm_source=site"
-    )
+    # Organizer announced an extension, but the platform is temporarily unavailable.
+    assert by_slug["registry-2026-27-005-01"]["registration_url"] is None
     nto_records = [
         record
         for record in records
-        if record["registration_url"]
-        == "https://my.ntcontest.ru/?utm_campaign=school_8_11&utm_medium=schedule&utm_source=site"
+        if record["slug"].startswith("registry-2026-27-005-")
     ]
     assert len(nto_records) == 21
-    assert {record["registration_closes_at"] for record in nto_records} == {
-        "2026-10-22T21:00:00Z"
-    }
+    assert {record["registration_closes_at"] for record in nto_records} == {None}
+    assert {record["registration_status"] for record in nto_records} == {"announced"}
+    assert {record["stages"][0]["registration_closes_on"] for record in nto_records} == {"2026-10-28"}
     assert by_slug["registry-2026-27-001-01"]["registration_status"] == "open"
     assert by_slug["registry-2026-27-024-01"]["registration_status"] == "open"
     # A past cutoff preserves the registration history but closes the public link.
@@ -754,7 +755,8 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
             "vosh-2026-27-22",
         )
     } == {"open"}
-    assert by_slug["vosh-2026-27-19"]["registration_status"] == "announced"
+    assert by_slug["vosh-2026-27-19"]["registration_status"] == "open"
+    assert by_slug["vosh-2026-27-19"]["registration_closes_at"] == "2026-10-16T17:15:00Z"
     assert by_slug["registry-2026-27-017-01"]["registration_url"] == (
         "https://distolymp.spbu.ru/phys/olymp/registration/user/"
     )
@@ -909,7 +911,7 @@ def test_bmstu_gazprom_has_all_six_profiles_and_hybrid_finals():
     assert ict_benefit["has_hundred_points"] is True
 
 
-def test_euler_olympiad_is_present_with_projected_dates_and_official_archive():
+def test_euler_has_current_dates_with_month_only_windows_and_official_archive():
     records = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))["records"]
     euler = next(record for record in records if record["slug"] == "euler-mathematics")
 
@@ -917,16 +919,18 @@ def test_euler_olympiad_is_present_with_projected_dates_and_official_archive():
     assert euler["grades"] == [5, 6, 7, 8]
     assert euler["registry_status"] == "not_listed"
     assert euler["registry_level"] is None
-    assert euler["data_status"] == "previous_year_estimate"
-    assert euler["registration_status"] == "not_found"
-    assert euler["registration_url"] is None
+    assert euler["data_status"] == "confirmed"
+    assert euler["registration_status"] == "open"
+    assert euler["registration_url"] == "https://my.sirius.online/activity-page/sirius:euler-2027"
     assert [(stage["key"], stage["starts_on"], stage["ends_on"]) for stage in euler["stages"]] == [
-        ("distance-round-1", "2026-11-09", "2026-11-09"),
-        ("distance-round-2", "2026-12-07", "2026-12-07"),
-        ("regional", "2027-02-02", "2027-02-03"),
-        ("final", "2027-03-24", "2027-03-27"),
+        ("distance-round-1", "2026-11-08", "2026-11-08"),
+        ("distance-round-2", "2026-12-06", "2026-12-06"),
+        ("regional", "2027-01-01", "2027-02-28"),
+        ("final", "2027-03-01", "2027-03-31"),
     ]
-    assert all(stage["is_date_confirmed"] is False for stage in euler["stages"])
+    assert all(stage["is_date_confirmed"] is True for stage in euler["stages"])
+    assert [stage["date_precision"] for stage in euler["stages"]] == ["exact", "exact", "month", "month"]
+    assert "ещё не опубликованы" not in euler["notes"]
     assert {material["url"] for material in euler["materials"]} == {
         "https://matol.ru/archives.php",
         "https://matol.ru/current_materials.php",
@@ -1253,7 +1257,15 @@ def test_seed_materials_are_profile_specific_and_audited():
     delta = json.loads(
         (RESEARCH_PATH / "additional_material_audit_20260923.json").read_text(encoding="utf-8")
     )
-    assert delta["catalog_sha256"] == hashlib.sha256(additional_path.read_bytes()).hexdigest()
+    delta_hash = hashlib.sha256(additional_path.read_bytes()).hexdigest()
+    if delta["catalog_sha256"] != delta_hash:
+        reuse = delta["reuse_for_catalog"]
+        assert reuse["catalog_sha256"] == delta_hash
+        assert reuse["network_rechecked"] is False
+        materials = {r["slug"]: r["materials"] for r in additional["records"]}
+        assert reuse["unchanged_materials_sha256"] == hashlib.sha256(
+            json.dumps(materials, ensure_ascii=False, sort_keys=True).encode()
+        ).hexdigest()
     assert delta["catalog_records"] == len(additional_slugs) == 12
     assert audit["catalog_records"] + len(added_without_materials) + len(additional_slugs) == len(records)
     assert audit["material_occurrences"] + delta["material_occurrences"] == material_occurrences

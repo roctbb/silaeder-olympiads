@@ -55,7 +55,7 @@ def test_cancelled_profile_preserves_plan_and_stage_ids(app, user_id):
 
 
 def test_new_open_registration_notifies_existing_subscriber_once(app, user_id):
-    row = snapshot()["dano-data-analysis"]
+    row = snapshot()["euler-mathematics"]
     previous = deepcopy(row)
     previous.update(registration_status="not_open", registration_url=None)
     _, edition = upsert_catalog_record(previous)
@@ -79,6 +79,6 @@ def test_snapshot_keeps_all_mkoshp_leagues_and_bmstu_exceptions():
     assert stages["amateur-final"]["starts_on"] == "2026-10-04"
     assert stages["qualifying-otborochnyi-kvalifikatsionnyi-tur"]["starts_on"] == "2026-10-11"
     assert stages["final-zaklyuchitelnyi-tur"]["starts_on"] == "2026-11-15"
-    assert rows["registry-2026-27-052-04"]["registration_status"] == "announced"
+    assert rows["registry-2026-27-052-04"]["registration_status"] == "open"
     assert rows["registry-2026-27-052-05"]["registration_status"] == "open"
     assert rows["shag-v-budushchee-biology"]["status"] == "archived"

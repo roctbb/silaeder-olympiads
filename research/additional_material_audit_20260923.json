@@ -530,5 +530,12 @@
         }
       ]
     }
-  ]
+  ],
+  "reuse_for_catalog": {
+    "checked_on": "2026-10-15",
+    "catalog_sha256": "43f42d9a30a00fb06e128a68814eb92c392a302cbc6cdd626002b0d75893ff25",
+    "unchanged_materials_sha256": "94a96e34cabbb738c56b21b616576fe7d2e337b3592d5be8efc4583edfff2aca",
+    "network_rechecked": false,
+    "reason": "Изменены только расписание и пояснения командного турнира ФКН. Материалы всех 12 записей не изменены."
+  }
 }

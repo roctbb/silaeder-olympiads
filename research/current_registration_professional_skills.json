@@ -14,8 +14,9 @@
       "registration_url": "https://kid.mcrpo.ru/w/application/",
       "registration_status": "open",
       "source_url": "https://kid.mcrpo.ru/",
-      "evidence": "Приём заявок и дистанционных заданий 1 сентября — 11 октября 2026, форма ведёт в действующий личный кабинет МЦРПО. Точное время закрытия не опубликовано.",
-      "checked_on": "2026-09-22"
+      "evidence": "Приём заявок и дистанционных заданий завершился 11 октября в 23:59. На сайте указан точный срок. Финалы 23 ноября — 6 декабря.",
+      "checked_on": "2026-10-15",
+      "registration_closes_at": "2026-10-11T20:59:00Z"
     },
     {
       "slug": "professionals-national-juniors",

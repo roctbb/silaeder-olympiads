@@ -12,10 +12,11 @@
     },
     {
       "slug": "registry-2026-27-007-01",
-      "registration_url": "https://cups.online/ru/contests/vserosii_2026",
-      "registration_status": "open",
-      "source_url": "https://ai.edu.gov.ru/registration",
-      "evidence": "Официальная инструкция олимпиады 2026 содержит действующую кнопку «Зарегистрироваться» на этот конкурс All Cups; страница сообщает о тренировке до 20 сентября и старте отбора 21 сентября. Прямой GET страницы конкурса вернул HTTP 200."
+      "registration_url": null,
+      "registration_status": "not_open",
+      "source_url": "https://ai.edu.gov.ru/",
+      "evidence": "Регистрация на сезон 2026 закончилась 20 сентября. Сейчас основной этап 14–18 октября; кнопка регистрации на 2027 год относится к следующему циклу и не подменяет текущую регистрацию.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "registry-2026-27-009-01",
@@ -54,35 +55,35 @@
     },
     {
       "slug": "registry-2026-27-014-01",
-      "registration_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "registration_status": "announced",
+      "registration_url": "https://vsesib.nsu.ru/",
+      "registration_status": "open",
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Опубликован календарь 2026/27: регистрация по профилю начнётся 2026-10-12, отбор 2026-11-01. Общий личный кабинет не означает, что уже можно подать заявку на предмет.",
-      "checked_on": "2026-09-22"
+      "evidence": "Биология: регистрация с 12 октября, отбор 1 ноября 11:00 по местному времени площадки. Приём заявок закрывается за 48 часов до начала; единого UTC-дедлайна для всех площадок нет.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "registry-2026-27-014-03",
-      "registration_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "registration_status": "announced",
+      "registration_url": "https://vsesib.nsu.ru/",
+      "registration_status": "open",
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Опубликован календарь 2026/27: регистрация по профилю начнётся 2026-09-28, отбор 2026-10-18. Общий личный кабинет не означает, что уже можно подать заявку на предмет.",
-      "checked_on": "2026-09-22"
+      "evidence": "Математика: регистрация с 28 сентября, отбор 18 октября 11:00 по местному времени площадки. Приём заявок закрывается за 48 часов до начала; единого UTC-дедлайна для всех площадок нет.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "registry-2026-27-014-04",
       "registration_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
       "registration_status": "announced",
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Опубликован календарь 2026/27: регистрация по профилю начнётся 2026-10-26, отбор 2026-11-15. Общий личный кабинет не означает, что уже можно подать заявку на предмет.",
-      "checked_on": "2026-09-22"
+      "evidence": "Календарь 2026/27: регистрация по информатике с 19 октября, по физике и химии с 26 октября. На 15 октября ещё не началась.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "registry-2026-27-014-05",
       "registration_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
       "registration_status": "announced",
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Опубликован календарь 2026/27: регистрация по профилю начнётся 2026-10-26, отбор 2026-11-22. Общий личный кабинет не означает, что уже можно подать заявку на предмет.",
-      "checked_on": "2026-09-22"
+      "evidence": "Календарь 2026/27: регистрация по информатике с 19 октября, по физике и химии с 26 октября. На 15 октября ещё не началась.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "registry-2026-27-021-01",

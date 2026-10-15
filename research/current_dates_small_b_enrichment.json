@@ -137,42 +137,6 @@
       ]
     },
     {
-      "slug": "registry-2026-27-034-01",
-      "stages": []
-    },
-    {
-      "slug": "registry-2026-27-034-02",
-      "stages": []
-    },
-    {
-      "slug": "registry-2026-27-071-02",
-      "stages": []
-    },
-    {
-      "slug": "registry-2026-27-075-01",
-      "stages": []
-    },
-    {
-      "slug": "registry-2026-27-014-02",
-      "stages": []
-    },
-    {
-      "slug": "mkoshp-programming",
-      "stages": []
-    },
-    {
-      "slug": "registry-2026-27-037-01",
-      "stages": []
-    },
-    {
-      "slug": "registry-2026-27-047-01",
-      "stages": []
-    },
-    {
-      "slug": "registry-2026-27-047-02",
-      "stages": []
-    },
-    {
       "slug": "registry-2026-27-051-06",
       "stages": [
         {
@@ -185,38 +149,6 @@
           "details": "До 30 декабря 2026 года включительно необходимо подать научную работу и пройти основное тестирование. Дата открытия отборочного этапа организатором не указана."
         }
       ]
-    },
-    {
-      "slug": "registry-2026-27-066-02",
-      "stages": []
-    },
-    {
-      "slug": "registry-2026-27-066-03",
-      "stages": []
-    },
-    {
-      "slug": "registry-2026-27-068-01",
-      "stages": []
-    },
-    {
-      "slug": "registry-2026-27-068-02",
-      "stages": []
-    },
-    {
-      "slug": "registry-2026-27-068-03",
-      "stages": []
-    },
-    {
-      "slug": "registry-2026-27-068-04",
-      "stages": []
-    },
-    {
-      "slug": "registry-2026-27-072-01",
-      "stages": []
-    },
-    {
-      "slug": "moebius-mathematics",
-      "stages": []
     }
   ]
 }

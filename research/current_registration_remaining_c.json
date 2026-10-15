@@ -53,11 +53,11 @@
     },
     {
       "slug": "registry-2026-27-018-01",
-      "registration_url": "https://msal.ru/content/abiturientam/olimpiady-i-konkursy/kutafinskaya-olimpiada-shkolnikov-po-pravu/",
-      "registration_status": "announced",
+      "registration_url": "https://reg.msal.ru/sign-in",
+      "registration_status": "open",
       "source_url": "https://msal.ru/content/abiturientam/olimpiady-i-konkursy/kutafinskaya-olimpiada-shkolnikov-po-pravu/",
-      "evidence": "Регистрация 1 октября 2026 — 11 января 2027 включительно; сейчас только анонс. Опубликованы даты отбора и финала по классам.",
-      "checked_on": "2026-09-22"
+      "evidence": "Объявление от 01.10.2026 подтверждает открытие регистрации до 11 января 2027 включительно и содержит ссылку на подачу заявки. Точное время окончания не указано.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "registry-2026-27-022-01",
@@ -213,10 +213,10 @@
     {
       "slug": "registry-2026-27-052-04",
       "registration_url": "https://lk-olymp.bmstu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/registraciya-na-olimpiadu-shag-v-buduschee-otkryta",
-      "evidence": "Регистрация по математике откроется позже; организатор объявит новый формат.",
-      "checked_on": "2026-09-22"
+      "registration_status": "open",
+      "source_url": "https://olymp.bmstu.ru/ru",
+      "evidence": "Объявление от 30.09.2026: открыта регистрация на профиль «Математика». Отбор 16–22 ноября; вход через личный кабинет олимпиады.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "registry-2026-27-052-05",

@@ -39,10 +39,11 @@
     },
     {
       "slug": "hse-team-programming",
-      "registration_status": "not_found",
-      "registration_url": null,
+      "registration_status": "open",
+      "registration_url": "https://cs.hse.ru/olymp-team-comp",
       "source_url": "https://cs.hse.ru/olymp-team-comp",
-      "evidence": "На официальной странице есть анонс сентября 2026, но нет точных дат и опубликованной ссылки регистрации."
+      "evidence": "Соревнование 25 сентября — 25 октября 2026. Регистрацию площадки и команд проводит учитель через @TeamTournamentHSEbot либо bsrc@hse.ru. Школьники самостоятельно не регистрируются.",
+      "checked_on": "2026-10-15"
     },
     {
       "slug": "vkoshp-junior-programming",
