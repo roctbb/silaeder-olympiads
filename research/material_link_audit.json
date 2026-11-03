@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "reuse_for_catalog": {
-    "checked_on": "2026-10-15",
-    "catalog_sha256": "bda1ffd8225be0a1e4c100c87df348433d0ad4862f20899426a70a2e58ff4ced",
+    "checked_on": "2026-11-03",
+    "catalog_sha256": "d35648c4d9d04a5a0802cd6d17a4f8813f77dc95396f944f7ac80f9c91cd087d",
     "unchanged_materials_sha256": "43405bfa90cd61cf0bb65c8cf2f8e4a5062e3b525b01721d75b7f04c0a960e64",
     "added_records_without_materials": [
       "hse-mshp-informatics"

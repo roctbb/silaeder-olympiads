@@ -32,20 +32,6 @@
       ]
     },
     {
-      "slug": "registry-2026-27-052-04",
-      "stages": [
-        {
-          "key": "qualifying",
-          "starts_on": "2026-11-16",
-          "ends_on": "2026-11-22",
-          "date_precision": "range",
-          "is_date_confirmed": true,
-          "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/raspisanie-otborochnogo-etapa-2026-2027",
-          "details": "Математика: 16–22 ноября 2026. Регистрация откроется позже, формат будет объявлен отдельно."
-        }
-      ]
-    },
-    {
       "slug": "registry-2026-27-052-05",
       "stages": [
         {
@@ -108,38 +94,6 @@
       ],
       "remove_note_fragments": [
         "Окна не являются длительностью соревнований: точные дни туров организатор должен опубликовать отдельно, поэтому даты самих этапов оставлены TBA."
-      ]
-    },
-    {
-      "slug": "registry-2026-27-051-04",
-      "stages": [
-        {
-          "key": "qualifying",
-          "starts_on": "2026-10-11",
-          "ends_on": "2026-11-07",
-          "date_precision": "range",
-          "is_date_confirmed": false,
-          "source_url": "https://olymp-online.mipt.ru/event/449",
-          "details": "Математика: 11 октября 10:00 и 1 ноября 08:00 для 9–11 классов; 7 ноября 10:00 только для 11 класса. Регистрация до 10 октября 10:00, 31 октября 08:00 и 6 ноября 10:00 соответственно. Время московское. На странице расписание названо предварительным; туры не идут непрерывно.",
-          "registration_opens_on": "2026-09-07",
-          "registration_closes_on": "2026-11-06"
-        }
-      ]
-    },
-    {
-      "slug": "registry-2026-27-051-05",
-      "stages": [
-        {
-          "key": "qualifying",
-          "starts_on": "2026-10-04",
-          "ends_on": "2026-11-08",
-          "date_precision": "range",
-          "is_date_confirmed": false,
-          "source_url": "https://olymp-online.mipt.ru/event/449",
-          "details": "Физика: 4 октября 10:00 и 25 октября 08:00 для 9–11 классов; 8 ноября 10:00 только для 11 класса. Регистрация до 3 октября 10:00, 24 октября 08:00 и 7 ноября 10:00 соответственно. Время московское. На странице расписание названо предварительным; туры не идут непрерывно.",
-          "registration_opens_on": "2026-09-07",
-          "registration_closes_on": "2026-11-07"
-        }
       ]
     },
     {
@@ -209,86 +163,6 @@
       ]
     },
     {
-      "slug": "registry-2026-27-014-01",
-      "stages": [
-        {
-          "key": "qualifying",
-          "starts_on": "2026-11-01",
-          "ends_on": "2026-11-01",
-          "date_precision": "exact",
-          "is_date_confirmed": true,
-          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-          "details": "Основной очный отбор 2026/27. Регистрация закрывается за 48 часов до начала этапа по времени площадки; в таблице организатора начало указано в 11:00 по Новосибирску.",
-          "registration_opens_on": "2026-10-12",
-          "registration_closes_on": "2026-10-30"
-        }
-      ]
-    },
-    {
-      "slug": "registry-2026-27-014-02",
-      "stages": [
-        {
-          "key": "qualifying",
-          "starts_on": "2026-11-08",
-          "ends_on": "2026-11-08",
-          "date_precision": "exact",
-          "is_date_confirmed": true,
-          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-          "details": "Основной очный отбор 2026/27. Регистрация закрывается за 48 часов до начала этапа по времени площадки; в таблице организатора начало указано в 11:00 по Новосибирску.",
-          "registration_opens_on": "2026-10-19",
-          "registration_closes_on": "2026-11-06"
-        }
-      ]
-    },
-    {
-      "slug": "registry-2026-27-014-03",
-      "stages": [
-        {
-          "key": "qualifying",
-          "starts_on": "2026-10-18",
-          "ends_on": "2026-10-18",
-          "date_precision": "exact",
-          "is_date_confirmed": true,
-          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-          "details": "Основной очный отбор 2026/27. Регистрация закрывается за 48 часов до начала этапа по времени площадки; в таблице организатора начало указано в 11:00 по Новосибирску.",
-          "registration_opens_on": "2026-09-28",
-          "registration_closes_on": "2026-10-16"
-        }
-      ]
-    },
-    {
-      "slug": "registry-2026-27-014-04",
-      "stages": [
-        {
-          "key": "qualifying",
-          "starts_on": "2026-11-15",
-          "ends_on": "2026-11-15",
-          "date_precision": "exact",
-          "is_date_confirmed": true,
-          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-          "details": "Основной очный отбор 2026/27. Регистрация закрывается за 48 часов до начала этапа по времени площадки; в таблице организатора начало указано в 11:00 по Новосибирску.",
-          "registration_opens_on": "2026-10-26",
-          "registration_closes_on": "2026-11-13"
-        }
-      ]
-    },
-    {
-      "slug": "registry-2026-27-014-05",
-      "stages": [
-        {
-          "key": "qualifying",
-          "starts_on": "2026-11-22",
-          "ends_on": "2026-11-22",
-          "date_precision": "exact",
-          "is_date_confirmed": true,
-          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-          "details": "Основной очный отбор 2026/27. Регистрация закрывается за 48 часов до начала этапа по времени площадки; в таблице организатора начало указано в 11:00 по Новосибирску.",
-          "registration_opens_on": "2026-10-26",
-          "registration_closes_on": "2026-11-20"
-        }
-      ]
-    },
-    {
       "slug": "registry-2026-27-018-01",
       "stages": [
         {
@@ -317,15 +191,6 @@
       "slug": "registry-2026-27-032-01",
       "stages": [
         {
-          "key": "qualifying",
-          "starts_on": "2026-10-26",
-          "ends_on": "2026-11-23",
-          "date_precision": "range",
-          "is_date_confirmed": true,
-          "source_url": "https://malun.kpfu.ru/mpo",
-          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
-        },
-        {
           "key": "final",
           "starts_on": "2027-01-13",
           "ends_on": "2027-02-07",
@@ -339,15 +204,6 @@
     {
       "slug": "registry-2026-27-032-02",
       "stages": [
-        {
-          "key": "qualifying",
-          "starts_on": "2026-10-26",
-          "ends_on": "2026-11-23",
-          "date_precision": "range",
-          "is_date_confirmed": true,
-          "source_url": "https://malun.kpfu.ru/mpo",
-          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
-        },
         {
           "key": "final",
           "starts_on": "2027-01-13",
@@ -363,15 +219,6 @@
       "slug": "registry-2026-27-032-03",
       "stages": [
         {
-          "key": "qualifying",
-          "starts_on": "2026-10-26",
-          "ends_on": "2026-11-23",
-          "date_precision": "range",
-          "is_date_confirmed": true,
-          "source_url": "https://malun.kpfu.ru/mpo",
-          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
-        },
-        {
           "key": "final",
           "starts_on": "2027-01-13",
           "ends_on": "2027-02-07",
@@ -385,15 +232,6 @@
     {
       "slug": "registry-2026-27-032-04",
       "stages": [
-        {
-          "key": "qualifying",
-          "starts_on": "2026-10-26",
-          "ends_on": "2026-11-23",
-          "date_precision": "range",
-          "is_date_confirmed": true,
-          "source_url": "https://malun.kpfu.ru/mpo",
-          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
-        },
         {
           "key": "final",
           "starts_on": "2027-01-13",
@@ -409,15 +247,6 @@
       "slug": "registry-2026-27-032-05",
       "stages": [
         {
-          "key": "qualifying",
-          "starts_on": "2026-10-26",
-          "ends_on": "2026-11-23",
-          "date_precision": "range",
-          "is_date_confirmed": true,
-          "source_url": "https://malun.kpfu.ru/mpo",
-          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
-        },
-        {
           "key": "final",
           "starts_on": "2027-01-13",
           "ends_on": "2027-02-07",
@@ -431,15 +260,6 @@
     {
       "slug": "registry-2026-27-032-06",
       "stages": [
-        {
-          "key": "qualifying",
-          "starts_on": "2026-10-26",
-          "ends_on": "2026-11-23",
-          "date_precision": "range",
-          "is_date_confirmed": true,
-          "source_url": "https://malun.kpfu.ru/mpo",
-          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
-        },
         {
           "key": "final",
           "starts_on": "2027-01-13",
@@ -455,15 +275,6 @@
       "slug": "registry-2026-27-032-07",
       "stages": [
         {
-          "key": "qualifying",
-          "starts_on": "2026-10-26",
-          "ends_on": "2026-11-23",
-          "date_precision": "range",
-          "is_date_confirmed": true,
-          "source_url": "https://malun.kpfu.ru/mpo",
-          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
-        },
-        {
           "key": "final",
           "starts_on": "2027-01-13",
           "ends_on": "2027-02-07",
@@ -477,15 +288,6 @@
     {
       "slug": "registry-2026-27-032-08",
       "stages": [
-        {
-          "key": "qualifying",
-          "starts_on": "2026-10-26",
-          "ends_on": "2026-11-23",
-          "date_precision": "range",
-          "is_date_confirmed": true,
-          "source_url": "https://malun.kpfu.ru/mpo",
-          "details": "Общий период дистанционного отбора многопрофильных олимпиад КФУ 2026/27."
-        },
         {
           "key": "final",
           "starts_on": "2027-01-13",

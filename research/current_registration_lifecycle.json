@@ -14,35 +14,35 @@
     },
     {
       "slug": "prod-mlops",
-      "registration_url": null,
-      "registration_status": "not_open",
+      "checked_on": "2026-11-03",
+      "registration_status": "announced",
+      "registration_url": "https://prodcontest.com/#form",
       "source_url": "https://prodcontest.com/",
-      "evidence": "На сайте по-прежнему доступна подписка на уведомления, а не регистрация участника. Точные сроки регистрации нового сезона не подтверждены.",
-      "checked_on": "2026-10-15"
+      "evidence": "Опубликована регистрация 21 октября — 1 декабря 2026. На 3 ноября загрузчик формы form.centraluniversity.ru возвращает ошибку TLS; отправка заявки не подтверждена. Статус announced до восстановления формы."
     },
     {
       "slug": "prod-backend",
-      "registration_url": null,
-      "registration_status": "not_open",
+      "checked_on": "2026-11-03",
+      "registration_status": "announced",
+      "registration_url": "https://prodcontest.com/#form",
       "source_url": "https://prodcontest.com/",
-      "evidence": "На сайте по-прежнему доступна подписка на уведомления, а не регистрация участника. Точные сроки регистрации нового сезона не подтверждены.",
-      "checked_on": "2026-10-15"
+      "evidence": "Опубликована регистрация 21 октября — 1 декабря 2026. На 3 ноября загрузчик формы form.centraluniversity.ru возвращает ошибку TLS; отправка заявки не подтверждена. Статус announced до восстановления формы."
     },
     {
       "slug": "prod-mobile",
-      "registration_url": null,
-      "registration_status": "not_open",
+      "checked_on": "2026-11-03",
+      "registration_status": "announced",
+      "registration_url": "https://prodcontest.com/#form",
       "source_url": "https://prodcontest.com/",
-      "evidence": "На сайте по-прежнему доступна подписка на уведомления, а не регистрация участника. Точные сроки регистрации нового сезона не подтверждены.",
-      "checked_on": "2026-10-15"
+      "evidence": "Опубликована регистрация 21 октября — 1 декабря 2026. На 3 ноября загрузчик формы form.centraluniversity.ru возвращает ошибку TLS; отправка заявки не подтверждена. Статус announced до восстановления формы."
     },
     {
       "slug": "prod-frontend",
-      "registration_url": null,
-      "registration_status": "not_open",
+      "checked_on": "2026-11-03",
+      "registration_status": "announced",
+      "registration_url": "https://prodcontest.com/#form",
       "source_url": "https://prodcontest.com/",
-      "evidence": "На сайте по-прежнему доступна подписка на уведомления, а не регистрация участника. Точные сроки регистрации нового сезона не подтверждены.",
-      "checked_on": "2026-10-15"
+      "evidence": "Опубликована регистрация 21 октября — 1 декабря 2026. На 3 ноября загрузчик формы form.centraluniversity.ru возвращает ошибку TLS; отправка заявки не подтверждена. Статус announced до восстановления формы."
     },
     {
       "slug": "vkoshp-programming",
@@ -132,10 +132,11 @@
     },
     {
       "slug": "moebius-mathematics",
-      "registration_url": null,
-      "registration_status": "not_open",
-      "source_url": "https://moebiustour.ru/reg",
-      "evidence": "Официальная страница уже озаглавлена «Регистрация на XVIII Турнир Мёбиуса», но прямо сообщает: «Регистрация на турнир скоро будет открыта». Действующей формы на 26.08.2026 нет."
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://moebiustour.ru/registration/",
+      "source_url": "https://moebiustour.ru/",
+      "evidence": "Форма регистрации команды доступна; официальный /api/tournaments/current возвращает XVIII Турнир Мёбиуса, статус registration_open, даты 16–20 ноября 2026, классы 5–7. Точного дедлайна нет."
     },
     {
       "slug": "vysshaya-proba-biology",

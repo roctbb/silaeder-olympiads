@@ -1,0 +1,1014 @@
+{
+  "checked_on": "2026-11-03",
+  "academic_year": "2026/27",
+  "base_commit": "8d759f2",
+  "catalog_records": 377,
+  "updated_cards": 125,
+  "status_changes": 101,
+  "new_openings": 51,
+  "updated_stages": 149,
+  "materials_unchanged": true,
+  "stage_keys_unchanged": true,
+  "sources_report": "research/status_update_2026_11_03_sources.md",
+  "changes": [
+    {
+      "slug": "prod-mlops",
+      "previous_status": "not_open",
+      "current_status": "announced",
+      "changed_stages": [
+        "registration-registratsiya",
+        "qualifying-pervyi-otborochnyi-etap",
+        "qualifying-vtoroi-otborochnyi-etap",
+        "final-zaklyuchitelnyi-etap-individualnyi-tur",
+        "final-zaklyuchitelnyi-etap-komandnyi-tur"
+      ]
+    },
+    {
+      "slug": "prod-backend",
+      "previous_status": "not_open",
+      "current_status": "announced",
+      "changed_stages": [
+        "registration-registratsiya",
+        "qualifying-pervyi-otborochnyi-etap",
+        "qualifying-vtoroi-otborochnyi-etap",
+        "final-zaklyuchitelnyi-etap-individualnyi-tur",
+        "final-zaklyuchitelnyi-etap-komandnyi-tur"
+      ]
+    },
+    {
+      "slug": "prod-mobile",
+      "previous_status": "not_open",
+      "current_status": "announced",
+      "changed_stages": [
+        "registration-registratsiya",
+        "qualifying-pervyi-otborochnyi-etap",
+        "qualifying-vtoroi-otborochnyi-etap",
+        "final-zaklyuchitelnyi-etap-individualnyi-tur",
+        "final-zaklyuchitelnyi-etap-komandnyi-tur"
+      ]
+    },
+    {
+      "slug": "prod-frontend",
+      "previous_status": "not_open",
+      "current_status": "announced",
+      "changed_stages": [
+        "registration-registratsiya",
+        "qualifying-pervyi-otborochnyi-etap",
+        "qualifying-vtoroi-otborochnyi-etap",
+        "final-zaklyuchitelnyi-etap-individualnyi-tur",
+        "final-zaklyuchitelnyi-etap-komandnyi-tur"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-01",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-02",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-20",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-03",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-04",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-09",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-10",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-11",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-05",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-12",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-16",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-06",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-13",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-14",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-07",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-18",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-08",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-15",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-19",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-21",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-17",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-006-01",
+      "previous_status": "open",
+      "current_status": "not_open",
+      "changed_stages": []
+    },
+    {
+      "slug": "vosh-2026-27-06",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "school-shkolnyi-etap"
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-28",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": [
+        "school-shkolnyi-etap"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-01",
+      "previous_status": "open",
+      "current_status": "not_open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-02",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-03",
+      "previous_status": "open",
+      "current_status": "not_open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-04",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-014-05",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "hse-team-programming",
+      "previous_status": "open",
+      "current_status": "not_open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-020-01",
+      "previous_status": "not_found",
+      "current_status": "not_open",
+      "changed_stages": [
+        "qualifying-1",
+        "qualifying-2",
+        "final"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-020-02",
+      "previous_status": "not_found",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying-1",
+        "qualifying-2",
+        "final"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-020-03",
+      "previous_status": "not_found",
+      "current_status": "not_open",
+      "changed_stages": [
+        "qualifying-1",
+        "qualifying-2",
+        "final"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-020-04",
+      "previous_status": "not_found",
+      "current_status": "not_open",
+      "changed_stages": [
+        "qualifying-1",
+        "qualifying-2",
+        "final"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-020-05",
+      "previous_status": "not_found",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying-1",
+        "qualifying-2",
+        "final"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-01",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-02",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-03",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-04",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-05",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-06",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-07",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-08",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-arab",
+      "previous_status": "not_found",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-01",
+      "previous_status": "not_found",
+      "current_status": "announced",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-bioecon",
+      "previous_status": "not_found",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-02",
+      "previous_status": "not_found",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-03",
+      "previous_status": "not_found",
+      "current_status": "announced",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-05",
+      "previous_status": "not_found",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-iikt-10-11",
+      "previous_status": "not_found",
+      "current_status": "announced",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-iikt-6-9",
+      "previous_status": "not_found",
+      "current_status": "announced",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-07",
+      "previous_status": "not_found",
+      "current_status": "announced",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-08",
+      "previous_status": "not_found",
+      "current_status": "announced",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-obzh",
+      "previous_status": "not_found",
+      "current_status": "announced",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-11",
+      "previous_status": "not_found",
+      "current_status": "announced",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-12",
+      "previous_status": "not_found",
+      "current_status": "announced",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-predprof-engprak",
+      "previous_status": "not_found",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-predprof-infprak",
+      "previous_status": "not_found",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-predprof-sciprak",
+      "previous_status": "not_found",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-trud-kd",
+      "previous_status": "not_found",
+      "current_status": "announced",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-trud-tt",
+      "previous_status": "not_found",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-15",
+      "previous_status": "not_found",
+      "current_status": "not_open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-phil",
+      "previous_status": "not_found",
+      "current_status": "announced",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-16",
+      "previous_status": "not_found",
+      "current_status": "announced",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-17",
+      "previous_status": "not_found",
+      "current_status": "announced",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-18",
+      "previous_status": "not_found",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "moscow-math-regatta-grade-11",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-048-01",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-04",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-05",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-03",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-06",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-07",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-08",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-09",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-10",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-11",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-12",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-13",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-14",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-15",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-16",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-17",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-18",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-19",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-20",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-21",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-22",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-23",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-24",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-25",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-02",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-26",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-27",
+      "previous_status": "announced",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-051-04",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-051-05",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-052-04",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": [
+        "qualifying"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-054-01",
+      "previous_status": "not_found",
+      "current_status": "open",
+      "changed_stages": [
+        "first-qualifying",
+        "second-qualifying",
+        "final"
+      ]
+    },
+    {
+      "slug": "registry-2026-27-056-01",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-02",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-03",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-04",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-05",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-06",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-07",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-08",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-09",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-10",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-11",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-12",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-13",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-14",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-15",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-16",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-17",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-18",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-19",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-20",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "registry-2026-27-056-21",
+      "previous_status": "open",
+      "current_status": "open",
+      "changed_stages": []
+    },
+    {
+      "slug": "hse-mshp-informatics",
+      "previous_status": "announced",
+      "current_status": "not_open",
+      "changed_stages": []
+    },
+    {
+      "slug": "moebius-mathematics",
+      "previous_status": "not_open",
+      "current_status": "open",
+      "changed_stages": [
+        "stage-turnir"
+      ]
+    }
+  ]
+}

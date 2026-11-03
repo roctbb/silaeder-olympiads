@@ -85,14 +85,14 @@ def test_seed_profiles_have_explicit_direction_taxonomy_coverage():
     assert seed_profiles == MAPPED_PROFILES
 
 
-def test_hse_mshp_is_a_separate_competition_with_an_unverified_registration_form():
+def test_hse_mshp_is_a_separate_completed_competition():
     by_slug = {
         record["slug"]: record
         for record in json.loads(CATALOG_PATH.read_text(encoding="utf-8"))["records"]
     }
     record = by_slug["hse-mshp-informatics"]
     assert record["grades"] == [8, 9, 10]
-    assert record["registration_status"] == "announced"
+    assert record["registration_status"] == "not_open"
     assert record["registration_url"] is None
     assert record["materials"] == []
     assert "Архив заданий именно этой олимпиады пока не найден" in record["notes"]
@@ -135,7 +135,7 @@ def test_additional_competitions_keep_age_groups_and_forecasts_separate(tmp_path
         assert stage["registration_opens_on"] == opens
         assert stage["registration_closes_on"] == closes
         assert stage["is_date_confirmed"] is True
-        assert record["registration_status"] == ("not_open" if grade == 9 else "announced")
+        assert record["registration_status"] == ("not_open" if grade in (9, 11) else "announced")
 
     kolm = by_slug["kolmogorov-cup-mathematics"]
     assert kolm["registration_status"] == "open"
@@ -147,7 +147,8 @@ def test_additional_competitions_keep_age_groups_and_forecasts_separate(tmp_path
     assert hse["stages"][0]["date_precision"] == "range"
     assert hse["stages"][0]["starts_on"] == "2026-09-25"
     assert hse["stages"][0]["ends_on"] == "2026-10-25"
-    assert hse["registration_url"] == "https://cs.hse.ru/olymp-team-comp"
+    assert hse["registration_status"] == "not_open"
+    assert hse["registration_url"] is None
     assert "самостоятельно не регистрируются" in hse["stages"][0]["details"]
     for slug in (
         "vkoshp-junior-programming", "moscow-oral-team-math-8-9",
@@ -291,8 +292,9 @@ def test_seed_catalog_is_complete_and_importable(app):
     )
 
     prod = next(item for item in records if item["slug"] == "prod-mlops")
-    assert prod["stages"][0]["starts_on"] == "2026-10-30"
-    assert prod["stages"][-1]["ends_on"] == "2027-03-18"
+    assert prod["stages"][0]["starts_on"] == "2026-10-21"
+    assert prod["stages"][-1]["ends_on"] == "2027-03-16"
+    assert all(stage["is_date_confirmed"] for stage in prod["stages"])
 
 
 def test_seed_contains_school_professional_skills_championships():
@@ -550,16 +552,18 @@ def test_reviewed_structure_enrichment_fills_only_sourced_gaps():
         not stage["starts_on"] and not stage["ends_on"] and stage["date_precision"] == "tba"
         for record in mosh
         for stage in record["stages"]
+        if stage["key"] == "final"
     )
+    assert sum(record["stages"][0]["is_date_confirmed"] for record in mosh) == 23
 
     innopolis_math = by_slug["registry-2026-27-020-04"]
     assert innopolis_math["previous_year_reference"] == "2025/26"
-    assert innopolis_math["stages"][0]["starts_on"] == "2026-11-03"
+    assert innopolis_math["stages"][0]["starts_on"] == "2026-11-02"
+    assert innopolis_math["stages"][0]["is_date_confirmed"] is True
     assert all(
-        stage["date_precision"] == "approximate"
-        and not stage["is_date_confirmed"]
-        and "Прогноз на 2026/27" in (stage["details"] or "")
-        for stage in innopolis_math["stages"]
+        not stage["is_date_confirmed"]
+        and "требуют уточнения" in (stage["details"] or "")
+        for stage in innopolis_math["stages"][1:]
     )
 
     fiztekh_math = by_slug["registry-2026-27-051-04"]
@@ -723,12 +727,12 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
     assert reviewed_open == published_registration_links
     assert seen == set(by_slug)
     assert status_counts == {
-        "open": 105,
-        "announced": 74,
-        "not_open": 42,
-        "not_found": 156,
+        "open": 152,
+        "announced": 28,
+        "not_open": 70,
+        "not_found": 127,
     }
-    # Organizer announced an extension, but the platform is temporarily unavailable.
+    # The senior track registration ended; junior/student windows are unrelated.
     assert by_slug["registry-2026-27-005-01"]["registration_url"] is None
     nto_records = [
         record
@@ -737,8 +741,8 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
     ]
     assert len(nto_records) == 21
     assert {record["registration_closes_at"] for record in nto_records} == {None}
-    assert {record["registration_status"] for record in nto_records} == {"announced"}
-    assert {record["stages"][0]["registration_closes_on"] for record in nto_records} == {"2026-10-28"}
+    assert {record["registration_status"] for record in nto_records} == {"not_open"}
+    assert {record["stages"][0]["registration_closes_on"] for record in nto_records} == {"2026-11-03"}
     assert by_slug["registry-2026-27-001-01"]["registration_status"] == "open"
     assert by_slug["registry-2026-27-024-01"]["registration_status"] == "open"
     # A past cutoff preserves the registration history but closes the public link.

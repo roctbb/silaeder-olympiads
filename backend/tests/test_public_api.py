@@ -1,5 +1,5 @@
 from copy import deepcopy
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime, timedelta
 
 from redis.exceptions import RedisError
 from sqlalchemy.exc import SQLAlchemyError
@@ -46,6 +46,11 @@ def test_readiness_reports_database_and_redis_failures(app, client, monkeypatch)
 
 
 def test_catalog_filters_and_detail(admin_client, olympiad_payload):
+    # Keep the next-stage assertion independent of an expired October fixture.
+    olympiad_payload["stages"][0].update(
+        starts_on=date.today().isoformat(),
+        ends_on=(date.today() + timedelta(days=7)).isoformat(),
+    )
     created = admin_client.post("/api/admin/olympiads", json=olympiad_payload)
     assert created.status_code == 201
 

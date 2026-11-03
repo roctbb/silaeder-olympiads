@@ -48,11 +48,11 @@
     },
     {
       "slug": "registry-2026-27-014-02",
-      "registration_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "registration_status": "announced",
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://vsesib.nsu.ru/",
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Календарь 2026/27: регистрация по информатике с 19 октября, по физике и химии с 26 октября. На 15 октября ещё не началась.",
-      "checked_on": "2026-10-15"
+      "evidence": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён."
     },
     {
       "slug": "registry-2026-27-017-01",
@@ -63,38 +63,45 @@
     },
     {
       "slug": "registry-2026-27-020-01",
+      "checked_on": "2026-11-03",
+      "registration_status": "not_open",
       "registration_url": null,
-      "registration_status": "not_found",
-      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open",
-      "evidence": "Официальная семейная страница отвечает HTTP 200, но все пять профилей и встроенные формы относятся к циклу 2025/26 и уже прошедшим финалам. Маркера, расписания или предметной заявки 2026/27 на первичном сайте не найдено."
+      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/informatics",
+      "evidence": "Профильная страница 2026/27: регистрация с 15 сентября до 2026-10-19 в 15:00 мск. Общая промостраница и профильные страницы расходятся в датах финалов; финальные даты требуют уточнения."
     },
     {
       "slug": "registry-2026-27-020-02",
-      "registration_url": null,
-      "registration_status": "not_found",
-      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open",
-      "evidence": "Официальная семейная страница отвечает HTTP 200, но все пять профилей и встроенные формы относятся к циклу 2025/26 и уже прошедшим финалам. Маркера, расписания или предметной заявки 2026/27 на первичном сайте не найдено."
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://start.innopolis.university/olimpiady/",
+      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/cyberbez",
+      "evidence": "Профильная страница 2026/27: регистрация с 15 сентября до 2026-11-23 в 15:00 мск. Общая промостраница и профильные страницы расходятся в датах финалов; финальные даты требуют уточнения.",
+      "registration_closes_at": "2026-11-23T12:00:00Z"
     },
     {
       "slug": "registry-2026-27-020-03",
+      "checked_on": "2026-11-03",
+      "registration_status": "not_open",
       "registration_url": null,
-      "registration_status": "not_found",
-      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open",
-      "evidence": "Официальная семейная страница отвечает HTTP 200, но все пять профилей и встроенные формы относятся к циклу 2025/26 и уже прошедшим финалам. Маркера, расписания или предметной заявки 2026/27 на первичном сайте не найдено."
+      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/ai",
+      "evidence": "Профильная страница 2026/27: регистрация с 15 сентября до 2026-10-26 в 15:00 мск. Общая промостраница и профильные страницы расходятся в датах финалов; финальные даты требуют уточнения."
     },
     {
       "slug": "registry-2026-27-020-04",
+      "checked_on": "2026-11-03",
+      "registration_status": "not_open",
       "registration_url": null,
-      "registration_status": "not_found",
-      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open",
-      "evidence": "Официальная семейная страница отвечает HTTP 200, но все пять профилей и встроенные формы относятся к циклу 2025/26 и уже прошедшим финалам. Маркера, расписания или предметной заявки 2026/27 на первичном сайте не найдено."
+      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/math",
+      "evidence": "Профильная страница 2026/27: регистрация с 15 сентября до 2026-10-19 в 15:00 мск. Общая промостраница и профильные страницы расходятся в датах финалов; финальные даты требуют уточнения."
     },
     {
       "slug": "registry-2026-27-020-05",
-      "registration_url": null,
-      "registration_status": "not_found",
-      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open",
-      "evidence": "Официальная семейная страница отвечает HTTP 200, но все пять профилей и встроенные формы относятся к циклу 2025/26 и уже прошедшим финалам. Маркера, расписания или предметной заявки 2026/27 на первичном сайте не найдено."
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://start.innopolis.university/olimpiady/",
+      "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/robo",
+      "evidence": "Профильная страница 2026/27: регистрация с 15 сентября до 2026-11-09 в 15:00 мск. Общая промостраница и профильные страницы расходятся в датах финалов; финальные даты требуют уточнения.",
+      "registration_closes_at": "2026-11-09T12:00:00Z"
     },
     {
       "slug": "registry-2026-27-025-01",
@@ -172,219 +179,219 @@
     },
     {
       "slug": "registry-2026-27-048-01",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-06 — 2026-11-13, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-04",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-27 — 2026-12-04, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-05",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-20 — 2026-11-27, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-03",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-20 — 2026-11-27, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-06",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-20 — 2026-11-27, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-07",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-20 — 2026-11-27, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-08",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-13 — 2026-11-20, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-09",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-13 — 2026-11-20, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-10",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-10-30 — 2026-11-06, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-11",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-06 — 2026-11-13, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-12",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-10-30 — 2026-11-06, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-13",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-13 — 2026-11-20, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-14",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-20 — 2026-11-27, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-15",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-20 — 2026-11-27, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-16",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-13 — 2026-11-20, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-17",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-06 — 2026-11-13, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-18",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-06 — 2026-11-13, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-19",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-27 — 2026-12-04, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-20",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-27 — 2026-12-04, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-21",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-27 — 2026-12-04, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-22",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-27 — 2026-12-04, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-23",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-06 — 2026-11-13, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-24",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-27 — 2026-12-04, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-25",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-20 — 2026-11-27, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-02",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-06 — 2026-11-13, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-26",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-10-30 — 2026-11-06, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-048-27",
-      "registration_url": "https://olymp.msu.ru/",
-      "registration_status": "announced",
-      "source_url": "https://olymp.msu.ru/rus/page/main/29/news/602e2e2f-787c-42b5-9ea6-8fb3626bbb4c",
-      "evidence": "Объявление 23.09.2026: регистрация откроется во второй половине октября, отбор — октябрь–декабрь. На 15 октября подтверждения открытия нет; общая регистрация аккаунта не считается регистрацией на олимпиаду.",
-      "checked_on": "2026-10-15"
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://olymp.msu.ru/rus/register/",
+      "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+      "evidence": "Регистрация сезона 2026/27 открыта с 24 октября. Создайте аккаунт, затем подайте заявку по профилю и загрузите документы. Отбор 2026-11-13 — 2026-11-20, начало и окончание в 12:00 мск; отдельное время закрытия регистрации не опубликовано."
     },
     {
       "slug": "registry-2026-27-051-01",
@@ -409,20 +416,20 @@
     },
     {
       "slug": "registry-2026-27-051-04",
-      "registration_url": "https://olymp-online.mipt.ru/event/449",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
+      "registration_url": "https://olymp-online.mipt.ru/pre-reg/",
       "source_url": "https://olymp-online.mipt.ru/event/449",
-      "evidence": "Регистрация на онлайн-этап 2026/27 открыта с 7 сентября 10:00 мск. Математика: 11 октября 10:00 и 1 ноября 08:00 для 9–11 классов; 7 ноября 10:00 только для 11 класса. Регистрация до 10 октября 10:00, 31 октября 08:00 и 6 ноября 10:00 соответственно. Время московское.",
-      "checked_on": "2026-09-22",
+      "evidence": "Остался третий отборочный тур для 11 класса. Туры 9–10 классов завершены. Регистрация и подтверждение данных не позднее 10:00 мск за сутки до тура.",
       "registration_closes_at": "2026-11-06T07:00:00Z"
     },
     {
       "slug": "registry-2026-27-051-05",
-      "registration_url": "https://olymp-online.mipt.ru/event/449",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
+      "registration_url": "https://olymp-online.mipt.ru/pre-reg/",
       "source_url": "https://olymp-online.mipt.ru/event/449",
-      "evidence": "Регистрация на онлайн-этап 2026/27 открыта с 7 сентября 10:00 мск. Физика: 4 октября 10:00 и 25 октября 08:00 для 9–11 классов; 8 ноября 10:00 только для 11 класса. Регистрация до 3 октября 10:00, 24 октября 08:00 и 7 ноября 10:00 соответственно. Время московское.",
-      "checked_on": "2026-09-22",
+      "evidence": "Остался третий отборочный тур для 11 класса. Туры 9–10 классов завершены. Регистрация и подтверждение данных не позднее 10:00 мск за сутки до тура.",
       "registration_closes_at": "2026-11-07T07:00:00Z"
     },
     {
@@ -434,191 +441,191 @@
     },
     {
       "slug": "registry-2026-27-056-01",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-02",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-03",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-04",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-05",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-06",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-07",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-08",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-09",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-10",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-11",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-12",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-13",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-14",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-15",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-16",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-17",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-18",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-19",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-20",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {
       "slug": "registry-2026-27-056-21",
-      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "checked_on": "2026-11-03",
       "registration_status": "open",
-      "source_url": "https://www.olympiada.spbu.ru/",
-      "evidence": "Регистрация сезона 2026/27 открыта с 10 октября до 1 декабря, 16:00 мск. Отбор 20 октября — 1 декабря. Проверены инструкция и вход в личный кабинет.",
-      "checked_on": "2026-10-15",
+      "registration_url": "https://olymp.spbu.ru/Account/LogOn",
+      "source_url": "https://olympiada.spbu.ru/",
+      "evidence": "Регистрация 10 октября — 1 декабря 2026 до 16:00 мск. Отборочный этап 20 октября — 1 декабря; в ЛК обязательна заявка на предмет.",
       "registration_closes_at": "2026-12-01T13:00:00Z"
     },
     {

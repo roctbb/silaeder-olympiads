@@ -598,29 +598,6 @@
       "family_name": "Всероссийская междисциплинарная олимпиада школьников 8–11 классов «Национальная технологическая олимпиада»",
       "stages": [
         {
-          "key": "first-qualifying",
-          "starts_on": "2026-09-17",
-          "ends_on": "2026-10-28",
-          "registration_opens_on": "2026-08-26",
-          "registration_closes_on": "2026-10-28",
-          "date_precision": "range",
-          "is_date_confirmed": true,
-          "source_url": "https://ntcontest.ru/participants/schedule/",
-          "source_title": "Расписание НТО 2026/27",
-          "details": "Регистрация старшего трека и индивидуальный отбор продлены до 28 октября 2026. На 15 октября личный кабинет временно недоступен: платформа Талант сообщает о переносе сервисов. Необходимо дождаться восстановления.",
-          "replace_details": true
-        },
-        {
-          "key": "second-qualifying",
-          "starts_on": "2026-11-05",
-          "ends_on": "2026-12-11",
-          "date_precision": "range",
-          "is_date_confirmed": true,
-          "source_url": "https://ntcontest.ru/participants/schedule/",
-          "source_title": "Расписание НТО 2026/27",
-          "details": "Командный этап начинается 5 ноября; ручная проверка завершается до 7 декабря, автоматическая — до 11 декабря 2026 года."
-        },
-        {
           "key": "final",
           "starts_on": "2027-02-01",
           "ends_on": "2027-04-30",

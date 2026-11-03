@@ -1600,6 +1600,11 @@ def apply_current_date_enrichments(
                 stage["date_precision"] = precision
                 stage["is_date_confirmed"] = is_date_confirmed
                 stage["source_url"] = source_url
+                if "format" in raw:
+                    current_format = clean_text(raw["format"])
+                    if current_format not in {"online", "offline", "hybrid", "unknown"}:
+                        raise ValueError(f"Некорректный формат этапа: {slug} / {key}")
+                    stage["format"] = current_format
                 replace_details = raw.get(
                     "replace_details",
                     entry.get(

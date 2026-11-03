@@ -1,5 +1,6 @@
 import json
 from copy import deepcopy
+from datetime import date, timedelta
 
 from sqlalchemy import select
 
@@ -46,6 +47,11 @@ def test_public_catalog_stays_anonymous_and_personal_writes_require_login(
 def test_plan_privacy_reminders_grade_and_stage_progress(
     app, admin_client, olympiad_payload, user_id, csrf_headers
 ):
+    # This scenario exercises an upcoming stage, regardless of the test run date.
+    olympiad_payload["stages"][0].update(
+        starts_on=date.today().isoformat(),
+        ends_on=(date.today() + timedelta(days=7)).isoformat(),
+    )
     created = admin_client.post("/api/admin/olympiads", json=olympiad_payload)
     assert created.status_code == 201
     stage = created.get_json()["stages"][0]

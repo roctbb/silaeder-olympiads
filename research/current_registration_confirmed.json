@@ -4,11 +4,11 @@
   "slugs": [
     {
       "slug": "registry-2026-27-006-01",
-      "registration_url": "https://innagrika.cifrium.ru/invite/VW597G",
-      "registration_status": "open",
-      "source_url": "https://innagrika.ru/olimpiada/",
-      "evidence": "На странице сезона 2026/27 действует регистрация 1 сентября — 15 октября 2026. Актуальное расписание сайта заменяет общую ежегодную рамку старого регламента; точное время закрытия не указано.",
-      "checked_on": "2026-09-22"
+      "checked_on": "2026-11-03",
+      "registration_status": "not_open",
+      "registration_url": null,
+      "source_url": "https://innagrika.ru/",
+      "evidence": "Регистрация и отбор завершены; организатор анонсирует полуфинал 16–21 ноября для прошедших отбор."
     },
     {
       "slug": "registry-2026-27-007-01",
@@ -55,35 +55,35 @@
     },
     {
       "slug": "registry-2026-27-014-01",
-      "registration_url": "https://vsesib.nsu.ru/",
-      "registration_status": "open",
+      "checked_on": "2026-11-03",
+      "registration_status": "not_open",
+      "registration_url": null,
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Биология: регистрация с 12 октября, отбор 1 ноября 11:00 по местному времени площадки. Приём заявок закрывается за 48 часов до начала; единого UTC-дедлайна для всех площадок нет.",
-      "checked_on": "2026-10-15"
+      "evidence": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён."
     },
     {
       "slug": "registry-2026-27-014-03",
-      "registration_url": "https://vsesib.nsu.ru/",
-      "registration_status": "open",
+      "checked_on": "2026-11-03",
+      "registration_status": "not_open",
+      "registration_url": null,
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Математика: регистрация с 28 сентября, отбор 18 октября 11:00 по местному времени площадки. Приём заявок закрывается за 48 часов до начала; единого UTC-дедлайна для всех площадок нет.",
-      "checked_on": "2026-10-15"
+      "evidence": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён."
     },
     {
       "slug": "registry-2026-27-014-04",
-      "registration_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "registration_status": "announced",
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://vsesib.nsu.ru/",
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Календарь 2026/27: регистрация по информатике с 19 октября, по физике и химии с 26 октября. На 15 октября ещё не началась.",
-      "checked_on": "2026-10-15"
+      "evidence": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён."
     },
     {
       "slug": "registry-2026-27-014-05",
-      "registration_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "registration_status": "announced",
+      "checked_on": "2026-11-03",
+      "registration_status": "open",
+      "registration_url": "https://vsesib.nsu.ru/",
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Календарь 2026/27: регистрация по информатике с 19 октября, по физике и химии с 26 октября. На 15 октября ещё не началась.",
-      "checked_on": "2026-10-15"
+      "evidence": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён."
     },
     {
       "slug": "registry-2026-27-021-01",

@@ -1,0 +1,2104 @@
+{
+  "checked_on": "2026-11-03",
+  "target_academic_year": "2026/27",
+  "replace_stage_details": true,
+  "slugs": [
+    {
+      "slug": "prod-mlops",
+      "stages": [
+        {
+          "key": "registration-registratsiya",
+          "starts_on": "2026-10-21",
+          "ends_on": "2026-12-01",
+          "source_url": "https://prodcontest.com/",
+          "details": "Приём заявок объявлен на 21 октября — 1 декабря 2026. На 3 ноября встроенная форма не загружается из-за ошибки сертификата; проверьте доступность у организатора.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "qualifying-pervyi-otborochnyi-etap",
+          "starts_on": "2026-12-04",
+          "ends_on": "2026-12-07",
+          "source_url": "https://prodcontest.com/",
+          "details": "Первый онлайн-отбор, 120 минут.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "qualifying-vtoroi-otborochnyi-etap",
+          "starts_on": "2027-01-12",
+          "ends_on": "2027-01-22",
+          "source_url": "https://prodcontest.com/",
+          "details": "Один кейс с задачами разных направлений; участник выбирает задачи. Защита решений 6–7 февраля 2027 онлайн.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "final-zaklyuchitelnyi-etap-individualnyi-tur",
+          "starts_on": "2027-02-19",
+          "ends_on": "2027-03-01",
+          "source_url": "https://prodcontest.com/",
+          "details": "Индивидуальный онлайн-тур. Защита решений 6–7 марта 2027.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "final-zaklyuchitelnyi-etap-komandnyi-tur",
+          "starts_on": "2027-03-11",
+          "ends_on": "2027-03-16",
+          "source_url": "https://prodcontest.com/",
+          "details": "Командный финал очно в Москве.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "На странице сроки приведены без года; сочетание последовательности октябрь—март, архива 2025/26 и контекста страницы позволяет отнести их к сезону 2025/26. В сервисе они используются только как явно помеченная проекция на 2026/27, а не как официальный календарь. Индивидуальный и командный туры вместе определяют итог; команда финала — 3–5 человек. География и формат по источнику: Россия и СНГ/международное участие; все этапы онлайн, кроме очного командного финала в Московской области."
+      ]
+    },
+    {
+      "slug": "prod-backend",
+      "stages": [
+        {
+          "key": "registration-registratsiya",
+          "starts_on": "2026-10-21",
+          "ends_on": "2026-12-01",
+          "source_url": "https://prodcontest.com/",
+          "details": "Приём заявок объявлен на 21 октября — 1 декабря 2026. На 3 ноября встроенная форма не загружается из-за ошибки сертификата; проверьте доступность у организатора.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "qualifying-pervyi-otborochnyi-etap",
+          "starts_on": "2026-12-04",
+          "ends_on": "2026-12-07",
+          "source_url": "https://prodcontest.com/",
+          "details": "Первый онлайн-отбор, 120 минут.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "qualifying-vtoroi-otborochnyi-etap",
+          "starts_on": "2027-01-12",
+          "ends_on": "2027-01-22",
+          "source_url": "https://prodcontest.com/",
+          "details": "Один кейс с задачами разных направлений; участник выбирает задачи. Защита решений 6–7 февраля 2027 онлайн.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "final-zaklyuchitelnyi-etap-individualnyi-tur",
+          "starts_on": "2027-02-19",
+          "ends_on": "2027-03-01",
+          "source_url": "https://prodcontest.com/",
+          "details": "Индивидуальный онлайн-тур. Защита решений 6–7 марта 2027.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "final-zaklyuchitelnyi-etap-komandnyi-tur",
+          "starts_on": "2027-03-11",
+          "ends_on": "2027-03-16",
+          "source_url": "https://prodcontest.com/",
+          "details": "Командный финал очно в Москве.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "На странице сроки приведены без года; сочетание последовательности октябрь—март, архива 2025/26 и контекста страницы позволяет отнести их к сезону 2025/26. В сервисе они используются только как явно помеченная проекция на 2026/27, а не как официальный календарь. Индивидуальный и командный туры вместе определяют итог; команда финала — 3–5 человек. География и формат по источнику: Россия и СНГ/международное участие; все этапы онлайн, кроме очного командного финала в Московской области."
+      ]
+    },
+    {
+      "slug": "prod-mobile",
+      "stages": [
+        {
+          "key": "registration-registratsiya",
+          "starts_on": "2026-10-21",
+          "ends_on": "2026-12-01",
+          "source_url": "https://prodcontest.com/",
+          "details": "Приём заявок объявлен на 21 октября — 1 декабря 2026. На 3 ноября встроенная форма не загружается из-за ошибки сертификата; проверьте доступность у организатора.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "qualifying-pervyi-otborochnyi-etap",
+          "starts_on": "2026-12-04",
+          "ends_on": "2026-12-07",
+          "source_url": "https://prodcontest.com/",
+          "details": "Первый онлайн-отбор, 120 минут.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "qualifying-vtoroi-otborochnyi-etap",
+          "starts_on": "2027-01-12",
+          "ends_on": "2027-01-22",
+          "source_url": "https://prodcontest.com/",
+          "details": "Один кейс с задачами разных направлений; участник выбирает задачи. Защита решений 6–7 февраля 2027 онлайн.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "final-zaklyuchitelnyi-etap-individualnyi-tur",
+          "starts_on": "2027-02-19",
+          "ends_on": "2027-03-01",
+          "source_url": "https://prodcontest.com/",
+          "details": "Индивидуальный онлайн-тур. Защита решений 6–7 марта 2027.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "final-zaklyuchitelnyi-etap-komandnyi-tur",
+          "starts_on": "2027-03-11",
+          "ends_on": "2027-03-16",
+          "source_url": "https://prodcontest.com/",
+          "details": "Командный финал очно в Москве.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "На странице сроки приведены без года; сочетание последовательности октябрь—март, архива 2025/26 и контекста страницы позволяет отнести их к сезону 2025/26. В сервисе они используются только как явно помеченная проекция на 2026/27, а не как официальный календарь. Индивидуальный и командный туры вместе определяют итог; команда финала — 3–5 человек. География и формат по источнику: Россия и СНГ/международное участие; все этапы онлайн, кроме очного командного финала в Московской области."
+      ]
+    },
+    {
+      "slug": "prod-frontend",
+      "stages": [
+        {
+          "key": "registration-registratsiya",
+          "starts_on": "2026-10-21",
+          "ends_on": "2026-12-01",
+          "source_url": "https://prodcontest.com/",
+          "details": "Приём заявок объявлен на 21 октября — 1 декабря 2026. На 3 ноября встроенная форма не загружается из-за ошибки сертификата; проверьте доступность у организатора.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "qualifying-pervyi-otborochnyi-etap",
+          "starts_on": "2026-12-04",
+          "ends_on": "2026-12-07",
+          "source_url": "https://prodcontest.com/",
+          "details": "Первый онлайн-отбор, 120 минут.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "qualifying-vtoroi-otborochnyi-etap",
+          "starts_on": "2027-01-12",
+          "ends_on": "2027-01-22",
+          "source_url": "https://prodcontest.com/",
+          "details": "Один кейс с задачами разных направлений; участник выбирает задачи. Защита решений 6–7 февраля 2027 онлайн.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "final-zaklyuchitelnyi-etap-individualnyi-tur",
+          "starts_on": "2027-02-19",
+          "ends_on": "2027-03-01",
+          "source_url": "https://prodcontest.com/",
+          "details": "Индивидуальный онлайн-тур. Защита решений 6–7 марта 2027.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "final-zaklyuchitelnyi-etap-komandnyi-tur",
+          "starts_on": "2027-03-11",
+          "ends_on": "2027-03-16",
+          "source_url": "https://prodcontest.com/",
+          "details": "Командный финал очно в Москве.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "На странице сроки приведены без года; сочетание последовательности октябрь—март, архива 2025/26 и контекста страницы позволяет отнести их к сезону 2025/26. В сервисе они используются только как явно помеченная проекция на 2026/27, а не как официальный календарь. Индивидуальный и командный туры вместе определяют итог; команда финала — 3–5 человек. География и формат по источнику: Россия и СНГ/международное участие; все этапы онлайн, кроме очного командного финала в Московской области."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-01",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-02",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-20",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-03",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-04",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-09",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-10",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-11",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-05",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-12",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-16",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-06",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-13",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-14",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-07",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-18",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-08",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-15",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-19",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-21",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-005-17",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-09-17",
+          "ends_on": "2026-11-03",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Индивидуальный этап и регистрация завершены 3 ноября. Инженерные туры профилей «Искусственный интеллект» и «Разработка мобильных приложений» завершились 1 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-08-26",
+          "registration_closes_on": "2026-11-03"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2026-11-10",
+          "ends_on": "2026-12-11",
+          "source_url": "https://ntcontest.ru/participants/schedule/",
+          "details": "Командный этап с 10 ноября: задания с ручной проверкой до 7 декабря, с автоматической — до 11 декабря 2026.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Структура и даты этапов взяты из официального расписания 2025/26; даты 2026/27 являются маркированным прогнозом, а не объявлением организатора."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-06",
+          "ends_on": "2026-11-13",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-04",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-27",
+          "ends_on": "2026-12-04",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-05",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-20",
+          "ends_on": "2026-11-27",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-03",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-20",
+          "ends_on": "2026-11-27",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-06",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-20",
+          "ends_on": "2026-11-27",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-07",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-20",
+          "ends_on": "2026-11-27",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-08",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-13",
+          "ends_on": "2026-11-20",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-09",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-13",
+          "ends_on": "2026-11-20",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-10",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-30",
+          "ends_on": "2026-11-06",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-11",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-06",
+          "ends_on": "2026-11-13",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-12",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-30",
+          "ends_on": "2026-11-06",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-13",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-13",
+          "ends_on": "2026-11-20",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-14",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-20",
+          "ends_on": "2026-11-27",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-15",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-20",
+          "ends_on": "2026-11-27",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-16",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-13",
+          "ends_on": "2026-11-20",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-17",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-06",
+          "ends_on": "2026-11-13",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-18",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-06",
+          "ends_on": "2026-11-13",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-19",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-27",
+          "ends_on": "2026-12-04",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-20",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-27",
+          "ends_on": "2026-12-04",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-21",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-27",
+          "ends_on": "2026-12-04",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-22",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-27",
+          "ends_on": "2026-12-04",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-23",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-06",
+          "ends_on": "2026-11-13",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-24",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-27",
+          "ends_on": "2026-12-04",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-25",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-20",
+          "ends_on": "2026-11-27",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-02",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-06",
+          "ends_on": "2026-11-13",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-26",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-30",
+          "ends_on": "2026-11-06",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-27",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-13",
+          "ends_on": "2026-11-20",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Начало и окончание отборочного этапа в 12:00 по московскому времени. После создания аккаунта обязательна отдельная заявка по профилю с документами.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "source_url": "https://malun.kpfu.ru/priem-v-universitet/otborochnyy-etap",
+          "details": "Отборочный этап онлайн до 23:59 23 ноября. В личном кабинете выберите «Межрегиональные предметные олимпиады КФУ».",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-06",
+          "registration_closes_on": "2026-11-23"
+        }
+      ],
+      "remove_note_fragments": [
+        "Расписания профилей ниже относятся к 2025/26 и проецируются на 2026/27 только с явной отметкой прогноза."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-02",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "source_url": "https://malun.kpfu.ru/priem-v-universitet/otborochnyy-etap",
+          "details": "Отборочный этап онлайн до 23:59 23 ноября. В личном кабинете выберите «Межрегиональные предметные олимпиады КФУ».",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-06",
+          "registration_closes_on": "2026-11-23"
+        }
+      ],
+      "remove_note_fragments": [
+        "Расписания профилей ниже относятся к 2025/26 и проецируются на 2026/27 только с явной отметкой прогноза."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-03",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "source_url": "https://malun.kpfu.ru/priem-v-universitet/otborochnyy-etap",
+          "details": "Отборочный этап онлайн до 23:59 23 ноября. В личном кабинете выберите «Межрегиональные предметные олимпиады КФУ».",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-06",
+          "registration_closes_on": "2026-11-23"
+        }
+      ],
+      "remove_note_fragments": [
+        "Расписания профилей ниже относятся к 2025/26 и проецируются на 2026/27 только с явной отметкой прогноза."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-04",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "source_url": "https://malun.kpfu.ru/priem-v-universitet/otborochnyy-etap",
+          "details": "Отборочный этап онлайн до 23:59 23 ноября. В личном кабинете выберите «Межрегиональные предметные олимпиады КФУ».",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-06",
+          "registration_closes_on": "2026-11-23"
+        }
+      ],
+      "remove_note_fragments": [
+        "Расписания профилей ниже относятся к 2025/26 и проецируются на 2026/27 только с явной отметкой прогноза."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-05",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "source_url": "https://malun.kpfu.ru/priem-v-universitet/otborochnyy-etap",
+          "details": "Отборочный этап онлайн до 23:59 23 ноября. В личном кабинете выберите «Межрегиональные предметные олимпиады КФУ».",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-06",
+          "registration_closes_on": "2026-11-23"
+        }
+      ],
+      "remove_note_fragments": [
+        "Расписания профилей ниже относятся к 2025/26 и проецируются на 2026/27 только с явной отметкой прогноза."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-032-06",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "source_url": "https://malun.kpfu.ru/priem-v-universitet/otborochnyy-etap",
+          "details": "Отборочный этап онлайн до 23:59 23 ноября. В личном кабинете выберите «Межрегиональные предметные олимпиады КФУ».",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-06",
+          "registration_closes_on": "2026-11-23"
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-032-07",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "source_url": "https://malun.kpfu.ru/priem-v-universitet/otborochnyy-etap",
+          "details": "Отборочный этап онлайн до 23:59 23 ноября. В личном кабинете выберите «Межрегиональные предметные олимпиады КФУ».",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-06",
+          "registration_closes_on": "2026-11-23"
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-032-08",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-26",
+          "ends_on": "2026-11-23",
+          "source_url": "https://malun.kpfu.ru/priem-v-universitet/otborochnyy-etap",
+          "details": "Отборочный этап онлайн до 23:59 23 ноября. В личном кабинете выберите «Межрегиональные предметные олимпиады КФУ».",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-06",
+          "registration_closes_on": "2026-11-23"
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-014-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-01",
+          "ends_on": "2026-11-01",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
+          "details": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-12"
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-014-02",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-08",
+          "ends_on": "2026-11-08",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
+          "details": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-19"
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-014-03",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-18",
+          "ends_on": "2026-10-18",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
+          "details": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-09-28"
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-014-04",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-15",
+          "ends_on": "2026-11-15",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
+          "details": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-26"
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-014-05",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-22",
+          "ends_on": "2026-11-22",
+          "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
+          "details": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-26"
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-054-01",
+      "stages": [
+        {
+          "key": "first-qualifying",
+          "starts_on": "2026-11-08",
+          "ends_on": "2026-12-06",
+          "source_url": "https://techno-cup.ru/",
+          "details": "Два отдельных онлайн-раунда: 8 ноября и 6 декабря. Между ними соревнование не идёт непрерывно.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-22",
+          "registration_closes_on": "2026-12-06"
+        },
+        {
+          "key": "second-qualifying",
+          "starts_on": "2027-01-30",
+          "ends_on": "2027-01-30",
+          "source_url": "https://techno-cup.ru/",
+          "details": "Третий отборочный раунд проходит очно; дистанционного подключения нет. Площадки объявят в январе.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-03-12",
+          "ends_on": "2027-03-14",
+          "source_url": "https://techno-cup.ru/",
+          "details": "Очный финал на площадках МФТИ и МГТУ имени Н. Э. Баумана.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-051-04",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-11",
+          "ends_on": "2026-11-07",
+          "source_url": "https://olymp-online.mipt.ru/event/449",
+          "details": "Оставшийся третий тур только для 11 класса: 7 ноября в 10:00 мск. Для 9–10 классов отбор завершён. Зарегистрируйтесь и подтвердите данные до 10:00 мск предыдущего дня.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-09-07",
+          "registration_closes_on": "2026-11-06"
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-051-05",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-04",
+          "ends_on": "2026-11-08",
+          "source_url": "https://olymp-online.mipt.ru/event/449",
+          "details": "Оставшийся третий тур только для 11 класса: 8 ноября в 10:00 мск. Для 9–10 классов отбор завершён. Зарегистрируйтесь и подтвердите данные до 10:00 мск предыдущего дня.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-09-07",
+          "registration_closes_on": "2026-11-07"
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-052-04",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-16",
+          "ends_on": "2026-11-22",
+          "source_url": "https://olymp.bmstu.ru/ru/news/2026/11/03/ploschadki-vsyo-registraciya-prodolzhaetsya",
+          "details": "Отбор по математике проводится очно на площадках. Заявка участника и выбор площадки в ЛК до 8 ноября включительно.",
+          "is_date_confirmed": true,
+          "registration_closes_on": "2026-11-08"
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-020-01",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "starts_on": "2026-10-31",
+          "ends_on": "2026-10-31",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/informatics",
+          "details": "30 октября — пробный тур; 31 октября — первый отборочный.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-09-15",
+          "registration_closes_on": "2026-10-19"
+        },
+        {
+          "key": "qualifying-2",
+          "starts_on": "2026-12-26",
+          "ends_on": "2026-12-26",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/informatics",
+          "details": "25 декабря — пробный тур; 26 декабря — второй отборочный.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-02-12",
+          "ends_on": "2027-02-14",
+          "is_date_confirmed": false,
+          "date_precision": "range",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/informatics",
+          "details": "Предварительные даты с профильной страницы 2026/27. На общей странице Innopolis Open указана другая дата — 28 февраля 2027. Есть расхождение у организатора, даты финала требуют уточнения."
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-020-04",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "starts_on": "2026-11-02",
+          "ends_on": "2026-11-08",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/math",
+          "details": "Первый онлайн-отбор. Во втором туре есть расхождение на странице: 7–13 и 8–14 декабря; дата требует уточнения.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-09-15",
+          "registration_closes_on": "2026-10-19"
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-02-26",
+          "ends_on": "2027-02-28",
+          "is_date_confirmed": false,
+          "date_precision": "range",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/math",
+          "details": "Предварительные даты с профильной страницы 2026/27. На общей странице Innopolis Open указана другая дата — 7 марта 2027. Есть расхождение у организатора, даты финала требуют уточнения."
+        },
+        {
+          "key": "qualifying-2",
+          "starts_on": "2026-12-08",
+          "ends_on": "2026-12-14",
+          "is_date_confirmed": false,
+          "date_precision": "range",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/math",
+          "details": "Предварительный график на странице: 8–14 декабря. В описании той же страницы указан период 7–13 декабря; точные сроки второго отбора требуют уточнения."
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-020-03",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "starts_on": "2026-11-13",
+          "ends_on": "2026-11-15",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/ai",
+          "details": "Первый онлайн-отбор по искусственному интеллекту.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-09-15",
+          "registration_closes_on": "2026-10-26"
+        },
+        {
+          "key": "qualifying-2",
+          "starts_on": "2027-01-22",
+          "ends_on": "2027-01-24",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/ai",
+          "details": "Второй онлайн-отбор по искусственному интеллекту.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-03-06",
+          "ends_on": "2027-03-08",
+          "is_date_confirmed": false,
+          "date_precision": "range",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/ai",
+          "details": "Предварительные даты с профильной страницы 2026/27. На общей странице Innopolis Open указана другая дата — 14 марта 2027. Есть расхождение у организатора, даты финала требуют уточнения."
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-020-02",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "starts_on": "2026-12-07",
+          "ends_on": "2026-12-07",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/cyberbez",
+          "details": "Первый отборочный этап: 10:00–22:00 мск.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-09-15",
+          "registration_closes_on": "2026-11-23"
+        },
+        {
+          "key": "qualifying-2",
+          "starts_on": "2027-01-17",
+          "ends_on": "2027-01-17",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/cyberbez",
+          "details": "Второй отбор: сдача отчёта до 17:00 мск.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-02-22",
+          "ends_on": "2027-02-25",
+          "is_date_confirmed": false,
+          "date_precision": "range",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/cyberbez",
+          "details": "Предварительные даты с профильной страницы 2026/27. На общей странице Innopolis Open указана другая дата — 21 февраля 2027. Есть расхождение у организатора, даты финала требуют уточнения."
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "registry-2026-27-020-05",
+      "stages": [
+        {
+          "key": "qualifying-1",
+          "starts_on": "2026-11-23",
+          "ends_on": "2026-12-07",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/robo",
+          "details": "Первый онлайн-отбор по робототехнике.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-09-15",
+          "registration_closes_on": "2026-11-09"
+        },
+        {
+          "key": "qualifying-2",
+          "starts_on": "2027-01-18",
+          "ends_on": "2027-02-08",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/robo",
+          "details": "Второй онлайн-отбор по робототехнике.",
+          "is_date_confirmed": true
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-03-11",
+          "ends_on": "2027-03-14",
+          "is_date_confirmed": false,
+          "date_precision": "range",
+          "source_url": "https://dovuz.innopolis.university/pre-olympiads/innopolis-open/robo",
+          "details": "Предварительные даты с профильной страницы 2026/27. На общей странице Innopolis Open указана другая дата — 21 марта 2027. Есть расхождение у организатора, даты финала требуют уточнения."
+        }
+      ],
+      "remove_note_fragments": []
+    },
+    {
+      "slug": "moebius-mathematics",
+      "stages": [
+        {
+          "key": "stage-turnir",
+          "starts_on": "2026-11-16",
+          "ends_on": "2026-11-20",
+          "source_url": "https://moebiustour.ru/",
+          "details": "XVIII Турнир Мёбиуса, 5–7 классы, Этномир. Регистрация команды открыта; срок закрытия организатором не указан.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Регистрационная страница на дату проверки содержит прошлый сезон, поэтому срок регистрации и оргвзнос 2026 не внесены.",
+        "Участие платное; размер взноса обещан позднее."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-arab",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-27",
+          "ends_on": "2026-11-09",
+          "source_url": "https://mos.olimpiada.ru/news/4634",
+          "details": "Отбор по арабскому языку для 7–11 классов идёт до 9 ноября включительно. Подайте заявку в Сириус.Онлайн. На работу даётся 180 минут; для полного времени начните до 21:00 мск 9 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-15",
+          "registration_closes_on": "2026-11-09"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-04",
+          "ends_on": "2026-12-17",
+          "source_url": "https://mos.olimpiada.ru/olymp/astr",
+          "details": "Отборочный этап: 2026-12-04 — 2026-12-17.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-bioecon",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-17",
+          "ends_on": "2026-11-23",
+          "source_url": "https://mos.olimpiada.ru/news/4615",
+          "details": "Отборочный этап для 9–11 классов: 17–23 ноября 2026. Регистрация в Сириус.Онлайн открыта до окончания этапа.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-14",
+          "registration_closes_on": "2026-11-23"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-02",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-18",
+          "ends_on": "2026-11-24",
+          "source_url": "https://mos.olimpiada.ru/news/4643",
+          "details": "Дистанционный этап: 18 ноября 10:00 — 24 ноября 23:59 мск; регистрация до его окончания. Участвуют 7–11 классы, для 7 класса это единственный этап. Финал для 8–11 классов предварительно 31 января 2027.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-11-02",
+          "registration_closes_on": "2026-11-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-03",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-20",
+          "ends_on": "2026-11-22",
+          "source_url": "https://mos.olimpiada.ru/olymp/gen",
+          "details": "Отборочный этап: 2026-11-20 — 2026-11-22.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-05",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-03",
+          "ends_on": "2026-11-08",
+          "source_url": "https://mos.olimpiada.ru/news/4644",
+          "details": "Теория для 5–11 классов: 3–8 ноября, до 23:59 мск; регистрация до окончания. Практика: 5–6 классы — 7 ноября, 7–11 классы — 8 ноября, 8:00–23:59 мск. Финал только для 9–11 классов, предварительно 30 января 2027.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24",
+          "registration_closes_on": "2026-11-08"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат.",
+        "Организатор подтверждает двухэтапную структуру МОШ: дистанционный отборочный и очный заключительный этапы."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-iikt-10-11",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2027-02-14",
+          "ends_on": "2027-02-28",
+          "source_url": "https://mos.olimpiada.ru/olymp/iikt-10-11",
+          "details": "Первый тур отборочного этапа (очно): 2027-02-14; Второй тур отборочного этапа (очно): 2027-02-28. Указаны отдельные очные туры, а не непрерывное соревнование.",
+          "is_date_confirmed": true,
+          "format": "offline"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат.",
+        "Организатор подтверждает двухэтапную структуру МОШ: дистанционный отборочный и очный заключительный этапы."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-iikt-6-9",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-19",
+          "ends_on": "2027-01-16",
+          "source_url": "https://mos.olimpiada.ru/olymp/iikt-6-9",
+          "details": "Первый тур отборочного этапа (очно): 2026-12-19; Второй тур отборочного этапа (очно): 2027-01-16. Указаны отдельные очные туры, а не непрерывное соревнование.",
+          "is_date_confirmed": true,
+          "format": "offline"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-07",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-20",
+          "ends_on": "2026-12-15",
+          "source_url": "https://mos.olimpiada.ru/olymp/hist",
+          "details": "Дистанционный этап: 2026-11-20 — 2026-12-15.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-08",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-14",
+          "ends_on": "2026-11-22",
+          "source_url": "https://mos.olimpiada.ru/olymp/amxk",
+          "details": "Отборочный этап: 2026-11-14 — 2026-11-22. Регистрация откроется 4 ноября 2026 (объявление от 26 октября).",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-11-04"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-obzh",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-12",
+          "ends_on": "2026-12-12",
+          "source_url": "https://mos.olimpiada.ru/olymp/obzh",
+          "details": "Отборочный этап: 2026-12-12.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-11",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-25",
+          "ends_on": "2026-12-15",
+          "source_url": "https://mos.olimpiada.ru/olymp/soci",
+          "details": "Отборочный этап: 2026-11-25 — 2026-12-15.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-12",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-03",
+          "ends_on": "2026-12-18",
+          "source_url": "https://mos.olimpiada.ru/olymp/law",
+          "details": "Отборочный этап: 2026-12-03 — 2026-12-18.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-predprof-engprak",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-05",
+          "ends_on": "2026-11-22",
+          "source_url": "https://mos.olimpiada.ru/news/4633",
+          "details": "Теоретический отбор: 5 ноября 10:00 — 22 ноября 23:59 мск. Регистрация открыта; по каждому предмету 24 часа в пределах общего срока. Практический отбор планируется на декабрь–февраль. Финал в этом сезоне индивидуальный, без командной практической части.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-27",
+          "registration_closes_on": "2026-11-22"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-predprof-infprak",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-05",
+          "ends_on": "2026-11-22",
+          "source_url": "https://mos.olimpiada.ru/news/4633",
+          "details": "Теоретический отбор: 5 ноября 10:00 — 22 ноября 23:59 мск. Регистрация открыта; по каждому предмету 24 часа в пределах общего срока. Практический отбор планируется на декабрь–февраль. Финал в этом сезоне индивидуальный, без командной практической части.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-27",
+          "registration_closes_on": "2026-11-22"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-predprof-sciprak",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-05",
+          "ends_on": "2026-11-22",
+          "source_url": "https://mos.olimpiada.ru/news/4633",
+          "details": "Теоретический отбор: 5 ноября 10:00 — 22 ноября 23:59 мск. Регистрация открыта; по каждому предмету 24 часа в пределах общего срока. Практический отбор планируется на декабрь–февраль. Финал в этом сезоне индивидуальный, без командной практической части.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-27",
+          "registration_closes_on": "2026-11-22"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-trud-kd",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-07",
+          "ends_on": "2026-12-17",
+          "source_url": "https://mos.olimpiada.ru/olymp/trud-kd",
+          "details": "Отборочный этап: 2026-12-07 — 2026-12-17.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-trud-tt",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-05",
+          "ends_on": "2026-11-15",
+          "source_url": "https://mos.olimpiada.ru/news/4636",
+          "details": "Техника, технологии и техническое творчество, 7–8 классы: 5 ноября 10:00 — 15 ноября 23:59 мск. Регистрация в Сириус.Онлайн открыта. Финал предварительно 14 марта 2027.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-15",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-15",
+          "ends_on": "2026-10-22",
+          "source_url": "https://mos.olimpiada.ru/olymp/phys",
+          "details": "Отборочный этап: 2026-10-15 — 2026-10-22.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-05",
+          "registration_closes_on": "2026-10-22"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-phil",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-25",
+          "ends_on": "2026-12-09",
+          "source_url": "https://mos.olimpiada.ru/olymp/phil",
+          "details": "Отборочный этап: 2026-11-25 — 2026-12-09.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-16",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-25",
+          "ends_on": "2026-12-15",
+          "source_url": "https://mos.olimpiada.ru/olymp/fingram",
+          "details": "Дистанционный этап: 2026-11-25 — 2026-12-15.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-17",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-26",
+          "ends_on": "2026-12-16",
+          "source_url": "https://mos.olimpiada.ru/olymp/chem",
+          "details": "Отборочный этап: 2026-11-26 — 2026-12-16.",
+          "is_date_confirmed": true
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-18",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-01",
+          "ends_on": "2026-12-07",
+          "source_url": "https://mos.olimpiada.ru/news/4616",
+          "details": "Дистанционный этап для 5–11 классов: 1–7 декабря; регистрация до завершения этапа. Для 5–7 классов это единственный тур. Финал предварительно 27 февраля для 10–11 классов, 28 февраля для 8–9 классов.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-14",
+          "registration_closes_on": "2026-12-07"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-28",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-10-22",
+          "ends_on": "2026-10-22",
+          "registration_opens_on": "2026-10-15",
+          "date_precision": "exact",
+          "is_date_confirmed": true,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Ссылки и сроки школьного этапа ВсОШ в Москве 2026/27",
+          "details": "Экономика, 7–11 классы: 22 октября 9:00–21:00, регистрация до 19:00 по московскому времени. Школьный этап завершён.",
+          "registration_closes_on": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "slug": "vosh-2026-27-06",
+      "stages": [
+        {
+          "key": "school-shkolnyi-etap",
+          "starts_on": "2026-10-23",
+          "ends_on": "2026-10-25",
+          "registration_opens_on": "2026-10-16",
+          "date_precision": "range",
+          "is_date_confirmed": true,
+          "source_url": "https://vos.olimpiada.ru/2026/school/links",
+          "source_title": "Ссылки и сроки школьного этапа ВсОШ в Москве 2026/27",
+          "details": "Искусственный интеллект: 5–6 классы — с 9:00 23 октября до 21:00 25 октября, регистрация до 19:30 25 октября; 7–11 классы — 23 октября 9:00–21:00, регистрация до 19:00. Время московское; школьный этап завершён.",
+          "registration_closes_on": "2026-10-25"
+        }
+      ]
+    }
+  ]
+}

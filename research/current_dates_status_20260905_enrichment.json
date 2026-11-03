@@ -9,38 +9,6 @@
   "families": [],
   "slugs": [
     {
-      "slug": "vosh-2026-27-28",
-      "stages": [
-        {
-          "key": "school-shkolnyi-etap",
-          "starts_on": "2026-10-22",
-          "ends_on": "2026-10-22",
-          "registration_opens_on": "2026-10-15",
-          "date_precision": "exact",
-          "is_date_confirmed": false,
-          "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-          "source_title": "Проект графика школьного этапа ВсОШ в Москве 2026/27",
-          "details": "Проект: экономика — 22 октября; регистрация с 15 октября."
-        }
-      ]
-    },
-    {
-      "slug": "vosh-2026-27-06",
-      "stages": [
-        {
-          "key": "school-shkolnyi-etap",
-          "starts_on": "2026-10-23",
-          "ends_on": "2026-10-25",
-          "registration_opens_on": "2026-10-16",
-          "date_precision": "range",
-          "is_date_confirmed": false,
-          "source_url": "https://vos.olimpiada.ru/2026/school#schedule",
-          "source_title": "Проект графика школьного этапа ВсОШ в Москве 2026/27",
-          "details": "Проект: искусственный интеллект — 23–25 октября для 5–6 классов и 23 октября для 7–11 классов; регистрация с 16 октября."
-        }
-      ]
-    },
-    {
       "slug": "registry-2026-27-001-01",
       "stages": [
         {
