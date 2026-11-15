@@ -27,6 +27,7 @@ def test_october_expired_registrations_are_hidden(app, monkeypatch):
         "vosh-2026-27-15", "vosh-2026-27-26", "vysshaya-proba-biology",
         "mkoshp-programming", "lomonosov-tournament-mathematics",
         "registry-2026-27-007-01",
+        "registry-2026-27-052-04",  # latest review: signup closed November 8
     ):
         olympiad, edition = upsert_catalog_record(rows[slug])
         response = serialize_olympiad(olympiad, edition, hide_expired_registration=True)
@@ -34,7 +35,7 @@ def test_october_expired_registrations_are_hidden(app, monkeypatch):
         assert response["registration_url"] is None
     for slug in (
         "euler-mathematics", "registry-2026-27-056-01",
-        "registry-2026-27-018-01", "registry-2026-27-052-04",
+        "registry-2026-27-018-01",
         "registry-2026-27-078-01", "registry-2026-27-025-01",
         "vosh-2026-27-19", "vosh-2026-27-05", "vosh-2026-27-08",
     ):

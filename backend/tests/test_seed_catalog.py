@@ -138,9 +138,9 @@ def test_additional_competitions_keep_age_groups_and_forecasts_separate(tmp_path
         assert record["registration_status"] == ("not_open" if grade in (9, 11) else "announced")
 
     kolm = by_slug["kolmogorov-cup-mathematics"]
-    assert kolm["registration_status"] == "open"
-    assert kolm["registration_url"] == "https://turmath.ru/kolm/reg-team.php"
-    assert kolm["stages"][0]["registration_closes_on"] == "2026-11-05"
+    assert kolm["registration_status"] == "not_open"
+    assert kolm["registration_url"] is None
+    assert kolm["stages"][0]["registration_closes_on"] == "2026-11-02"
     assert "48 000" in kolm["notes"] and "платное" in kolm["notes"]
     assert "меньше 5 или больше 6" in kolm["eligibility_notes"]
     hse = by_slug["hse-team-programming"]
@@ -552,9 +552,10 @@ def test_reviewed_structure_enrichment_fills_only_sourced_gaps():
         not stage["starts_on"] and not stage["ends_on"] and stage["date_precision"] == "tba"
         for record in mosh
         for stage in record["stages"]
-        if stage["key"] == "final"
+        if stage["key"] == "final" and record["slug"] != "mosh-2026-27-ib"
     )
-    assert sum(record["stages"][0]["is_date_confirmed"] for record in mosh) == 23
+    assert not by_slug["mosh-2026-27-ib"]["stages"][-1]["is_date_confirmed"]
+    assert sum(record["stages"][0]["is_date_confirmed"] for record in mosh) == 27
 
     innopolis_math = by_slug["registry-2026-27-020-04"]
     assert innopolis_math["previous_year_reference"] == "2025/26"
@@ -727,10 +728,10 @@ def test_current_registration_links_are_reviewed_for_the_target_season():
     assert reviewed_open == published_registration_links
     assert seen == set(by_slug)
     assert status_counts == {
-        "open": 152,
-        "announced": 28,
-        "not_open": 70,
-        "not_found": 127,
+        "open": 165,
+        "announced": 27,
+        "not_open": 83,
+        "not_found": 102,
     }
     # The senior track registration ended; junior/student windows are unrelated.
     assert by_slug["registry-2026-27-005-01"]["registration_url"] is None

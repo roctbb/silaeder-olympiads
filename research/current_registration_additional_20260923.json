@@ -55,10 +55,11 @@
     },
     {
       "slug": "kolmogorov-cup-mathematics",
-      "registration_status": "open",
-      "registration_url": "https://turmath.ru/kolm/reg-team.php",
-      "source_url": "https://turmath.ru/kolm/teams.php",
-      "evidence": "Проверена форма регистрации команды на XXIX Кубок: отображаются поля и возрастные группы. Письмо 2026 подтверждает срок первичной заявки до 5 ноября и даты 24.11–01.12.2026. Форму не отправляли."
+      "registration_status": "not_open",
+      "registration_url": null,
+      "source_url": "https://turmath.ru/files/letter-kolm.pdf",
+      "evidence": "Актуальное письмо: турнир 21–28 ноября, первичная заявка до 2 ноября, полные сведения до 7 ноября. На 15 ноября сроки прошли; наличие старой формы не означает продления.",
+      "checked_on": "2026-11-15"
     },
     {
       "slug": "moscow-oral-team-math-8-9",

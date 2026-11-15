@@ -254,27 +254,29 @@
     },
     {
       "slug": "mosh-2026-27-arab",
-      "checked_on": "2026-11-03",
+      "checked_on": "2026-11-15",
       "registration_status": "open",
       "registration_url": "https://my.sirius.online/activity-page/olymp:mosh-arab-2027",
-      "source_url": "https://mos.olimpiada.ru/news/4634",
-      "evidence": "Отбор по арабскому языку для 7–11 классов идёт до 9 ноября включительно. Подайте заявку в Сириус.Онлайн. На работу даётся 180 минут; для полного времени начните до 21:00 мск 9 ноября. Открытие подтверждено текущим объявлением организатора; автоматическая проверка Сириус.Онлайн ограничена защитой JavaScript, заявку не отправляли."
+      "source_url": "https://mos.olimpiada.ru/news/4658",
+      "evidence": "Отбор продлён до 16 ноября 23:59 мск; регистрация доступна по ссылке в объявлении. Для полного времени решения начать до 21:00 мск.",
+      "registration_closes_at": "2026-11-16T20:59:00Z"
     },
     {
       "slug": "registry-2026-27-035-01",
-      "checked_on": "2026-11-03",
-      "registration_status": "announced",
-      "registration_url": "https://mos.olimpiada.ru/olymp/astr",
-      "source_url": "https://mos.olimpiada.ru/olymp/astr",
-      "evidence": "Дистанционный этап пройдет с 4 по 17 декабря"
+      "checked_on": "2026-11-15",
+      "registration_status": "open",
+      "registration_url": "https://my.sirius.online/activity-page/olymp:mosh-astr-2027",
+      "source_url": "https://mos.olimpiada.ru/news/4653",
+      "evidence": "Организатор открыл регистрацию и опубликовал профильную ссылку. Регистрация доступна до окончания отбора. HTTP-проверка Сириуса требует JavaScript; заявка не отправлялась.",
+      "registration_closes_at": "2026-12-17T20:59:00Z"
     },
     {
       "slug": "mosh-2026-27-biol",
-      "checked_on": "2026-09-05",
-      "registration_url": null,
-      "registration_status": "not_found",
-      "source_url": "https://mos.olimpiada.ru/olymp/biol",
-      "evidence": "Официальная страница профиля доступна, но 05.09.2026 не содержит сезона 2026/27 или ссылки на регистрацию; опубликованная информация относится к завершённому сезону."
+      "checked_on": "2026-11-15",
+      "registration_url": "https://mos.olimpiada.ru/news/4629",
+      "registration_status": "announced",
+      "source_url": "https://mos.olimpiada.ru/news/4629",
+      "evidence": "Опубликованы даты только для 9–11 классов, 27–29 ноября. Для 5–8 классов отдельного расписания и открытия регистрации пока нет."
     },
     {
       "slug": "mosh-2026-27-bioecon",
@@ -295,11 +297,12 @@
     },
     {
       "slug": "registry-2026-27-035-03",
-      "checked_on": "2026-11-03",
-      "registration_status": "announced",
-      "registration_url": "https://mos.olimpiada.ru/olymp/gen",
-      "source_url": "https://mos.olimpiada.ru/olymp/gen",
-      "evidence": "Отборочный этап пройдет с 20 по 22 ноября"
+      "checked_on": "2026-11-15",
+      "registration_status": "open",
+      "registration_url": "https://my.sirius.online/activity-page/olymp:mosh-gen-2027",
+      "source_url": "https://mos.olimpiada.ru/news/4660",
+      "evidence": "Организатор открыл регистрацию и опубликовал профильную ссылку. Регистрация доступна до окончания отбора. HTTP-проверка Сириуса требует JavaScript; заявка не отправлялась.",
+      "registration_closes_at": "2026-11-22T20:59:00Z"
     },
     {
       "slug": "registry-2026-27-035-04",
@@ -336,43 +339,47 @@
     },
     {
       "slug": "mosh-2026-27-ib",
-      "checked_on": "2026-09-05",
-      "registration_url": null,
-      "registration_status": "not_found",
-      "source_url": "https://mos.olimpiada.ru/olymp/ib",
-      "evidence": "Официальная страница профиля доступна, но 05.09.2026 не содержит сезона 2026/27 или ссылки на регистрацию; опубликованная информация относится к завершённому сезону."
+      "checked_on": "2026-11-15",
+      "registration_url": "https://mos.olimpiada.ru/news/4666",
+      "registration_status": "announced",
+      "source_url": "https://mos.olimpiada.ru/news/4666",
+      "evidence": "Отбор 11–20 декабря; регистрацию планируют открыть 1 декабря. На 15 ноября открытия нет."
     },
     {
       "slug": "registry-2026-27-035-07",
-      "checked_on": "2026-11-03",
-      "registration_status": "announced",
-      "registration_url": "https://mos.olimpiada.ru/olymp/hist",
-      "source_url": "https://mos.olimpiada.ru/olymp/hist",
-      "evidence": "Дистанционный этап пройдет с 20 ноября по 15 декабря "
+      "checked_on": "2026-11-15",
+      "registration_status": "open",
+      "registration_url": "https://my.sirius.online/activity-page/olymp:mosh-hist-2027",
+      "source_url": "https://mos.olimpiada.ru/news/4657",
+      "evidence": "Организатор открыл регистрацию и опубликовал профильную ссылку. Регистрация доступна до окончания отбора. HTTP-проверка Сириуса требует JavaScript; заявка не отправлялась.",
+      "registration_closes_at": "2026-12-15T20:59:00Z"
     },
     {
       "slug": "registry-2026-27-035-08",
-      "checked_on": "2026-11-03",
-      "registration_status": "announced",
-      "registration_url": "https://mos.olimpiada.ru/olymp/amxk",
-      "source_url": "https://mos.olimpiada.ru/olymp/amxk",
-      "evidence": "Отборочный этап пройдет с 14 по 22 ноября, опубликована литература для подготовки"
+      "checked_on": "2026-11-15",
+      "registration_status": "open",
+      "registration_url": "https://my.sirius.online/activity-page/olymp:mosh-amxk-2027",
+      "source_url": "https://mos.olimpiada.ru/news/4645",
+      "evidence": "Организатор открыл регистрацию и опубликовал профильную ссылку. Регистрация доступна до окончания отбора. HTTP-проверка Сириуса требует JavaScript; заявка не отправлялась.",
+      "registration_closes_at": "2026-11-22T20:59:00Z"
     },
     {
       "slug": "mosh-2026-27-obzh",
-      "checked_on": "2026-11-03",
-      "registration_status": "announced",
-      "registration_url": "https://mos.olimpiada.ru/olymp/obzh",
-      "source_url": "https://mos.olimpiada.ru/olymp/obzh",
-      "evidence": "Отборочный этап пройдет 12 декабря"
+      "checked_on": "2026-11-15",
+      "registration_status": "open",
+      "registration_url": "https://my.sirius.online/activity-page/olymp:mosh-kvsi-2027",
+      "source_url": "https://mos.olimpiada.ru/news/4654",
+      "evidence": "Организатор открыл регистрацию и опубликовал профильную ссылку. Регистрация доступна до окончания отбора. HTTP-проверка Сириуса требует JavaScript; заявка не отправлялась.",
+      "registration_closes_at": "2026-12-12T19:00:00Z"
     },
     {
       "slug": "registry-2026-27-035-09",
-      "checked_on": "2026-09-05",
-      "registration_url": null,
-      "registration_status": "not_found",
-      "source_url": "https://mos.olimpiada.ru/olymp/ling",
-      "evidence": "Официальная страница профиля доступна, но 05.09.2026 не содержит сезона 2026/27 или ссылки на регистрацию; опубликованная информация относится к завершённому сезону."
+      "checked_on": "2026-11-15",
+      "registration_url": "https://my.sirius.online/activity-page/olymp:mosh-ling-2027",
+      "registration_status": "open",
+      "source_url": "https://mos.olimpiada.ru/news/4668",
+      "evidence": "Организатор открыл регистрацию и опубликовал профильную ссылку. Регистрация доступна до окончания отбора. HTTP-проверка Сириуса требует JavaScript; заявка не отправлялась.",
+      "registration_closes_at": "2026-12-11T20:59:00Z"
     },
     {
       "slug": "mosh-2026-27-math-6-7",
@@ -459,11 +466,12 @@
     },
     {
       "slug": "mosh-2026-27-trud-tt",
-      "checked_on": "2026-11-03",
+      "checked_on": "2026-11-15",
       "registration_status": "open",
       "registration_url": "https://my.sirius.online/activity-page/olymp:mosh-tech-tt-2027",
-      "source_url": "https://mos.olimpiada.ru/news/4636",
-      "evidence": "Техника, технологии и техническое творчество, 7–8 классы: 5 ноября 10:00 — 15 ноября 23:59 мск. Регистрация в Сириус.Онлайн открыта. Финал предварительно 14 марта 2027. Открытие подтверждено текущим объявлением организатора; автоматическая проверка Сириус.Онлайн ограничена защитой JavaScript, заявку не отправляли."
+      "source_url": "https://mos.olimpiada.ru/news/4648",
+      "evidence": "Технический профиль: отбор и приём работ до 15 ноября 23:59 по московскому времени.",
+      "registration_closes_at": "2026-11-15T20:59:00Z"
     },
     {
       "slug": "registry-2026-27-035-15",
@@ -475,11 +483,12 @@
     },
     {
       "slug": "mosh-2026-27-phil",
-      "checked_on": "2026-11-03",
-      "registration_status": "announced",
-      "registration_url": "https://mos.olimpiada.ru/olymp/phil",
-      "source_url": "https://mos.olimpiada.ru/olymp/phil",
-      "evidence": "Отборочный этап пройдет с 25 ноября по 9 декабря"
+      "checked_on": "2026-11-15",
+      "registration_status": "open",
+      "registration_url": "https://my.sirius.online/activity-page/olymp:mosh-phil-2027",
+      "source_url": "https://mos.olimpiada.ru/news/4665",
+      "evidence": "Организатор открыл регистрацию и опубликовал профильную ссылку. Регистрация доступна до окончания отбора. HTTP-проверка Сириуса требует JavaScript; заявка не отправлялась.",
+      "registration_closes_at": "2026-12-09T20:59:00Z"
     },
     {
       "slug": "registry-2026-27-035-16",
@@ -491,11 +500,12 @@
     },
     {
       "slug": "registry-2026-27-035-17",
-      "checked_on": "2026-11-03",
-      "registration_status": "announced",
-      "registration_url": "https://mos.olimpiada.ru/olymp/chem",
-      "source_url": "https://mos.olimpiada.ru/olymp/chem",
-      "evidence": "Отборочный этап пройдет 26 ноября по 16 декабря"
+      "checked_on": "2026-11-15",
+      "registration_status": "open",
+      "registration_url": "https://my.sirius.online/activity-page/olymp:mosh-chem-2027",
+      "source_url": "https://mos.olimpiada.ru/news/4652",
+      "evidence": "Организатор открыл регистрацию и опубликовал профильную ссылку. Регистрация доступна до окончания отбора. HTTP-проверка Сириуса требует JavaScript; заявка не отправлялась.",
+      "registration_closes_at": "2026-12-16T20:59:00Z"
     },
     {
       "slug": "registry-2026-27-035-18",
@@ -507,11 +517,12 @@
     },
     {
       "slug": "registry-2026-27-035-19",
-      "checked_on": "2026-09-05",
-      "registration_url": null,
-      "registration_status": "not_found",
-      "source_url": "https://mos.olimpiada.ru/olymp/econ",
-      "evidence": "Официальная страница профиля доступна, но 05.09.2026 не содержит сезона 2026/27 или ссылки на регистрацию; опубликованная информация относится к завершённому сезону."
+      "checked_on": "2026-11-15",
+      "registration_url": "https://my.sirius.online/activity-page/olymp:mosh-econ-2027",
+      "registration_status": "open",
+      "source_url": "https://mos.olimpiada.ru/news/4663",
+      "evidence": "Организатор открыл регистрацию и опубликовал профильную ссылку. Регистрация доступна до окончания отбора. HTTP-проверка Сириуса требует JavaScript; заявка не отправлялась.",
+      "registration_closes_at": "2026-12-14T20:59:00Z"
     }
   ]
 }

@@ -14,35 +14,35 @@
     },
     {
       "slug": "prod-mlops",
-      "checked_on": "2026-11-03",
-      "registration_status": "announced",
+      "checked_on": "2026-11-15",
+      "registration_status": "open",
       "registration_url": "https://prodcontest.com/#form",
       "source_url": "https://prodcontest.com/",
-      "evidence": "Опубликована регистрация 21 октября — 1 декабря 2026. На 3 ноября загрузчик формы form.centraluniversity.ru возвращает ошибку TLS; отправка заявки не подтверждена. Статус announced до восстановления формы."
+      "evidence": "В браузере 15 ноября форма загрузилась: поля участника, класс, контакты, согласия и кнопка отправки. Регистрация 21 октября — 1 декабря 2026. Форму не заполняли и не отправляли; ошибка TLS прямого HTTP-клиента не воспроизводится в браузере."
     },
     {
       "slug": "prod-backend",
-      "checked_on": "2026-11-03",
-      "registration_status": "announced",
+      "checked_on": "2026-11-15",
+      "registration_status": "open",
       "registration_url": "https://prodcontest.com/#form",
       "source_url": "https://prodcontest.com/",
-      "evidence": "Опубликована регистрация 21 октября — 1 декабря 2026. На 3 ноября загрузчик формы form.centraluniversity.ru возвращает ошибку TLS; отправка заявки не подтверждена. Статус announced до восстановления формы."
+      "evidence": "В браузере 15 ноября форма загрузилась: поля участника, класс, контакты, согласия и кнопка отправки. Регистрация 21 октября — 1 декабря 2026. Форму не заполняли и не отправляли; ошибка TLS прямого HTTP-клиента не воспроизводится в браузере."
     },
     {
       "slug": "prod-mobile",
-      "checked_on": "2026-11-03",
-      "registration_status": "announced",
+      "checked_on": "2026-11-15",
+      "registration_status": "open",
       "registration_url": "https://prodcontest.com/#form",
       "source_url": "https://prodcontest.com/",
-      "evidence": "Опубликована регистрация 21 октября — 1 декабря 2026. На 3 ноября загрузчик формы form.centraluniversity.ru возвращает ошибку TLS; отправка заявки не подтверждена. Статус announced до восстановления формы."
+      "evidence": "В браузере 15 ноября форма загрузилась: поля участника, класс, контакты, согласия и кнопка отправки. Регистрация 21 октября — 1 декабря 2026. Форму не заполняли и не отправляли; ошибка TLS прямого HTTP-клиента не воспроизводится в браузере."
     },
     {
       "slug": "prod-frontend",
-      "checked_on": "2026-11-03",
-      "registration_status": "announced",
+      "checked_on": "2026-11-15",
+      "registration_status": "open",
       "registration_url": "https://prodcontest.com/#form",
       "source_url": "https://prodcontest.com/",
-      "evidence": "Опубликована регистрация 21 октября — 1 декабря 2026. На 3 ноября загрузчик формы form.centraluniversity.ru возвращает ошибку TLS; отправка заявки не подтверждена. Статус announced до восстановления формы."
+      "evidence": "В браузере 15 ноября форма загрузилась: поля участника, класс, контакты, согласия и кнопка отправки. Регистрация 21 октября — 1 декабря 2026. Форму не заполняли и не отправляли; ошибка TLS прямого HTTP-клиента не воспроизводится в браузере."
     },
     {
       "slug": "vkoshp-programming",
@@ -132,11 +132,11 @@
     },
     {
       "slug": "moebius-mathematics",
-      "checked_on": "2026-11-03",
+      "checked_on": "2026-11-15",
       "registration_status": "open",
       "registration_url": "https://moebiustour.ru/registration/",
-      "source_url": "https://moebiustour.ru/",
-      "evidence": "Форма регистрации команды доступна; официальный /api/tournaments/current возвращает XVIII Турнир Мёбиуса, статус registration_open, даты 16–20 ноября 2026, классы 5–7. Точного дедлайна нет."
+      "source_url": "https://moebiustour.ru/api/tournaments/current",
+      "evidence": "Официальный API возвращает XVIII Турнир Мёбиуса, registration_open, 16–20 ноября 2026. Точный дедлайн регистрации не указан."
     },
     {
       "slug": "vysshaya-proba-biology",

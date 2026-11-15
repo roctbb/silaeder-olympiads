@@ -24,7 +24,7 @@ def test_november_profile_registration_states(app, monkeypatch):
     cases = {
         "registry-2026-27-005-01": "not_open",  # NTO senior, not juniors
         "registry-2026-27-014-01": "not_open",  # Vsesib biology already held
-        "registry-2026-27-014-02": "open",      # informatics still accepts entries
+        "registry-2026-27-014-02": "not_open",  # latest review: November tour completed
         "registry-2026-27-020-04": "not_open",  # Innopolis math
         "registry-2026-27-020-05": "open",      # robotics has a later deadline
         "registry-2026-27-035-12": "announced", # MOSH law is in December
@@ -33,7 +33,7 @@ def test_november_profile_registration_states(app, monkeypatch):
         "registry-2026-27-054-01": "open",      # Technocup new season
         "moebius-mathematics": "open",
         "hse-team-programming": "not_open",
-        "prod-backend": "announced",          # embedded form TLS failure
+        "prod-backend": "open",               # November 15 browser check confirms form
         "vosh-2026-27-06": "not_open",
         "vosh-2026-27-28": "not_open",
     }

@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "reuse_for_catalog": {
-    "checked_on": "2026-11-03",
-    "catalog_sha256": "d35648c4d9d04a5a0802cd6d17a4f8813f77dc95396f944f7ac80f9c91cd087d",
+    "checked_on": "2026-11-15",
+    "catalog_sha256": "95350fd8e7b8d1886d2b189749e8349a6714e67f2db8066dc7b276b6812e06c6",
     "unchanged_materials_sha256": "43405bfa90cd61cf0bb65c8cf2f8e4a5062e3b525b01721d75b7f04c0a960e64",
     "added_records_without_materials": [
       "hse-mshp-informatics"
     ],
     "network_rechecked": false,
-    "reason": "Обновлены только статусы, даты и пояснения; массивы материалов всех 377 карточек совпадают с предыдущим каталогом. Новая сетевая проверка материалов не выполнялась.",
+    "reason": "Обновлены только статусы, расписание и пояснения. Массивы материалов совпадают с предыдущим каталогом; новая сетевая проверка материалов не выполнялась.",
     "additional_record_slugs": [
       "hse-team-programming",
       "kolmogorov-cup-mathematics",

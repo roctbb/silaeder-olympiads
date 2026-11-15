@@ -46,20 +46,6 @@
       ]
     },
     {
-      "slug": "registry-2026-27-052-06",
-      "stages": [
-        {
-          "key": "qualifying",
-          "starts_on": "2026-11-08",
-          "ends_on": "2026-11-29",
-          "date_precision": "range",
-          "is_date_confirmed": true,
-          "source_url": "https://olymp.bmstu.ru/ru/news/2026/09/14/raspisanie-otborochnogo-etapa-2026-2027",
-          "details": "Две отдельные волны по химии: 8 и 29 ноября 2026, не непрерывный тур."
-        }
-      ]
-    },
-    {
       "slug": "registry-2026-27-006-01",
       "stages": [
         {

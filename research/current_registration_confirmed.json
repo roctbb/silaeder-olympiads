@@ -55,35 +55,35 @@
     },
     {
       "slug": "registry-2026-27-014-01",
-      "checked_on": "2026-11-03",
+      "checked_on": "2026-11-15",
       "registration_status": "not_open",
       "registration_url": null,
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён."
+      "evidence": "Регистрация закрывается за 48 часов до начала по местному времени площадки. На 15 ноября приём на математику, биологию, информатику и физику завершён; химия состоится 22 ноября."
     },
     {
       "slug": "registry-2026-27-014-03",
-      "checked_on": "2026-11-03",
+      "checked_on": "2026-11-15",
       "registration_status": "not_open",
       "registration_url": null,
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён."
+      "evidence": "Регистрация закрывается за 48 часов до начала по местному времени площадки. На 15 ноября приём на математику, биологию, информатику и физику завершён; химия состоится 22 ноября."
     },
     {
       "slug": "registry-2026-27-014-04",
-      "checked_on": "2026-11-03",
-      "registration_status": "open",
-      "registration_url": "https://vsesib.nsu.ru/",
+      "checked_on": "2026-11-15",
+      "registration_status": "not_open",
+      "registration_url": null,
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён."
+      "evidence": "Регистрация закрывается за 48 часов до начала по местному времени площадки. На 15 ноября приём на математику, биологию, информатику и физику завершён; химия состоится 22 ноября."
     },
     {
       "slug": "registry-2026-27-014-05",
-      "checked_on": "2026-11-03",
+      "checked_on": "2026-11-15",
       "registration_status": "open",
       "registration_url": "https://vsesib.nsu.ru/",
       "source_url": "https://sesc.nsu.ru/olymp-vsesib/stages/",
-      "evidence": "Регистрация заканчивается за 48 часов до начала тура по местному времени площадки. Выберите площадку в личном кабинете. Для математики и биологии отбор уже завершён."
+      "evidence": "Регистрация закрывается за 48 часов до начала по местному времени площадки. На 15 ноября приём на математику, биологию, информатику и физику завершён; химия состоится 22 ноября."
     },
     {
       "slug": "registry-2026-27-021-01",
@@ -94,57 +94,57 @@
     },
     {
       "slug": "registry-2026-27-024-01",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-11-15",
       "registration_url": "https://dovuz.urfu.ru/olymps/izumrud/registration",
-      "registration_closes_at": "2027-01-19T19:00:00Z",
       "registration_status": "open",
-      "source_url": "https://dovuz.urfu.ru/olymps/izumrud/registration",
-      "evidence": "Официальная страница «Изумруда» 2026/27 сообщает, что регистрация и отборочный этап идут с 1 сентября 2026 года по 19 января 2027 года; отдельная страница заявки открывает вход и создание аккаунта школьника. Проверено 05.09.2026."
+      "source_url": "https://izumrud.urfu.ru/",
+      "evidence": "Актуальная страница 2026/27: регистрация и отбор 1 сентября — 19 января; финал 30 января — 2 февраля. Изменений сроков нет.",
+      "registration_closes_at": "2027-01-19T19:00:00Z"
     },
     {
       "slug": "registry-2026-27-024-02",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-11-15",
       "registration_url": "https://dovuz.urfu.ru/olymps/izumrud/registration",
-      "registration_closes_at": "2027-01-19T19:00:00Z",
       "registration_status": "open",
-      "source_url": "https://dovuz.urfu.ru/olymps/izumrud/registration",
-      "evidence": "Официальная страница «Изумруда» 2026/27 сообщает, что регистрация и отборочный этап идут с 1 сентября 2026 года по 19 января 2027 года; отдельная страница заявки открывает вход и создание аккаунта школьника. Проверено 05.09.2026."
+      "source_url": "https://izumrud.urfu.ru/",
+      "evidence": "Актуальная страница 2026/27: регистрация и отбор 1 сентября — 19 января; финал 30 января — 2 февраля. Изменений сроков нет.",
+      "registration_closes_at": "2027-01-19T19:00:00Z"
     },
     {
       "slug": "registry-2026-27-024-03",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-11-15",
       "registration_url": "https://dovuz.urfu.ru/olymps/izumrud/registration",
-      "registration_closes_at": "2027-01-19T19:00:00Z",
       "registration_status": "open",
-      "source_url": "https://dovuz.urfu.ru/olymps/izumrud/registration",
-      "evidence": "Официальная страница «Изумруда» 2026/27 сообщает, что регистрация и отборочный этап идут с 1 сентября 2026 года по 19 января 2027 года; отдельная страница заявки открывает вход и создание аккаунта школьника. Проверено 05.09.2026."
+      "source_url": "https://izumrud.urfu.ru/",
+      "evidence": "Актуальная страница 2026/27: регистрация и отбор 1 сентября — 19 января; финал 30 января — 2 февраля. Изменений сроков нет.",
+      "registration_closes_at": "2027-01-19T19:00:00Z"
     },
     {
       "slug": "registry-2026-27-024-04",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-11-15",
       "registration_url": "https://dovuz.urfu.ru/olymps/izumrud/registration",
-      "registration_closes_at": "2027-01-19T19:00:00Z",
       "registration_status": "open",
-      "source_url": "https://dovuz.urfu.ru/olymps/izumrud/registration",
-      "evidence": "Официальная страница «Изумруда» 2026/27 сообщает, что регистрация и отборочный этап идут с 1 сентября 2026 года по 19 января 2027 года; отдельная страница заявки открывает вход и создание аккаунта школьника. Проверено 05.09.2026."
+      "source_url": "https://izumrud.urfu.ru/",
+      "evidence": "Актуальная страница 2026/27: регистрация и отбор 1 сентября — 19 января; финал 30 января — 2 февраля. Изменений сроков нет.",
+      "registration_closes_at": "2027-01-19T19:00:00Z"
     },
     {
       "slug": "registry-2026-27-024-05",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-11-15",
       "registration_url": "https://dovuz.urfu.ru/olymps/izumrud/registration",
-      "registration_closes_at": "2027-01-19T19:00:00Z",
       "registration_status": "open",
-      "source_url": "https://dovuz.urfu.ru/olymps/izumrud/registration",
-      "evidence": "Официальная страница «Изумруда» 2026/27 сообщает, что регистрация и отборочный этап идут с 1 сентября 2026 года по 19 января 2027 года; отдельная страница заявки открывает вход и создание аккаунта школьника. Проверено 05.09.2026."
+      "source_url": "https://izumrud.urfu.ru/",
+      "evidence": "Актуальная страница 2026/27: регистрация и отбор 1 сентября — 19 января; финал 30 января — 2 февраля. Изменений сроков нет.",
+      "registration_closes_at": "2027-01-19T19:00:00Z"
     },
     {
       "slug": "registry-2026-27-024-06",
-      "checked_on": "2026-09-05",
+      "checked_on": "2026-11-15",
       "registration_url": "https://dovuz.urfu.ru/olymps/izumrud/registration",
-      "registration_closes_at": "2027-01-19T19:00:00Z",
       "registration_status": "open",
-      "source_url": "https://dovuz.urfu.ru/olymps/izumrud/registration",
-      "evidence": "Официальная страница «Изумруда» 2026/27 сообщает, что регистрация и отборочный этап идут с 1 сентября 2026 года по 19 января 2027 года; отдельная страница заявки открывает вход и создание аккаунта школьника. Проверено 05.09.2026."
+      "source_url": "https://izumrud.urfu.ru/",
+      "evidence": "Актуальная страница 2026/27: регистрация и отбор 1 сентября — 19 января; финал 30 января — 2 февраля. Изменений сроков нет.",
+      "registration_closes_at": "2027-01-19T19:00:00Z"
     },
     {
       "slug": "registry-2026-27-036-01",

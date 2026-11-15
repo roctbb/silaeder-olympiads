@@ -79,6 +79,6 @@ def test_snapshot_keeps_all_mkoshp_leagues_and_bmstu_exceptions():
     assert stages["amateur-final"]["starts_on"] == "2026-10-04"
     assert stages["qualifying-otborochnyi-kvalifikatsionnyi-tur"]["starts_on"] == "2026-10-11"
     assert stages["final-zaklyuchitelnyi-tur"]["starts_on"] == "2026-11-15"
-    assert rows["registry-2026-27-052-04"]["registration_status"] == "open"
+    assert rows["registry-2026-27-052-04"]["registration_status"] == "not_open"  # closed November 8
     assert rows["registry-2026-27-052-05"]["registration_status"] == "open"
     assert rows["shag-v-budushchee-biology"]["status"] == "archived"

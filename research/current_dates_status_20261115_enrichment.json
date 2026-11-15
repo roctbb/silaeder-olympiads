@@ -1,0 +1,685 @@
+{
+  "checked_on": "2026-11-15",
+  "target_academic_year": "2026/27",
+  "replace_stage_details": true,
+  "slugs": [
+    {
+      "slug": "registry-2026-27-035-07",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-20",
+          "ends_on": "2026-12-15",
+          "source_url": "https://mos.olimpiada.ru/news/4657",
+          "details": "Дистанционный этап: начало в 10:00, окончание в 23:59 по московскому времени. Регистрация доступна до конца этапа.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-11-09",
+          "registration_closes_on": "2026-12-15"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-08",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-14",
+          "ends_on": "2026-11-22",
+          "source_url": "https://mos.olimpiada.ru/news/4645",
+          "details": "Дистанционный этап: начало в 10:00, окончание в 23:59 по московскому времени. Регистрация доступна до конца этапа.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-11-05",
+          "registration_closes_on": "2026-11-22"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-obzh",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-12",
+          "ends_on": "2026-12-12",
+          "source_url": "https://mos.olimpiada.ru/news/4654",
+          "details": "Дистанционный этап: начало в 10:00, окончание в 22:00 по московскому времени. Регистрация доступна до конца этапа.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-11-10",
+          "registration_closes_on": "2026-12-12"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-09",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-04",
+          "ends_on": "2026-12-11",
+          "source_url": "https://mos.olimpiada.ru/news/4668",
+          "details": "Дистанционный этап: начало в 10:00, окончание в 23:59 по московскому времени. Регистрация доступна до конца этапа.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-11-14",
+          "registration_closes_on": "2026-12-11"
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-phil",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-25",
+          "ends_on": "2026-12-09",
+          "source_url": "https://mos.olimpiada.ru/news/4665",
+          "details": "Дистанционный этап: начало в 10:00, окончание в 23:59 по московскому времени. Регистрация доступна до конца этапа.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-11-13",
+          "registration_closes_on": "2026-12-09"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-17",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-26",
+          "ends_on": "2026-12-16",
+          "source_url": "https://mos.olimpiada.ru/news/4652",
+          "details": "Дистанционный этап: начало в 10:00, окончание в 23:59 по московскому времени. Регистрация доступна до конца этапа.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-11-06",
+          "registration_closes_on": "2026-12-16"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-19",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-08",
+          "ends_on": "2026-12-14",
+          "source_url": "https://mos.olimpiada.ru/news/4663",
+          "details": "Дистанционный этап: начало в 10:00, окончание в 23:59 по московскому времени. Регистрация доступна до конца этапа.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-11-12",
+          "registration_closes_on": "2026-12-14"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-04",
+          "ends_on": "2026-12-17",
+          "source_url": "https://mos.olimpiada.ru/news/4653",
+          "details": "Дистанционный этап: начало в 10:00, окончание в 23:59 по московскому времени. Регистрация доступна до конца этапа.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-11-07",
+          "registration_closes_on": "2026-12-17"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-035-03",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-20",
+          "ends_on": "2026-11-22",
+          "source_url": "https://mos.olimpiada.ru/news/4660",
+          "details": "Дистанционный этап: начало в 10:00, окончание в 23:59 по московскому времени. Регистрация доступна до конца этапа.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-11-10",
+          "registration_closes_on": "2026-11-22"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-arab",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-27",
+          "ends_on": "2026-11-16",
+          "source_url": "https://mos.olimpiada.ru/news/4658",
+          "details": "Отбор продлён до 16 ноября 23:59 мск. Чтобы получить полные 180 минут, начните до 21:00 мск.",
+          "is_date_confirmed": true,
+          "registration_closes_on": "2026-11-16"
+        }
+      ],
+      "remove_note_fragments": [
+        "Профильные даты 2026/27 ещё не опубликованы, поэтому в календаре они оставлены без дат."
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-ib",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-11",
+          "ends_on": "2026-12-20",
+          "source_url": "https://mos.olimpiada.ru/news/4666",
+          "details": "Дистанционный отбор для 7–8 классов. Регистрацию планируют открыть 1 декабря; следите за отдельным объявлением.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-12-01"
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-02-26",
+          "ends_on": "2027-02-27",
+          "source_url": "https://mos.olimpiada.ru/news/4666",
+          "details": "Предварительные даты: 26 февраля — теория, 27 февраля — практика. Требуют подтверждения организатором.",
+          "is_date_confirmed": false
+        }
+      ]
+    },
+    {
+      "slug": "mosh-2026-27-biol",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-27",
+          "ends_on": "2026-11-29",
+          "source_url": "https://mos.olimpiada.ru/news/4629",
+          "details": "Даты относятся только к 9–11 классам. Для 5–8 классов расписание ещё не опубликовано. Открытие регистрации пока не объявлено.",
+          "is_date_confirmed": true
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-048-13",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-20",
+          "ends_on": "2026-11-27",
+          "source_url": "https://olymp.msu.ru/rus/page/main/29/page/grafik-provedeniya-otborochnogo-ehtapa",
+          "details": "Актуальный график: 20–27 ноября, начало и окончание в 12:00 мск. После создания аккаунта обязательна заявка по профилю.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-24"
+        }
+      ],
+      "remove_note_fragments": [
+        "Единых дат и единых классов для всех профилей нет; до профильных публикаций 2026/27 этапы оставлены без дат, классы не заполняются."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-052-06",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-08",
+          "ends_on": "2026-12-13",
+          "source_url": "https://olymp.bmstu.ru/ru/news/2026/11/13/vnimanie-izmenenie-daty-otborochnogo-etapa-po-khimii",
+          "details": "Две отдельные волны: 8 ноября и 13 декабря. Вторая волна перенесена с 29 ноября на 13 декабря; это не непрерывный тур. Дистанционный формат с видеонаблюдением.",
+          "is_date_confirmed": true
+        }
+      ]
+    },
+    {
+      "slug": "prod-mlops",
+      "stages": [
+        {
+          "key": "registration-registratsiya",
+          "starts_on": "2026-10-21",
+          "ends_on": "2026-12-01",
+          "source_url": "https://prodcontest.com/",
+          "details": "Регистрация открыта. Приём заявок 21 октября — 1 декабря 2026; форма проверена в браузере 15 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-21",
+          "registration_closes_on": "2026-12-01"
+        }
+      ],
+      "remove_note_fragments": [
+        "На странице сроки приведены без года; сочетание последовательности октябрь—март, архива 2025/26 и контекста страницы позволяет отнести их к сезону 2025/26. В сервисе они используются только как явно помеченная проекция на 2026/27, а не как официальный календарь. Индивидуальный и командный туры вместе определяют итог; команда финала — 3–5 человек. География и формат по источнику: Россия и СНГ/международное участие; все этапы онлайн, кроме очного командного финала в Московской области."
+      ]
+    },
+    {
+      "slug": "prod-backend",
+      "stages": [
+        {
+          "key": "registration-registratsiya",
+          "starts_on": "2026-10-21",
+          "ends_on": "2026-12-01",
+          "source_url": "https://prodcontest.com/",
+          "details": "Регистрация открыта. Приём заявок 21 октября — 1 декабря 2026; форма проверена в браузере 15 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-21",
+          "registration_closes_on": "2026-12-01"
+        }
+      ],
+      "remove_note_fragments": [
+        "На странице сроки приведены без года; сочетание последовательности октябрь—март, архива 2025/26 и контекста страницы позволяет отнести их к сезону 2025/26. В сервисе они используются только как явно помеченная проекция на 2026/27, а не как официальный календарь. Индивидуальный и командный туры вместе определяют итог; команда финала — 3–5 человек. География и формат по источнику: Россия и СНГ/международное участие; все этапы онлайн, кроме очного командного финала в Московской области."
+      ]
+    },
+    {
+      "slug": "prod-mobile",
+      "stages": [
+        {
+          "key": "registration-registratsiya",
+          "starts_on": "2026-10-21",
+          "ends_on": "2026-12-01",
+          "source_url": "https://prodcontest.com/",
+          "details": "Регистрация открыта. Приём заявок 21 октября — 1 декабря 2026; форма проверена в браузере 15 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-21",
+          "registration_closes_on": "2026-12-01"
+        }
+      ],
+      "remove_note_fragments": [
+        "На странице сроки приведены без года; сочетание последовательности октябрь—март, архива 2025/26 и контекста страницы позволяет отнести их к сезону 2025/26. В сервисе они используются только как явно помеченная проекция на 2026/27, а не как официальный календарь. Индивидуальный и командный туры вместе определяют итог; команда финала — 3–5 человек. География и формат по источнику: Россия и СНГ/международное участие; все этапы онлайн, кроме очного командного финала в Московской области."
+      ]
+    },
+    {
+      "slug": "prod-frontend",
+      "stages": [
+        {
+          "key": "registration-registratsiya",
+          "starts_on": "2026-10-21",
+          "ends_on": "2026-12-01",
+          "source_url": "https://prodcontest.com/",
+          "details": "Регистрация открыта. Приём заявок 21 октября — 1 декабря 2026; форма проверена в браузере 15 ноября.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-21",
+          "registration_closes_on": "2026-12-01"
+        }
+      ],
+      "remove_note_fragments": [
+        "На странице сроки приведены без года; сочетание последовательности октябрь—март, архива 2025/26 и контекста страницы позволяет отнести их к сезону 2025/26. В сервисе они используются только как явно помеченная проекция на 2026/27, а не как официальный календарь. Индивидуальный и командный туры вместе определяют итог; команда финала — 3–5 человек. География и формат по источнику: Россия и СНГ/международное участие; все этапы онлайн, кроме очного командного финала в Московской области."
+      ]
+    },
+    {
+      "slug": "registry-2026-27-055-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-20",
+          "ends_on": "2026-11-18",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Отбор: с 20 октября 12:00 до 18 ноября 23:59. Зарегистрироваться нужно раньше: до 18 ноября 18:00. Часовой пояс в опубликованном расписании не указан.",
+          "is_date_confirmed": true,
+          "registration_closes_on": "2026-11-18"
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-30",
+          "ends_on": "2027-02-11",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Общий период проведения очных профильных туров, не непрерывный тур. Регистрация прошедших отбор: 22 декабря — 18 января.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-12-22",
+          "registration_closes_on": "2027-01-18"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-055-02",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-20",
+          "ends_on": "2026-11-18",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Отбор: с 20 октября 12:00 до 18 ноября 23:59. Зарегистрироваться нужно раньше: до 18 ноября 18:00. Часовой пояс в опубликованном расписании не указан.",
+          "is_date_confirmed": true,
+          "registration_closes_on": "2026-11-18"
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-30",
+          "ends_on": "2027-02-11",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Общий период проведения очных профильных туров, не непрерывный тур. Регистрация прошедших отбор: 22 декабря — 18 января.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-12-22",
+          "registration_closes_on": "2027-01-18"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-055-03",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-20",
+          "ends_on": "2026-11-18",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Отбор: с 20 октября 12:00 до 18 ноября 23:59. Зарегистрироваться нужно раньше: до 18 ноября 18:00. Часовой пояс в опубликованном расписании не указан.",
+          "is_date_confirmed": true,
+          "registration_closes_on": "2026-11-18"
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-30",
+          "ends_on": "2027-02-11",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Общий период проведения очных профильных туров, не непрерывный тур. Регистрация прошедших отбор: 22 декабря — 18 января.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-12-22",
+          "registration_closes_on": "2027-01-18"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-055-04",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-20",
+          "ends_on": "2026-11-18",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Отбор: с 20 октября 12:00 до 18 ноября 23:59. Зарегистрироваться нужно раньше: до 18 ноября 18:00. Часовой пояс в опубликованном расписании не указан.",
+          "is_date_confirmed": true,
+          "registration_closes_on": "2026-11-18"
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-30",
+          "ends_on": "2027-02-11",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Общий период проведения очных профильных туров, не непрерывный тур. Регистрация прошедших отбор: 22 декабря — 18 января.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-12-22",
+          "registration_closes_on": "2027-01-18"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-055-05",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-20",
+          "ends_on": "2026-11-18",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Отбор: с 20 октября 12:00 до 18 ноября 23:59. Зарегистрироваться нужно раньше: до 18 ноября 18:00. Часовой пояс в опубликованном расписании не указан.",
+          "is_date_confirmed": true,
+          "registration_closes_on": "2026-11-18"
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-30",
+          "ends_on": "2027-02-11",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Общий период проведения очных профильных туров, не непрерывный тур. Регистрация прошедших отбор: 22 декабря — 18 января.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-12-22",
+          "registration_closes_on": "2027-01-18"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-055-06",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-20",
+          "ends_on": "2026-11-18",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Отбор: с 20 октября 12:00 до 18 ноября 23:59. Зарегистрироваться нужно раньше: до 18 ноября 18:00. Часовой пояс в опубликованном расписании не указан.",
+          "is_date_confirmed": true,
+          "registration_closes_on": "2026-11-18"
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-30",
+          "ends_on": "2027-02-11",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Общий период проведения очных профильных туров, не непрерывный тур. Регистрация прошедших отбор: 22 декабря — 18 января.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-12-22",
+          "registration_closes_on": "2027-01-18"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-055-07",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-20",
+          "ends_on": "2026-11-18",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Отбор: с 20 октября 12:00 до 18 ноября 23:59. Зарегистрироваться нужно раньше: до 18 ноября 18:00. Часовой пояс в опубликованном расписании не указан.",
+          "is_date_confirmed": true,
+          "registration_closes_on": "2026-11-18"
+        },
+        {
+          "key": "final",
+          "starts_on": "2027-01-30",
+          "ends_on": "2027-02-11",
+          "source_url": "https://www.ranepa.ru/olymp/",
+          "details": "Общий период проведения очных профильных туров, не непрерывный тур. Регистрация прошедших отбор: 22 декабря — 18 января.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-12-22",
+          "registration_closes_on": "2027-01-18"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-050-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-08",
+          "ends_on": "2026-12-08",
+          "source_url": "https://pvg.mk.ru/",
+          "details": "Показана только ориентировочная дата НАЧАЛА отбора — 8 декабря. Дата окончания не объявлена. Регистрация откроется 1 декабря, потребуется новый аккаунт.",
+          "is_date_confirmed": false,
+          "registration_opens_on": "2026-12-01"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-050-02",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-08",
+          "ends_on": "2026-12-08",
+          "source_url": "https://pvg.mk.ru/",
+          "details": "Показана только ориентировочная дата НАЧАЛА отбора — 8 декабря. Дата окончания не объявлена. Регистрация откроется 1 декабря, потребуется новый аккаунт.",
+          "is_date_confirmed": false,
+          "registration_opens_on": "2026-12-01"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-050-03",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-08",
+          "ends_on": "2026-12-08",
+          "source_url": "https://pvg.mk.ru/",
+          "details": "Показана только ориентировочная дата НАЧАЛА отбора — 8 декабря. Дата окончания не объявлена. Регистрация откроется 1 декабря, потребуется новый аккаунт.",
+          "is_date_confirmed": false,
+          "registration_opens_on": "2026-12-01"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-050-04",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-08",
+          "ends_on": "2026-12-08",
+          "source_url": "https://pvg.mk.ru/",
+          "details": "Показана только ориентировочная дата НАЧАЛА отбора — 8 декабря. Дата окончания не объявлена. Регистрация откроется 1 декабря, потребуется новый аккаунт.",
+          "is_date_confirmed": false,
+          "registration_opens_on": "2026-12-01"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-050-05",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-08",
+          "ends_on": "2026-12-08",
+          "source_url": "https://pvg.mk.ru/",
+          "details": "Показана только ориентировочная дата НАЧАЛА отбора — 8 декабря. Дата окончания не объявлена. Регистрация откроется 1 декабря, потребуется новый аккаунт.",
+          "is_date_confirmed": false,
+          "registration_opens_on": "2026-12-01"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-050-06",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-08",
+          "ends_on": "2026-12-08",
+          "source_url": "https://pvg.mk.ru/",
+          "details": "Показана только ориентировочная дата НАЧАЛА отбора — 8 декабря. Дата окончания не объявлена. Регистрация откроется 1 декабря, потребуется новый аккаунт.",
+          "is_date_confirmed": false,
+          "registration_opens_on": "2026-12-01"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-050-07",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-08",
+          "ends_on": "2026-12-08",
+          "source_url": "https://pvg.mk.ru/",
+          "details": "Показана только ориентировочная дата НАЧАЛА отбора — 8 декабря. Дата окончания не объявлена. Регистрация откроется 1 декабря, потребуется новый аккаунт.",
+          "is_date_confirmed": false,
+          "registration_opens_on": "2026-12-01"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-050-08",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-12-08",
+          "ends_on": "2026-12-08",
+          "source_url": "https://pvg.mk.ru/",
+          "details": "Показана только ориентировочная дата НАЧАЛА отбора — 8 декабря. Дата окончания не объявлена. Регистрация откроется 1 декабря, потребуется новый аккаунт.",
+          "is_date_confirmed": false,
+          "registration_opens_on": "2026-12-01"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-034-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-09",
+          "ends_on": "2026-12-20",
+          "source_url": "https://zv.susu.ru/",
+          "details": "Интернет-тур: 9 ноября — 9 декабря. Очное участие на площадках: 9 ноября — 20 декабря; точный день уточните на площадке. Регистрация в кабинете участника.",
+          "is_date_confirmed": true,
+          "format": "hybrid"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-034-02",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-11-09",
+          "ends_on": "2026-12-20",
+          "source_url": "https://zv.susu.ru/",
+          "details": "Интернет-тур: 9 ноября — 9 декабря. Очное участие на площадках: 9 ноября — 20 декабря; точный день уточните на площадке. Регистрация в кабинете участника.",
+          "is_date_confirmed": true,
+          "format": "hybrid"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-068-01",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-22",
+          "ends_on": "2027-01-24",
+          "source_url": "https://www.rea.ru/pk/entrant/posh",
+          "details": "Регистрация: 22 октября — 20 января. Задания заочного этапа нужно выполнить до 24 января 23:59; результаты 28 января. Часовой пояс не указан.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-22",
+          "registration_closes_on": "2027-01-20"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-068-02",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-22",
+          "ends_on": "2027-01-24",
+          "source_url": "https://www.rea.ru/pk/entrant/posh",
+          "details": "Регистрация: 22 октября — 20 января. Задания заочного этапа нужно выполнить до 24 января 23:59; результаты 28 января. Часовой пояс не указан.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-22",
+          "registration_closes_on": "2027-01-20"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-068-03",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-22",
+          "ends_on": "2027-01-24",
+          "source_url": "https://www.rea.ru/pk/entrant/posh",
+          "details": "Регистрация: 22 октября — 20 января. Задания заочного этапа нужно выполнить до 24 января 23:59; результаты 28 января. Часовой пояс не указан.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-22",
+          "registration_closes_on": "2027-01-20"
+        }
+      ]
+    },
+    {
+      "slug": "registry-2026-27-068-04",
+      "stages": [
+        {
+          "key": "qualifying",
+          "starts_on": "2026-10-22",
+          "ends_on": "2027-01-24",
+          "source_url": "https://www.rea.ru/pk/entrant/posh",
+          "details": "Регистрация: 22 октября — 20 января. Задания заочного этапа нужно выполнить до 24 января 23:59; результаты 28 января. Часовой пояс не указан.",
+          "is_date_confirmed": true,
+          "registration_opens_on": "2026-10-22",
+          "registration_closes_on": "2027-01-20"
+        }
+      ]
+    }
+  ]
+}
