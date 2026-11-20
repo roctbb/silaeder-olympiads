@@ -1,3 +1,5 @@
+import os
+
 from celery import Celery, Task
 
 from . import create_app
@@ -11,6 +13,7 @@ def celery_init_app(flask_app):
 
     celery = Celery(flask_app.name, task_cls=FlaskTask)
     celery.config_from_object(flask_app.config["CELERY"])
+    celery.conf.task_default_queue = os.getenv("CELERY_QUEUE", "silaeder_olympiads")
     celery.set_default()
     flask_app.extensions["celery"] = celery
     return celery
